@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Başlıq"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Ev",
+        "campaign": "Kampaniya",
+        "statistics": "Statistika",
+        "users": "İstifadəçilər",
+        "changeLanguage": "Dili dəyişdirin",
+        "reportBug": "Səhv haqqında məlumat verin",
+        "giveFeedback": "Əlaqə verin",
+        "settings": "Parametrlər",
+        "logout": "Çıxış",
+        "addNewLanguage": "Yeni Dil əlavə edin"
+    },
+    "error": {
+        "unknown": "Nəsə xəta baş verdi. "
+    },
+    "dashboard": {
+        "welcome": "Xoş gəldiniz {{username}}",
+        "description": "Vikipediyada mədəni müxtəlifliyin və gender inklüzivliyinin illik qeyd etdiyi Feminizm və Folklor Yazı Müsabiqəsinə xoş gəlmisiniz.\n"
+    },
+    "campaign": {
+        "serial": "Serial",
+        "loading": "Kampaniya yüklənir...",
+        "action": {
+            "*": "Tədbirlər",
+            "cancel_name": "Kampaniyanı ləğv edin",
+            "cancel_prompt": "Bu kampaniyanı ləğv etmək istədiyinizə əminsiniz?",
+            "cancel_title": "Kampaniyanı ləğv edin",
+            "cancel_zero": "Ləğv et",
+            "cancel_one": "Ləğv et ({{count}})",
+            "cancel": "Ləğv et {{count}}",
+            "approve_name": "Kampaniyanı təsdiqləyin",
+            "approve_prompt": "Bu kampaniyanı təsdiqləmək istədiyinizə əminsiniz?",
+            "approve_title": "Kampaniyanı təsdiqləyin",
+            "approve_zero": "Təsdiq edin",
+            "approve_one": "Təsdiq et ({{count}})",
+            "approve": "Təsdiq edin",
+            "reject": "Rədd edin",
+            "settings": "Parametrlər",
+            "back": "Geri",
+            "save": "Yadda saxla",
+            "next": "Sonrakı",
+            "edit": "Kampaniyaya düzəliş edin",
+            "create": "Kampaniya yaradın",
+            "search": "Filtr"
+        },
+        "activeCampaigns": "Aktiv Kampaniyalar",
+        "name": "ad",
+        "language": "Dil",
+        "startDate": "Başlama tarixi",
+        "endDate": "Bitmə vaxtı",
+        "duration": "Müddət",
+        "status": "Vəziyyət",
+        "all": "Bütün Kampaniyalar",
+        "description": "Təsvir",
+        "jury": "Münsiflər heyəti",
+        "banner": "Banner",
+        "allowExpansions": "İstifadəçilərə yaradılmamış, daha çox genişləndirilmiş məqalələr təqdim etməyə icazə verin",
+        "minimumAddedBytes_help": "Kampaniya başlayandan etibarən iştirakçının təqdim etdiyi məqaləyə əlavə etməli olduğu baytların sayı",
+        "minimumAddedBytes": "Minimum Əlavə Bayt",
+        "minimumAddedWords_help": "Kampaniya başlayandan etibarən iştirakçının təqdim etdiyi məqaləyə əlavə etməli olduğu sözlərin sayı",
+        "minimumAddedWords": "Minimum Əlavə Sözlər",
+        "minimumTotalBytes_help": "Kampaniya başlayandan bəri iştirakçının təqdim etdiyi məqalədə olmalıdır baytların sayı",
+        "minimumTotalBytes": "Minimum Ümumi Bayt",
+        "minimumTotalWords_help": "Kampaniya başlayandan bəri iştirakçının təqdim etdiyi məqalədə olmalıdır sözlərin sayı",
+        "minimumTotalWords": "Minimum Ümumi Sözlər",
+        "allowJuryToParticipate": "Münsiflər heyəti üzvlərinin kampaniyada iştirakına icazə verin",
+        "secretBallot": "Münsiflər heyəti üzvlərinin bir-birinin səslərini görməsinin qarşısını alın",
+        "allowMultipleJudgements": "Bir neçə münsif üzvünə eyni təqdimatı qiymətləndirməyə icazə verin",
+        "image": {
+            "url": "Genişlənmə ilə Commons Fayl Adı",
+            "fetch": "Şəkil gətirin"
+        },
+        "error": {
+            "youAreNotJudge": "Siz bu kampaniyanın münsiflər heyətinin üzvü deyilsiniz"
+        },
+        "submission": {
+            "title": "Təqdimatlar",
+            "new": "Yeni Məqalə Göndər",
+            "list": "Təqdimatlar",
+            "note": "Qeyd",
+            "judge": "Hakim",
+            "submitter": "Təqdim edən",
+            "points": "Xallar",
+            "submittedSuccessfully": "Uğurla təqdim olundu",
+            "totalBytes_one": "Ümumi {{count}} bayt",
+            "totalBytes_other": "Ümumi {{count}} bayt",
+            "totalWords_one": "Ümumi {{count}} söz",
+            "totalWords_other": "Ümumi {{count}} sözlər",
+            "createdAt": "Yaradıldı {{createdAt}}",
+            "createdBy": "Yaradılıb {{createdBy}}",
+            "addedBytes_one": "Əlavə edilib {{count}} bayt",
+            "addedBytes_other": "Əlavə edilib {{count}} bayt",
+            "addedWords_one": "Əlavə edilib {{count}} söz",
+            "addedWords_other": "Əlavə edilib {{count}} sözlər",
+            "tags": {
+                "*": "Teqlər",
+                "expanded": "Genişləndirilmiş",
+                "newlyCreated": "Yeni yaradılmış",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Vəziyyət",
+                "all": "Hamısı",
+                "notEvaluated": "Qiymətləndirilmir",
+                "evaluated": "Qiymətləndirdi"
+            },
+            "loading": "Təqdimatlar yüklənir...",
+            "preview": "Önizləmə",
+            "preview_loading": "Önizləmə yüklənir...",
+            "judgement": {
+                "*": "Qiymətləndirmə",
+                "evaluationSubmittedSuccessfully": "Qiymətləndirmə uğurla təqdim edildi",
+                "backToSubmissions": "Başqa bir təqdimatı qiymətləndirin",
+                "judgeSubmission": "Qiymətləndirmənizi əlavə edin",
+                "note": "Qeyd (İstəyə görə)",
+                "note_placeholder": "Təqdimatçıya qeyd əlavə edin (istəyə görə)"
+            },
+            "action": {
+                "reject": "Rədd edin",
+                "accept": "Qəbul edin",
+                "evaluate": "Qiymətləndirin",
+                "evaluate_add": "Qiymətləndirmə əlavə edin",
+                "evaluate_title": "Təqdimatı qiymətləndirin",
+                "backToCampaign": "Kampaniya səhifəsinə qayıt",
+                "submitAnother": "Başqasını təqdim edin",
+                "check": "Yoxlayın",
+                "submitOnBehalf": "adından təqdim edin",
+                "submit": "təqdim",
+                "delete_zero": "Sil",
+                "delete_other": "Sil ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Nəticələr",
+            "totalSubmission_grand": "Ümumi təqdimatlar",
+            "totalSubmission": "Təqdimatlar",
+            "totalNewlyCreated_grand": "Cəmi Yeni Yaradılmış",
+            "totalNewlyCreated": "Yeni yaradılmış",
+            "totalExpanded_grand": "Ümumi Genişləndirilmiş",
+            "totalExpanded": "Genişləndirilmiş",
+            "totalPoints_grand": "Ümumi xallar",
+            "totalPoints": "Xallar",
+            "username": "İstifadəçi adı"
+        },
+        "step": {
+            "details": "Təfərrüatlar",
+            "jury": "Münsiflər heyəti",
+            "restrictions": "Məhdudiyyətlər",
+            "overview": "Ümumi baxış"
+        },
+        "statistics": {
+            "color": "Rəng",
+            "title": "Statistika",
+            "title_year": "İlin statistikası",
+            "title_campaign": "Kampaniya üçün statistika",
+            "overview": "Ümumi baxış",
+            "date": "Tarix"
+        }
+    },
+    "action": {
+        "close": "Yaxın",
+        "cancel": "Ləğv et"
+    },
+    "user": {
+        "*": "İstifadəçi adı",
+        "noUsers": "İstifadəçi tapılmadı",
+        "name": "ad",
+        "username": "İstifadəçi adı",
+        "loading": "İstifadəçilər yüklənir..."
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "name": "ਕੈਂਪਵਿਜ਼",
+    "article": {
+        "title": "ਸਿਰਲੇਖ"
+    },
+    "menu": {
+        "name": "ਕੈਂਪਵਿਜ਼",
+        "home": "ਘਰ",
+        "campaign": "ਮੁਹਿੰਮ",
+        "statistics": "ਅੰਕੜੇ",
+        "users": "ਉਪਭੋਗਤਾ",
+        "changeLanguage": "ਭਾਸ਼ਾ ਬਦਲੋ",
+        "reportBug": "ਬੱਗ ਦੀ ਰਿਪੋਰਟ ਕਰੋ",
+        "giveFeedback": "ਫੀਡਬੈਕ ਦਿਓ",
+        "settings": "ਸੈਟਿੰਗਾਂ",
+        "logout": "ਲਾੱਗ ਆਊਟ, ਬਾਹਰ ਆਉਣਾ",
+        "addNewLanguage": "ਨਵੀਂ ਭਾਸ਼ਾ ਸ਼ਾਮਲ ਕਰੋ"
+    },
+    "error": {
+        "unknown": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ. "
+    },
+    "dashboard": {
+        "welcome": "ਸੁਆਗਤ ਹੈ {{username}}",
+        "description": "ਵਿਕੀਪੀਡੀਆ 'ਤੇ ਸੱਭਿਆਚਾਰਕ ਵਿਭਿੰਨਤਾ ਅਤੇ ਲਿੰਗ ਸਮਾਵੇਸ਼ ਦਾ ਸਾਲਾਨਾ ਜਸ਼ਨ, ਨਾਰੀਵਾਦ ਅਤੇ ਲੋਕਧਾਰਾ ਲੇਖਣ ਮੁਕਾਬਲੇ ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ।\n"
+    },
+    "campaign": {
+        "serial": "ਸੀਰੀਅਲ",
+        "loading": "ਮੁਹਿੰਮ ਲੋਡ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+        "action": {
+            "*": "ਕਾਰਵਾਈਆਂ",
+            "cancel_name": "ਮੁਹਿੰਮ ਰੱਦ ਕਰੋ",
+            "cancel_prompt": "ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਇਸ ਮੁਹਿੰਮ ਨੂੰ ਰੱਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+            "cancel_title": "ਮੁਹਿੰਮ ਰੱਦ ਕਰੋ",
+            "cancel_zero": "ਰੱਦ ਕਰੋ",
+            "cancel_one": "ਰੱਦ ਕਰੋ ({{count}})",
+            "cancel": "ਰੱਦ ਕਰੋ {{count}}",
+            "approve_name": "ਮੁਹਿੰਮ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦਿਓ",
+            "approve_prompt": "ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਇਸ ਮੁਹਿੰਮ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦੇਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+            "approve_title": "ਮੁਹਿੰਮ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦਿਓ",
+            "approve_zero": "ਮਨਜ਼ੂਰ ਕਰੋ",
+            "approve_one": "ਮਨਜ਼ੂਰ ਕਰੋ ({{count}})",
+            "approve": "ਮਨਜ਼ੂਰ ਕਰੋ",
+            "reject": "ਅਸਵੀਕਾਰ ਕਰੋ",
+            "settings": "ਸੈਟਿੰਗਾਂ",
+            "back": "ਵਾਪਸ",
+            "save": "ਸੇਵ ਕਰੋ",
+            "next": "ਅਗਲਾ",
+            "edit": "ਮੁਹਿੰਮ ਦਾ ਸੰਪਾਦਨ ਕਰੋ",
+            "create": "ਮੁਹਿੰਮ ਬਣਾਓ",
+            "search": "ਫਿਲਟਰ"
+        },
+        "activeCampaigns": "ਸਰਗਰਮ ਮੁਹਿੰਮਾਂ",
+        "name": "ਨਾਮ",
+        "language": "ਭਾਸ਼ਾ",
+        "startDate": "ਤਾਰੀਖ ਸ਼ੁਰੂ",
+        "endDate": "ਸਮਾਪਤੀ ਮਿਤੀ",
+        "duration": "ਮਿਆਦ",
+        "status": "ਸਥਿਤੀ",
+        "all": "ਸਾਰੀਆਂ ਮੁਹਿੰਮਾਂ",
+        "description": "ਵਰਣਨ",
+        "jury": "ਜਿਊਰੀ",
+        "banner": "ਬੈਨਰ",
+        "allowExpansions": "ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਉਹਨਾਂ ਲੇਖਾਂ ਨੂੰ ਸਪੁਰਦ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ ਜੋ ਨਹੀਂ ਬਣਾਏ ਗਏ ਸਨ ਸਗੋਂ ਵਿਸਤਾਰ ਕੀਤੇ ਗਏ ਸਨ",
+        "minimumAddedBytes_help": "ਭਾਗੀਦਾਰ ਨੂੰ ਮੁਹਿੰਮ ਦੀ ਸ਼ੁਰੂਆਤ ਤੋਂ ਬਾਅਦ ਸਪੁਰਦ ਕੀਤੇ ਲੇਖ 'ਤੇ ਬਾਈਟਾਂ ਦੀ ਗਿਣਤੀ ਸ਼ਾਮਲ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ",
+        "minimumAddedBytes": "ਘੱਟੋ-ਘੱਟ ਜੋੜੀਆਂ ਗਈਆਂ ਬਾਈਟਾਂ",
+        "minimumAddedWords_help": "ਭਾਗੀਦਾਰ ਨੂੰ ਮੁਹਿੰਮ ਦੀ ਸ਼ੁਰੂਆਤ ਤੋਂ ਸਬਮਿਟ ਕੀਤੇ ਲੇਖ ਵਿੱਚ ਸ਼ਬਦਾਂ ਦੀ ਸੰਖਿਆ ਸ਼ਾਮਲ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ",
+        "minimumAddedWords": "ਘੱਟੋ-ਘੱਟ ਜੋੜੇ ਗਏ ਸ਼ਬਦ",
+        "minimumTotalBytes_help": "ਮੁਹਿੰਮ ਦੀ ਸ਼ੁਰੂਆਤ ਤੋਂ ਲੈ ਕੇ ਸਪੁਰਦ ਕੀਤੇ ਲੇਖ 'ਤੇ ਭਾਗੀਦਾਰ ਦੇ ਬਾਈਟਾਂ ਦੀ ਗਿਣਤੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+        "minimumTotalBytes": "ਘੱਟੋ-ਘੱਟ ਕੁੱਲ ਬਾਈਟ",
+        "minimumTotalWords_help": "ਮੁਹਿੰਮ ਦੀ ਸ਼ੁਰੂਆਤ ਤੋਂ ਲੈ ਕੇ ਸਬਮਿਟ ਕੀਤੇ ਲੇਖ 'ਤੇ ਭਾਗੀਦਾਰ ਦੇ ਸ਼ਬਦਾਂ ਦੀ ਗਿਣਤੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+        "minimumTotalWords": "ਘੱਟੋ-ਘੱਟ ਕੁੱਲ ਸ਼ਬਦ",
+        "allowJuryToParticipate": "ਜਿਊਰੀ ਮੈਂਬਰਾਂ ਨੂੰ ਮੁਹਿੰਮ ਵਿੱਚ ਹਿੱਸਾ ਲੈਣ ਦੀ ਆਗਿਆ ਦਿਓ",
+        "secretBallot": "ਜਿਊਰੀ ਮੈਂਬਰਾਂ ਨੂੰ ਇੱਕ ਦੂਜੇ ਦੀਆਂ ਵੋਟਾਂ ਦੇਖਣ ਤੋਂ ਰੋਕੋ",
+        "allowMultipleJudgements": "ਮਲਟੀਪਲ ਜਿਊਰੀ ਮੈਂਬਰਾਂ ਨੂੰ ਉਸੇ ਸਬਮਿਸ਼ਨ ਦਾ ਮੁਲਾਂਕਣ ਕਰਨ ਦਿਓ",
+        "image": {
+            "url": "ਐਕਸਟੈਂਸ਼ਨ ਦੇ ਨਾਲ ਕਾਮਨਜ਼ ਫਾਈਲ ਨਾਮ",
+            "fetch": "ਚਿੱਤਰ ਪ੍ਰਾਪਤ ਕਰੋ"
+        },
+        "error": {
+            "youAreNotJudge": "ਤੁਸੀਂ ਇਸ ਮੁਹਿੰਮ ਦੇ ਜਿਊਰੀ ਮੈਂਬਰ ਨਹੀਂ ਹੋ"
+        },
+        "submission": {
+            "title": "ਬੇਨਤੀਆਂ",
+            "new": "ਨਵਾਂ ਲੇਖ ਦਰਜ ਕਰੋ",
+            "list": "ਬੇਨਤੀਆਂ",
+            "note": "ਨੋਟ ਕਰੋ",
+            "judge": "ਜੱਜ",
+            "submitter": "ਸਬਮਿਟਰ",
+            "points": "ਅੰਕ",
+            "submittedSuccessfully": "ਸਫਲਤਾਪੂਰਵਕ ਸਪੁਰਦ ਕੀਤਾ ਗਿਆ",
+            "totalBytes_one": "ਕੁੱਲ {{count}} ਬਾਈਟ",
+            "totalBytes_other": "ਕੁੱਲ {{count}} ਬਾਈਟ",
+            "totalWords_one": "ਕੁੱਲ {{count}} ਸ਼ਬਦ",
+            "totalWords_other": "ਕੁੱਲ {{count}} ਸ਼ਬਦ",
+            "createdAt": "ਵਿਖੇ ਬਣਾਇਆ ਗਿਆ {{createdAt}}",
+            "createdBy": "ਦੁਆਰਾ ਬਣਾਇਆ ਗਿਆ {{createdBy}}",
+            "addedBytes_one": "ਜੋੜਿਆ ਗਿਆ {{count}} ਬਾਈਟ",
+            "addedBytes_other": "ਜੋੜਿਆ ਗਿਆ {{count}} ਬਾਈਟ",
+            "addedWords_one": "ਜੋੜਿਆ ਗਿਆ {{count}} ਸ਼ਬਦ",
+            "addedWords_other": "ਜੋੜਿਆ ਗਿਆ {{count}} ਸ਼ਬਦ",
+            "tags": {
+                "*": "ਟੈਗਸ",
+                "expanded": "ਵਿਸਤਾਰ ਕੀਤਾ",
+                "newlyCreated": "ਨਵਾਂ ਬਣਾਇਆ ਗਿਆ",
+                "expanded_abbr": "ਈ",
+                "newlyCreated_abbr": "ਐਨ"
+            },
+            "status": {
+                "*": "ਸਥਿਤੀ",
+                "all": "ਸਾਰੇ",
+                "notEvaluated": "ਮੁਲਾਂਕਣ ਨਹੀਂ ਕੀਤਾ ਗਿਆ",
+                "evaluated": "ਪਰਖ"
+            },
+            "loading": "ਸਪੁਰਦਗੀਆਂ ਲੋਡ ਕੀਤੀਆਂ ਜਾ ਰਹੀਆਂ ਹਨ...",
+            "preview": "ਝਲਕ",
+            "preview_loading": "ਪ੍ਰੀਵਿਊ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+            "judgement": {
+                "*": "ਮੁਲਾਂਕਣ",
+                "evaluationSubmittedSuccessfully": "ਮੁਲਾਂਕਣ ਸਫਲਤਾਪੂਰਵਕ ਸਪੁਰਦ ਕੀਤਾ ਗਿਆ",
+                "backToSubmissions": "ਕਿਸੇ ਹੋਰ ਸਪੁਰਦਗੀ ਦਾ ਮੁਲਾਂਕਣ ਕਰੋ",
+                "judgeSubmission": "ਆਪਣਾ ਮੁਲਾਂਕਣ ਸ਼ਾਮਲ ਕਰੋ",
+                "note": "ਨੋਟ (ਵਿਕਲਪਿਕ)",
+                "note_placeholder": "ਸਬਮਿਟ ਕਰਨ ਵਾਲੇ ਨੂੰ ਇੱਕ ਨੋਟ ਸ਼ਾਮਲ ਕਰੋ (ਵਿਕਲਪਿਕ)"
+            },
+            "action": {
+                "reject": "ਅਸਵੀਕਾਰ ਕਰੋ",
+                "accept": "ਸਵੀਕਾਰ ਕਰੋ",
+                "evaluate": "ਪੜਤਾਲ",
+                "evaluate_add": "ਮੁਲਾਂਕਣ ਸ਼ਾਮਲ ਕਰੋ",
+                "evaluate_title": "ਸਪੁਰਦਗੀ ਦਾ ਮੁਲਾਂਕਣ ਕਰੋ",
+                "backToCampaign": "ਮੁਹਿੰਮ 'ਤੇ ਵਾਪਸ ਜਾਓ",
+                "submitAnother": "ਇੱਕ ਹੋਰ ਦਰਜ ਕਰੋ",
+                "check": "ਚੈਕ",
+                "submitOnBehalf": "ਦੀ ਤਰਫੋਂ ਪੇਸ਼ ਕਰੋ",
+                "submit": "ਜਮ੍ਹਾਂ ਕਰੋ",
+                "delete_zero": "ਮਿਟਾਓ",
+                "delete_other": "ਮਿਟਾਓ ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "ਨਤੀਜੇ",
+            "totalSubmission_grand": "ਕੁੱਲ ਬੇਨਤੀਆਂ",
+            "totalSubmission": "ਬੇਨਤੀਆਂ",
+            "totalNewlyCreated_grand": "ਕੁੱਲ ਨਵੇਂ ਬਣਾਏ ਗਏ",
+            "totalNewlyCreated": "ਨਵਾਂ ਬਣਾਇਆ ਗਿਆ",
+            "totalExpanded_grand": "ਕੁੱਲ ਵਿਸਤਾਰ ਕੀਤਾ",
+            "totalExpanded": "ਵਿਸਤਾਰ ਕੀਤਾ",
+            "totalPoints_grand": "ਕੁੱਲ ਅੰਕ",
+            "totalPoints": "ਅੰਕ",
+            "username": "ਯੂਜ਼ਰਨੇਮ"
+        },
+        "step": {
+            "details": "ਵੇਰਵੇ",
+            "jury": "ਜਿਊਰੀ",
+            "restrictions": "ਪਾਬੰਦੀਆਂ",
+            "overview": "ਸੰਖੇਪ ਜਾਣਕਾਰੀ"
+        },
+        "statistics": {
+            "color": "ਰੰਗ",
+            "title": "ਅੰਕੜੇ",
+            "title_year": "ਸਾਲ ਲਈ ਅੰਕੜੇ",
+            "title_campaign": "ਮੁਹਿੰਮ ਲਈ ਅੰਕੜੇ",
+            "overview": "ਸੰਖੇਪ ਜਾਣਕਾਰੀ",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "ਬੰਦ ਕਰੋ",
+        "cancel": "ਰੱਦ ਕਰੋ"
+    },
+    "user": {
+        "*": "ਯੂਜ਼ਰਨੇਮ",
+        "noUsers": "ਕੋਈ ਉਪਭੋਗਤਾ ਨਹੀਂ ਮਿਲਿਆ",
+        "name": "ਨਾਮ",
+        "username": "ਯੂਜ਼ਰਨੇਮ",
+        "loading": "ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
+    }
+}

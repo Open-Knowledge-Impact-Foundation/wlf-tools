@@ -1,0 +1,11 @@
+[Unit]
+Description=Gunicorn instance to serve tools
+After=network.target
+
+[Service]
+User=tools
+WorkingDirectory=/home/tools/campwiz
+ExectStartPre="source /home/tools/.venv/bin/activate"
+ExecStart=/home/tools/.venv/bin/gunicorn --config /home/tools/campwiz/gunicorn.conf.py app:app
+[Install]
+WantedBy=multi-user.target

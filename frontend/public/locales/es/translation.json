@@ -1,0 +1,179 @@
+{
+    "name": "CampamentoWiz",
+    "article": {
+        "title": "Título"
+    },
+    "menu": {
+        "name": "CampamentoWiz",
+        "home": "Hogar",
+        "campaign": "Campaña",
+        "statistics": "Estadísticas",
+        "users": "Usuarios",
+        "changeLanguage": "Cambiar idioma",
+        "reportBug": "Reportar un error",
+        "giveFeedback": "Dar opinion",
+        "settings": "Ajustes",
+        "logout": "Cerrar sesión",
+        "addNewLanguage": "Agregar nuevo idioma"
+    },
+    "error": {
+        "unknown": "Algo salió mal. "
+    },
+    "dashboard": {
+        "welcome": "Bienvenido {{username}}",
+        "description": "Bienvenido al Concurso de escritura sobre feminismo y folclore, una celebración anual de la diversidad cultural y la inclusión de género en Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "De serie",
+        "loading": "Cargando campaña...",
+        "action": {
+            "*": "Comportamiento",
+            "cancel_name": "Cancelar campaña",
+            "cancel_prompt": "¿Estás seguro de que deseas cancelar esta campaña?",
+            "cancel_title": "Cancelar campaña",
+            "cancel_zero": "Cancelar",
+            "cancel_one": "Cancelar ({{count}})",
+            "cancel": "Cancelar {{count}}",
+            "approve_name": "Aprobar campaña",
+            "approve_prompt": "¿Está seguro de que desea aprobar esta campaña?",
+            "approve_title": "Aprobar campaña",
+            "approve_zero": "Aprobar",
+            "approve_one": "Aprobar ({{count}})",
+            "approve": "Aprobar",
+            "reject": "Rechazar",
+            "settings": "Ajustes",
+            "back": "Atrás",
+            "save": "Ahorrar",
+            "next": "Próximo",
+            "edit": "Editar campaña",
+            "create": "Crear campaña",
+            "search": "Filtrar"
+        },
+        "activeCampaigns": "Campañas activas",
+        "name": "Nombre",
+        "language": "Idioma",
+        "startDate": "Fecha de inicio",
+        "endDate": "Fecha final",
+        "duration": "Duración",
+        "status": "Estado",
+        "all": "Todas las campañas",
+        "description": "Descripción",
+        "jury": "Jurado",
+        "banner": "Bandera",
+        "allowExpansions": "Permitir a los usuarios enviar artículos que no fueron creados sino ampliados.",
+        "minimumAddedBytes_help": "El número de bytes que el participante debe agregar al artículo enviado desde el inicio de la campaña.",
+        "minimumAddedBytes": "Bytes mínimos agregados",
+        "minimumAddedWords_help": "El número de palabras que el participante debe agregar en el artículo enviado desde el inicio de la campaña.",
+        "minimumAddedWords": "Palabras mínimas agregadas",
+        "minimumTotalBytes_help": "El número de bytes que debe tener el participante en el artículo enviado desde el inicio de la campaña.",
+        "minimumTotalBytes": "Bytes totales mínimos",
+        "minimumTotalWords_help": "El número de palabras que el participante debe tener en el artículo enviado desde el inicio de la campaña.",
+        "minimumTotalWords": "Total mínimo de palabras",
+        "allowJuryToParticipate": "Permitir que los miembros del jurado participen en la campaña.",
+        "secretBallot": "Evitar que los miembros del jurado vean los votos de los demás",
+        "allowMultipleJudgements": "Permitir que varios miembros del jurado evalúen la misma presentación",
+        "image": {
+            "url": "Nombre de archivo común con extensión",
+            "fetch": "Obtener imagen"
+        },
+        "error": {
+            "youAreNotJudge": "No eres miembro del jurado de esta campaña."
+        },
+        "submission": {
+            "title": "Envíos",
+            "new": "Enviar nuevo artículo",
+            "list": "Envíos",
+            "note": "Nota",
+            "judge": "Juez",
+            "submitter": "Remitente",
+            "points": "Puntos",
+            "submittedSuccessfully": "Enviado satisfactoriamente",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "Total {{count}} bytes",
+            "totalWords_one": "Total {{count}} palabra",
+            "totalWords_other": "Total {{count}} palabras",
+            "createdAt": "Creado en {{createdAt}}",
+            "createdBy": "Creado por {{createdBy}}",
+            "addedBytes_one": "Agregado {{count}} byte",
+            "addedBytes_other": "Agregado {{count}} bytes",
+            "addedWords_one": "Agregado {{count}} palabra",
+            "addedWords_other": "Agregado {{count}} palabras",
+            "tags": {
+                "*": "Etiquetas",
+                "expanded": "Expandido",
+                "newlyCreated": "Recién creado",
+                "expanded_abbr": "mi",
+                "newlyCreated_abbr": "norte"
+            },
+            "status": {
+                "*": "Estado",
+                "all": "Todo",
+                "notEvaluated": "no evaluado",
+                "evaluated": "Evaluado"
+            },
+            "loading": "Cargando envíos...",
+            "preview": "Avance",
+            "preview_loading": "Cargando vista previa...",
+            "judgement": {
+                "*": "Evaluación",
+                "evaluationSubmittedSuccessfully": "Evaluación enviada exitosamente",
+                "backToSubmissions": "Evaluar otro envío",
+                "judgeSubmission": "Añade tu evaluación",
+                "note": "Nota (opcional)",
+                "note_placeholder": "Agregar una nota al remitente (opcional)"
+            },
+            "action": {
+                "reject": "Rechazar",
+                "accept": "Aceptar",
+                "evaluate": "Evaluar",
+                "evaluate_add": "Agregar evaluación",
+                "evaluate_title": "Evaluar el envío",
+                "backToCampaign": "Volver a la campaña",
+                "submitAnother": "Enviar otro",
+                "check": "Controlar",
+                "submitOnBehalf": "Presentar en nombre de",
+                "submit": "Entregar",
+                "delete_zero": "Borrar",
+                "delete_other": "Borrar ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Resultados",
+            "totalSubmission_grand": "Envíos totales",
+            "totalSubmission": "Envíos",
+            "totalNewlyCreated_grand": "Total recién creado",
+            "totalNewlyCreated": "Recién creado",
+            "totalExpanded_grand": "Total ampliado",
+            "totalExpanded": "Expandido",
+            "totalPoints_grand": "Puntos totales",
+            "totalPoints": "Puntos",
+            "username": "Nombre de usuario"
+        },
+        "step": {
+            "details": "Detalles",
+            "jury": "Jurado",
+            "restrictions": "Restricciones",
+            "overview": "Descripción general"
+        },
+        "statistics": {
+            "color": "Color",
+            "title": "Estadísticas",
+            "title_year": "Estadísticas del año",
+            "title_campaign": "Estadísticas de la campaña",
+            "overview": "Descripción general",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Cerca",
+        "cancel": "Cancelar"
+    },
+    "user": {
+        "*": "Nombre de usuario",
+        "noUsers": "No se encontraron usuarios",
+        "name": "Nombre",
+        "username": "Nombre de usuario",
+        "loading": "Cargando usuarios..."
+    }
+}

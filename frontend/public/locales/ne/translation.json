@@ -1,0 +1,179 @@
+{
+    "name": "क्याम्पविज",
+    "article": {
+        "title": "शीर्षक"
+    },
+    "menu": {
+        "name": "क्याम्पविज",
+        "home": "घर",
+        "campaign": "अभियान",
+        "statistics": "तथ्याङ्क",
+        "users": "प्रयोगकर्ताहरू",
+        "changeLanguage": "भाषा परिवर्तन गर्नुहोस्",
+        "reportBug": "बग रिपोर्ट गर्नुहोस्",
+        "giveFeedback": "प्रतिक्रिया दिनुहोस्",
+        "settings": "सेटिङहरू",
+        "logout": "बाहिर निस्कनु",
+        "addNewLanguage": "नयाँ भाषा थप्नुहोस्"
+    },
+    "error": {
+        "unknown": "केहि गलत भयो। "
+    },
+    "dashboard": {
+        "welcome": "स्वागत छ {{username}}",
+        "description": "विकिपिडियामा सांस्कृतिक विविधता र लैङ्गिक समावेशीताको वार्षिक उत्सव, नारीवाद र लोकगीत लेखन प्रतियोगितामा स्वागत छ।\n"
+    },
+    "campaign": {
+        "serial": "सिरियल",
+        "loading": "अभियान लोड गर्दै...",
+        "action": {
+            "*": "कार्यहरू",
+            "cancel_name": "अभियान रद्द गर्नुहोस्",
+            "cancel_prompt": "के तपाइँ यो अभियान रद्द गर्न निश्चित हुनुहुन्छ?",
+            "cancel_title": "अभियान रद्द गर्नुहोस्",
+            "cancel_zero": "रद्द गर्नुहोस्",
+            "cancel_one": "रद्द ({{count}})",
+            "cancel": "रद्द गर्नुहोस् {{count}}",
+            "approve_name": "अभियान स्वीकृत गर्नुहोस्",
+            "approve_prompt": "के तपाइँ यो अभियानलाई अनुमोदन गर्न निश्चित हुनुहुन्छ?",
+            "approve_title": "अभियान स्वीकृत गर्नुहोस्",
+            "approve_zero": "अनुमोदन गर्नुहोस्",
+            "approve_one": "अनुमोदन ({{count}})",
+            "approve": "अनुमोदन गर्नुहोस्",
+            "reject": "अस्वीकार गर्नुहोस्",
+            "settings": "सेटिङहरू",
+            "back": "पछाडि",
+            "save": "बचत गर्नुहोस्",
+            "next": "अर्को",
+            "edit": "अभियान सम्पादन गर्नुहोस्",
+            "create": "अभियान सिर्जना गर्नुहोस्",
+            "search": "फिल्टर गर्नुहोस्"
+        },
+        "activeCampaigns": "सक्रिय अभियानहरू",
+        "name": "नाम",
+        "language": "भाषा",
+        "startDate": "सुरू मिति",
+        "endDate": "अन्त्य मिति",
+        "duration": "अवधि",
+        "status": "स्थिति",
+        "all": "सबै अभियानहरू",
+        "description": "विवरण",
+        "jury": "जूरी",
+        "banner": "ब्यानर",
+        "allowExpansions": "प्रयोगकर्ताहरूलाई लेखहरू पेश गर्न अनुमति दिनुहोस् जुन सिर्जना गरिएको थिएन बरु विस्तार गरियो",
+        "minimumAddedBytes_help": "अभियान सुरु भएदेखि नै सहभागीले पेश गरेको लेखमा थप्नुपर्ने बाइटको सङ्ख्या",
+        "minimumAddedBytes": "न्यूनतम थपिएका बाइटहरू",
+        "minimumAddedWords_help": "अभियान सुरु भएदेखि नै सहभागीले पेश गरेको लेखमा थप्नुपर्ने शब्दहरूको सङ्ख्या",
+        "minimumAddedWords": "न्यूनतम थपिएका शब्दहरू",
+        "minimumTotalBytes_help": "अभियान सुरु भएदेखि नै सहभागीले पेश गरेको लेखमा हुनै पर्ने बाइटहरूको सङ्ख्या",
+        "minimumTotalBytes": "न्यूनतम कुल बाइट्स",
+        "minimumTotalWords_help": "अभियान सुरु भएदेखि नै सहभागीले पेश गरेको लेखमा हुनु पर्ने शब्दहरूको सङ्ख्या",
+        "minimumTotalWords": "न्यूनतम कुल शब्दहरू",
+        "allowJuryToParticipate": "निर्णायक सदस्यहरूलाई अभियानमा भाग लिन अनुमति दिनुहोस्",
+        "secretBallot": "निर्णायक सदस्यहरूलाई एकअर्काको मत हेर्नबाट रोक्नुहोस्",
+        "allowMultipleJudgements": "धेरै जूरी सदस्यहरूलाई एउटै सबमिशनको मूल्याङ्कन गर्न अनुमति दिनुहोस्",
+        "image": {
+            "url": "विस्तार संग Commons फाइल नाम",
+            "fetch": "छवि ल्याउनुहोस्"
+        },
+        "error": {
+            "youAreNotJudge": "तपाईं यस अभियानको निर्णायक सदस्य हुनुहुन्न"
+        },
+        "submission": {
+            "title": "सबमिशनहरू",
+            "new": "नयाँ लेख पेश गर्नुहोस्",
+            "list": "सबमिशनहरू",
+            "note": "नोट",
+            "judge": "न्यायाधीश",
+            "submitter": "पेस गर्ने",
+            "points": "अंक",
+            "submittedSuccessfully": "सफलतापूर्वक पेस गरियो",
+            "totalBytes_one": "कुल {{count}} बाइट",
+            "totalBytes_other": "कुल {{count}} बाइट्स",
+            "totalWords_one": "कुल {{count}} शब्द",
+            "totalWords_other": "कुल {{count}} शब्दहरू",
+            "createdAt": "मा सिर्जना गरियो {{createdAt}}",
+            "createdBy": "द्वारा सिर्जना गरिएको {{createdBy}}",
+            "addedBytes_one": "थपियो {{count}} बाइट",
+            "addedBytes_other": "थपियो {{count}} बाइट्स",
+            "addedWords_one": "थपियो {{count}} शब्द",
+            "addedWords_other": "थपियो {{count}} शब्दहरू",
+            "tags": {
+                "*": "ट्यागहरू",
+                "expanded": "विस्तार गरियो",
+                "newlyCreated": "नयाँ बनाइएको",
+                "expanded_abbr": "इ",
+                "newlyCreated_abbr": "एन"
+            },
+            "status": {
+                "*": "स्थिति",
+                "all": "सबै",
+                "notEvaluated": "मूल्याङ्कन गरिएको छैन",
+                "evaluated": "मूल्याङ्कन गरियो"
+            },
+            "loading": "सबमिशनहरू लोड गर्दै...",
+            "preview": "पूर्वावलोकन",
+            "preview_loading": "पूर्वावलोकन लोड गर्दै...",
+            "judgement": {
+                "*": "मूल्याङ्कन",
+                "evaluationSubmittedSuccessfully": "मूल्याङ्कन सफलतापूर्वक पेश गरियो",
+                "backToSubmissions": "अर्को सबमिशनको मूल्याङ्कन गर्नुहोस्",
+                "judgeSubmission": "आफ्नो मूल्याङ्कन थप्नुहोस्",
+                "note": "नोट (वैकल्पिक)",
+                "note_placeholder": "पेशकर्तामा एउटा टिपोट थप्नुहोस् (वैकल्पिक)"
+            },
+            "action": {
+                "reject": "अस्वीकार गर्नुहोस्",
+                "accept": "स्वीकार गर्नुहोस्",
+                "evaluate": "मूल्याङ्कन गर्नुहोस्",
+                "evaluate_add": "मूल्याङ्कन थप्नुहोस्",
+                "evaluate_title": "सबमिशनको मूल्याङ्कन गर्नुहोस्",
+                "backToCampaign": "अभियान मा फर्कनुहोस्",
+                "submitAnother": "अर्को पेश गर्नुहोस्",
+                "check": "जाँच गर्नुहोस्",
+                "submitOnBehalf": "को तर्फबाट पेश गर्नुहोस्",
+                "submit": "पेश गर्नुहोस्",
+                "delete_zero": "मेटाउन",
+                "delete_other": "मेटाउन ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "परिणामहरू",
+            "totalSubmission_grand": "कुल सबमिशनहरू",
+            "totalSubmission": "सबमिशनहरू",
+            "totalNewlyCreated_grand": "कुल नयाँ बनाइएको",
+            "totalNewlyCreated": "नयाँ बनाइएको",
+            "totalExpanded_grand": "कुल विस्तारित",
+            "totalExpanded": "विस्तार गरियो",
+            "totalPoints_grand": "कुल अंक",
+            "totalPoints": "अंक",
+            "username": "प्रयोगकर्ता नाम"
+        },
+        "step": {
+            "details": "विवरणहरू",
+            "jury": "जूरी",
+            "restrictions": "प्रतिबन्धहरू",
+            "overview": "अवलोकन"
+        },
+        "statistics": {
+            "color": "रङ",
+            "title": "तथ्याङ्क",
+            "title_year": "वर्षको लागि तथ्याङ्क",
+            "title_campaign": "अभियानको लागि तथ्याङ्क",
+            "overview": "अवलोकन",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "बन्द गर्नुहोस्",
+        "cancel": "रद्द गर्नुहोस्"
+    },
+    "user": {
+        "*": "प्रयोगकर्ता नाम",
+        "noUsers": "कुनै प्रयोगकर्ता फेला परेनन्",
+        "name": "नाम",
+        "username": "प्रयोगकर्ता नाम",
+        "loading": "प्रयोगकर्ताहरू लोड गर्दै..."
+    }
+}

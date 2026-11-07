@@ -1,0 +1,179 @@
+{
+    "name": "کیمپ ویز",
+    "article": {
+        "title": "عنوان"
+    },
+    "menu": {
+        "name": "کیمپ ویز",
+        "home": "گھر",
+        "campaign": "مہم",
+        "statistics": "شماریات",
+        "users": "صارفین",
+        "changeLanguage": "زبان تبدیل کریں",
+        "reportBug": "رپورٹ بگ",
+        "giveFeedback": "رائے دیں۔",
+        "settings": "ترتیبات",
+        "logout": "لاگ آوٹ",
+        "addNewLanguage": "نئی زبان شامل کریں۔"
+    },
+    "error": {
+        "unknown": "کچھ غلط ہو گیا. "
+    },
+    "dashboard": {
+        "welcome": "خوش آمدید {{username}}",
+        "description": "ویکیپیڈیا پر ثقافتی تنوع اور صنفی شمولیت کا سالانہ جشن، فیمینزم اور فوکلور رائٹنگ مقابلہ میں خوش آمدید۔\n"
+    },
+    "campaign": {
+        "serial": "سیریل",
+        "loading": "مہم لوڈ ہو رہی ہے...",
+        "action": {
+            "*": "اعمال",
+            "cancel_name": "مہم منسوخ کریں۔",
+            "cancel_prompt": "کیا آپ واقعی اس مہم کو منسوخ کرنا چاہتے ہیں؟",
+            "cancel_title": "مہم منسوخ کریں۔",
+            "cancel_zero": "منسوخ کریں۔",
+            "cancel_one": "منسوخ کریں ({{count}})",
+            "cancel": "منسوخ کریں۔ {{count}}",
+            "approve_name": "مہم کو منظور کریں۔",
+            "approve_prompt": "کیا آپ واقعی اس مہم کو منظور کرنا چاہتے ہیں؟",
+            "approve_title": "مہم کو منظور کریں۔",
+            "approve_zero": "منظور کرو",
+            "approve_one": "منظور کریں ({{count}})",
+            "approve": "منظور کرو",
+            "reject": "رد کرنا",
+            "settings": "ترتیبات",
+            "back": "پیچھے",
+            "save": "محفوظ کریں۔",
+            "next": "اگلے",
+            "edit": "مہم میں ترمیم کریں۔",
+            "create": "مہم بنائیں",
+            "search": "فلٹر"
+        },
+        "activeCampaigns": "فعال مہمات",
+        "name": "نام",
+        "language": "زبان",
+        "startDate": "شروع کرنے کی تاریخ",
+        "endDate": "آخری تاریخ",
+        "duration": "دورانیہ",
+        "status": "حالت",
+        "all": "تمام مہمات",
+        "description": "تفصیل",
+        "jury": "جیوری",
+        "banner": "بینر",
+        "allowExpansions": "صارفین کو ایسے مضامین جمع کرنے کی اجازت دیں جو تخلیق نہیں کیے گئے تھے بلکہ پھیلائے گئے تھے۔",
+        "minimumAddedBytes_help": "مہم کے آغاز سے اب تک شرکت کنندہ کو جمع کرائے گئے مضمون میں بائٹس کی تعداد شامل کرنا ہوگی۔",
+        "minimumAddedBytes": "کم از کم شامل کردہ بائٹس",
+        "minimumAddedWords_help": "مہم کے آغاز سے لے کر اب تک جمع کرائے گئے مضمون میں حصہ لینے والے کو الفاظ کی تعداد شامل کرنا چاہیے۔",
+        "minimumAddedWords": "کم از کم شامل الفاظ",
+        "minimumTotalBytes_help": "مہم کے آغاز سے لے کر اب تک جمع کرائے گئے مضمون پر شرکت کنندہ کے پاس بائٹس کی تعداد ہونی چاہیے۔",
+        "minimumTotalBytes": "کم از کم کل بائٹس",
+        "minimumTotalWords_help": "مہم کے آغاز سے لے کر اب تک جمع کرائے گئے مضمون پر شرکاء کے پاس الفاظ کی تعداد ہونی چاہیے۔",
+        "minimumTotalWords": "کم از کم کل الفاظ",
+        "allowJuryToParticipate": "جیوری کے ارکان کو مہم میں حصہ لینے کی اجازت دیں۔",
+        "secretBallot": "جیوری ممبران کو ایک دوسرے کے ووٹ دیکھنے سے روکیں۔",
+        "allowMultipleJudgements": "متعدد جیوری ممبروں کو ایک ہی جمع کرانے کا جائزہ لینے کی اجازت دیں۔",
+        "image": {
+            "url": "کامنز فائل کا نام توسیع کے ساتھ",
+            "fetch": "تصویر حاصل کریں۔"
+        },
+        "error": {
+            "youAreNotJudge": "آپ اس مہم کے جیوری ممبر نہیں ہیں۔"
+        },
+        "submission": {
+            "title": "گذارشات",
+            "new": "نیا مضمون جمع کروائیں۔",
+            "list": "گذارشات",
+            "note": "نوٹ",
+            "judge": "جج",
+            "submitter": "جمع کرانے والا",
+            "points": "پوائنٹس",
+            "submittedSuccessfully": "کامیابی کے ساتھ جمع کرایا گیا۔",
+            "totalBytes_one": "کل {{count}} بائٹ",
+            "totalBytes_other": "کل {{count}} بائٹس",
+            "totalWords_one": "کل {{count}} لفظ",
+            "totalWords_other": "کل {{count}} الفاظ",
+            "createdAt": "پر تخلیق کیا گیا۔ {{createdAt}}",
+            "createdBy": "بنائی گئی {{createdBy}}",
+            "addedBytes_one": "شامل کیا گیا۔ {{count}} بائٹ",
+            "addedBytes_other": "شامل کیا گیا۔ {{count}} بائٹس",
+            "addedWords_one": "شامل کیا گیا۔ {{count}} لفظ",
+            "addedWords_other": "شامل کیا گیا۔ {{count}} الفاظ",
+            "tags": {
+                "*": "ٹیگز",
+                "expanded": "توسیع شدہ",
+                "newlyCreated": "نئی تخلیق کردہ",
+                "expanded_abbr": "ای",
+                "newlyCreated_abbr": "ن"
+            },
+            "status": {
+                "*": "حالت",
+                "all": "تمام",
+                "notEvaluated": "اندازہ نہیں کیا گیا۔",
+                "evaluated": "اندازہ لگایا"
+            },
+            "loading": "گذارشات لوڈ ہو رہی ہیں...",
+            "preview": "پیش نظارہ",
+            "preview_loading": "پیش منظر لوڈ ہو رہا ہے...",
+            "judgement": {
+                "*": "تشخیص",
+                "evaluationSubmittedSuccessfully": "تشخیص کامیابی کے ساتھ جمع کرادی گئی۔",
+                "backToSubmissions": "ایک اور جمع کرانے کا اندازہ کریں۔",
+                "judgeSubmission": "اپنی تشخیص شامل کریں۔",
+                "note": "نوٹ (اختیاری)",
+                "note_placeholder": "جمع کرانے والے کے لیے ایک نوٹ شامل کریں (اختیاری)"
+            },
+            "action": {
+                "reject": "رد کرنا",
+                "accept": "قبول کریں۔",
+                "evaluate": "اندازہ",
+                "evaluate_add": "تشخیص شامل کریں۔",
+                "evaluate_title": "جمع کرانے کا اندازہ کریں۔",
+                "backToCampaign": "مہم پر واپس جائیں۔",
+                "submitAnother": "ایک اور جمع کروائیں۔",
+                "check": "چیک کریں۔",
+                "submitOnBehalf": "کی جانب سے جمع کروائیں۔",
+                "submit": "جمع کرائیں",
+                "delete_zero": "حذف کریں۔",
+                "delete_other": "حذف کریں ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "نتائج",
+            "totalSubmission_grand": "کل گذارشات",
+            "totalSubmission": "گذارشات",
+            "totalNewlyCreated_grand": "ٹوٹل نئی تخلیق",
+            "totalNewlyCreated": "نئی تخلیق کردہ",
+            "totalExpanded_grand": "کل توسیع شدہ",
+            "totalExpanded": "توسیع شدہ",
+            "totalPoints_grand": "کل پوائنٹس",
+            "totalPoints": "پوائنٹس",
+            "username": "صارف نام"
+        },
+        "step": {
+            "details": "تفصیلات",
+            "jury": "جیوری",
+            "restrictions": "پابندیاں",
+            "overview": "جائزہ"
+        },
+        "statistics": {
+            "color": "رنگ",
+            "title": "شماریات",
+            "title_year": "سال کے اعدادوشمار",
+            "title_campaign": "مہم کے اعدادوشمار",
+            "overview": "جائزہ",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "بند کریں",
+        "cancel": "منسوخ کریں۔"
+    },
+    "user": {
+        "*": "صارف نام",
+        "noUsers": "کوئی صارف نہیں ملا",
+        "name": "نام",
+        "username": "صارف نام",
+        "loading": "صارفین کو لوڈ کیا جا رہا ہے..."
+    }
+}

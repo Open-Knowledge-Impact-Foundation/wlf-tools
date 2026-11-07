@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz ah hian a awm a",
+    "article": {
+        "title": "Nihna"
+    },
+    "menu": {
+        "name": "CampWiz ah hian a awm a",
+        "home": "In",
+        "campaign": "Beihrual",
+        "statistics": "Statistics a ni",
+        "users": "User te pawh an awm",
+        "changeLanguage": "Ṭawng thlak danglam",
+        "reportBug": "Report Bug a ni",
+        "giveFeedback": "Feedback pe rawh",
+        "settings": "Settings te pawh a awm",
+        "logout": "Logout rawh",
+        "addNewLanguage": "Ṭawng Thar Add rawh"
+    },
+    "error": {
+        "unknown": "Thil engemaw a kal sual a. "
+    },
+    "dashboard": {
+        "welcome": "Chibai {{username}}",
+        "description": "Kum tin Wikipedia-a hnam hrang hrang leh hmeichhia leh mipa inpumkhatna lawmna Feminism and Folklore Writing Contest-ah hian kan lo lawm a che u.\n"
+    },
+    "campaign": {
+        "serial": "Serial a ni",
+        "loading": "Loading campaign neih mek a ni...",
+        "action": {
+            "*": "Thiltih",
+            "cancel_name": "Campaign tihtawp a ni",
+            "cancel_prompt": "He campaign hi cancel i duh tih i chiang em?",
+            "cancel_title": "Campaign tihtawp a ni",
+            "cancel_zero": "Titawp",
+            "cancel_one": "Titawp ({{count}}) .",
+            "cancel": "Titawp {{count}}",
+            "approve_name": "Campaign pawmpui rawh",
+            "approve_prompt": "He campaign hi i pawm duh em?",
+            "approve_title": "Campaign pawmpui rawh",
+            "approve_zero": "Remti",
+            "approve_one": "Remti ({{count}}) .",
+            "approve": "Remti",
+            "reject": "Hnawl",
+            "settings": "Settings te pawh a awm",
+            "back": "Hnung",
+            "save": "Humhim",
+            "next": "Dawtchiah",
+            "edit": "Edit Campaign neih a ni",
+            "create": "Campaign siam rawh",
+            "search": "Filter rawh"
+        },
+        "activeCampaigns": "Campaign chak tak tak neih thin",
+        "name": "Hming",
+        "language": "Tawng",
+        "startDate": "A tan Ni",
+        "endDate": "A tawp hun tur",
+        "duration": "Rei zawng",
+        "status": "Nihna",
+        "all": "Campaign zawng zawng",
+        "description": "Hrilhfiahna",
+        "jury": "Jury te an ni",
+        "banner": "Banner a ni",
+        "allowExpansions": "User-te chu article siam loh, tihzauh zawka submit phalsak",
+        "minimumAddedBytes_help": "Campaign tan tirh atanga a thehluh article-a teltuin byte a belh tur zat",
+        "minimumAddedBytes": "Bytes Added tlem ber a ni",
+        "minimumAddedWords_help": "Campaign tan tirh atanga a thuziak thehluh chungah teltuin a belh tur thumal zat",
+        "minimumAddedWords": "Thumal Added tlem ber",
+        "minimumTotalBytes_help": "Campaign tan tirh atanga a thehluh article-a teltuin byte a neih tur zat",
+        "minimumTotalBytes": "Bytes zawng zawng tlem ber",
+        "minimumTotalWords_help": "Campaign tan tirh atanga article thehluh chungchangah hian teltuin thumal a neih tur zat",
+        "minimumTotalWords": "Thumal zawng zawng tlem ber",
+        "allowJuryToParticipate": "Jury member-te chu campaign-ah hian tel phalsak rawh",
+        "secretBallot": "Jury member-te vote inhmuh lohna tur ven",
+        "allowMultipleJudgements": "Jury member tam takin submission pakhat chu evaluate turin phalsak rawh",
+        "image": {
+            "url": "Commons File Hming leh Extension nei",
+            "fetch": "Hmanlai thlalak la rawh"
+        },
+        "error": {
+            "youAreNotJudge": "He campaign-a jury member i ni lo"
+        },
+        "submission": {
+            "title": "Thu thehluh tur a ni",
+            "new": "Thu thar thehluh rawh",
+            "list": "Thu thehluh tur a ni",
+            "note": "Thil chhinchhiah",
+            "judge": "Roreltu",
+            "submitter": "Submitter a ni",
+            "points": "Point hrang hrang a awm",
+            "submittedSuccessfully": "Hlawhtling takin submit a ni",
+            "totalBytes_one": "Belhkhawm {{count}} byte a ni",
+            "totalBytes_other": "Belhkhawm {{count}} byte a ni",
+            "totalWords_one": "Belhkhawm {{count}} thumal",
+            "totalWords_other": "Belhkhawm {{count}} thumalte",
+            "createdAt": "A siam At {{createdAt}}",
+            "createdBy": "Siamtu By {{createdBy}}",
+            "addedBytes_one": "A belh leh bawk {{count}} byte a ni",
+            "addedBytes_other": "A belh leh bawk {{count}} byte a ni",
+            "addedWords_one": "A belh leh bawk {{count}} thumal",
+            "addedWords_other": "A belh leh bawk {{count}} thumalte",
+            "tags": {
+                "*": "Tags a awm",
+                "expanded": "A zau zawk",
+                "newlyCreated": "Thil siam thar a ni",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Nihna",
+                "all": "Zavai",
+                "notEvaluated": "Evaluated a ni lo",
+                "evaluated": "Evaluated a ni"
+            },
+            "loading": "Submission te load mek a ni...",
+            "preview": "A hmasa ber atan",
+            "preview_loading": "Preview a awm mek...",
+            "judgement": {
+                "*": "Zirchianna",
+                "evaluationSubmittedSuccessfully": "Evaluation hlawhtling taka thehluh a ni",
+                "backToSubmissions": "Submission dang chu evaluate leh rawh",
+                "judgeSubmission": "I Evaluation kha add rawh",
+                "note": "Note (A duh duh) 1.1.",
+                "note_placeholder": "Submitter-ah note dah la (a duh chuan) ."
+            },
+            "action": {
+                "reject": "Hnawl",
+                "accept": "Pawm",
+                "evaluate": "Zirchiang",
+                "evaluate_add": "Evaluation tih belh rawh",
+                "evaluate_title": "Submission chu endik rawh",
+                "backToCampaign": "Campaign-ah kir leh ila",
+                "submitAnother": "Submit leh rawh",
+                "check": "Dap",
+                "submitOnBehalf": "A aiawhin thehluh tur a ni",
+                "submit": "Thehlut",
+                "delete_zero": "Ti reh",
+                "delete_other": "Ti reh ({{count}}) .",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Rahchhuah",
+            "totalSubmission_grand": "Submission zawng zawng",
+            "totalSubmission": "Thu thehluh tur a ni",
+            "totalNewlyCreated_grand": "Total siam thar zawng zawng",
+            "totalNewlyCreated": "Thil siam thar a ni",
+            "totalExpanded_grand": "Total tihzauh a ni",
+            "totalExpanded": "A zau zawk",
+            "totalPoints_grand": "Point zawng zawng",
+            "totalPoints": "Point hrang hrang a awm",
+            "username": "Username tih hi a ni"
+        },
+        "step": {
+            "details": "Kimchang",
+            "jury": "Jury te an ni",
+            "restrictions": "Khapna siam a ni",
+            "overview": "A tlangpuiin"
+        },
+        "statistics": {
+            "color": "Rawng",
+            "title": "Statistics a ni",
+            "title_year": "Kum khat chhunga Statistics",
+            "title_campaign": "Campaign atana statistics siam a ni",
+            "overview": "A tlangpuiin",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Khar",
+        "cancel": "Titawp"
+    },
+    "user": {
+        "*": "Username tih hi a ni",
+        "noUsers": "User hmuh tur a awm lo",
+        "name": "Hming",
+        "username": "Username tih hi a ni",
+        "loading": "User te load mek a ni..."
+    }
+}

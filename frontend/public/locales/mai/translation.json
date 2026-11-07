@@ -1,0 +1,179 @@
+{
+    "name": "कैम्पविज",
+    "article": {
+        "title": "शीर्षक"
+    },
+    "menu": {
+        "name": "कैम्पविज",
+        "home": "घर",
+        "campaign": "अभियान",
+        "statistics": "सांख्यिकी",
+        "users": "उपयोगकर्ता",
+        "changeLanguage": "भाषा बदलें",
+        "reportBug": "बग रिपोर्ट करू",
+        "giveFeedback": "प्रतिक्रिया दे",
+        "settings": "सेटिंग्स",
+        "logout": "लॉगआउट",
+        "addNewLanguage": "नव भाषा जोड़ू"
+    },
+    "error": {
+        "unknown": "किछु गड़बड़ भ’ गेलै। "
+    },
+    "dashboard": {
+        "welcome": "स्वागत {{username}}",
+        "description": "विकिपीडिया पर सांस्कृतिक विविधता आ लैंगिक समावेशीता के वार्षिक उत्सव नारीवाद आ लोककथा लेखन प्रतियोगिता में अपनेक स्वागत अछि |\n"
+    },
+    "campaign": {
+        "serial": "धारावाहिक",
+        "loading": "अभियान लोड भ रहल अछि...",
+        "action": {
+            "*": "कर्म",
+            "cancel_name": "अभियान रद्द करब",
+            "cancel_prompt": "की अहां निश्चित छी जे अहां एहि अभियान के रद्द करय चाहय छी?",
+            "cancel_title": "अभियान रद्द करब",
+            "cancel_zero": "रद्द",
+            "cancel_one": "रद्द ({{count}}) २.",
+            "cancel": "रद्द {{count}}",
+            "approve_name": "स्वीकृति अभियान",
+            "approve_prompt": "की अहां निश्चित छी जे अहां एहि अभियान के मंजूरी देबय चाहय छी?",
+            "approve_title": "स्वीकृति अभियान",
+            "approve_zero": "अनुमोदन",
+            "approve_one": "अनुमोदन ({{count}}) २.",
+            "approve": "अनुमोदन",
+            "reject": "अस्वीकार करनाइ",
+            "settings": "सेटिंग्स",
+            "back": "पाछू",
+            "save": "बचाउ",
+            "next": "अगिला",
+            "edit": "संपादन अभियान",
+            "create": "अभियान बनाइए",
+            "search": "छानने के लिये"
+        },
+        "activeCampaigns": "सक्रिय अभियान",
+        "name": "नाम",
+        "language": "भाषा",
+        "startDate": "प्रारंभ तिथि",
+        "endDate": "समाप्ति तिथि",
+        "duration": "समय",
+        "status": "स्थिति",
+        "all": "सब अभियान",
+        "description": "वर्णन",
+        "jury": "जूरी",
+        "banner": "बैनर",
+        "allowExpansions": "प्रयोक्ता सभकेँ एहन लेख जमा करबाक अनुमति दियौक जे नहि बनाओल गेल छल बल्कि विस्तारित कएल गेल छल",
+        "minimumAddedBytes_help": "अभियान कें शुरु आत सं प्रस्तुत लेख पर प्रतिभागी कें जतेक बाइट जोड़नाय आवश्यक छै",
+        "minimumAddedBytes": "न्यूनतम जोड़ा गेल बाइट",
+        "minimumAddedWords_help": "अभियान केरऽ शुरुआत स॑ ही प्रस्तुत लेख प॑ प्रतिभागी क॑ जेतना शब्द जोड़ना चाहियऽ",
+        "minimumAddedWords": "न्यूनतम जोड़ा शब्द",
+        "minimumTotalBytes_help": "अभियान कें शुरु आत सं प्रस्तुत लेख पर प्रतिभागी कें पास कतेक बाइट होबाक चाही",
+        "minimumTotalBytes": "न्यूनतम कुल बाइट",
+        "minimumTotalWords_help": "अभियान केरऽ शुरुआत स॑ ही प्रस्तुत लेख प॑ प्रतिभागी केरऽ जेतना शब्द होना चाहियऽ",
+        "minimumTotalWords": "न्यूनतम कुल शब्द",
+        "allowJuryToParticipate": "जूरी के सदस्य के अभियान में भाग लेबय के अनुमति दियौ",
+        "secretBallot": "जूरी सदस्य के एक दोसर के वोट देखय सं रोकय",
+        "allowMultipleJudgements": "एकहि प्रस्तुति कें मूल्यांकन करय कें लेल कईटा जूरी सदस्यक कें अनुमति दिअ",
+        "image": {
+            "url": "एक्सटेंशन के साथ कॉमन्स फाइल नाम",
+            "fetch": "छवि आनब"
+        },
+        "error": {
+            "youAreNotJudge": "अहां एहि अभियान के जूरी सदस्य नहि छी"
+        },
+        "submission": {
+            "title": "प्रस्तुति",
+            "new": "नया लेख प्रस्तुत करें",
+            "list": "प्रस्तुति",
+            "note": "नोट",
+            "judge": "न्यायाधीश",
+            "submitter": "प्रस्तुतकर्ता",
+            "points": "बिन्दु",
+            "submittedSuccessfully": "सफलतापूर्वक जमा कयल गेल",
+            "totalBytes_one": "पूरा {{count}} बाइट",
+            "totalBytes_other": "पूरा {{count}} बाइट्स",
+            "totalWords_one": "पूरा {{count}} शब्द",
+            "totalWords_other": "पूरा {{count}} शब्द सभ",
+            "createdAt": "निर्मित एट {{createdAt}}",
+            "createdBy": "द्वारा निर्मित {{createdBy}}",
+            "addedBytes_one": "जोड़ा गेल {{count}} बाइट",
+            "addedBytes_other": "जोड़ा गेल {{count}} बाइट्स",
+            "addedWords_one": "जोड़ा गेल {{count}} शब्द",
+            "addedWords_other": "जोड़ा गेल {{count}} शब्द सभ",
+            "tags": {
+                "*": "टैग",
+                "expanded": "विस्तारित",
+                "newlyCreated": "नव सृष्टि",
+                "expanded_abbr": "ई.",
+                "newlyCreated_abbr": "एन"
+            },
+            "status": {
+                "*": "स्थिति",
+                "all": "सभटा",
+                "notEvaluated": "मूल्यांकन नहि कयल गेल",
+                "evaluated": "मूल्यांकन कयल गेल"
+            },
+            "loading": "सबमिशन लोड भ रहल अछि...",
+            "preview": "पूर्वावलोकन",
+            "preview_loading": "पूर्वावलोकन लोड भ रहल अछि...",
+            "judgement": {
+                "*": "मूल्यांकन",
+                "evaluationSubmittedSuccessfully": "मूल्यांकन सफलतापूर्वक प्रस्तुत",
+                "backToSubmissions": "एकटा आओर प्रस्तुतिक मूल्यांकन करू",
+                "judgeSubmission": "अपन मूल्यांकन जोड़ू",
+                "note": "नोट (वैकल्पिक) २.",
+                "note_placeholder": "प्रस्तुतकर्ता मे एकटा नोट जोड़ू (वैकल्पिक)"
+            },
+            "action": {
+                "reject": "अस्वीकार करनाइ",
+                "accept": "स्वीकार",
+                "evaluate": "मूल्यांकन",
+                "evaluate_add": "मूल्यांकन जोड़ू",
+                "evaluate_title": "प्रस्तुति के मूल्यांकन करब",
+                "backToCampaign": "वापस अभियान पर",
+                "submitAnother": "एकटा आओर जमा करू",
+                "check": "जांच",
+                "submitOnBehalf": "के तरफ से प्रस्तुत करे",
+                "submit": "जमा",
+                "delete_zero": "हटानाइ",
+                "delete_other": "हटानाइ ({{count}}) २.",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "परिणाम",
+            "totalSubmission_grand": "कुल प्रस्तुति",
+            "totalSubmission": "प्रस्तुति",
+            "totalNewlyCreated_grand": "कुल नव निर्मित",
+            "totalNewlyCreated": "नव सृष्टि",
+            "totalExpanded_grand": "कुल विस्तारित",
+            "totalExpanded": "विस्तारित",
+            "totalPoints_grand": "कुल अंक",
+            "totalPoints": "बिन्दु",
+            "username": "प्रयोक्ता नाम"
+        },
+        "step": {
+            "details": "विवरण",
+            "jury": "जूरी",
+            "restrictions": "प्रतिबंध",
+            "overview": "अवलोकन"
+        },
+        "statistics": {
+            "color": "रंग",
+            "title": "सांख्यिकी",
+            "title_year": "वर्ष के आँकड़े",
+            "title_campaign": "अभियान के लिये आँकड़े",
+            "overview": "अवलोकन",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "बंद",
+        "cancel": "रद्द"
+    },
+    "user": {
+        "*": "प्रयोक्ता नाम",
+        "noUsers": "कोनो प्रयोक्ता नहि भेटल",
+        "name": "नाम",
+        "username": "प्रयोक्ता नाम",
+        "loading": "उपयोगकर्ता लोड भ रहल अछि..."
+    }
+}

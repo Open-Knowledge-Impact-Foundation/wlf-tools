@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Tajuk"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Rumah",
+        "campaign": "Kempen",
+        "statistics": "Perangkaan",
+        "users": "Pengguna",
+        "changeLanguage": "Tukar bahasa",
+        "reportBug": "Laporkan Pepijat",
+        "giveFeedback": "Beri Maklum Balas",
+        "settings": "tetapan",
+        "logout": "Log keluar",
+        "addNewLanguage": "Tambah Bahasa Baharu"
+    },
+    "error": {
+        "unknown": "Sesuatu telah berlaku. "
+    },
+    "dashboard": {
+        "welcome": "Selamat datang {{username}}",
+        "description": "Selamat datang ke Peraduan Penulisan Feminisme dan Cerita Rakyat, perayaan tahunan kepelbagaian budaya dan keterangkuman jantina di Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "bersiri",
+        "loading": "Memuatkan kempen...",
+        "action": {
+            "*": "Tindakan",
+            "cancel_name": "Batalkan Kempen",
+            "cancel_prompt": "Adakah anda pasti mahu membatalkan kempen ini?",
+            "cancel_title": "Batalkan Kempen",
+            "cancel_zero": "Batal",
+            "cancel_one": "Cancel ({{count}})",
+            "cancel": "Batal {{count}}",
+            "approve_name": "Luluskan Kempen",
+            "approve_prompt": "Adakah anda pasti mahu meluluskan kempen ini?",
+            "approve_title": "Luluskan Kempen",
+            "approve_zero": "Terima",
+            "approve_one": "Approve ({{count}})",
+            "approve": "Terima",
+            "reject": "Tolak",
+            "settings": "tetapan",
+            "back": "belakang",
+            "save": "Jimat",
+            "next": "Seterusnya",
+            "edit": "Edit Kempen",
+            "create": "Buat Kempen",
+            "search": "Penapis"
+        },
+        "activeCampaigns": "Kempen Aktif",
+        "name": "Nama",
+        "language": "Bahasa",
+        "startDate": "Tarikh mula",
+        "endDate": "Tarikh tamat",
+        "duration": "Tempoh",
+        "status": "Status",
+        "all": "Semua Kempen",
+        "description": "Penerangan",
+        "jury": "Juri",
+        "banner": "sepanduk",
+        "allowExpansions": "Benarkan pengguna menyerahkan artikel yang tidak dibuat agak dikembangkan",
+        "minimumAddedBytes_help": "Bilangan bait yang perlu ditambah oleh peserta pada artikel yang diserahkan sejak permulaan kempen",
+        "minimumAddedBytes": "Bait Ditambah Minimum",
+        "minimumAddedWords_help": "Bilangan perkataan yang perlu ditambah oleh peserta pada artikel yang dihantar sejak permulaan kempen",
+        "minimumAddedWords": "Perkataan Ditambah Minimum",
+        "minimumTotalBytes_help": "Bilangan bait yang perlu dimiliki oleh peserta pada artikel yang diserahkan sejak permulaan kempen",
+        "minimumTotalBytes": "Jumlah Bait Minimum",
+        "minimumTotalWords_help": "Bilangan perkataan peserta mesti ada pada artikel yang diserahkan sejak permulaan kempen",
+        "minimumTotalWords": "Jumlah Perkataan Minimum",
+        "allowJuryToParticipate": "Benarkan ahli juri mengambil bahagian dalam kempen",
+        "secretBallot": "Menghalang ahli juri daripada melihat undian masing-masing",
+        "allowMultipleJudgements": "Benarkan beberapa ahli juri menilai penyerahan yang sama",
+        "image": {
+            "url": "Nama Fail Commons dengan Sambungan",
+            "fetch": "Ambil Imej"
+        },
+        "error": {
+            "youAreNotJudge": "Anda bukan ahli juri kempen ini"
+        },
+        "submission": {
+            "title": "Penyerahan",
+            "new": "Hantar Artikel Baru",
+            "list": "Penyerahan",
+            "note": "Catatan",
+            "judge": "Hakim",
+            "submitter": "Penghantar",
+            "points": "mata",
+            "submittedSuccessfully": "Dihantar dengan jayanya",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "Jumlah {{count}} bait",
+            "totalWords_one": "Total {{count}} word",
+            "totalWords_other": "Jumlah {{count}} perkataan",
+            "createdAt": "Dicipta Pada {{createdAt}}",
+            "createdBy": "Dicipta oleh {{createdBy}}",
+            "addedBytes_one": "Added {{count}} byte",
+            "addedBytes_other": "Ditambah {{count}} bait",
+            "addedWords_one": "Added {{count}} word",
+            "addedWords_other": "Ditambah {{count}} perkataan",
+            "tags": {
+                "*": "Tag",
+                "expanded": "Dikembangkan",
+                "newlyCreated": "Baru Dicipta",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Status",
+                "all": "Semua",
+                "notEvaluated": "Tidak Dinilai",
+                "evaluated": "Dinilai"
+            },
+            "loading": "Memuatkan penyerahan...",
+            "preview": "Pratonton",
+            "preview_loading": "Memuatkan pratonton...",
+            "judgement": {
+                "*": "Penilaian",
+                "evaluationSubmittedSuccessfully": "Penilaian berjaya diserahkan",
+                "backToSubmissions": "Nilaikan penyerahan lain",
+                "judgeSubmission": "Tambah Penilaian anda",
+                "note": "Nota (Pilihan)",
+                "note_placeholder": "Tambahkan nota pada pengirim (pilihan)"
+            },
+            "action": {
+                "reject": "Tolak",
+                "accept": "Terima",
+                "evaluate": "nilaikan",
+                "evaluate_add": "Tambah Penilaian",
+                "evaluate_title": "Nilaikan Penyerahan",
+                "backToCampaign": "Kembali ke Kempen",
+                "submitAnother": "Hantar Lain",
+                "check": "Semak",
+                "submitOnBehalf": "Serahkan bagi pihak",
+                "submit": "Hantar",
+                "delete_zero": "Padam",
+                "delete_other": "Padam ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Keputusan",
+            "totalSubmission_grand": "Jumlah Penyerahan",
+            "totalSubmission": "Penyerahan",
+            "totalNewlyCreated_grand": "Jumlah Baru Dicipta",
+            "totalNewlyCreated": "Baru Dicipta",
+            "totalExpanded_grand": "Jumlah Dikembangkan",
+            "totalExpanded": "Dikembangkan",
+            "totalPoints_grand": "Jumlah Mata",
+            "totalPoints": "mata",
+            "username": "Nama pengguna"
+        },
+        "step": {
+            "details": "Butiran",
+            "jury": "Juri",
+            "restrictions": "Sekatan",
+            "overview": "Gambaran keseluruhan"
+        },
+        "statistics": {
+            "color": "Warna",
+            "title": "Perangkaan",
+            "title_year": "Statistik untuk tahun ini",
+            "title_campaign": "Statistik untuk kempen",
+            "overview": "Gambaran keseluruhan",
+            "date": "Tarikh"
+        }
+    },
+    "action": {
+        "close": "tutup",
+        "cancel": "Batal"
+    },
+    "user": {
+        "*": "Nama pengguna",
+        "noUsers": "Tiada pengguna ditemui",
+        "name": "Nama",
+        "username": "Nama pengguna",
+        "loading": "Memuatkan pengguna..."
+    }
+}

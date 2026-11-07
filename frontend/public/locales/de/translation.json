@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Title"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Home",
+        "campaign": "Kampagne",
+        "statistics": "Statistik",
+        "users": "Benutzer*in",
+        "changeLanguage": "Sprache wechseln",
+        "reportBug": "Fehler melden",
+        "giveFeedback": "Feedback geben",
+        "settings": "Einstellungen",
+        "logout": "Logout",
+        "addNewLanguage": "Add New Language"
+    },
+    "error": {
+        "unknown": "Etwas ist schief gelaufen. Bitte versuche es spter noch einmal"
+    },
+    "dashboard": {
+        "welcome": "Willkommen {{username}}",
+        "description": "Willkommen beim Feminism and Folklore Schreibwettbewerb, der jedes Jahr kulutrelle Vielfalt und Inklusivitt der Geschlechter auf Wikipedia feiert.\nDer Wettbewerb ldt begeisterte User dazu ein, sich auf die Reise zu begeben, um kulturelle Veranstaltungen vor Ort zu dokumentieren, genau wie andere traditionelle Aktivitten und die dabei oft bersehenen, aber wichtigen Beitrge von Frauen.\nAls grundlegender Teil der Wiki Loves Folklore (WLF) Kampagne geht dieses Projekt ber den Rahmen der Fotografie hinaus und ermutigt Teilnehmende, beim Erstellen und Verbessern von Wikipedia Artikeln berzeugende Narrative zu schreiben."
+    },
+    "campaign": {
+        "serial": "Serie",
+        "loading": "Loading campaign...",
+        "action": {
+            "*": "Aktionen",
+            "cancel_name": "Kampagne absagen",
+            "cancel_prompt": "Bist du sicher, dass du die Kampagne absagen mchtest?",
+            "cancel_title": "Kampagne absagen",
+            "cancel_zero": "Absagen",
+            "cancel_one": "Absagen ({{count}})",
+            "cancel": "Absagen {{count}}",
+            "approve_name": "Kampagne besttigen",
+            "approve_prompt": "Bist du sicher, dass du die Kampagne besttigen mchtest?",
+            "approve_title": "Kampagne besttigen",
+            "approve_zero": "Besttigen",
+            "approve_one": "Besttigen ({{count}})",
+            "approve": "Besttigen",
+            "reject": "Zurückweisen",
+            "settings": "Einstellungen",
+            "back": "Zurücksetzen",
+            "save": "Speichern",
+            "next": "Weiter",
+            "edit": "Kampagne bearbeiten",
+            "create": "Kampagne erstellen",
+            "search": "Filtern"
+        },
+        "activeCampaigns": "Aktive Kampagnen",
+        "name": "Name",
+        "language": "Sprache wechseln",
+        "startDate": "Datum Beginn",
+        "endDate": "Datum Ende",
+        "duration": "Dauer",
+        "status": "Status",
+        "all": "Alle Kampagnen",
+        "description": "Beschreibung",
+        "jury": "Jury",
+        "banner": "Banner",
+        "allowExpansions": "Erlaube die Einreichung von erweiterten Artikeln zustzlich zu neu erstellten",
+        "minimumAddedBytes_help": "Anzahl der Bytes, um die ein Artikel seit Beginn der Kampagne erweitert werden muss",
+        "minimumAddedBytes": "Minimum hinzugefgter Bytes",
+        "minimumAddedWords_help": "Anzahl der Worte, um die ein Artikel seit Beginn der Kampagne erweitert werden muss",
+        "minimumAddedWords": "Minimum hinzugefgter Worte",
+        "minimumTotalBytes_help": "Anzahl von Bytes, die Teilnehmende im Artikel haben mssen ab Beginn der Kampagne",
+        "minimumTotalBytes": "Minimum Bytes insgesamt",
+        "minimumTotalWords_help": "Anzahl von Wrtern, die Teilnehmende im Artikel haben mssen ab Beginn der Kampagne",
+        "minimumTotalWords": "Minimum Wrter insgesamt",
+        "allowJuryToParticipate": "Erlaube Jurymitgliedern an der Kampagne teilzunehmen",
+        "secretBallot": "Hindere Jurymitglieder daran, die Stimmen anderer Jurymitglieder zu sehen",
+        "allowMultipleJudgements": "Erlaube mehreren Jurymitgliedern, die gleiche Einreichung zu bewerten",
+        "image": {
+            "url": "Commons Filetitel mit Erweiterung",
+            "fetch": "Bild holen"
+        },
+        "error": {
+            "youAreNotJudge": "Sie sind kein Mitglied der Jury dieser Kampagne"
+        },
+        "submission": {
+            "title": "Einreichungen",
+            "new": "Neuen Artikel einreichen",
+            "list": "Einreichungen",
+            "note": "Notiz",
+            "judge": "Bewerten",
+            "submitter": "Einreicher",
+            "points": "Punkte",
+            "submittedSuccessfully": "erfolgreich eingereicht",
+            "totalBytes_one": "{{count}} Bytes insgesamt",
+            "totalBytes_other": "{{count}} Bytes insgesamt",
+            "totalWords_one": "{{count}} Wrter insgesamt",
+            "totalWords_other": "{{count}} Wrter insgesamt",
+            "createdAt": "Erstellt in {{createdAt}}",
+            "createdBy": "Erstellt von {{createdBy}}",
+            "addedBytes_one": "{{count}} bytes hinzugefgt",
+            "addedBytes_other": "{{count}} bytes hinzugefgt",
+            "addedWords_one": "{{count}} Wrter hinzugefgt",
+            "addedWords_other": "{{count}} Wrter hinzugefgt",
+            "tags": {
+                "*": "Tags",
+                "expanded": "Erweitert",
+                "newlyCreated": "Neu erstellt",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Status",
+                "all": "Alle Kampagnen",
+                "notEvaluated": "Nicht bewertet",
+                "evaluated": "Bewertet"
+            },
+            "loading": "Einreichungen werden geladen",
+            "preview": "Vorschau",
+            "preview_loading": "Vorschau wird geladen",
+            "judgement": {
+                "*": "Bewertung",
+                "evaluationSubmittedSuccessfully": "Bewertung erfolgreich eingegangen",
+                "backToSubmissions": "Bewerte eine weitere Einreichung",
+                "judgeSubmission": "Deine Bewertung hinzufgen",
+                "note": "Notiz (optional)",
+                "note_placeholder": "Notiz an die einreichende Person (optional)"
+            },
+            "action": {
+                "reject": "Zurückweisen",
+                "accept": "Akzeptieren",
+                "evaluate": "Bewerten",
+                "evaluate_add": "Bewertung hinzufügen",
+                "evaluate_title": "Evaluate Submission",
+                "backToCampaign": "zurck zur Kampagne",
+                "submitAnother": "Weitere Einreichung",
+                "check": "Überprüfen",
+                "submitOnBehalf": "Einreichung im Namen von",
+                "submit": "Einreichen",
+                "delete_zero": "Löschen",
+                "delete_other": "Löschen ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Ergebnisse",
+            "totalSubmission_grand": "Einreichungen insgesamt",
+            "totalSubmission": "Einreichungen",
+            "totalNewlyCreated_grand": "Neu erstellte Artikel insgesamt",
+            "totalNewlyCreated": "Neu erstellte Artikel insgesamt",
+            "totalExpanded_grand": "Erweiterete Artikel insgesamt",
+            "totalExpanded": "Erweiterete Artikel insgesamt",
+            "totalPoints_grand": "Gesamtpunktzahl",
+            "totalPoints": "Punkte",
+            "username": "Nutzername"
+        },
+        "step": {
+            "details": "Einzelheiten",
+            "jury": "Jury",
+            "restrictions": "Beschrnkungen",
+            "overview": "Übersicht"
+        },
+        "statistics": {
+            "color": "Farbe",
+            "title": "Statistik",
+            "title_year": "Statistiken für das Jahr",
+            "title_campaign": "Statistiken zur Kampagne",
+            "overview": "Übersicht",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Schliessen",
+        "cancel": "Abbrechen"
+    },
+    "user": {
+        "*": "Username",
+        "noUsers": "Keine User gefunden",
+        "name": "Name",
+        "username": "Username",
+        "loading": "User laden..."
+    }
+}

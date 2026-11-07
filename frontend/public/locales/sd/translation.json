@@ -1,0 +1,179 @@
+{
+    "name": "ڪيمپ ويز",
+    "article": {
+        "title": "عنوان"
+    },
+    "menu": {
+        "name": "ڪيمپ ويز",
+        "home": "گهر",
+        "campaign": "مهم",
+        "statistics": "شماريات",
+        "users": "استعمال ڪندڙ",
+        "changeLanguage": "ٻولي تبديل ڪريو",
+        "reportBug": "رپورٽ بگ",
+        "giveFeedback": "راءِ ڏيو",
+        "settings": "سيٽنگون",
+        "logout": "ڪم ڇڏڻ",
+        "addNewLanguage": "نئين ٻولي شامل ڪريو"
+    },
+    "error": {
+        "unknown": "ڪجهه غلط ٿي ويو. "
+    },
+    "dashboard": {
+        "welcome": "ڀلي ڪري آيا {{username}}",
+        "description": "وڪيپيڊيا تي ثقافتي تنوع ۽ صنفي شموليت جو ساليانو جشن، فيمينزم ۽ لوڪ ڪهاڻي لکڻ جو مقابلي ۾ ڀليڪار.\n"
+    },
+    "campaign": {
+        "serial": "سيريل",
+        "loading": "لوڊيڊنگ مهم...",
+        "action": {
+            "*": "عمل",
+            "cancel_name": "مهم منسوخ ڪريو",
+            "cancel_prompt": "ڇا توھان واقعي ھن مهم کي منسوخ ڪرڻ چاھيو ٿا؟",
+            "cancel_title": "مهم منسوخ ڪريو",
+            "cancel_zero": "منسوخ ڪريو",
+            "cancel_one": "منسوخ ڪريو ({{count}})",
+            "cancel": "منسوخ ڪريو {{count}}",
+            "approve_name": "مهم جي منظوري ڏيو",
+            "approve_prompt": "ڇا توھان واقعي ھن مهم کي منظور ڪرڻ چاھيو ٿا؟",
+            "approve_title": "مهم جي منظوري ڏيو",
+            "approve_zero": "منظور ڪرڻ",
+            "approve_one": "منظور ڪريو ({{count}})",
+            "approve": "منظور ڪرڻ",
+            "reject": "رد ڪرڻ",
+            "settings": "سيٽنگون",
+            "back": "پوئتي",
+            "save": "بچايو",
+            "next": "اڳيان",
+            "edit": "تبديلي جي مهم",
+            "create": "مهم ٺاهيو",
+            "search": "فلٽر"
+        },
+        "activeCampaigns": "سرگرم مهمون",
+        "name": "نالو",
+        "language": "ٻولي",
+        "startDate": "شروعاتي تاريخ",
+        "endDate": "ختم ٿيڻ جي تاريخ",
+        "duration": "عرصو",
+        "status": "حيثيت",
+        "all": "سڀ مهم",
+        "description": "وصف",
+        "jury": "جوري",
+        "banner": "بينر",
+        "allowExpansions": "صارفين کي آرٽيڪل جمع ڪرڻ جي اجازت ڏيو جيڪي پيدا نه ڪيا ويا بلڪه وڌايو ويو",
+        "minimumAddedBytes_help": "بائيٽ جو تعداد حصو وٺندڙ کي مهم جي شروعات کان وٺي جمع ٿيل آرٽيڪل تي شامل ڪرڻ گهرجي",
+        "minimumAddedBytes": "گھٽ ۾ گھٽ شامل ٿيل بائيٽ",
+        "minimumAddedWords_help": "لفظن جو تعداد حصو وٺندڙ کي مهم جي شروعات کان وٺي جمع ٿيل آرٽيڪل تي شامل ڪرڻ گهرجي",
+        "minimumAddedWords": "گھٽ ۾ گھٽ شامل ڪيل لفظ",
+        "minimumTotalBytes_help": "بائيٽ جو تعداد حصو وٺندڙ کي مهم جي شروعات کان وٺي جمع ٿيل آرٽيڪل تي هجڻ گهرجي",
+        "minimumTotalBytes": "گھٽ ۾ گھٽ ڪل بائيٽ",
+        "minimumTotalWords_help": "مهم جي شروعات کان وٺي جمع ٿيل آرٽيڪل تي حصو وٺندڙ کي لفظن جو تعداد هجڻ گهرجي",
+        "minimumTotalWords": "گھٽ ۾ گھٽ کل لفظ",
+        "allowJuryToParticipate": "جيوري ميمبرن کي مهم ۾ حصو وٺڻ جي اجازت ڏيو",
+        "secretBallot": "جيوري ميمبرن کي هڪ ٻئي جا ووٽ ڏسڻ کان روڪيو",
+        "allowMultipleJudgements": "ڪيترن ئي جوري ميمبرن کي اجازت ڏيو ته ساڳي جمع ڪرائڻ جو جائزو وٺو",
+        "image": {
+            "url": "Commons فائل جو نالو واڌ سان",
+            "fetch": "تصوير ڪڍو"
+        },
+        "error": {
+            "youAreNotJudge": "توهان هن مهم جي جوري ميمبر نه آهيو"
+        },
+        "submission": {
+            "title": "جمع ڪرائڻ",
+            "new": "نئون آرٽيڪل داخل ڪريو",
+            "list": "جمع ڪرائڻ",
+            "note": "نوٽ",
+            "judge": "جج",
+            "submitter": "جمع ڪندڙ",
+            "points": "پوائنٽون",
+            "submittedSuccessfully": "ڪاميابيءَ سان پيش ڪيو ويو",
+            "totalBytes_one": "ڪُل {{count}} بائيٽ",
+            "totalBytes_other": "ڪُل {{count}} بائيٽ",
+            "totalWords_one": "ڪُل {{count}} لفظ",
+            "totalWords_other": "ڪُل {{count}} لفظ",
+            "createdAt": "تي ٺاهي وئي {{createdAt}}",
+            "createdBy": "جي تخليق {{createdBy}}",
+            "addedBytes_one": "شامل ڪيو ويو {{count}} بائيٽ",
+            "addedBytes_other": "شامل ڪيو ويو {{count}} بائيٽ",
+            "addedWords_one": "شامل ڪيو ويو {{count}} لفظ",
+            "addedWords_other": "شامل ڪيو ويو {{count}} لفظ",
+            "tags": {
+                "*": "ٽيگ",
+                "expanded": "وڌايو ويو",
+                "newlyCreated": "نئون ٺهيل",
+                "expanded_abbr": "اي",
+                "newlyCreated_abbr": "ن"
+            },
+            "status": {
+                "*": "حيثيت",
+                "all": "سڀ",
+                "notEvaluated": "اڀياس نه ڪيو ويو",
+                "evaluated": "اڀياس ڪيو"
+            },
+            "loading": "موڪلون لوڊ ٿي رهيون آهن...",
+            "preview": "ڏيکاءُ",
+            "preview_loading": "پريو لوڊ ٿي رهيو آهي...",
+            "judgement": {
+                "*": "اڀياس",
+                "evaluationSubmittedSuccessfully": "جائزو ڪاميابي سان پيش ڪيو ويو",
+                "backToSubmissions": "ٻي جمع ڪرائڻ جو اندازو لڳايو",
+                "judgeSubmission": "پنھنجي تشخيص شامل ڪريو",
+                "note": "نوٽ (اختياري)",
+                "note_placeholder": "جمع ڪندڙ ڏانهن هڪ نوٽ شامل ڪريو (اختياري)"
+            },
+            "action": {
+                "reject": "رد ڪرڻ",
+                "accept": "قبول ڪريو",
+                "evaluate": "اندازو لڳايو",
+                "evaluate_add": "تشخيص شامل ڪريو",
+                "evaluate_title": "جمع ڪرائڻ جو جائزو وٺو",
+                "backToCampaign": "واپسي مهم ڏانهن",
+                "submitAnother": "ٻيو جمع ڪرايو",
+                "check": "چيڪ",
+                "submitOnBehalf": "جي طرفان جمع ڪرايو",
+                "submit": "جمع ڪرائڻ",
+                "delete_zero": "حذف ڪريو",
+                "delete_other": "حذف ڪريو ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "نتيجا",
+            "totalSubmission_grand": "ڪل جمع",
+            "totalSubmission": "جمع ڪرائڻ",
+            "totalNewlyCreated_grand": "مڪمل طور تي نئون ٺهيل",
+            "totalNewlyCreated": "نئون ٺهيل",
+            "totalExpanded_grand": "مجموعي طور تي وڌايو ويو",
+            "totalExpanded": "وڌايو ويو",
+            "totalPoints_grand": "ڪل پوائنٽس",
+            "totalPoints": "پوائنٽون",
+            "username": "يوزر نالو"
+        },
+        "step": {
+            "details": "تفصيل",
+            "jury": "جوري",
+            "restrictions": "پابنديون",
+            "overview": "اوسر"
+        },
+        "statistics": {
+            "color": "رنگ",
+            "title": "شماريات",
+            "title_year": "سال لاءِ انگ اکر",
+            "title_campaign": "مهم لاءِ انگ اکر",
+            "overview": "اوسر",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "بند",
+        "cancel": "منسوخ ڪريو"
+    },
+    "user": {
+        "*": "يوزر نالو",
+        "noUsers": "ڪو به استعمال ڪندڙ نه مليو",
+        "name": "نالو",
+        "username": "يوزر نالو",
+        "loading": "صارفين کي لوڊ ڪري رهيو آهي..."
+    }
+}

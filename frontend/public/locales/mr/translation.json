@@ -1,0 +1,179 @@
+{
+    "name": "कॅम्पविझ",
+    "article": {
+        "title": "शीर्षक"
+    },
+    "menu": {
+        "name": "कॅम्पविझ",
+        "home": "मुख्यपृष्ठ",
+        "campaign": "मोहीम",
+        "statistics": "आकडेवारी",
+        "users": "वापरकर्ते",
+        "changeLanguage": "भाषा बदला",
+        "reportBug": "दोष नोंदवा",
+        "giveFeedback": "अभिप्राय द्या",
+        "settings": "सेटिंग्ज",
+        "logout": "बाहेर पडणे",
+        "addNewLanguage": "नवीन भाषा जोडा"
+    },
+    "error": {
+        "unknown": "काहीतरी चूक झाली. "
+    },
+    "dashboard": {
+        "welcome": "स्वागत आहे {{username}}",
+        "description": "विकिपीडियावरील सांस्कृतिक विविधता आणि लिंग समावेशकतेचा वार्षिक उत्सव, स्त्रीवाद आणि लोकसाहित्य लेखन स्पर्धेत आपले स्वागत आहे.\n"
+    },
+    "campaign": {
+        "serial": "मालिका",
+        "loading": "मोहीम लोड करत आहे...",
+        "action": {
+            "*": "क्रिया",
+            "cancel_name": "मोहीम रद्द करा",
+            "cancel_prompt": "तुमची खात्री आहे की तुम्ही ही मोहीम रद्द करू इच्छिता?",
+            "cancel_title": "मोहीम रद्द करा",
+            "cancel_zero": "रद्द करा",
+            "cancel_one": "रद्द करा ({{count}})",
+            "cancel": "रद्द करा {{count}}",
+            "approve_name": "मोहिमेला मान्यता द्या",
+            "approve_prompt": "तुमची खात्री आहे की तुम्ही ही मोहीम मंजूर करू इच्छिता?",
+            "approve_title": "मोहिमेला मान्यता द्या",
+            "approve_zero": "मंजूर",
+            "approve_one": "मंजूर ({{count}})",
+            "approve": "मंजूर",
+            "reject": "नकार द्या",
+            "settings": "सेटिंग्ज",
+            "back": "मागे",
+            "save": "जतन करा",
+            "next": "पुढे",
+            "edit": "मोहीम संपादित करा",
+            "create": "मोहीम तयार करा",
+            "search": "फिल्टर करा"
+        },
+        "activeCampaigns": "सक्रिय मोहिमा",
+        "name": "नाव",
+        "language": "इंग्रजी",
+        "startDate": "प्रारंभ तारीख",
+        "endDate": "शेवटची तारीख",
+        "duration": "कालावधी",
+        "status": "स्थिती",
+        "all": "सर्व मोहिमा",
+        "description": "वर्णन",
+        "jury": "ज्युरी",
+        "banner": "बॅनर",
+        "allowExpansions": "वापरकर्त्यांना तयार न करता विस्तारित केलेले लेख सबमिट करण्याची अनुमती द्या",
+        "minimumAddedBytes_help": "मोहिमेच्या सुरुवातीपासून सबमिट केलेल्या लेखावर सहभागीने जोडलेल्या बाइट्सची संख्या",
+        "minimumAddedBytes": "किमान जोडलेले बाइट्स",
+        "minimumAddedWords_help": "मोहिमेच्या सुरुवातीपासून सबमिट केलेल्या लेखावर सहभागीने जोडलेल्या शब्दांची संख्या",
+        "minimumAddedWords": "किमान जोडलेले शब्द",
+        "minimumTotalBytes_help": "मोहिमेच्या सुरुवातीपासून सबमिट केलेल्या लेखावर सहभागी असलेल्या बाइट्सची संख्या असणे आवश्यक आहे",
+        "minimumTotalBytes": "किमान एकूण बाइट्स",
+        "minimumTotalWords_help": "मोहिमेच्या सुरुवातीपासून सबमिट केलेल्या लेखावर सहभागीच्या शब्दांची संख्या असणे आवश्यक आहे",
+        "minimumTotalWords": "किमान एकूण शब्द",
+        "allowJuryToParticipate": "ज्युरी सदस्यांना मोहिमेत सहभागी होण्याची परवानगी द्या",
+        "secretBallot": "ज्युरी सदस्यांना एकमेकांची मते पाहण्यापासून रोखा",
+        "allowMultipleJudgements": "एकाधिक ज्युरी सदस्यांना समान सबमिशनचे मूल्यांकन करण्यास अनुमती द्या",
+        "image": {
+            "url": "विस्तारासह कॉमन्स फाईलचे नाव",
+            "fetch": "प्रतिमा आणा"
+        },
+        "error": {
+            "youAreNotJudge": "तुम्ही या मोहिमेचे ज्युरी सदस्य नाही"
+        },
+        "submission": {
+            "title": "सबमिशन",
+            "new": "नवीन लेख सबमिट करा",
+            "list": "सबमिशन",
+            "note": "नोंद",
+            "judge": "न्यायाधीश",
+            "submitter": "सबमिटर",
+            "points": "गुण",
+            "submittedSuccessfully": "यशस्वीरित्या सबमिट केले",
+            "totalBytes_one": "एकूण {{count}} बाइट",
+            "totalBytes_other": "एकूण {{count}} बाइट्स",
+            "totalWords_one": "एकूण {{count}} शब्द",
+            "totalWords_other": "एकूण {{count}} शब्द",
+            "createdAt": "येथे तयार केले {{createdAt}}",
+            "createdBy": "ने निर्मित {{createdBy}}",
+            "addedBytes_one": "जोडले {{count}} बाइट",
+            "addedBytes_other": "जोडले {{count}} बाइट्स",
+            "addedWords_one": "जोडले {{count}} शब्द",
+            "addedWords_other": "जोडले {{count}} शब्द",
+            "tags": {
+                "*": "टॅग्ज",
+                "expanded": "विस्तारित",
+                "newlyCreated": "नव्याने तयार केले",
+                "expanded_abbr": "इ",
+                "newlyCreated_abbr": "एन"
+            },
+            "status": {
+                "*": "स्थिती",
+                "all": "सर्व",
+                "notEvaluated": "मूल्यमापन केले नाही",
+                "evaluated": "मूल्यमापन केले"
+            },
+            "loading": "सबमिशन लोड करत आहे...",
+            "preview": "पूर्वावलोकन",
+            "preview_loading": "पूर्वावलोकन लोड करत आहे...",
+            "judgement": {
+                "*": "मूल्यमापन",
+                "evaluationSubmittedSuccessfully": "मूल्यांकन यशस्वीरित्या सबमिट केले",
+                "backToSubmissions": "दुसऱ्या सबमिशनचे मूल्यांकन करा",
+                "judgeSubmission": "तुमचे मूल्यमापन जोडा",
+                "note": "टीप (पर्यायी)",
+                "note_placeholder": "सबमिट करणाऱ्याला एक टीप जोडा (पर्यायी)"
+            },
+            "action": {
+                "reject": "नकार द्या",
+                "accept": "स्वीकारा",
+                "evaluate": "मूल्यांकन करा",
+                "evaluate_add": "मूल्यमापन जोडा",
+                "evaluate_title": "सबमिशनचे मूल्यांकन करा",
+                "backToCampaign": "मोहिमेकडे परत जा",
+                "submitAnother": "दुसरे सबमिट करा",
+                "check": "तपासा",
+                "submitOnBehalf": "च्या वतीने सादर करा",
+                "submit": "प्रस्तुत करणे",
+                "delete_zero": "हटवा",
+                "delete_other": "हटवा ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "परिणाम",
+            "totalSubmission_grand": "एकूण सबमिशन",
+            "totalSubmission": "सबमिशन",
+            "totalNewlyCreated_grand": "एकूण नवीन तयार",
+            "totalNewlyCreated": "नव्याने तयार केले",
+            "totalExpanded_grand": "एकूण विस्तारित",
+            "totalExpanded": "विस्तारित",
+            "totalPoints_grand": "एकूण गुण",
+            "totalPoints": "गुण",
+            "username": "वापरकर्तानाव"
+        },
+        "step": {
+            "details": "तपशील",
+            "jury": "ज्युरी",
+            "restrictions": "निर्बंध",
+            "overview": "आढावा"
+        },
+        "statistics": {
+            "color": "रंग",
+            "title": "आकडेवारी",
+            "title_year": "वर्षासाठी आकडेवारी",
+            "title_campaign": "मोहिमेसाठी आकडेवारी",
+            "overview": "आढावा",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "बंद",
+        "cancel": "रद्द करा"
+    },
+    "user": {
+        "*": "वापरकर्तानाव",
+        "noUsers": "कोणतेही वापरकर्ते आढळले नाहीत",
+        "name": "नाव",
+        "username": "वापरकर्तानाव",
+        "loading": "वापरकर्ते लोड करत आहे..."
+    }
+}

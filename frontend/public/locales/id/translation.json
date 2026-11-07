@@ -1,0 +1,179 @@
+{
+    "name": "Gilas Cyber",
+    "article": {
+        "title": "Judul"
+    },
+    "menu": {
+        "name": "Penyihir Perkemahan",
+        "home": "Rumah",
+        "campaign": "Kampanye",
+        "statistics": "Statistik",
+        "users": "Pengguna",
+        "changeLanguage": "Ganti BAHASA",
+        "reportBug": "Melaporkan kesalahan",
+        "giveFeedback": "Berikan umpan balik",
+        "settings": "Pengaturan",
+        "logout": "Keluar",
+        "addNewLanguage": "Tambahkan Bahasa Baru"
+    },
+    "error": {
+        "unknown": "Ada yang salah. "
+    },
+    "dashboard": {
+        "welcome": "Selamat datang {{username}}",
+        "description": "Selamat datang di Kontes Penulisan Feminisme dan Cerita Rakyat, sebuah perayaan tahunan keanekaragaman budaya dan inklusivitas gender di Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "Serial",
+        "loading": "Memuat kampanye...",
+        "action": {
+            "*": "Tindakan",
+            "cancel_name": "Batalkan Kampanye",
+            "cancel_prompt": "Apakah Anda yakin ingin membatalkan kampanye ini?",
+            "cancel_title": "Batalkan Kampanye",
+            "cancel_zero": "Membatalkan",
+            "cancel_one": "Cancel ({{count}})",
+            "cancel": "Membatalkan {{count}}",
+            "approve_name": "Setujui Kampanye",
+            "approve_prompt": "Apakah Anda yakin ingin menyetujui kampanye ini?",
+            "approve_title": "Setujui Kampanye",
+            "approve_zero": "Menyetujui",
+            "approve_one": "Approve ({{count}})",
+            "approve": "Menyetujui",
+            "reject": "Menolak",
+            "settings": "Pengaturan",
+            "back": "Kembali",
+            "save": "Menyimpan",
+            "next": "Berikutnya",
+            "edit": "Sunting Kampanye",
+            "create": "Buat Kampanye",
+            "search": "Saring"
+        },
+        "activeCampaigns": "Kampanye Aktif",
+        "name": "Nama",
+        "language": "Bahasa",
+        "startDate": "Mulai tanggal",
+        "endDate": "Tanggal Berakhir",
+        "duration": "Durasi",
+        "status": "Status",
+        "all": "Semua Kampanye",
+        "description": "Keterangan",
+        "jury": "Juri",
+        "banner": "Spanduk",
+        "allowExpansions": "Izinkan pengguna untuk mengirimkan artikel yang tidak dibuat melainkan diperluas",
+        "minimumAddedBytes_help": "Jumlah byte yang harus ditambahkan peserta pada artikel yang dikirimkan sejak awal kampanye",
+        "minimumAddedBytes": "Byte Tambahan Minimum",
+        "minimumAddedWords_help": "Jumlah kata yang harus ditambahkan peserta pada artikel yang dikirimkan sejak awal kampanye",
+        "minimumAddedWords": "Kata Tambahan Minimal",
+        "minimumTotalBytes_help": "Jumlah byte yang harus dimiliki peserta pada artikel yang dikirimkan sejak awal kampanye",
+        "minimumTotalBytes": "Total Byte Minimum",
+        "minimumTotalWords_help": "Jumlah kata yang harus dimiliki peserta pada artikel yang dikirimkan sejak awal kampanye",
+        "minimumTotalWords": "Jumlah Kata Minimal",
+        "allowJuryToParticipate": "Izinkan anggota juri untuk berpartisipasi dalam kampanye",
+        "secretBallot": "Cegah anggota juri melihat suara satu sama lain",
+        "allowMultipleJudgements": "Izinkan beberapa anggota juri untuk mengevaluasi kiriman yang sama",
+        "image": {
+            "url": "Nama File Commons dengan Ekstensi",
+            "fetch": "Ambil Gambar"
+        },
+        "error": {
+            "youAreNotJudge": "Anda bukan anggota juri kampanye ini"
+        },
+        "submission": {
+            "title": "Kiriman",
+            "new": "Kirim Artikel Baru",
+            "list": "Kiriman",
+            "note": "Catatan",
+            "judge": "Hakim",
+            "submitter": "Pengirim",
+            "points": "Poin",
+            "submittedSuccessfully": "Berhasil dikirimkan",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "Total {{count}} byte",
+            "totalWords_one": "Total {{count}} word",
+            "totalWords_other": "Total {{count}} kata-kata",
+            "createdAt": "Dibuat di {{createdAt}}",
+            "createdBy": "Dibuat oleh {{createdBy}}",
+            "addedBytes_one": "Added {{count}} byte",
+            "addedBytes_other": "Ditambahkan {{count}} byte",
+            "addedWords_one": "Added {{count}} word",
+            "addedWords_other": "Ditambahkan {{count}} kata-kata",
+            "tags": {
+                "*": "Tag",
+                "expanded": "Diperluas",
+                "newlyCreated": "Baru Dibuat",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Status",
+                "all": "Semua",
+                "notEvaluated": "tidak dievaluasi",
+                "evaluated": "Dievaluasi"
+            },
+            "loading": "Memuat kiriman...",
+            "preview": "Pratinjau",
+            "preview_loading": "Memuat pratinjau...",
+            "judgement": {
+                "*": "Evaluasi",
+                "evaluationSubmittedSuccessfully": "Evaluasi berhasil dikirimkan",
+                "backToSubmissions": "Evaluasi kiriman lainnya",
+                "judgeSubmission": "Tambahkan Evaluasi Anda",
+                "note": "Catatan (Opsional)",
+                "note_placeholder": "Tambahkan catatan ke pengirim (opsional)"
+            },
+            "action": {
+                "reject": "Menolak",
+                "accept": "Menerima",
+                "evaluate": "Evaluasi",
+                "evaluate_add": "Tambahkan Evaluasi",
+                "evaluate_title": "Evaluasi Penyerahan",
+                "backToCampaign": "Kembali ke Kampanye",
+                "submitAnother": "Kirim Yang Lain",
+                "check": "Memeriksa",
+                "submitOnBehalf": "Kirim atas nama",
+                "submit": "Kirim",
+                "delete_zero": "Menghapus",
+                "delete_other": "Menghapus ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Hasil",
+            "totalSubmission_grand": "Jumlah Kiriman",
+            "totalSubmission": "Kiriman",
+            "totalNewlyCreated_grand": "Total Baru Dibuat",
+            "totalNewlyCreated": "Baru Dibuat",
+            "totalExpanded_grand": "Jumlah Diperluas",
+            "totalExpanded": "Diperluas",
+            "totalPoints_grand": "Jumlah Poin",
+            "totalPoints": "Poin",
+            "username": "Nama belakang"
+        },
+        "step": {
+            "details": "Detail",
+            "jury": "Juri",
+            "restrictions": "Pembatasan",
+            "overview": "Ringkasan"
+        },
+        "statistics": {
+            "color": "Warna",
+            "title": "Statistik",
+            "title_year": "Statistik untuk tahun ini",
+            "title_campaign": "Statistik kampanye",
+            "overview": "Ringkasan",
+            "date": "Tanggal"
+        }
+    },
+    "action": {
+        "close": "Menutup",
+        "cancel": "Membatalkan"
+    },
+    "user": {
+        "*": "Nama belakang",
+        "noUsers": "Tidak ada pengguna yang ditemukan",
+        "name": "Nama",
+        "username": "Nama belakang",
+        "loading": "Memuat pengguna..."
+    }
+}

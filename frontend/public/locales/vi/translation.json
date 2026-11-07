@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Tiêu đề"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Trang chủ",
+        "campaign": "Chiến dịch",
+        "statistics": "Số liệu thống kê",
+        "users": "Người dùng",
+        "changeLanguage": "Thay đổi ngôn ngữ",
+        "reportBug": "Báo cáo lỗi",
+        "giveFeedback": "Cung cấp thông tin phản hồi",
+        "settings": "Cài đặt",
+        "logout": "Đăng xuất",
+        "addNewLanguage": "Thêm ngôn ngữ mới"
+    },
+    "error": {
+        "unknown": "Đã xảy ra lỗi. "
+    },
+    "dashboard": {
+        "welcome": "Chào mừng {{username}}",
+        "description": "Chào mừng bạn đến với Cuộc thi viết về Chủ nghĩa nữ quyền và văn hóa dân gian, một lễ kỷ niệm thường niên về sự đa dạng văn hóa và sự hòa nhập giới tính trên Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "nối tiếp",
+        "loading": "Đang tải chiến dịch...",
+        "action": {
+            "*": "hành động",
+            "cancel_name": "Hủy chiến dịch",
+            "cancel_prompt": "Bạn có chắc chắn muốn hủy chiến dịch này không?",
+            "cancel_title": "Hủy chiến dịch",
+            "cancel_zero": "Hủy bỏ",
+            "cancel_one": "Cancel ({{count}})",
+            "cancel": "Hủy bỏ {{count}}",
+            "approve_name": "Phê duyệt chiến dịch",
+            "approve_prompt": "Bạn có chắc chắn muốn phê duyệt chiến dịch này không?",
+            "approve_title": "Phê duyệt chiến dịch",
+            "approve_zero": "Chấp thuận",
+            "approve_one": "Approve ({{count}})",
+            "approve": "Chấp thuận",
+            "reject": "Từ chối",
+            "settings": "Cài đặt",
+            "back": "Mặt sau",
+            "save": "Cứu",
+            "next": "Kế tiếp",
+            "edit": "Chỉnh sửa chiến dịch",
+            "create": "Tạo chiến dịch",
+            "search": "Lọc"
+        },
+        "activeCampaigns": "Chiến dịch đang hoạt động",
+        "name": "Tên",
+        "language": "Ngôn ngữ",
+        "startDate": "Ngày bắt đầu",
+        "endDate": "Ngày cuối",
+        "duration": "Khoảng thời gian",
+        "status": "Trạng thái",
+        "all": "Tất cả chiến dịch",
+        "description": "Sự miêu tả",
+        "jury": "Bồi thẩm đoàn",
+        "banner": "Ngọn cờ",
+        "allowExpansions": "Cho phép người dùng gửi bài viết chưa được tạo thay vì mở rộng",
+        "minimumAddedBytes_help": "Số byte người tham gia phải thêm vào bài viết đã gửi kể từ khi bắt đầu chiến dịch",
+        "minimumAddedBytes": "Số byte được thêm vào tối thiểu",
+        "minimumAddedWords_help": "Số từ mà người tham gia phải thêm vào bài viết đã gửi kể từ khi bắt đầu chiến dịch",
+        "minimumAddedWords": "Số từ được thêm tối thiểu",
+        "minimumTotalBytes_help": "Số byte mà người tham gia phải có trên bài viết đã gửi kể từ khi bắt đầu chiến dịch",
+        "minimumTotalBytes": "Tổng số byte tối thiểu",
+        "minimumTotalWords_help": "Số từ mà người tham gia phải có trên bài viết đã gửi kể từ khi bắt đầu chiến dịch",
+        "minimumTotalWords": "Tổng số từ tối thiểu",
+        "allowJuryToParticipate": "Cho phép các thành viên ban giám khảo tham gia vào chiến dịch",
+        "secretBallot": "Ngăn cản các thành viên ban giám khảo nhìn thấy phiếu bầu của nhau",
+        "allowMultipleJudgements": "Cho phép nhiều thành viên ban giám khảo đánh giá cùng một bài nộp",
+        "image": {
+            "url": "Tên tệp Commons có phần mở rộng",
+            "fetch": "Tìm nạp hình ảnh"
+        },
+        "error": {
+            "youAreNotJudge": "Bạn không phải là thành viên ban giám khảo của chiến dịch này"
+        },
+        "submission": {
+            "title": "Bài nộp",
+            "new": "Gửi bài viết mới",
+            "list": "bài nộp",
+            "note": "Ghi chú",
+            "judge": "Phán xét",
+            "submitter": "Người gửi",
+            "points": "Điểm",
+            "submittedSuccessfully": "gửi thành công",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "Tổng cộng {{count}} byte",
+            "totalWords_one": "Total {{count}} word",
+            "totalWords_other": "Tổng cộng {{count}} từ",
+            "createdAt": "Được tạo tại {{createdAt}}",
+            "createdBy": "Được tạo bởi {{createdBy}}",
+            "addedBytes_one": "Added {{count}} byte",
+            "addedBytes_other": "Thêm {{count}} byte",
+            "addedWords_one": "Added {{count}} word",
+            "addedWords_other": "Thêm {{count}} từ",
+            "tags": {
+                "*": "Thẻ",
+                "expanded": "Đã mở rộng",
+                "newlyCreated": "Mới được tạo",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Trạng thái",
+                "all": "Tất cả",
+                "notEvaluated": "Không được đánh giá",
+                "evaluated": "Đã đánh giá"
+            },
+            "loading": "Đang tải nội dung gửi...",
+            "preview": "Xem trước",
+            "preview_loading": "Đang tải bản xem trước...",
+            "judgement": {
+                "*": "Sự đánh giá",
+                "evaluationSubmittedSuccessfully": "Đã gửi đánh giá thành công",
+                "backToSubmissions": "Đánh giá một bài nộp khác",
+                "judgeSubmission": "Thêm đánh giá của bạn",
+                "note": "Lưu ý (Tùy chọn)",
+                "note_placeholder": "Thêm ghi chú cho người gửi (tùy chọn)"
+            },
+            "action": {
+                "reject": "Từ chối",
+                "accept": "Chấp nhận",
+                "evaluate": "Đánh giá",
+                "evaluate_add": "Thêm đánh giá",
+                "evaluate_title": "Đánh giá bài nộp",
+                "backToCampaign": "Quay lại Chiến dịch",
+                "submitAnother": "Gửi cái khác",
+                "check": "Kiểm tra",
+                "submitOnBehalf": "Gửi thay mặt cho",
+                "submit": "Nộp",
+                "delete_zero": "Xóa bỏ",
+                "delete_other": "Xóa bỏ ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Kết quả",
+            "totalSubmission_grand": "Tổng số bài gửi",
+            "totalSubmission": "bài nộp",
+            "totalNewlyCreated_grand": "Tổng số mới được tạo",
+            "totalNewlyCreated": "Mới được tạo",
+            "totalExpanded_grand": "Tổng số mở rộng",
+            "totalExpanded": "Đã mở rộng",
+            "totalPoints_grand": "Tổng số điểm",
+            "totalPoints": "Điểm",
+            "username": "tên tài khoản"
+        },
+        "step": {
+            "details": "Chi tiết",
+            "jury": "Bồi thẩm đoàn",
+            "restrictions": "Những hạn chế",
+            "overview": "Tổng quan"
+        },
+        "statistics": {
+            "color": "Màu sắc",
+            "title": "Số liệu thống kê",
+            "title_year": "Thống kê trong năm",
+            "title_campaign": "Thống kê cho chiến dịch",
+            "overview": "Tổng quan",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Đóng",
+        "cancel": "Hủy bỏ"
+    },
+    "user": {
+        "*": "tên tài khoản",
+        "noUsers": "Không tìm thấy người dùng",
+        "name": "Tên",
+        "username": "tên tài khoản",
+        "loading": "Đang tải người dùng..."
+    }
+}

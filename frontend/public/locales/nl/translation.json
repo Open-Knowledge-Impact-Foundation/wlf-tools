@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Titel"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Thuis",
+        "campaign": "Campagne",
+        "statistics": "Statistieken",
+        "users": "Gebruikers",
+        "changeLanguage": "Taal wijzigen",
+        "reportBug": "Rapporteer bug",
+        "giveFeedback": "Geef feedback",
+        "settings": "Instellingen",
+        "logout": "Uitloggen",
+        "addNewLanguage": "Nieuwe taal toevoegen"
+    },
+    "error": {
+        "unknown": "Er is iets fout gegaan. "
+    },
+    "dashboard": {
+        "welcome": "Welkom {{username}}",
+        "description": "Welkom bij de Feminism and Folklore Writing Contest, een jaarlijkse viering van culturele diversiteit en genderinclusiviteit op Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "Serieel",
+        "loading": "Campagne laden...",
+        "action": {
+            "*": "Acties",
+            "cancel_name": "Campagne annuleren",
+            "cancel_prompt": "Weet u zeker dat u deze campagne wilt annuleren?",
+            "cancel_title": "Campagne annuleren",
+            "cancel_zero": "Annuleren",
+            "cancel_one": "Annuleren ({{count}})",
+            "cancel": "Annuleren {{count}}",
+            "approve_name": "Campagne goedkeuren",
+            "approve_prompt": "Weet u zeker dat u deze campagne wilt goedkeuren?",
+            "approve_title": "Campagne goedkeuren",
+            "approve_zero": "Goedkeuren",
+            "approve_one": "Goedkeuren ({{count}})",
+            "approve": "Goedkeuren",
+            "reject": "Afwijzen",
+            "settings": "Instellingen",
+            "back": "Rug",
+            "save": "Redden",
+            "next": "Volgende",
+            "edit": "Campagne bewerken",
+            "create": "Campagne maken",
+            "search": "Filter"
+        },
+        "activeCampaigns": "Actieve campagnes",
+        "name": "Naam",
+        "language": "Taal",
+        "startDate": "Begin datum",
+        "endDate": "Einddatum",
+        "duration": "Duur",
+        "status": "Toestand",
+        "all": "Alle campagnes",
+        "description": "Beschrijving",
+        "jury": "Jury",
+        "banner": "Banier",
+        "allowExpansions": "Sta gebruikers toe artikelen in te dienen die niet eerder zijn gemaakt, maar eerder uitgebreid",
+        "minimumAddedBytes_help": "Het aantal bytes dat de deelnemer sinds het begin van de campagne moet toevoegen aan het ingezonden artikel",
+        "minimumAddedBytes": "Minimaal toegevoegde bytes",
+        "minimumAddedWords_help": "Het aantal woorden dat de deelnemer sinds het begin van de campagne moet toevoegen aan het ingezonden artikel",
+        "minimumAddedWords": "Minimaal toegevoegde woorden",
+        "minimumTotalBytes_help": "Het aantal bytes dat de deelnemer sinds het begin van de campagne over het ingezonden artikel moet hebben",
+        "minimumTotalBytes": "Minimaal totaal aantal bytes",
+        "minimumTotalWords_help": "Het aantal woorden dat de deelnemer sinds het begin van de campagne over het ingezonden artikel moet hebben",
+        "minimumTotalWords": "Minimaal totaal aantal woorden",
+        "allowJuryToParticipate": "Laat juryleden deelnemen aan de campagne",
+        "secretBallot": "Voorkom dat juryleden elkaars stemmen kunnen zien",
+        "allowMultipleJudgements": "Laat meerdere juryleden dezelfde inzending beoordelen",
+        "image": {
+            "url": "Commons-bestandsnaam met extensie",
+            "fetch": "Afbeelding ophalen"
+        },
+        "error": {
+            "youAreNotJudge": "U bent geen jurylid van deze campagne"
+        },
+        "submission": {
+            "title": "Inzendingen",
+            "new": "Nieuw artikel indienen",
+            "list": "Inzendingen",
+            "note": "Opmerking",
+            "judge": "Rechter",
+            "submitter": "Indiener",
+            "points": "Punten",
+            "submittedSuccessfully": "Succesvol ingediend",
+            "totalBytes_one": "Totaal {{count}} byte",
+            "totalBytes_other": "Totaal {{count}} bytes",
+            "totalWords_one": "Totaal {{count}} woord",
+            "totalWords_other": "Totaal {{count}} woorden",
+            "createdAt": "Gemaakt bij {{createdAt}}",
+            "createdBy": "Gemaakt door {{createdBy}}",
+            "addedBytes_one": "Toegevoegd {{count}} byte",
+            "addedBytes_other": "Toegevoegd {{count}} bytes",
+            "addedWords_one": "Toegevoegd {{count}} woord",
+            "addedWords_other": "Toegevoegd {{count}} woorden",
+            "tags": {
+                "*": "Labels",
+                "expanded": "Uitgebreid",
+                "newlyCreated": "Nieuw gemaakt",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Toestand",
+                "all": "Alle",
+                "notEvaluated": "Niet geëvalueerd",
+                "evaluated": "Geëvalueerd"
+            },
+            "loading": "Inzendingen laden...",
+            "preview": "Voorbeeld",
+            "preview_loading": "Voorbeeld laden...",
+            "judgement": {
+                "*": "Evaluatie",
+                "evaluationSubmittedSuccessfully": "Evaluatie succesvol verzonden",
+                "backToSubmissions": "Evalueer een andere inzending",
+                "judgeSubmission": "Voeg uw evaluatie toe",
+                "note": "Opmerking (optioneel)",
+                "note_placeholder": "Voeg een notitie toe aan de indiener (optioneel)"
+            },
+            "action": {
+                "reject": "Afwijzen",
+                "accept": "Aanvaarden",
+                "evaluate": "Evalueer",
+                "evaluate_add": "Evaluatie toevoegen",
+                "evaluate_title": "Evalueer de inzending",
+                "backToCampaign": "Terug naar Campagne",
+                "submitAnother": "Dien er nog een in",
+                "check": "Rekening",
+                "submitOnBehalf": "Inleveren namens",
+                "submit": "Indienen",
+                "delete_zero": "Verwijderen",
+                "delete_other": "Verwijderen ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Resultaten",
+            "totalSubmission_grand": "Totaal aantal inzendingen",
+            "totalSubmission": "Inzendingen",
+            "totalNewlyCreated_grand": "Totaal nieuw gemaakt",
+            "totalNewlyCreated": "Nieuw gemaakt",
+            "totalExpanded_grand": "Totaal uitgebreid",
+            "totalExpanded": "Uitgebreid",
+            "totalPoints_grand": "Puntentotaal",
+            "totalPoints": "Punten",
+            "username": "Gebruikersnaam"
+        },
+        "step": {
+            "details": "Details",
+            "jury": "Jury",
+            "restrictions": "Beperkingen",
+            "overview": "Overzicht"
+        },
+        "statistics": {
+            "color": "Kleur",
+            "title": "Statistieken",
+            "title_year": "Statistieken voor het jaar",
+            "title_campaign": "Statistieken voor de campagne",
+            "overview": "Overzicht",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Dichtbij",
+        "cancel": "Annuleren"
+    },
+    "user": {
+        "*": "Gebruikersnaam",
+        "noUsers": "Geen gebruikers gevonden",
+        "name": "Naam",
+        "username": "Gebruikersnaam",
+        "loading": "Gebruikers laden..."
+    }
+}

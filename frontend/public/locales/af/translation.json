@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Titel"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Tuis",
+        "campaign": "Veldtog",
+        "statistics": "Statistiek",
+        "users": "Gebruikers",
+        "changeLanguage": "Verander taal",
+        "reportBug": "Rapporteer fout",
+        "giveFeedback": "Gee terugvoering",
+        "settings": "Instellings",
+        "logout": "Teken uit",
+        "addNewLanguage": "Voeg nuwe taal by"
+    },
+    "error": {
+        "unknown": "Iets het verkeerd geloop. "
+    },
+    "dashboard": {
+        "welcome": "Welkom {{username}}",
+        "description": "Welkom by die Feminisme en Folklore Skryfkompetisie, 'n jaarlikse viering van kulturele diversiteit en geslagsinklusiwiteit op Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "Reeks",
+        "loading": "Laai tans veldtog …",
+        "action": {
+            "*": "Aksies",
+            "cancel_name": "Kanselleer veldtog",
+            "cancel_prompt": "Is jy seker jy wil hierdie veldtog kanselleer?",
+            "cancel_title": "Kanselleer veldtog",
+            "cancel_zero": "Kanselleer",
+            "cancel_one": "Kanselleer ({{count}})",
+            "cancel": "Kanselleer {{count}}",
+            "approve_name": "Keur veldtog goed",
+            "approve_prompt": "Is jy seker jy wil hierdie veldtog goedkeur?",
+            "approve_title": "Keur veldtog goed",
+            "approve_zero": "Keur goed",
+            "approve_one": "Keur goed ({{count}})",
+            "approve": "Keur goed",
+            "reject": "Verwerp",
+            "settings": "Instellings",
+            "back": "Terug",
+            "save": "Stoor",
+            "next": "Volgende",
+            "edit": "Wysig veldtog",
+            "create": "Skep veldtog",
+            "search": "Filter"
+        },
+        "activeCampaigns": "Aktiewe veldtogte",
+        "name": "Naam",
+        "language": "Taal",
+        "startDate": "Begindatum",
+        "endDate": "Einddatum",
+        "duration": "Duur",
+        "status": "Status",
+        "all": "Alle veldtogte",
+        "description": "Beskrywing",
+        "jury": "Jurie",
+        "banner": "Banier",
+        "allowExpansions": "Laat gebruikers toe om artikels in te dien wat nie geskep is nie, eerder uitgebrei",
+        "minimumAddedBytes_help": "Die aantal grepe wat die deelnemer sedert die begin van die veldtog op die artikel moet byvoeg",
+        "minimumAddedBytes": "Minimum Bytes bygevoeg",
+        "minimumAddedWords_help": "Die aantal woorde wat die deelnemer sedert die begin van die veldtog op die artikel moet byvoeg",
+        "minimumAddedWords": "Minimum bygevoegde woorde",
+        "minimumTotalBytes_help": "Die aantal grepe wat die deelnemer sedert die begin van die veldtog op die artikel moet hê",
+        "minimumTotalBytes": "Minimum totale grepe",
+        "minimumTotalWords_help": "Die aantal woorde wat die deelnemer sedert die begin van die veldtog op die artikel moet hê",
+        "minimumTotalWords": "Minimum Totale Woorde",
+        "allowJuryToParticipate": "Laat jurielede toe om aan die veldtog deel te neem",
+        "secretBallot": "Verhoed dat jurielede mekaar se stemme sien",
+        "allowMultipleJudgements": "Laat verskeie jurielede toe om dieselfde voorlegging te evalueer",
+        "image": {
+            "url": "Commons-lêernaam met uitbreiding",
+            "fetch": "Haal prent"
+        },
+        "error": {
+            "youAreNotJudge": "Jy is nie 'n jurielid van hierdie veldtog nie"
+        },
+        "submission": {
+            "title": "Voorleggings",
+            "new": "Dien nuwe artikel in",
+            "list": "Voorleggings",
+            "note": "Let wel",
+            "judge": "Beoordeel",
+            "submitter": "Indiener",
+            "points": "Punte",
+            "submittedSuccessfully": "Suksesvol ingedien",
+            "totalBytes_one": "Totaal {{count}} greep",
+            "totalBytes_other": "Totaal {{count}} grepe",
+            "totalWords_one": "Totaal {{count}} woord",
+            "totalWords_other": "Totaal {{count}} woorde",
+            "createdAt": "Geskep by {{createdAt}}",
+            "createdBy": "Gemaak deur {{createdBy}}",
+            "addedBytes_one": "Bygevoeg {{count}} greep",
+            "addedBytes_other": "Bygevoeg {{count}} grepe",
+            "addedWords_one": "Bygevoeg {{count}} woord",
+            "addedWords_other": "Bygevoeg {{count}} woorde",
+            "tags": {
+                "*": "Merkers",
+                "expanded": "Uitgebreid",
+                "newlyCreated": "Nuut Geskep",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Status",
+                "all": "Almal",
+                "notEvaluated": "Nie geëvalueer nie",
+                "evaluated": "Geëvalueer"
+            },
+            "loading": "Laai tans voorleggings …",
+            "preview": "Voorskou",
+            "preview_loading": "Laai tans voorskou …",
+            "judgement": {
+                "*": "Evaluering",
+                "evaluationSubmittedSuccessfully": "Evaluering suksesvol ingedien",
+                "backToSubmissions": "Evalueer 'n ander voorlegging",
+                "judgeSubmission": "Voeg jou evaluering by",
+                "note": "Nota (opsioneel)",
+                "note_placeholder": "Voeg 'n nota by die indiener (opsioneel)"
+            },
+            "action": {
+                "reject": "Verwerp",
+                "accept": "Aanvaar",
+                "evaluate": "Evalueer",
+                "evaluate_add": "Voeg evaluering by",
+                "evaluate_title": "Evalueer voorlegging",
+                "backToCampaign": "Terug na Veldtog",
+                "submitAnother": "Dien nog een in",
+                "check": "Tjek",
+                "submitOnBehalf": "Dien in namens",
+                "submit": "Indien",
+                "delete_zero": "Vee uit",
+                "delete_other": "Vee uit ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Resultate",
+            "totalSubmission_grand": "Totale voorleggings",
+            "totalSubmission": "Voorleggings",
+            "totalNewlyCreated_grand": "Totaal nuut geskep",
+            "totalNewlyCreated": "Nuut Geskep",
+            "totalExpanded_grand": "Totaal uitgebrei",
+            "totalExpanded": "Uitgebreid",
+            "totalPoints_grand": "Totale punte",
+            "totalPoints": "Punte",
+            "username": "Gebruikersnaam"
+        },
+        "step": {
+            "details": "Besonderhede",
+            "jury": "Jurie",
+            "restrictions": "Beperkings",
+            "overview": "Oorsig"
+        },
+        "statistics": {
+            "color": "Kleur",
+            "title": "Statistiek",
+            "title_year": "Statistieke vir die jaar",
+            "title_campaign": "Statistieke vir die veldtog",
+            "overview": "Oorsig",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Naby",
+        "cancel": "Kanselleer"
+    },
+    "user": {
+        "*": "Gebruikersnaam",
+        "noUsers": "Geen gebruikers gevind nie",
+        "name": "Naam",
+        "username": "Gebruikersnaam",
+        "loading": "Laai tans gebruikers..."
+    }
+}

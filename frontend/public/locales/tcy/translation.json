@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Title"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Home",
+        "campaign": "ಪಂತೊ",
+        "statistics": "Statistics",
+        "users": "Users",
+        "changeLanguage": "ಬಾಸೆ ಬದಲ್ಪುಲೆ",
+        "reportBug": "Report Bug",
+        "giveFeedback": "Give Feedback",
+        "settings": "Settings",
+        "logout": "Logout",
+        "addNewLanguage": "ಪೊಸ ಬಾಸೆ ಸೇರಲೆ"
+    },
+    "error": {
+        "unknown": "Something went wrong. Please try again later."
+    },
+    "dashboard": {
+        "welcome": "Welcome {{username}}",
+        "description": "Welcome to the Feminism and Folklore Writing Contest, an annual celebration of cultural diversity and gender inclusivity on Wikipedia.\nThis contest invites passionate contributors to embark on a journey of documenting local cultural events, folk-related activities, and the often overlooked but significant contributions of women.\nAs an integral part of the Wiki Loves Folklore (WLF) campaign this project goes beyond the lens of photography, encouraging participants to craft compelling narratives through the creation and expansion of Wikipedia articles."
+    },
+    "campaign": {
+        "serial": "Serial",
+        "loading": "Loading campaign...",
+        "action": {
+            "*": "Actions",
+            "cancel_name": "Cancel Campaign",
+            "cancel_prompt": "ನಡಪುನ ಈ ಪಂತೊನ್‌ ರದ್ದ್‌ ಮಾನ್ಪುನಾನ?",
+            "cancel_title": "ಪಂತೊನ್‌ ರದ್ದ್‌ ಮಾನ್ಪಿ",
+            "cancel_zero": "ರದ್ದ್",
+            "cancel_one": "Cancel ({{count}})",
+            "cancel": "Cancel {{count}}",
+            "approve_name": "Approve Campaign",
+            "approve_prompt": "Are you sure you want to approve this campaign?",
+            "approve_title": "Approve Campaign",
+            "approve_zero": "ಒಪ್ಪುಲೆ",
+            "approve_one": "Approve ({{count}})",
+            "approve": "Approve",
+            "reject": "Reject",
+            "settings": "Settings",
+            "back": "ಪಿರಾವು",
+            "save": "Save",
+            "next": "ಬೇತೆ",
+            "edit": "ಪಂತೊಗ್‌ ಸೇರಲೆ",
+            "create": "ಪಂತೊ ಸುರು ಮಾನ್ಪುಲೆ",
+            "search": "Filter"
+        },
+        "activeCampaigns": "Active Campaigns",
+        "name": "Name",
+        "language": "Language",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "duration": "Duration",
+        "status": "Status",
+        "all": "All Campaigns",
+        "description": "Description",
+        "jury": "Jury",
+        "banner": "Banner",
+        "allowExpansions": "Allow users to submit articles that were not created rather expanded",
+        "minimumAddedBytes_help": "The number of bytes the participant must add on the submitted article since the beginning of the campaign",
+        "minimumAddedBytes": "Minimum Added Bytes",
+        "minimumAddedWords_help": "The number of words the participant must add on the submitted article since the beginning of the campaign",
+        "minimumAddedWords": "Minimum Added Words",
+        "minimumTotalBytes_help": "The number of bytes the participant must have on the submitted article since the beginning of the campaign",
+        "minimumTotalBytes": "Minimum Total Bytes",
+        "minimumTotalWords_help": "The number of words the participant must have on the submitted article since the beginning of the campaign",
+        "minimumTotalWords": "Minimum Total Words",
+        "allowJuryToParticipate": "Allow jury members to participate in the campaign",
+        "secretBallot": "Prevent jury members from seeing each other's votes",
+        "allowMultipleJudgements": "Allow multiple jury members to evaluate the same submission",
+        "image": {
+            "url": "Commons File Name with Extension",
+            "fetch": "Fetch Image"
+        },
+        "error": {
+            "youAreNotJudge": "You are not a jury member of this campaign"
+        },
+        "submission": {
+            "title": "Submissions",
+            "new": "Submit New Article",
+            "list": "Submissions",
+            "note": "Note",
+            "judge": "Judge",
+            "submitter": "Submitter",
+            "points": "Points",
+            "submittedSuccessfully": "Submitted successfully",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "Total {{count}} bytes",
+            "totalWords_one": "Total {{count}} word",
+            "totalWords_other": "Total {{count}} words",
+            "createdAt": "Created At {{createdAt}}",
+            "createdBy": "Created By {{createdBy}}",
+            "addedBytes_one": "Added {{count}} byte",
+            "addedBytes_other": "Added {{count}} bytes",
+            "addedWords_one": "Added {{count}} word",
+            "addedWords_other": "Added {{count}} words",
+            "tags": {
+                "*": "Tags",
+                "expanded": "Expanded",
+                "newlyCreated": "Newly Created",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Status",
+                "all": "All",
+                "notEvaluated": "Not Evaluated",
+                "evaluated": "Evaluated"
+            },
+            "loading": "Loading submissions...",
+            "preview": "Preview",
+            "preview_loading": "Loading preview...",
+            "judgement": {
+                "*": "Evaluation",
+                "evaluationSubmittedSuccessfully": "Evaluation submitted successfully",
+                "backToSubmissions": "Evaluate another submission",
+                "judgeSubmission": "Add your Evaluation",
+                "note": "Note (Optional)",
+                "note_placeholder": "Add a note to the submitter (optional)"
+            },
+            "action": {
+                "reject": "Reject",
+                "accept": "Accept",
+                "evaluate": "Evaluate",
+                "evaluate_add": "Add Evaluation",
+                "evaluate_title": "Evaluate Submission",
+                "backToCampaign": "Back to Campaign",
+                "submitAnother": "Submit Another",
+                "check": "Check",
+                "submitOnBehalf": "Submit on behalf of",
+                "submit": "Submit",
+                "delete_zero": "Delete",
+                "delete_other": "Delete ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Results",
+            "totalSubmission_grand": "Total Submissions",
+            "totalSubmission": "Submissions",
+            "totalNewlyCreated_grand": "Total Newly Created",
+            "totalNewlyCreated": "Newly Created",
+            "totalExpanded_grand": "Total Expanded",
+            "totalExpanded": "Expanded",
+            "totalPoints_grand": "Total Points",
+            "totalPoints": "Points",
+            "username": "Username"
+        },
+        "step": {
+            "details": "Details",
+            "jury": "Jury",
+            "restrictions": "Restrictions",
+            "overview": "Overview"
+        },
+        "statistics": {
+            "color": "Color",
+            "title": "Statistics",
+            "title_year": "Statistics for the year",
+            "title_campaign": "Statistics for the campaign",
+            "overview": "Overview",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Close",
+        "cancel": "Cancel"
+    },
+    "user": {
+        "*": "Username",
+        "noUsers": "No users found",
+        "name": "Name",
+        "username": "Username",
+        "loading": "Loading users..."
+    }
+}

@@ -1,0 +1,287 @@
+{| class="wikitable"
+|-
+! Code !! gom
+|-
+| action.cancel || <nowiki>रद्द</nowiki>
+|-
+| action.close || <nowiki>धांपप</nowiki>
+|-
+| article.title || <nowiki>शीर्षक</nowiki>
+|-
+| campaign.action.* || <nowiki>कृती करप</nowiki>
+|-
+| campaign.action.approve || <nowiki>मान्यताय</nowiki>
+|-
+| campaign.action.approve_name || <nowiki>मोहिमेची मान्यताय दिवप</nowiki>
+|-
+| campaign.action.approve_one || <nowiki>मान्यताय ({{count}}) हें .</nowiki>
+|-
+| campaign.action.approve_prompt || <nowiki>तुमकां खात्री आसा की तुमकां ही मोहीम मान्य करपाची आसा?</nowiki>
+|-
+| campaign.action.approve_title || <nowiki>मोहिमेची मान्यताय दिवप</nowiki>
+|-
+| campaign.action.approve_zero || <nowiki>मान्यताय</nowiki>
+|-
+| campaign.action.back || <nowiki>फाटीं</nowiki>
+|-
+| campaign.action.cancel || <nowiki>रद्द {{count}}</nowiki>
+|-
+| campaign.action.cancel_name || <nowiki>मोहीम रद्द करची</nowiki>
+|-
+| campaign.action.cancel_one || <nowiki>रद्द ({{count}}) हें .</nowiki>
+|-
+| campaign.action.cancel_prompt || <nowiki>तुमकां ही मोहीम रद्द करपाची खात्री आसा?</nowiki>
+|-
+| campaign.action.cancel_title || <nowiki>मोहीम रद्द करची</nowiki>
+|-
+| campaign.action.cancel_zero || <nowiki>रद्द</nowiki>
+|-
+| campaign.action.create || <nowiki>मोहीम तयार करप</nowiki>
+|-
+| campaign.action.edit || <nowiki>संपादन मोहीम</nowiki>
+|-
+| campaign.action.next || <nowiki>फुडें</nowiki>
+|-
+| campaign.action.reject || <nowiki>न्हयकार</nowiki>
+|-
+| campaign.action.save || <nowiki>सांबाळचें</nowiki>
+|-
+| campaign.action.search || <nowiki>फिल्टर करप</nowiki>
+|-
+| campaign.action.settings || <nowiki>सेटिंग्ज</nowiki>
+|-
+| campaign.activeCampaigns || <nowiki>सक्रिय मोहीम</nowiki>
+|-
+| campaign.all || <nowiki>सगळ्यो मोहीम</nowiki>
+|-
+| campaign.allowExpansions || <nowiki>वापरप्यांक तयार नाशिल्ले लेख सादर करपाक परवानगी दिवची, ताचे परस विस्तारीत केल्ले</nowiki>
+|-
+| campaign.allowJuryToParticipate || <nowiki>जूरी वांगड्यांक मोहिमेत वांटो घेवंक मेळचो</nowiki>
+|-
+| campaign.allowMultipleJudgements || <nowiki>एकाच सादरीकरणाचें मुल्यांकन करपाक जायत्या जूरी वांगड्यांक परवानगी दिवची</nowiki>
+|-
+| campaign.banner || <nowiki>बॅनर</nowiki>
+|-
+| campaign.description || <nowiki>वर्णन</nowiki>
+|-
+| campaign.duration || <nowiki>कालावधी</nowiki>
+|-
+| campaign.endDate || <nowiki>समाप्तीची तारीख</nowiki>
+|-
+| campaign.error.youAreNotJudge || <nowiki>तुमी ह्या मोहिमेक जूरी वांगडी न्हय</nowiki>
+|-
+| campaign.image.fetch || <nowiki>प्रतिमा हाडची</nowiki>
+|-
+| campaign.image.url || <nowiki>विस्तारा वांगडा कॉमन्स फायल नांव</nowiki>
+|-
+| campaign.jury || <nowiki>जूरी हांणी केला</nowiki>
+|-
+| campaign.language || <nowiki>भास</nowiki>
+|-
+| campaign.loading || <nowiki>मोहीम लोड करप...</nowiki>
+|-
+| campaign.minimumAddedBytes || <nowiki>किमान जोडिल्ले बाइट</nowiki>
+|-
+| campaign.minimumAddedBytes_help || <nowiki>मोहिमेक सुरवाती सावन सादर केल्ल्या लेखाचेर भाग घेवप्यान जोडपाक जाय आशिल्ल्या बाइटांची संख्या</nowiki>
+|-
+| campaign.minimumAddedWords || <nowiki>किमान जोडलेले शब्द</nowiki>
+|-
+| campaign.minimumAddedWords_help || <nowiki>मोहीम सुरू जाले उपरांत सादर केल्ल्या लेखाचेर भाग घेवप्यान कितले उतर जोडचे पडटले</nowiki>
+|-
+| campaign.minimumTotalBytes || <nowiki>किमान एकूण बाइट</nowiki>
+|-
+| campaign.minimumTotalBytes_help || <nowiki>मोहीम सुरू जाले उपरांत सादर केल्ल्या लेखाचेर सहभागी कडेन कितले बाइट आसपाक जाय</nowiki>
+|-
+| campaign.minimumTotalWords || <nowiki>किमान एकूण शब्द</nowiki>
+|-
+| campaign.minimumTotalWords_help || <nowiki>मोहीम सुरू जाले उपरांत सादर केल्ल्या लेखाचेर सहभागी कडेन कितले उतर आसूंक जाय</nowiki>
+|-
+| campaign.name || <nowiki>नांव</nowiki>
+|-
+| campaign.results.title || <nowiki>निकाल</nowiki>
+|-
+| campaign.results.totalExpanded || <nowiki>विस्तारीत केला</nowiki>
+|-
+| campaign.results.totalExpanded_grand || <nowiki>एकूण विस्तारीत केला</nowiki>
+|-
+| campaign.results.totalNewlyCreated || <nowiki>नव्यान तयार केल्लें</nowiki>
+|-
+| campaign.results.totalNewlyCreated_grand || <nowiki>एकूण नव्यान तयार केल्लें</nowiki>
+|-
+| campaign.results.totalPoints || <nowiki>मुद्दे</nowiki>
+|-
+| campaign.results.totalPoints_grand || <nowiki>एकूण गुण</nowiki>
+|-
+| campaign.results.totalSubmission || <nowiki>सादरीकरणां</nowiki>
+|-
+| campaign.results.totalSubmission_grand || <nowiki>एकूण सादरीकरणां</nowiki>
+|-
+| campaign.results.username || <nowiki>वापरप्याचें नांव</nowiki>
+|-
+| campaign.secretBallot || <nowiki>जूरी वांगड्यांक एकामेकांचीं मतां पळोवंक आडावप</nowiki>
+|-
+| campaign.serial || <nowiki>सिरियल</nowiki>
+|-
+| campaign.startDate || <nowiki>सुरवातीची तारीख</nowiki>
+|-
+| campaign.statistics.color || <nowiki>रंग</nowiki>
+|-
+| campaign.statistics.date || <nowiki>Date</nowiki>
+|-
+| campaign.statistics.overview || <nowiki>एक नियाळ</nowiki>
+|-
+| campaign.statistics.title || <nowiki>आंकडेवारी</nowiki>
+|-
+| campaign.statistics.title_campaign || <nowiki>मोहिमेक आंकडेवारी</nowiki>
+|-
+| campaign.statistics.title_year || <nowiki>वर्साची आंकडेवारी</nowiki>
+|-
+| campaign.status || <nowiki>स्थिती</nowiki>
+|-
+| campaign.step.details || <nowiki>तपशील</nowiki>
+|-
+| campaign.step.jury || <nowiki>जूरी हांणी केला</nowiki>
+|-
+| campaign.step.overview || <nowiki>एक नियाळ</nowiki>
+|-
+| campaign.step.restrictions || <nowiki>निर्बंध घालप</nowiki>
+|-
+| campaign.submission.action.accept || <nowiki>स्विकार</nowiki>
+|-
+| campaign.submission.action.backToCampaign || <nowiki>परत मोहिमेक</nowiki>
+|-
+| campaign.submission.action.check || <nowiki>तपास</nowiki>
+|-
+| campaign.submission.action.delete_other || <nowiki>वगळावचें ({{count}}) हें .</nowiki>
+|-
+| campaign.submission.action.delete_zero || <nowiki>वगळावचें</nowiki>
+|-
+| campaign.submission.action.evaluate || <nowiki>मूल्यांकन</nowiki>
+|-
+| campaign.submission.action.evaluate_add || <nowiki>मूल्यमापन जोडचें</nowiki>
+|-
+| campaign.submission.action.evaluate_title || <nowiki>सादरीकरणाचें मुल्यांकन करप</nowiki>
+|-
+| campaign.submission.action.reject || <nowiki>न्हयकार</nowiki>
+|-
+| campaign.submission.action.see || <nowiki>Please Click on the row below to see the evaluation of the submission.</nowiki>
+|-
+| campaign.submission.action.submit || <nowiki>सुवादीन करप</nowiki>
+|-
+| campaign.submission.action.submitAnother || <nowiki>दुसरो सादर करचो</nowiki>
+|-
+| campaign.submission.action.submitOnBehalf || <nowiki>वतीन सादर करचें</nowiki>
+|-
+| campaign.submission.addedBytes_one || <nowiki>जोडले {{count}} बाइट</nowiki>
+|-
+| campaign.submission.addedBytes_other || <nowiki>जोडले {{count}} बाइट्स</nowiki>
+|-
+| campaign.submission.addedWords_one || <nowiki>जोडले {{count}} शब्द</nowiki>
+|-
+| campaign.submission.addedWords_other || <nowiki>जोडले {{count}} शब्द</nowiki>
+|-
+| campaign.submission.createdAt || <nowiki>तयार केल्लें एट {{createdAt}}</nowiki>
+|-
+| campaign.submission.createdBy || <nowiki>तयार केल्लें {{createdBy}}</nowiki>
+|-
+| campaign.submission.judge || <nowiki>न्यायमुर्ती</nowiki>
+|-
+| campaign.submission.judgement.* || <nowiki>मोलावणी</nowiki>
+|-
+| campaign.submission.judgement.backToSubmissions || <nowiki>दुसर् या सादरीकरणाचें मुल्यांकन करचें</nowiki>
+|-
+| campaign.submission.judgement.evaluationSubmittedSuccessfully || <nowiki>मूल्यमापन यशस्वीपणान सादर केलें</nowiki>
+|-
+| campaign.submission.judgement.judgeSubmission || <nowiki>तुमचें मूल्यांकन जोडात</nowiki>
+|-
+| campaign.submission.judgement.note || <nowiki>टिप (पर्यायी) 1.1.</nowiki>
+|-
+| campaign.submission.judgement.note_placeholder || <nowiki>सादर करप्याक एक टिप जोडची (पर्यायी)</nowiki>
+|-
+| campaign.submission.list || <nowiki>सादरीकरणां</nowiki>
+|-
+| campaign.submission.loading || <nowiki>सबमिशन लोड करप...</nowiki>
+|-
+| campaign.submission.new || <nowiki>नवो लेख सादर करचो</nowiki>
+|-
+| campaign.submission.note || <nowiki>नोंद घेवची</nowiki>
+|-
+| campaign.submission.points || <nowiki>मुद्दे</nowiki>
+|-
+| campaign.submission.preview || <nowiki>पूर्वावलोकन करचें</nowiki>
+|-
+| campaign.submission.preview_loading || <nowiki>पूर्वावलोकन लोड करप...</nowiki>
+|-
+| campaign.submission.status.* || <nowiki>स्थिती</nowiki>
+|-
+| campaign.submission.status.all || <nowiki>सगलें</nowiki>
+|-
+| campaign.submission.status.evaluated || <nowiki>मूल्यमापन केल्लें</nowiki>
+|-
+| campaign.submission.status.notEvaluated || <nowiki>मूल्यमापन केल्लें ना</nowiki>
+|-
+| campaign.submission.submittedSuccessfully || <nowiki>यशस्वीपणान सादर केला</nowiki>
+|-
+| campaign.submission.submitter || <nowiki>सादर करपी</nowiki>
+|-
+| campaign.submission.tags.* || <nowiki>टॅग्स</nowiki>
+|-
+| campaign.submission.tags.expanded || <nowiki>विस्तारीत केला</nowiki>
+|-
+| campaign.submission.tags.expanded_abbr || <nowiki>ई</nowiki>
+|-
+| campaign.submission.tags.newlyCreated || <nowiki>नव्यान तयार केल्लें</nowiki>
+|-
+| campaign.submission.tags.newlyCreated_abbr || <nowiki>एन</nowiki>
+|-
+| campaign.submission.title || <nowiki>सादरीकरणां</nowiki>
+|-
+| campaign.submission.totalBytes_one || <nowiki>एकूण {{count}} बाइट</nowiki>
+|-
+| campaign.submission.totalBytes_other || <nowiki>एकूण {{count}} बाइट्स</nowiki>
+|-
+| campaign.submission.totalWords_one || <nowiki>एकूण {{count}} शब्द</nowiki>
+|-
+| campaign.submission.totalWords_other || <nowiki>एकूण {{count}} शब्द</nowiki>
+|-
+| dashboard.description || <nowiki>विकिपीडियाचेर संस्कृतीक विविधताय आनी लिंग समावेशकतायेचो वर्सुकी उत्सव आशिल्ल्या नारीवाद आनी लोककथा लेखन सर्तीक तुमकां येवकार.
+</nowiki>
+|-
+| dashboard.welcome || <nowiki>येवकार {{username}}</nowiki>
+|-
+| error.unknown || <nowiki>कितें तरी चुकलें. </nowiki>
+|-
+| menu.addNewLanguage || <nowiki>नवी भास जोडची</nowiki>
+|-
+| menu.campaign || <nowiki>मोहिम</nowiki>
+|-
+| menu.changeLanguage || <nowiki>भास बदलप</nowiki>
+|-
+| menu.giveFeedback || <nowiki>प्रतिसाद दिवप</nowiki>
+|-
+| menu.home || <nowiki>घर</nowiki>
+|-
+| menu.logout || <nowiki>लॉगआउट करप</nowiki>
+|-
+| menu.name || <nowiki>कॅम्पविझ हांणी केला</nowiki>
+|-
+| menu.reportBug || <nowiki>बग अहवाल दिवचो</nowiki>
+|-
+| menu.settings || <nowiki>सेटिंग्ज</nowiki>
+|-
+| menu.statistics || <nowiki>आंकडेवारी</nowiki>
+|-
+| menu.users || <nowiki>वापरप्यांक</nowiki>
+|-
+| name || <nowiki>कॅम्पविझ हांणी केला</nowiki>
+|-
+| user.* || <nowiki>वापरप्याचें नांव</nowiki>
+|-
+| user.loading || <nowiki>वापरप्यांक लोड करप...</nowiki>
+|-
+| user.name || <nowiki>नांव</nowiki>
+|-
+| user.noUsers || <nowiki>वापरपी मेळूंक नात</nowiki>
+|-
+| user.username || <nowiki>वापरप्याचें नांव</nowiki>
+|}

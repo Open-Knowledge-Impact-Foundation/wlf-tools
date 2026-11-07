@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Take"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Gida",
+        "campaign": "Gangamin",
+        "statistics": "Kididdiga",
+        "users": "Masu amfani",
+        "changeLanguage": "Canja Harshe",
+        "reportBug": "Rahoton Bug",
+        "giveFeedback": "Bada Ra'ayi",
+        "settings": "Saituna",
+        "logout": "Fita",
+        "addNewLanguage": "Ƙara Sabon Harshe"
+    },
+    "error": {
+        "unknown": "Wani abu ya faru. "
+    },
+    "dashboard": {
+        "welcome": "Barka da zuwa {{username}}",
+        "description": "Barka da zuwa gasar Rubuce-rubucen Mata da na Gargajiya, bikin shekara-shekara na bambancin al'adu da haɗa jinsi akan Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "Serial",
+        "loading": "Ana loda kamfen...",
+        "action": {
+            "*": "Ayyuka",
+            "cancel_name": "Soke Kamfen",
+            "cancel_prompt": "Shin kun tabbata kuna son soke wannan kamfen?",
+            "cancel_title": "Soke Kamfen",
+            "cancel_zero": "Soke",
+            "cancel_one": "Soke ({{count}})",
+            "cancel": "Soke {{count}}",
+            "approve_name": "Amincewa Kamfen",
+            "approve_prompt": "Shin kun tabbata kuna son amincewa da wannan kamfen?",
+            "approve_title": "Amincewa Kamfen",
+            "approve_zero": "Amincewa",
+            "approve_one": "Amincewa ({{count}})",
+            "approve": "Amincewa",
+            "reject": "Ƙi",
+            "settings": "Saituna",
+            "back": "Baya",
+            "save": "Ajiye",
+            "next": "Na gaba",
+            "edit": "Gyara Gangamin",
+            "create": "Ƙirƙiri Gangamin",
+            "search": "Tace"
+        },
+        "activeCampaigns": "Yakin Neman Zabe",
+        "name": "Suna",
+        "language": "Harshe",
+        "startDate": "Ranar farawa",
+        "endDate": "Kwanan Ƙarshen",
+        "duration": "Tsawon lokaci",
+        "status": "Matsayi",
+        "all": "Duk Kamfen",
+        "description": "Bayani",
+        "jury": "Jury",
+        "banner": "Tuta",
+        "allowExpansions": "Ba da damar masu amfani don ƙaddamar da labaran da ba a ƙirƙira ba maimakon faɗaɗa su",
+        "minimumAddedBytes_help": "Adadin bytes dole ne ɗan takara ya ƙara akan labarin da aka ƙaddamar tun farkon yaƙin neman zaɓe",
+        "minimumAddedBytes": "Ƙananan Ƙara Bytes",
+        "minimumAddedWords_help": "Adadin kalmomin dole ne ɗan takara ya ƙara akan labarin da aka ƙaddamar tun farkon yaƙin neman zaɓe",
+        "minimumAddedWords": "Karamar Ƙara Kalmomi",
+        "minimumTotalBytes_help": "Adadin bytes dole ne ɗan takara ya kasance akan labarin da aka ƙaddamar tun farkon yaƙin neman zaɓe",
+        "minimumTotalBytes": "Mafi ƙarancin Jimlar Bytes",
+        "minimumTotalWords_help": "Yawan kalmomin da mahalarta dole ne su kasance a kan labarin da aka ƙaddamar tun farkon yakin",
+        "minimumTotalWords": "Mafi qarancin Jimlar Kalmomi",
+        "allowJuryToParticipate": "Bada ƴan juri su shiga yaƙin neman zaɓe",
+        "secretBallot": "Hana mambobin juri ganin kuri'un juna",
+        "allowMultipleJudgements": "Bada izinin membobin juri da yawa don kimanta ƙaddamarwa ɗaya",
+        "image": {
+            "url": "Sunan Fayil na gama gari tare da kari",
+            "fetch": "Dauke Hoto"
+        },
+        "error": {
+            "youAreNotJudge": "Kai ba memban juri bane na wannan kamfen"
+        },
+        "submission": {
+            "title": "Gabatarwa",
+            "new": "Ƙaddamar da Sabon Labari",
+            "list": "Gabatarwa",
+            "note": "Lura",
+            "judge": "Alkali",
+            "submitter": "Mai sallamawa",
+            "points": "maki",
+            "submittedSuccessfully": "An ƙaddamar da shi cikin nasara",
+            "totalBytes_one": "Jimlar {{count}} byte",
+            "totalBytes_other": "Jimlar {{count}} bytes",
+            "totalWords_one": "Jimlar {{count}} kalma",
+            "totalWords_other": "Jimlar {{count}} kalmomi",
+            "createdAt": "An ƙirƙira A {{createdAt}}",
+            "createdBy": "Wanda ya kirkira {{createdBy}}",
+            "addedBytes_one": "Kara {{count}} byte",
+            "addedBytes_other": "Kara {{count}} bytes",
+            "addedWords_one": "Kara {{count}} kalma",
+            "addedWords_other": "Kara {{count}} kalmomi",
+            "tags": {
+                "*": "Tags",
+                "expanded": "Fadada",
+                "newlyCreated": "Sabon Halitta",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Matsayi",
+                "all": "Duka",
+                "notEvaluated": "Ba a kimantawa ba",
+                "evaluated": "An kimanta"
+            },
+            "loading": "Ana loda abubuwan da aka gabatar...",
+            "preview": "Dubawa",
+            "preview_loading": "Ana loda samfoti...",
+            "judgement": {
+                "*": "Kimantawa",
+                "evaluationSubmittedSuccessfully": "An ƙaddamar da kimantawa cikin nasara",
+                "backToSubmissions": "Auna wani ƙaddamarwa",
+                "judgeSubmission": "Ƙara Ƙimar ku",
+                "note": "Bayanan kula (Na zaɓi)",
+                "note_placeholder": "Ƙara rubutu ga mai ƙaddamarwa (na zaɓi)"
+            },
+            "action": {
+                "reject": "Ƙi",
+                "accept": "Karba",
+                "evaluate": "Auna",
+                "evaluate_add": "Ƙara Ƙimar",
+                "evaluate_title": "Ƙimar ƙaddamarwa",
+                "backToCampaign": "Komawa Kamfen",
+                "submitAnother": "Miƙa Wani",
+                "check": "Duba",
+                "submitOnBehalf": "Sallama a madadin",
+                "submit": "Sallama",
+                "delete_zero": "Share",
+                "delete_other": "Share ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Sakamako",
+            "totalSubmission_grand": "Jimlar Gabaɗaya",
+            "totalSubmission": "Gabatarwa",
+            "totalNewlyCreated_grand": "Jimlar Sabbin Ƙirƙirar",
+            "totalNewlyCreated": "Sabon Halitta",
+            "totalExpanded_grand": "Jimlar Fadada",
+            "totalExpanded": "Fadada",
+            "totalPoints_grand": "Jimlar maki",
+            "totalPoints": "maki",
+            "username": "Sunan mai amfani"
+        },
+        "step": {
+            "details": "Cikakkun bayanai",
+            "jury": "Jury",
+            "restrictions": "Ƙuntatawa",
+            "overview": "Dubawa"
+        },
+        "statistics": {
+            "color": "Launi",
+            "title": "Kididdiga",
+            "title_year": "Kididdiga na shekara",
+            "title_campaign": "Kididdigar yakin neman zabe",
+            "overview": "Dubawa",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Kusa",
+        "cancel": "Soke"
+    },
+    "user": {
+        "*": "Sunan mai amfani",
+        "noUsers": "Babu masu amfani da aka samu",
+        "name": "Suna",
+        "username": "Sunan mai amfani",
+        "loading": "Ana loda masu amfani..."
+    }
+}

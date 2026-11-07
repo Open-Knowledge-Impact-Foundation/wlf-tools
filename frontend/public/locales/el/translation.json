@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Τίτλος"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Αρχική σελίδα",
+        "campaign": "εκστρατεία",
+        "statistics": "Στατιστικά",
+        "users": "Χρήστες",
+        "changeLanguage": "Αλλαγή γλώσσας",
+        "reportBug": "Αναφορά προβλήματος",
+        "giveFeedback": "Δώστε σχόλια",
+        "settings": "Ρυθμίσεις",
+        "logout": "Αποσύνδεση",
+        "addNewLanguage": "Προσθήκη νέας γλώσσας"
+    },
+    "error": {
+        "unknown": "Κάτι πήγε στραβά. "
+    },
+    "dashboard": {
+        "welcome": "Καλωσήρθατε {{username}}",
+        "description": "Καλώς ήρθατε στην λημματογράφηση για το Φεμινισμό και την Λαογραφία, μια ετήσια γιορτή της πολιτιστικής πολυμορφίας και της ένταξης των φύλων στη Βικιπαίδεια.\n"
+    },
+    "campaign": {
+        "serial": "Μαζικά",
+        "loading": "Φόρτωση εκστρατείας...",
+        "action": {
+            "*": "Ενέργειες",
+            "cancel_name": "Ακύρωση εκστρατείας",
+            "cancel_prompt": "Είστε βέβαιοι ότι θέλετε να ακυρώσετε αυτήν την εκστρατεία;",
+            "cancel_title": "Ακύρωση εκστρατείας",
+            "cancel_zero": "Ακύρωση",
+            "cancel_one": "Ακύρωση ({{count}})",
+            "cancel": "Ακύρωση {{count}}",
+            "approve_name": "Έγκριση εκστρατείας",
+            "approve_prompt": "Είστε βέβαιοι ότι θέλετε να εγκρίνετε αυτήν την εκστρατείας;",
+            "approve_title": "Έγκριση εκστρατείας",
+            "approve_zero": "Έγκριση",
+            "approve_one": "Έγκριση ({{count}})",
+            "approve": "Έγκριση",
+            "reject": "Απόρριψη",
+            "settings": "Ρυθμίσεις",
+            "back": "Πίσω",
+            "save": "Αποθήκευση",
+            "next": "Επόμενο",
+            "edit": "Επεξεργασία εκστρατείας",
+            "create": "Δημιουργία εκστρατείας",
+            "search": "Φίλτρο"
+        },
+        "activeCampaigns": "Ενεργές εκστρατείες",
+        "name": "Ονομα",
+        "language": "Γλώσσα",
+        "startDate": "Ημερομηνία έναρξης",
+        "endDate": "Ημερομηνία λήξης",
+        "duration": "Διάρκεια",
+        "status": "Κατάσταση",
+        "all": "Όλες οι εκστρατείες",
+        "description": "Περιγραφή",
+        "jury": "Κριτική επιτροπή",
+        "banner": "Μπάρα",
+        "allowExpansions": "Να επιτρέπεται στους χρήστες να υποβάλλουν άρθρα που επεξέτειναν και υπήρχαν πριν το διαγωνισμό",
+        "minimumAddedBytes_help": "Ο αριθμός των μπάιτ που πρέπει να προσθέσει ο συμμετέχων στο υποβληθέν άρθρο από την αρχή της εκστρατείας",
+        "minimumAddedBytes": "Ελάχιστο όριο προστεθειμένων μπάιτ σε ένα λήμμα",
+        "minimumAddedWords_help": "Ο αριθμός των λέξεων που πρέπει να προσθέσει ο συμμετέχων στο υποβληθέν άρθρο από την αρχή της εκστρατείας",
+        "minimumAddedWords": "Ελάχιστος αριθμός λέξεων που προστέθηκαν",
+        "minimumTotalBytes_help": "Ο αριθμός των μπάιτ που πρέπει να έχει προσθέσει ο συμμετέχων στο υποβληθέν άρθρο από την αρχή της εκστρατείας",
+        "minimumTotalBytes": "Ελάχιστο σύνολο μπάιτ",
+        "minimumTotalWords_help": "Ο αριθμός των λέξεων που πρέπει να έχει ο συμμετέχων στο υποβληθέν άρθρο από την αρχή της καμπάνιας",
+        "minimumTotalWords": "Ελάχιστο σύνολο λέξεων",
+        "allowJuryToParticipate": "Επιτρέψτε στα μέλη της κριτικής επιτροπής να συμμετάσχουν στην εκστρατεία",
+        "secretBallot": "Αποτρέψτε τα μέλη της κριτικής επιτροπής να δουν ο ένας τις ψήφους του άλλου",
+        "allowMultipleJudgements": "Επιτρέψτε σε πολλά μέλη της κριτικής επιτροπής να αξιολογήσουν την ίδια υποβολή",
+        "image": {
+            "url": "Όνομα αρχείου στα κοινά",
+            "fetch": "Λήψη εικόνας"
+        },
+        "error": {
+            "youAreNotJudge": "Δεν είστε μέλος της κριτικής επιτροπής αυτής της εκστρατείας"
+        },
+        "submission": {
+            "title": "Υποβολές",
+            "new": "Υποβολή νέου άρθρου",
+            "list": "Υποβολές",
+            "note": "Σημείωση",
+            "judge": "Μέλος της κριτικής επιτροπής",
+            "submitter": "Υποβολέας",
+            "points": "Πόντοι",
+            "submittedSuccessfully": "Υποβλήθηκε με επιτυχία",
+            "totalBytes_one": "Σύνολο {{count}} μπάιτ",
+            "totalBytes_other": "Σύνολο {{count}} μπάιτ",
+            "totalWords_one": "Σύνολο {{count}} λέξεων",
+            "totalWords_other": "Σύνολο {{count}} λέξεων",
+            "createdAt": "Δημιουργήθηκε στο {{createdAt}}",
+            "createdBy": "Δημιουργήθηκε από {{createdBy}}",
+            "addedBytes_one": "Προστέθηκε {{count}} μπάιτ",
+            "addedBytes_other": "Προστέθηκαν {{count}} μπάιτ",
+            "addedWords_one": "Προστέθηκαν {{count}} λέξεις",
+            "addedWords_other": "Προστέθηκαν {{count}} λέξεις",
+            "tags": {
+                "*": "Ετικέτες",
+                "expanded": "Λήμμα που επεκτάθηκε",
+                "newlyCreated": "Νέο λήμμα",
+                "expanded_abbr": "επ.",
+                "newlyCreated_abbr": "Ν.Λ."
+            },
+            "status": {
+                "*": "Κατάσταση",
+                "all": "Ολα",
+                "notEvaluated": "δεν έχει αξιολογηθεί",
+                "evaluated": "αξιολογήθηκε"
+            },
+            "loading": "Φόρτωση υποβολών...",
+            "preview": "Προεπισκόπηση",
+            "preview_loading": "Φόρτωση προεπισκόπησης...",
+            "judgement": {
+                "*": "Εκτίμηση",
+                "evaluationSubmittedSuccessfully": "Η αξιολόγηση υποβλήθηκε με επιτυχία",
+                "backToSubmissions": "Αξιολογήστε μια άλλη υποβολή",
+                "judgeSubmission": "Προσθέστε την Αξιολόγησή σας",
+                "note": "Σημείωση (Προαιρετικό)",
+                "note_placeholder": "Προσθήκη σημείωσης στον υποβάλλοντα (προαιρετικό)"
+            },
+            "action": {
+                "reject": "Απόρριψη",
+                "accept": "Αποδοχή",
+                "evaluate": "Αξιολόγηση",
+                "evaluate_add": "Προσθήκη Αξιολόγησης",
+                "evaluate_title": "Αξιολογήστε την υποβολή",
+                "backToCampaign": "Επιστροφή στην εκστρατεία",
+                "submitAnother": "Υποβολή άλλου",
+                "check": "Ελεγχος",
+                "submitOnBehalf": "Υποβολή εκ μέρους άλλου χρήστη",
+                "submit": "υποβολή",
+                "delete_zero": "Διαγραφή",
+                "delete_other": "Διαγραφή ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Αποτελέσματα",
+            "totalSubmission_grand": "Σύνολο υποβολών",
+            "totalSubmission": "Υποβολές",
+            "totalNewlyCreated_grand": "Σύνολο νέων λημμάτων",
+            "totalNewlyCreated": "Νέο λήμμα",
+            "totalExpanded_grand": "Αριθμός λημμάτων που επεκτάθηκαν",
+            "totalExpanded": "Λήμμα που επεκτάθηκε",
+            "totalPoints_grand": "Σύνολο πόντων",
+            "totalPoints": "Πόντοι",
+            "username": "Όνομα χρήστη"
+        },
+        "step": {
+            "details": "Λεπτομέριες",
+            "jury": "Κριτική επιτροπή",
+            "restrictions": "Περιορισμοί",
+            "overview": "Επισκόπηση"
+        },
+        "statistics": {
+            "color": "Χρώμα",
+            "title": "Στατιστικά",
+            "title_year": "Στατιστικά για το έτος",
+            "title_campaign": "Στατιστικά στοιχεία για την εκστρατεία",
+            "overview": "Επισκόπηση",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Κλείσιμο",
+        "cancel": "Ακύρωση"
+    },
+    "user": {
+        "*": "Όνομα χρήστη",
+        "noUsers": "Δεν βρέθηκαν χρήστες",
+        "name": "Ονομα",
+        "username": "Όνομα χρήστη",
+        "loading": "Φόρτωση χρηστών..."
+    }
+}

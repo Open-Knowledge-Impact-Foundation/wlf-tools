@@ -1,0 +1,179 @@
+{
+    "name": "I-CampWiz",
+    "article": {
+        "title": "Isihloko"
+    },
+    "menu": {
+        "name": "I-CampWiz",
+        "home": "Ikhaya",
+        "campaign": "Umkhankaso",
+        "statistics": "Izibalo",
+        "users": "Abasebenzisi",
+        "changeLanguage": "Shintsha Ulimi",
+        "reportBug": "Bika iphutha",
+        "giveFeedback": "Nikeza Impendulo",
+        "settings": "Izilungiselelo",
+        "logout": "Phuma",
+        "addNewLanguage": "Engeza Ulimi Olusha"
+    },
+    "error": {
+        "unknown": "Kukhona into engahambanga kahle. "
+    },
+    "dashboard": {
+        "welcome": "Siyakwamukela {{username}}",
+        "description": "Uyemukelwa Emncintiswaneni Wokubhala Wabesifazane Nezinganekwane, umgubho waminyaka yonke wokuhlukahluka kwamasiko kanye nokubandakanywa kobulili ku-Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "I-serial",
+        "loading": "Ilayisha umkhankaso...",
+        "action": {
+            "*": "Izenzo",
+            "cancel_name": "Khansela Umkhankaso",
+            "cancel_prompt": "Uqinisekile ukuthi ufuna ukukhansela lo mkhankaso?",
+            "cancel_title": "Khansela Umkhankaso",
+            "cancel_zero": "Khansela",
+            "cancel_one": "Khansela ({{count}})",
+            "cancel": "Khansela {{count}}",
+            "approve_name": "Vuma Umkhankaso",
+            "approve_prompt": "Uqinisekile ukuthi ufuna ukugunyaza lo mkhankaso?",
+            "approve_title": "Vuma Umkhankaso",
+            "approve_zero": "Gunyaza",
+            "approve_one": "Gunyaza ({{count}})",
+            "approve": "Gunyaza",
+            "reject": "Yenqaba",
+            "settings": "Izilungiselelo",
+            "back": "Emuva",
+            "save": "Londoloza",
+            "next": "Olandelayo",
+            "edit": "Hlela umkhankaso",
+            "create": "Dala Umkhankaso",
+            "search": "Hlunga"
+        },
+        "activeCampaigns": "Imikhankaso Esebenzayo",
+        "name": "Igama",
+        "language": "Ulimi",
+        "startDate": "Usuku okuqalwa ngalo",
+        "endDate": "Idethi Yokuphela",
+        "duration": "Ubude besikhathi",
+        "status": "Isimo",
+        "all": "Yonke Imikhankaso",
+        "description": "Incazelo",
+        "jury": "Ijaji",
+        "banner": "Isibhengezo",
+        "allowExpansions": "Vumela abasebenzisi ukuthi bathumele izindatshana ezingadalwanga kunalokho zanwetshwa",
+        "minimumAddedBytes_help": "Inombolo yamabhayithi umhlanganyeli okufanele awengeze esihlokweni esithunyelwe kusukela ekuqaleni komkhankaso",
+        "minimumAddedBytes": "Ubuncane Bamabhayithi Angeziwe",
+        "minimumAddedWords_help": "Inombolo yamagama umhlanganyeli okufanele awengeze esihlokweni esithunyelwe kusukela ekuqaleni komkhankaso",
+        "minimumAddedWords": "Ubuncane Amagama Angeziwe",
+        "minimumTotalBytes_help": "Inani lamabhayithi umhlanganyeli okufanele abe nawo esihlokweni esithunyelwe kusukela ekuqaleni komkhankaso",
+        "minimumTotalBytes": "Ubuncane Bamabhayithi Ephelele",
+        "minimumTotalWords_help": "Inombolo yamagama umhlanganyeli okufanele abe nayo esihlokweni esithunyelwe kusukela ekuqaleni komkhankaso",
+        "minimumTotalWords": "Ubuncane bengqikithi yamagama",
+        "allowJuryToParticipate": "Vumela amalungu ejaji ukuthi abambe iqhaza emkhankasweni",
+        "secretBallot": "Vimbela amalungu ejaji ekuboneni amavoti omunye nomunye",
+        "allowMultipleJudgements": "Vumela amalungu amaningi ejaji ukuthi ahlole ukuthunyelwa okufanayo",
+        "image": {
+            "url": "Igama lefayela le-Commons elinesandiso",
+            "fetch": "Landa Isithombe"
+        },
+        "error": {
+            "youAreNotJudge": "Awulona ilungu lejaji lalo mkhankaso"
+        },
+        "submission": {
+            "title": "Okuthunyelwe",
+            "new": "Thumela Isihloko Esisha",
+            "list": "Okuthunyelwe",
+            "note": "Qaphela",
+            "judge": "Ijaji",
+            "submitter": "Umhambisi",
+            "points": "Amaphuzu",
+            "submittedSuccessfully": "Kuthunyelwe ngempumelelo",
+            "totalBytes_one": "Ingqikithi {{count}} byte",
+            "totalBytes_other": "Ingqikithi {{count}} amabhayithi",
+            "totalWords_one": "Ingqikithi {{count}} izwi",
+            "totalWords_other": "Ingqikithi {{count}} amazwi",
+            "createdAt": "Idalwe ngo- {{createdAt}}",
+            "createdBy": "Idalwe ngu {{createdBy}}",
+            "addedBytes_one": "Kwengezwe {{count}} byte",
+            "addedBytes_other": "Kwengeziwe {{count}} amabhayithi",
+            "addedWords_one": "Kwengeziwe {{count}} izwi",
+            "addedWords_other": "Kwengeziwe {{count}} amazwi",
+            "tags": {
+                "*": "Omaka",
+                "expanded": "Kunwetshiwe",
+                "newlyCreated": "Okusanda Kudalwa",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Isimo",
+                "all": "Konke",
+                "notEvaluated": "Akukahlolwa",
+                "evaluated": "Kuhlolwe"
+            },
+            "loading": "Ilayisha ukuthunyelwa...",
+            "preview": "Buka kuqala",
+            "preview_loading": "Ilayisha ukubuka kuqala...",
+            "judgement": {
+                "*": "Ukuhlola",
+                "evaluationSubmittedSuccessfully": "Ukuhlola kuhanjiswe ngempumelelo",
+                "backToSubmissions": "Linganisa okunye ukuthunyelwa",
+                "judgeSubmission": "Engeza Ukuhlola kwakho",
+                "note": "Inothi (Ongakukhetha)",
+                "note_placeholder": "Engeza inothi kumhambisi (uyazikhethela)"
+            },
+            "action": {
+                "reject": "Yenqaba",
+                "accept": "Yamukela",
+                "evaluate": "Linganisa",
+                "evaluate_add": "Engeza Ukuhlola",
+                "evaluate_title": "Linganisa Ukuhanjiswa",
+                "backToCampaign": "Buyela Emkhankasweni",
+                "submitAnother": "Thumela Okunye",
+                "check": "Hlola",
+                "submitOnBehalf": "Thumela esikhundleni sika-",
+                "submit": "Thumela",
+                "delete_zero": "Susa",
+                "delete_other": "Susa ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Imiphumela",
+            "totalSubmission_grand": "Ingqikithi Yokuthunyelwa",
+            "totalSubmission": "Okuthunyelwe",
+            "totalNewlyCreated_grand": "Isamba Esisanda Kudalwa",
+            "totalNewlyCreated": "Okusanda Kudalwa",
+            "totalExpanded_grand": "Inani Elinwetshiwe",
+            "totalExpanded": "Kunwetshiwe",
+            "totalPoints_grand": "Amaphuzu Aphelele",
+            "totalPoints": "Amaphuzu",
+            "username": "Igama lomsebenzisi"
+        },
+        "step": {
+            "details": "Imininingwane",
+            "jury": "Ijaji",
+            "restrictions": "Imikhawulo",
+            "overview": "Uhlolojikelele"
+        },
+        "statistics": {
+            "color": "Umbala",
+            "title": "Izibalo",
+            "title_year": "Izibalo zonyaka",
+            "title_campaign": "Izibalo zomkhankaso",
+            "overview": "Uhlolojikelele",
+            "date": "Usuku"
+        }
+    },
+    "action": {
+        "close": "Vala",
+        "cancel": "Khansela"
+    },
+    "user": {
+        "*": "Igama lomsebenzisi",
+        "noUsers": "Abekho abasebenzisi abatholiwe",
+        "name": "Igama",
+        "username": "Igama lomsebenzisi",
+        "loading": "Ilayisha abasebenzisi..."
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Otsikko"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Koti",
+        "campaign": "Kampanja",
+        "statistics": "Tilastot",
+        "users": "Käyttäjät",
+        "changeLanguage": "Vaihda kieltä",
+        "reportBug": "Ilmoita virheestä",
+        "giveFeedback": "Antaa palautetta",
+        "settings": "asetukset",
+        "logout": "Kirjautua ulos",
+        "addNewLanguage": "Lisää uusi kieli"
+    },
+    "error": {
+        "unknown": "Jotain meni pieleen. "
+    },
+    "dashboard": {
+        "welcome": "Tervetuloa {{username}}",
+        "description": "Tervetuloa Feminism and Folklore Writing Contest -kilpailuun, joka on vuosittainen kulttuurisen monimuotoisuuden ja sukupuolten osallisuuden juhla Wikipediassa.\n"
+    },
+    "campaign": {
+        "serial": "Sarja",
+        "loading": "Ladataan kampanjaa...",
+        "action": {
+            "*": "Toiminnot",
+            "cancel_name": "Peruuta kampanja",
+            "cancel_prompt": "Haluatko varmasti peruuttaa tämän kampanjan?",
+            "cancel_title": "Peruuta kampanja",
+            "cancel_zero": "Peruuttaa",
+            "cancel_one": "Peruuttaa ({{count}})",
+            "cancel": "Peruuttaa {{count}}",
+            "approve_name": "Hyväksy kampanja",
+            "approve_prompt": "Haluatko varmasti hyväksyä tämän kampanjan?",
+            "approve_title": "Hyväksy kampanja",
+            "approve_zero": "Hyväksyä",
+            "approve_one": "Hyväksy ({{count}})",
+            "approve": "Hyväksyä",
+            "reject": "Hylätä",
+            "settings": "asetukset",
+            "back": "Takaisin",
+            "save": "Tallentaa",
+            "next": "Seuraava",
+            "edit": "Muokkaa kampanjaa",
+            "create": "Luo kampanja",
+            "search": "Suodattaa"
+        },
+        "activeCampaigns": "Aktiiviset kampanjat",
+        "name": "Nimi",
+        "language": "Kieli",
+        "startDate": "Aloituspäivämäärä",
+        "endDate": "Päättymispäivä",
+        "duration": "Kesto",
+        "status": "Tila",
+        "all": "Kaikki kampanjat",
+        "description": "Kuvaus",
+        "jury": "Tuomaristo",
+        "banner": "Banneri",
+        "allowExpansions": "Salli käyttäjien lähettää artikkeleita, joita ei ole luotu laajennettuina",
+        "minimumAddedBytes_help": "Tavujen määrä, jotka osallistujan on lisättävä lähetettyyn artikkeliin kampanjan alusta lähtien",
+        "minimumAddedBytes": "Lisättyjen tavujen vähimmäismäärä",
+        "minimumAddedWords_help": "Sanojen määrä, jotka osallistujan on lisättävä lähetettyyn artikkeliin kampanjan alusta lähtien",
+        "minimumAddedWords": "Lisättyjen sanojen vähimmäismäärä",
+        "minimumTotalBytes_help": "Tavumäärä, joka osallistujalla on oltava lähetetyssä artikkelissa kampanjan alusta lähtien",
+        "minimumTotalBytes": "Tavujen vähimmäismäärä",
+        "minimumTotalWords_help": "Sanojen määrä, jonka osallistujalla on oltava lähetetyssä artikkelissa kampanjan alusta lähtien",
+        "minimumTotalWords": "Sanojen vähimmäismäärä",
+        "allowJuryToParticipate": "Salli tuomariston jäsenten osallistuminen kampanjaan",
+        "secretBallot": "Estä tuomariston jäseniä näkemästä toistensa ääniä",
+        "allowMultipleJudgements": "Salli useiden tuomariston jäsenten arvioida samaa ehdotusta",
+        "image": {
+            "url": "Commons-tiedoston nimi ja laajennus",
+            "fetch": "Hae kuva"
+        },
+        "error": {
+            "youAreNotJudge": "Et ole tämän kampanjan tuomariston jäsen"
+        },
+        "submission": {
+            "title": "Lähetykset",
+            "new": "Lähetä uusi artikkeli",
+            "list": "Lähetykset",
+            "note": "Huomautus",
+            "judge": "Tuomari",
+            "submitter": "Lähettäjä",
+            "points": "Pisteet",
+            "submittedSuccessfully": "Lähetetty onnistuneesti",
+            "totalBytes_one": "Kaikki yhteensä {{count}} tavu",
+            "totalBytes_other": "Kaikki yhteensä {{count}} tavua",
+            "totalWords_one": "Kaikki yhteensä {{count}} sana",
+            "totalWords_other": "Kaikki yhteensä {{count}} sanat",
+            "createdAt": "Luotu klo {{createdAt}}",
+            "createdBy": "Luonut {{createdBy}}",
+            "addedBytes_one": "Lisätty {{count}} tavu",
+            "addedBytes_other": "Lisätty {{count}} tavua",
+            "addedWords_one": "Lisätty {{count}} sana",
+            "addedWords_other": "Lisätty {{count}} sanat",
+            "tags": {
+                "*": "Tunnisteet",
+                "expanded": "Laajennettu",
+                "newlyCreated": "Uusittu",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Tila",
+                "all": "Kaikki",
+                "notEvaluated": "ei arvioitu",
+                "evaluated": "Arvioitu"
+            },
+            "loading": "Ladataan lähetyksiä...",
+            "preview": "Esikatselu",
+            "preview_loading": "Ladataan esikatselua...",
+            "judgement": {
+                "*": "Arviointi",
+                "evaluationSubmittedSuccessfully": "Arviointi lähetetty onnistuneesti",
+                "backToSubmissions": "Arvioi toinen lähetys",
+                "judgeSubmission": "Lisää arviosi",
+                "note": "Huomautus (valinnainen)",
+                "note_placeholder": "Lisää huomautus lähettäjälle (valinnainen)"
+            },
+            "action": {
+                "reject": "Hylätä",
+                "accept": "Hyväksyä",
+                "evaluate": "Arvioida",
+                "evaluate_add": "Lisää arviointi",
+                "evaluate_title": "Arvioi lähetys",
+                "backToCampaign": "Takaisin kampanjaan",
+                "submitAnother": "Lähetä toinen",
+                "check": "Tarkistaa",
+                "submitOnBehalf": "Lähetä puolesta",
+                "submit": "Lähetä",
+                "delete_zero": "Poistaa",
+                "delete_other": "Poista ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Tulokset",
+            "totalSubmission_grand": "Lähetykset yhteensä",
+            "totalSubmission": "Lähetykset",
+            "totalNewlyCreated_grand": "Uusia luotuja yhteensä",
+            "totalNewlyCreated": "Uusittu",
+            "totalExpanded_grand": "Laajennettu yhteensä",
+            "totalExpanded": "Laajennettu",
+            "totalPoints_grand": "Kokonaispisteet",
+            "totalPoints": "Pisteet",
+            "username": "Käyttäjätunnus"
+        },
+        "step": {
+            "details": "Yksityiskohdat",
+            "jury": "Tuomaristo",
+            "restrictions": "Rajoitukset",
+            "overview": "Yleiskatsaus"
+        },
+        "statistics": {
+            "color": "Väri",
+            "title": "Tilastot",
+            "title_year": "Vuoden tilastot",
+            "title_campaign": "Kampanjan tilastot",
+            "overview": "Yleiskatsaus",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "kiinni",
+        "cancel": "Peruuttaa"
+    },
+    "user": {
+        "*": "Käyttäjätunnus",
+        "noUsers": "Käyttäjiä ei löytynyt",
+        "name": "Nimi",
+        "username": "Käyttäjätunnus",
+        "loading": "Ladataan käyttäjiä..."
+    }
+}

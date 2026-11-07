@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Title"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "الرئيسية",
+        "campaign": "الحملة",
+        "statistics": "الإحصائيات",
+        "users": "المستخدمين",
+        "changeLanguage": "تغيير اللغة",
+        "reportBug": "الإبلاغ عن خطأ",
+        "giveFeedback": "إعطاء ملاحظات",
+        "settings": "الإعدادات",
+        "logout": "تسجيل الخروج",
+        "addNewLanguage": "Add New Language"
+    },
+    "error": {
+        "unknown": "حدث خطأ ما. يرجى المحاولة مرة أخرى لاحقًا."
+    },
+    "dashboard": {
+        "welcome": "مرحبًا {{username}}",
+        "description": "مرحبًا بكم في مسابقة كتابة النسوية والتراث، احتفال سنوي بالتنوع الثقافي وشمولية النوع على ويكيبيديا.\nهذه المسابقة تدعو المساهمين المتحمسين للانطلاق في رحلة لتوثيق الأحداث الثقافية المحلية والأنشطة المتعلقة بالتراث والمساهمات المهمة والمغفلة في كثير من الأحيان للنساء.\nكجزء لا يتجزأ من حملة ويكي يحب التراث، يتجاوز هذا المشروع عدسة التصوير، حيث يشجع المشاركين على صياغة سرد جذاب من خلال إنشاء وتوسيع مقالات ويكيبيديا."
+    },
+    "campaign": {
+        "serial": "مسلسل",
+        "loading": "Loading campaign...",
+        "action": {
+            "*": "الإجراءات",
+            "cancel_name": "إلغاء الحملة",
+            "cancel_prompt": "هل أنت متأكد أنك تريد إلغاء هذه الحملة؟",
+            "cancel_title": "إلغاء الحملة",
+            "cancel_zero": "إلغاء",
+            "cancel_one": "إلغاء ({{count}})",
+            "cancel": "إلغاء {{count}}",
+            "approve_name": "اعتماد الحملة",
+            "approve_prompt": "هل أنت متأكد أنك تريد اعتماد هذه الحملة؟",
+            "approve_title": "اعتماد الحملة",
+            "approve_zero": "اعتماد",
+            "approve_one": "اعتماد ({{count}})",
+            "approve": "اعتماد",
+            "reject": "رفض",
+            "settings": "الإعدادات",
+            "back": "العودة",
+            "save": "حفظ",
+            "next": "التالي",
+            "edit": "تحرير الحملة",
+            "create": "إنشاء حملة",
+            "search": "تصفية"
+        },
+        "activeCampaigns": "الحملات النشطة",
+        "name": "الاسم",
+        "language": "اللغة",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "duration": "المدة الزمنية",
+        "status": "الحالة",
+        "all": "كل الحملات",
+        "description": "الوصف",
+        "jury": "اللجنة",
+        "banner": "اللافتة",
+        "allowExpansions": "السماح للمستخدمين بتقديم مقالات لم تُنشأ وإنما تم توسيعها",
+        "minimumAddedBytes_help": "عدد البايتات التي يجب على المشارك إضافتها إلى المقالة المقدمة منذ بداية الحملة",
+        "minimumAddedBytes": "الحد الأدنى للبايتات المضافة",
+        "minimumAddedWords_help": "عدد الكلمات التي يجب على المشارك إضافتها إلى المقالة المقدمة منذ بداية الحملة",
+        "minimumAddedWords": "الحد الأدنى للكلمات المضافة",
+        "minimumTotalBytes_help": "عدد البايتات التي يجب أن يحتويها المشارك على المقالة المقدمة منذ بداية الحملة",
+        "minimumTotalBytes": "الحد الأدنى لإجمالي البايتات",
+        "minimumTotalWords_help": "عدد الكلمات التي يجب أن يحتويها المشارك على المقالة المقدمة منذ بداية الحملة",
+        "minimumTotalWords": "الحد الأدنى لإجمالي الكلمات",
+        "allowJuryToParticipate": "السماح لأعضاء اللجنة بالمشاركة في الحملة",
+        "secretBallot": "منع أعضاء اللجنة من رؤية تقييمات بعضهم البعض",
+        "allowMultipleJudgements": "السماح لأعضاء اللجنة بتقييم نفس الإرسال بشكل متعدد",
+        "image": {
+            "url": "اسم الملف الشائع مع الامتداد",
+            "fetch": "استرداد الصورة"
+        },
+        "error": {
+            "youAreNotJudge": "You are not a jury member of this campaign"
+        },
+        "submission": {
+            "title": "المقالات المقدمة",
+            "new": "تقديم مقال جديد",
+            "list": "المقالات المقدمة",
+            "note": "ملاحظة",
+            "judge": "القاضي",
+            "submitter": "المقدم",
+            "points": "النقاط",
+            "submittedSuccessfully": "تم التقديم بنجاح",
+            "totalBytes_one": "إجمالي {{count}} بايت",
+            "totalBytes_other": "إجمالي {{count}} بايت",
+            "totalWords_one": "إجمالي {{count}} كلمة",
+            "totalWords_other": "إجمالي {{count}} كلمة",
+            "createdAt": "تم الإنشاء في {{createdAt}}",
+            "createdBy": "تم الإنشاء بواسطة {{createdBy}}",
+            "addedBytes_one": "تمت الإضافة {{count}} بايت",
+            "addedBytes_other": "تمت الإضافة {{count}} بايت",
+            "addedWords_one": "تمت الإضافة {{count}} كلمة",
+            "addedWords_other": "تمت الإضافة {{count}} كلمة",
+            "tags": {
+                "*": "العلامات",
+                "expanded": "تم التوسيع",
+                "newlyCreated": "تم الإنشاء حديثًا",
+                "expanded_abbr": "تم التوسيع",
+                "newlyCreated_abbr": "جديد"
+            },
+            "status": {
+                "*": "الحالة",
+                "all": "الكل",
+                "notEvaluated": "لم يتم التقييم",
+                "evaluated": "تم التقييم"
+            },
+            "loading": "جار التحميل...",
+            "preview": "معاينة",
+            "preview_loading": "جاري تحميل المعاينة...",
+            "judgement": {
+                "*": "التقييم",
+                "evaluationSubmittedSuccessfully": "تم تقديم التقييم بنجاح",
+                "backToSubmissions": "تقييم مقالة أخرى",
+                "judgeSubmission": "إضافة تقييمك",
+                "note": "ملاحظة (اختياري)",
+                "note_placeholder": "أضف ملاحظة إلى المقدم (اختياري)"
+            },
+            "action": {
+                "reject": "رفض",
+                "accept": "قبول",
+                "evaluate": "تقييم",
+                "evaluate_add": "Add Evaluation",
+                "evaluate_title": "Evaluate Submission",
+                "backToCampaign": "العودة إلى الحملة",
+                "submitAnother": "تقديم آخر",
+                "check": "تحقق",
+                "submitOnBehalf": "تقديم نيابة عن",
+                "submit": "تقديم",
+                "delete_zero": "Delete",
+                "delete_other": "Delete ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "النتائج",
+            "totalSubmission_grand": "إجمالي المقالات المقدمة",
+            "totalSubmission": "المقالات المقدمة",
+            "totalNewlyCreated_grand": "إجمالي المقالات المنشأة حديثًا",
+            "totalNewlyCreated": "المقالات المنشأة حديثًا",
+            "totalExpanded_grand": "إجمالي المقالات الموسعة",
+            "totalExpanded": "المقالات الموسعة",
+            "totalPoints_grand": "إجمالي النقاط",
+            "totalPoints": "النقاط",
+            "username": "اسم المستخدم"
+        },
+        "step": {
+            "details": "التفاصيل",
+            "jury": "اللجنة",
+            "restrictions": "القيود",
+            "overview": "نظرة عامة"
+        },
+        "statistics": {
+            "color": "اللون",
+            "title": "الإحصائيات",
+            "title_year": "الإحصائيات للعام",
+            "title_campaign": "الإحصائيات للحملة",
+            "overview": "نظرة عامة",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "إغلاق",
+        "cancel": "إلغاء"
+    },
+    "user": {
+        "*": "اسم المستخدم",
+        "noUsers": "لم يتم العثور على مستخدمين",
+        "name": "الاسم",
+        "username": "اسم المستخدم",
+        "loading": "جار التحميل..."
+    }
+}

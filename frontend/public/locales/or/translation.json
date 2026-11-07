@@ -1,0 +1,179 @@
+{
+    "name": "କ୍ୟାମ୍ପୱିଜ୍ |",
+    "article": {
+        "title": "ଆଖ୍ୟା"
+    },
+    "menu": {
+        "name": "କ୍ୟାମ୍ପୱିଜ୍ |",
+        "home": "ଘର",
+        "campaign": "ଅଭିଯାନ |",
+        "statistics": "ପରିସଂଖ୍ୟାନ",
+        "users": "ଉପଯୋଗକର୍ତ୍ତାଗଣ |",
+        "changeLanguage": "ଭାଷା ପରିବର୍ତ୍ତନ କରନ୍ତୁ |",
+        "reportBug": "ବଗ୍ ରିପୋର୍ଟ କରନ୍ତୁ |",
+        "giveFeedback": "ମତାମତ ଦିଅନ୍ତୁ |",
+        "settings": "ସେଟିଂସମୂହ",
+        "logout": "ପ୍ରସ୍ଥାନ କର",
+        "addNewLanguage": "ନୂତନ ଭାଷା ଯୋଡନ୍ତୁ |"
+    },
+    "error": {
+        "unknown": "କିଛି ଭୁଲ ହୋଇ ଗଲା। "
+    },
+    "dashboard": {
+        "welcome": "ସ୍ Welcome ାଗତ {{username}}",
+        "description": "ଉଇକିପିଡ଼ିଆରେ ସାଂସ୍କୃତିକ ବିବିଧତା ଏବଂ ଲିଙ୍ଗଗତ ଅନ୍ତର୍ଭୂକ୍ତିର ବାର୍ଷିକ ଉତ୍ସବ, ନାରୀବାଦ ଏବଂ ଲୋକନୃତ୍ୟ ଲେଖା ପ୍ରତିଯୋଗିତାକୁ ସ୍ୱାଗତ |\n"
+    },
+    "campaign": {
+        "serial": "କ୍ରମିକ |",
+        "loading": "ଲୋଡିଂ ଅଭିଯାନ ...",
+        "action": {
+            "*": "କାର୍ଯ୍ୟ",
+            "cancel_name": "ଅଭିଯାନ ବାତିଲ କରନ୍ତୁ |",
+            "cancel_prompt": "ଆପଣ ନିଶ୍ଚିତ କି ଆପଣ ଏହି ଅଭିଯାନକୁ ବାତିଲ କରିବାକୁ ଚାହୁଁଛନ୍ତି?",
+            "cancel_title": "ଅଭିଯାନ ବାତିଲ କରନ୍ତୁ |",
+            "cancel_zero": "ବାତିଲ୍ କରନ୍ତୁ |",
+            "cancel_one": "ବାତିଲ୍ କରନ୍ତୁ ({{count}})",
+            "cancel": "ବାତିଲ୍ କରନ୍ତୁ | {{count}}",
+            "approve_name": "ଅଭିଯାନକୁ ଅନୁମୋଦନ କରନ୍ତୁ |",
+            "approve_prompt": "ଆପଣ ନିଶ୍ଚିତ କି ଆପଣ ଏହି ଅଭିଯାନକୁ ଅନୁମୋଦନ କରିବାକୁ ଚାହୁଁଛନ୍ତି କି?",
+            "approve_title": "ଅଭିଯାନକୁ ଅନୁମୋଦନ କରନ୍ତୁ |",
+            "approve_zero": "ଅନୁମୋଦନ କରନ୍ତୁ |",
+            "approve_one": "ଅନୁମୋଦନ କରନ୍ତୁ ({{count}})",
+            "approve": "ଅନୁମୋଦନ କରନ୍ତୁ |",
+            "reject": "ପ୍ରତ୍ୟାଖ୍ୟାନ କରନ୍ତୁ |",
+            "settings": "ସେଟିଂସମୂହ",
+            "back": "ପଛକୁ",
+            "save": "ସଞ୍ଚୟ କରନ୍ତୁ |",
+            "next": "ପରବର୍ତ୍ତୀ",
+            "edit": "ଅଭିଯାନ ସଂପାଦନ କରନ୍ତୁ |",
+            "create": "ଅଭିଯାନ ସୃଷ୍ଟି କରନ୍ତୁ |",
+            "search": "ଫିଲ୍ଟର୍ |"
+        },
+        "activeCampaigns": "ସକ୍ରିୟ ଅଭିଯାନ |",
+        "name": "ନାମ",
+        "language": "ଭାଷା",
+        "startDate": "ଆରମ୍ଭ ତାରିଖ",
+        "endDate": "ଶେଷ ତାରିଖ",
+        "duration": "ଅବଧି",
+        "status": "ସ୍ଥିତି",
+        "all": "ସମସ୍ତ ଅଭିଯାନ |",
+        "description": "ବର୍ଣ୍ଣନା",
+        "jury": "ଖଣ୍ଡପୀଠ",
+        "banner": "ବ୍ୟାନର |",
+        "allowExpansions": "ଉପଯୋଗକର୍ତ୍ତାଗଣଙ୍କୁ ଆର୍ଟିକିଲ୍ ଦାଖଲ କରିବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ ଯାହାକି ଅଧିକ ବିସ୍ତାର ହୋଇନାହିଁ |",
+        "minimumAddedBytes_help": "ଅଭିଯାନ ଆରମ୍ଭରୁ ଉପସ୍ଥାପିତ ପ୍ରବନ୍ଧରେ ଅଂଶଗ୍ରହଣକାରୀ ନିଶ୍ଚିତ ଭାବରେ ଯୋଗ କରିବେ |",
+        "minimumAddedBytes": "ସର୍ବନିମ୍ନ ଯୋଡା ଯାଇଥିବା ବାଇଟ୍ |",
+        "minimumAddedWords_help": "ଅଭିଯାନ ଆରମ୍ଭରୁ ଉପସ୍ଥାପିତ ପ୍ରବନ୍ଧରେ ଅଂଶଗ୍ରହଣକାରୀ ନିଶ୍ଚିତ ଭାବରେ ଯୋଗ କରିବେ |",
+        "minimumAddedWords": "ସର୍ବନିମ୍ନ ଯୋଗ ଶବ୍ଦ |",
+        "minimumTotalBytes_help": "ଅଭିଯାନ ଆରମ୍ଭରୁ ଦାଖଲ ହୋଇଥିବା ଆର୍ଟିକିଲରେ ଅଂଶଗ୍ରହଣକାରୀଙ୍କ ପାଖରେ ଥିବା ବାଇଟ୍ ସଂଖ୍ୟା ନିଶ୍ଚିତ |",
+        "minimumTotalBytes": "ସର୍ବନିମ୍ନ ସମୁଦାୟ ବାଇଟ୍ |",
+        "minimumTotalWords_help": "ଅଭିଯାନ ଆରମ୍ଭରୁ ଦାଖଲ ହୋଇଥିବା ଆର୍ଟିକିଲରେ ଅଂଶଗ୍ରହଣକାରୀଙ୍କ ଶବ୍ଦ ସଂଖ୍ୟା ନିଶ୍ଚିତ |",
+        "minimumTotalWords": "ସର୍ବନିମ୍ନ ସମୁଦାୟ ଶବ୍ଦ |",
+        "allowJuryToParticipate": "ଜୁରି ସଦସ୍ୟମାନଙ୍କୁ ଏହି ଅଭିଯାନରେ ଅଂଶଗ୍ରହଣ କରିବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ |",
+        "secretBallot": "ଜୁରି ସଦସ୍ୟମାନଙ୍କୁ ପରସ୍ପରର ଭୋଟ୍ ଦେଖିବାରେ ବାରଣ କରନ୍ତୁ |",
+        "allowMultipleJudgements": "ସମାନ ଦାଖଲର ମୂଲ୍ୟାଙ୍କନ କରିବାକୁ ଏକାଧିକ ଖଣ୍ଡପୀଠ ସଦସ୍ୟଙ୍କୁ ଅନୁମତି ଦିଅନ୍ତୁ |",
+        "image": {
+            "url": "ଏକ୍ସଟେନ୍ସନ୍ ସହିତ କମନ୍ସ ଫାଇଲ୍ ନାମ |",
+            "fetch": "ପ୍ରତିଛବି ଆଣ |"
+        },
+        "error": {
+            "youAreNotJudge": "ଆପଣ ଏହି ଅଭିଯାନର ଏକ ଖଣ୍ଡପୀଠ ସଦସ୍ୟ ନୁହଁନ୍ତି |"
+        },
+        "submission": {
+            "title": "ଉପସ୍ଥାପନା |",
+            "new": "ନୂତନ ଆର୍ଟିକିଲ୍ ଦାଖଲ କରନ୍ତୁ |",
+            "list": "ଉପସ୍ଥାପନା |",
+            "note": "ଧ୍ୟାନ ଦିଅନ୍ତୁ",
+            "judge": "ବିଚାରପତି",
+            "submitter": "ଦାଖଲକାରୀ |",
+            "points": "ପଏଣ୍ଟସ୍",
+            "submittedSuccessfully": "ସଫଳତାର ସହିତ ଦାଖଲ |",
+            "totalBytes_one": "ସମୁଦାୟ {{count}} ବାଇଟ୍ |",
+            "totalBytes_other": "ସମୁଦାୟ {{count}} ବାଇଟ୍ |",
+            "totalWords_one": "ସମୁଦାୟ {{count}} ଶବ୍ଦ",
+            "totalWords_other": "ସମୁଦାୟ {{count}} ଶବ୍ଦ",
+            "createdAt": "ସୃଷ୍ଟି ହୋଇଛି {{createdAt}}",
+            "createdBy": "ଦ୍ୱାରା ସୃଷ୍ଟି | {{createdBy}}",
+            "addedBytes_one": "ଯୋଡା ଯାଇଛି | {{count}} ବାଇଟ୍ |",
+            "addedBytes_other": "ଯୋଡା ଯାଇଛି | {{count}} ବାଇଟ୍ |",
+            "addedWords_one": "ଯୋଡା ଯାଇଛି | {{count}} ଶବ୍ଦ",
+            "addedWords_other": "ଯୋଡା ଯାଇଛି | {{count}} ଶବ୍ଦ",
+            "tags": {
+                "*": "ଟ୍ୟାଗ୍ସ",
+                "expanded": "ବିସ୍ତାରିତ |",
+                "newlyCreated": "ନୂତନ ଭାବରେ ସୃଷ୍ଟି |",
+                "expanded_abbr": "ଇ",
+                "newlyCreated_abbr": "N।"
+            },
+            "status": {
+                "*": "ସ୍ଥିତି",
+                "all": "ସମସ୍ତ",
+                "notEvaluated": "ମୂଲ୍ୟାଙ୍କନ ନୁହେଁ |",
+                "evaluated": "ମୂଲ୍ୟାଙ୍କନ"
+            },
+            "loading": "ଦାଖଲ ଲୋଡିଂ ...",
+            "preview": "ପୂର୍ବାବଲୋକନ",
+            "preview_loading": "ପୂର୍ବାବଲୋକନ ଲୋଡିଂ ...",
+            "judgement": {
+                "*": "ମୂଲ୍ୟାଙ୍କନ",
+                "evaluationSubmittedSuccessfully": "ମୂଲ୍ୟାଙ୍କନ ସଫଳତାର ସହିତ ଦାଖଲ ହେଲା |",
+                "backToSubmissions": "ଅନ୍ୟ ଏକ ଦାଖଲର ମୂଲ୍ୟାଙ୍କନ କର |",
+                "judgeSubmission": "ଆପଣଙ୍କର ମୂଲ୍ୟାଙ୍କନ ଯୋଡନ୍ତୁ |",
+                "note": "ଟିପ୍ପଣୀ (ବ al କଳ୍ପିକ)",
+                "note_placeholder": "ଦାଖଲକାରୀଙ୍କୁ ଏକ ନୋଟ୍ ଯୋଡନ୍ତୁ (ବ al କଳ୍ପିକ)"
+            },
+            "action": {
+                "reject": "ପ୍ରତ୍ୟାଖ୍ୟାନ କରନ୍ତୁ |",
+                "accept": "ଗ୍ରହଣ କରନ୍ତୁ",
+                "evaluate": "ମୂଲ୍ୟାଙ୍କନ କର |",
+                "evaluate_add": "ମୂଲ୍ୟାଙ୍କନ ଯୋଡନ୍ତୁ |",
+                "evaluate_title": "ଦାଖଲର ମୂଲ୍ୟାଙ୍କନ କର |",
+                "backToCampaign": "ଅଭିଯାନକୁ ଫେରନ୍ତୁ |",
+                "submitAnother": "ଅନ୍ୟକୁ ଦାଖଲ କରନ୍ତୁ |",
+                "check": "ଯାଞ୍ଚ କରନ୍ତୁ |",
+                "submitOnBehalf": "ତରଫରୁ ଦାଖଲ କରନ୍ତୁ |",
+                "submit": "ଦାଖଲ କରନ୍ତୁ |",
+                "delete_zero": "ବିଲୋପ କରନ୍ତୁ |",
+                "delete_other": "ବିଲୋପ କରନ୍ତୁ ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "ଫଳାଫଳ",
+            "totalSubmission_grand": "ସମୁଦାୟ ଉପସ୍ଥାପନା |",
+            "totalSubmission": "ଉପସ୍ଥାପନା |",
+            "totalNewlyCreated_grand": "ସମୁଦାୟ ନୂତନ ସୃଷ୍ଟି |",
+            "totalNewlyCreated": "ନୂତନ ଭାବରେ ସୃଷ୍ଟି |",
+            "totalExpanded_grand": "ସମୁଦାୟ ବିସ୍ତାରିତ |",
+            "totalExpanded": "ବିସ୍ତାରିତ |",
+            "totalPoints_grand": "ମୋଟ ପଏଣ୍ଟ |",
+            "totalPoints": "ପଏଣ୍ଟସ୍",
+            "username": "ଉପଯୋଗକର୍ତ୍ତା ନାମ"
+        },
+        "step": {
+            "details": "ବିବରଣୀ",
+            "jury": "ଖଣ୍ଡପୀଠ",
+            "restrictions": "ପ୍ରତିବନ୍ଧକ |",
+            "overview": "ସମୀକ୍ଷା"
+        },
+        "statistics": {
+            "color": "ରଙ୍ଗ",
+            "title": "ପରିସଂଖ୍ୟାନ",
+            "title_year": "ବର୍ଷ ପାଇଁ ପରିସଂଖ୍ୟାନ |",
+            "title_campaign": "ଅଭିଯାନ ପାଇଁ ପରିସଂଖ୍ୟାନ |",
+            "overview": "ସମୀକ୍ଷା",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "ବନ୍ଦ",
+        "cancel": "ବାତିଲ୍ କରନ୍ତୁ |"
+    },
+    "user": {
+        "*": "ଉପଯୋଗକର୍ତ୍ତା ନାମ",
+        "noUsers": "କ users ଣସି ଉପଭୋକ୍ତା ପାଇଲେ ନାହିଁ |",
+        "name": "ନାମ",
+        "username": "ଉପଯୋଗକର୍ତ୍ତା ନାମ",
+        "loading": "ଉପଭୋକ୍ତାମାନଙ୍କୁ ଲୋଡ୍ କରୁଛି ..."
+    }
+}

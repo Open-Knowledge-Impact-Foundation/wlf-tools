@@ -1,0 +1,179 @@
+{
+    "name": "营维兹",
+    "article": {
+        "title": "标题"
+    },
+    "menu": {
+        "name": "营维兹",
+        "home": "家",
+        "campaign": "活动",
+        "statistics": "统计数据",
+        "users": "用户",
+        "changeLanguage": "改变语言",
+        "reportBug": "报告软件缺陷",
+        "giveFeedback": "给予反馈",
+        "settings": "设置",
+        "logout": "登出",
+        "addNewLanguage": "添加新语言"
+    },
+    "error": {
+        "unknown": "出了些问题。"
+    },
+    "dashboard": {
+        "welcome": "欢迎 {{username}}",
+        "description": "欢迎参加女权主义和民俗写作大赛，这是维基百科上一年一度的文化多样性和性别包容性庆祝活动。\n"
+    },
+    "campaign": {
+        "serial": "串行",
+        "loading": "正在加载活动...",
+        "action": {
+            "*": "行动",
+            "cancel_name": "取消活动",
+            "cancel_prompt": "您确定要取消此活动吗？",
+            "cancel_title": "取消活动",
+            "cancel_zero": "取消",
+            "cancel_one": "Cancel ({{count}})",
+            "cancel": "取消 {{count}}",
+            "approve_name": "批准活动",
+            "approve_prompt": "您确定要批准此活动吗？",
+            "approve_title": "批准活动",
+            "approve_zero": "批准",
+            "approve_one": "Approve ({{count}})",
+            "approve": "批准",
+            "reject": "拒绝",
+            "settings": "设置",
+            "back": "后退",
+            "save": "节省",
+            "next": "下一个",
+            "edit": "编辑活动",
+            "create": "创建营销活动",
+            "search": "筛选"
+        },
+        "activeCampaigns": "活跃活动",
+        "name": "姓名",
+        "language": "语言",
+        "startDate": "开始日期",
+        "endDate": "结束日期",
+        "duration": "期间",
+        "status": "地位",
+        "all": "所有活动",
+        "description": "描述",
+        "jury": "陪审团",
+        "banner": "横幅",
+        "allowExpansions": "允许用户提交未创建而是扩展的文章",
+        "minimumAddedBytes_help": "自活动开始以来参与者必须在提交的文章上添加的字节数",
+        "minimumAddedBytes": "最小添加字节数",
+        "minimumAddedWords_help": "自活动开始以来参与者必须在提交的文章中添加的字数",
+        "minimumAddedWords": "最少添加字数",
+        "minimumTotalBytes_help": "自活动开始以来参与者提交的文章必须拥有的字节数",
+        "minimumTotalBytes": "最小总字节数",
+        "minimumTotalWords_help": "自活动开始以来参与者必须在提交的文章中包含的字数",
+        "minimumTotalWords": "最少总字数",
+        "allowJuryToParticipate": "允许评审团成员参与活动",
+        "secretBallot": "防止评审团成员看到彼此的投票",
+        "allowMultipleJudgements": "允许多个评审团成员评估同一份提交内容",
+        "image": {
+            "url": "带扩展名的共享文件名",
+            "fetch": "获取图像"
+        },
+        "error": {
+            "youAreNotJudge": "您不是本次活动的评审团成员"
+        },
+        "submission": {
+            "title": "意见书",
+            "new": "提交新文章",
+            "list": "意见书",
+            "note": "笔记",
+            "judge": "法官",
+            "submitter": "提交者",
+            "points": "积分",
+            "submittedSuccessfully": "提交成功",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "全部的 {{count}} 字节",
+            "totalWords_one": "Total {{count}} word",
+            "totalWords_other": "全部的 {{count}} 字",
+            "createdAt": "创建于 {{createdAt}}",
+            "createdBy": "由...制作 {{createdBy}}",
+            "addedBytes_one": "Added {{count}} byte",
+            "addedBytes_other": "添加 {{count}} 字节",
+            "addedWords_one": "Added {{count}} word",
+            "addedWords_other": "添加 {{count}} 字",
+            "tags": {
+                "*": "标签",
+                "expanded": "扩展",
+                "newlyCreated": "新创建的",
+                "expanded_abbr": "乙",
+                "newlyCreated_abbr": "氮"
+            },
+            "status": {
+                "*": "地位",
+                "all": "全部",
+                "notEvaluated": "未评估",
+                "evaluated": "已评估"
+            },
+            "loading": "正在加载提交内容...",
+            "preview": "预览",
+            "preview_loading": "正在加载预览...",
+            "judgement": {
+                "*": "评估",
+                "evaluationSubmittedSuccessfully": "评估提交成功",
+                "backToSubmissions": "评估另一个提交",
+                "judgeSubmission": "添加您的评价",
+                "note": "注意（可选）",
+                "note_placeholder": "向提交者添加备注（可选）"
+            },
+            "action": {
+                "reject": "拒绝",
+                "accept": "接受",
+                "evaluate": "评价",
+                "evaluate_add": "添加评价",
+                "evaluate_title": "评估提交内容",
+                "backToCampaign": "返回活动",
+                "submitAnother": "提交另一个",
+                "check": "查看",
+                "submitOnBehalf": "代表提交",
+                "submit": "提交",
+                "delete_zero": "删除",
+                "delete_other": "删除 （{{count}}）",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "结果",
+            "totalSubmission_grand": "提交总数",
+            "totalSubmission": "意见书",
+            "totalNewlyCreated_grand": "新创建总数",
+            "totalNewlyCreated": "新创建的",
+            "totalExpanded_grand": "总扩展",
+            "totalExpanded": "扩展",
+            "totalPoints_grand": "总积分",
+            "totalPoints": "积分",
+            "username": "用户名"
+        },
+        "step": {
+            "details": "细节",
+            "jury": "陪审团",
+            "restrictions": "限制",
+            "overview": "概述"
+        },
+        "statistics": {
+            "color": "颜色",
+            "title": "统计数据",
+            "title_year": "当年统计数据",
+            "title_campaign": "活动统计",
+            "overview": "概述",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "关闭",
+        "cancel": "取消"
+    },
+    "user": {
+        "*": "用户名",
+        "noUsers": "未找到相应的用户",
+        "name": "姓名",
+        "username": "用户名",
+        "loading": "正在加载用户..."
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Başlık"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Ev",
+        "campaign": "Kampanya",
+        "statistics": "İstatistik",
+        "users": "Kullanıcılar",
+        "changeLanguage": "Dili değiştir",
+        "reportBug": "Hata Bildir",
+        "giveFeedback": "Geri Bildirimde Bulunun",
+        "settings": "Ayarlar",
+        "logout": "Çıkış Yap",
+        "addNewLanguage": "Yeni Dil Ekle"
+    },
+    "error": {
+        "unknown": "Bir şeyler yanlış gitti. "
+    },
+    "dashboard": {
+        "welcome": "Hoş geldin {{username}}",
+        "description": "Vikipedi'de kültürel çeşitliliğin ve cinsiyet kapsayıcılığının her yıl kutlandığı Feminizm ve Folklor Yazım Yarışması'na hoş geldiniz.\n"
+    },
+    "campaign": {
+        "serial": "Seri",
+        "loading": "Kampanya yükleniyor...",
+        "action": {
+            "*": "Hareketler",
+            "cancel_name": "Kampanyayı İptal Et",
+            "cancel_prompt": "Bu kampanyayı iptal etmek istediğinizden emin misiniz?",
+            "cancel_title": "Kampanyayı İptal Et",
+            "cancel_zero": "İptal etmek",
+            "cancel_one": "İptal etmek ({{count}})",
+            "cancel": "İptal etmek {{count}}",
+            "approve_name": "Kampanyayı Onayla",
+            "approve_prompt": "Bu kampanyayı onaylamak istediğinizden emin misiniz?",
+            "approve_title": "Kampanyayı Onayla",
+            "approve_zero": "Onaylamak",
+            "approve_one": "Onaylamak ({{count}})",
+            "approve": "Onaylamak",
+            "reject": "Reddetmek",
+            "settings": "Ayarlar",
+            "back": "Geri",
+            "save": "Kaydetmek",
+            "next": "Sonraki",
+            "edit": "Kampanyayı Düzenle",
+            "create": "Kampanya Oluştur",
+            "search": "Filtre"
+        },
+        "activeCampaigns": "Aktif Kampanyalar",
+        "name": "İsim",
+        "language": "Dil",
+        "startDate": "Başlangıç ​​tarihi",
+        "endDate": "Bitiş tarihi",
+        "duration": "Süre",
+        "status": "Durum",
+        "all": "Tüm Kampanyalar",
+        "description": "Tanım",
+        "jury": "Jüri",
+        "banner": "Afiş",
+        "allowExpansions": "Kullanıcıların oluşturulmamış, daha ziyade genişletilmiş makaleler göndermesine izin ver",
+        "minimumAddedBytes_help": "Kampanyanın başlangıcından bu yana katılımcının gönderilen makaleye eklemesi gereken bayt sayısı",
+        "minimumAddedBytes": "Minimum Eklenen Bayt Sayısı",
+        "minimumAddedWords_help": "Kampanya başlangıcından bu yana katılımcının gönderilen makaleye eklemesi gereken kelime sayısı",
+        "minimumAddedWords": "Minimum Eklenen Kelime",
+        "minimumTotalBytes_help": "Kampanyanın başlangıcından bu yana katılımcının gönderilen makalede sahip olması gereken bayt sayısı",
+        "minimumTotalBytes": "Minimum Toplam Bayt",
+        "minimumTotalWords_help": "Kampanya başlangıcından bu yana katılımcının gönderilen makale üzerinde sahip olması gereken kelime sayısı",
+        "minimumTotalWords": "Minimum Toplam Kelime",
+        "allowJuryToParticipate": "Jüri üyelerinin kampanyaya katılmasına izin verin",
+        "secretBallot": "Jüri üyelerinin birbirlerinin oylarını görmesini engelleyin",
+        "allowMultipleJudgements": "Birden fazla jüri üyesinin aynı gönderimi değerlendirmesine izin ver",
+        "image": {
+            "url": "Uzantılı Commons Dosya Adı",
+            "fetch": "Resim Getir"
+        },
+        "error": {
+            "youAreNotJudge": "Bu kampanyanın jüri üyesi değilsiniz"
+        },
+        "submission": {
+            "title": "Gönderimler",
+            "new": "Yeni Makale Gönder",
+            "list": "Gönderimler",
+            "note": "Not",
+            "judge": "Yargıç",
+            "submitter": "Gönderen",
+            "points": "Puanlar",
+            "submittedSuccessfully": "Başarıyla gönderildi",
+            "totalBytes_one": "Toplam {{count}} bayt",
+            "totalBytes_other": "Toplam {{count}} bayt",
+            "totalWords_one": "Toplam {{count}} kelime",
+            "totalWords_other": "Toplam {{count}} kelimeler",
+            "createdAt": "Oluşturulma Tarihi {{createdAt}}",
+            "createdBy": "Tarafından yaratıldı {{createdBy}}",
+            "addedBytes_one": "Katma {{count}} bayt",
+            "addedBytes_other": "Katma {{count}} bayt",
+            "addedWords_one": "Katma {{count}} kelime",
+            "addedWords_other": "Katma {{count}} kelimeler",
+            "tags": {
+                "*": "Etiketler",
+                "expanded": "Genişletilmiş",
+                "newlyCreated": "Yeni yaratılmış",
+                "expanded_abbr": "e",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Durum",
+                "all": "Tüm",
+                "notEvaluated": "değerlendirilmedi",
+                "evaluated": "Değerlendirildi"
+            },
+            "loading": "Gönderimler yükleniyor...",
+            "preview": "Ön izleme",
+            "preview_loading": "Önizleme yükleniyor...",
+            "judgement": {
+                "*": "Değerlendirme",
+                "evaluationSubmittedSuccessfully": "Değerlendirme başarıyla gönderildi",
+                "backToSubmissions": "Başka bir gönderimi değerlendirin",
+                "judgeSubmission": "Değerlendirmenizi ekleyin",
+                "note": "Not (İsteğe bağlı)",
+                "note_placeholder": "Gönderene bir not ekleyin (isteğe bağlı)"
+            },
+            "action": {
+                "reject": "Reddetmek",
+                "accept": "Kabul etmek",
+                "evaluate": "Değerlendirmek",
+                "evaluate_add": "Değerlendirme Ekle",
+                "evaluate_title": "Gönderimi Değerlendir",
+                "backToCampaign": "Kampanyaya Geri Dön",
+                "submitAnother": "Başka Gönder",
+                "check": "Kontrol etmek",
+                "submitOnBehalf": "adına gönderin",
+                "submit": "Göndermek",
+                "delete_zero": "Silmek",
+                "delete_other": "Silmek ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Sonuçlar",
+            "totalSubmission_grand": "Toplam Gönderimler",
+            "totalSubmission": "Gönderimler",
+            "totalNewlyCreated_grand": "Toplam Yeni Oluşturulanlar",
+            "totalNewlyCreated": "Yeni yaratılmış",
+            "totalExpanded_grand": "Toplam Genişletilmiş",
+            "totalExpanded": "Genişletilmiş",
+            "totalPoints_grand": "Toplam puanlar",
+            "totalPoints": "Puanlar",
+            "username": "Kullanıcı adı"
+        },
+        "step": {
+            "details": "Detaylar",
+            "jury": "Jüri",
+            "restrictions": "Kısıtlamalar",
+            "overview": "Genel Bakış"
+        },
+        "statistics": {
+            "color": "Renk",
+            "title": "İstatistik",
+            "title_year": "Yılın istatistikleri",
+            "title_campaign": "Kampanyaya ilişkin istatistikler",
+            "overview": "Genel Bakış",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Kapalı",
+        "cancel": "İptal etmek"
+    },
+    "user": {
+        "*": "Kullanıcı adı",
+        "noUsers": "Kullanıcı bulunamadı",
+        "name": "İsim",
+        "username": "Kullanıcı adı",
+        "loading": "Kullanıcılar yükleniyor..."
+    }
+}

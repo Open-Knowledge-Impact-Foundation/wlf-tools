@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Pamagat"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Bahay",
+        "campaign": "Kampanya",
+        "statistics": "Mga istatistika",
+        "users": "Mga gumagamit",
+        "changeLanguage": "Baguhin ang Wika",
+        "reportBug": "Iulat ang Bug",
+        "giveFeedback": "Magbigay ng Feedback",
+        "settings": "Mga setting",
+        "logout": "Mag-logout",
+        "addNewLanguage": "Magdagdag ng Bagong Wika"
+    },
+    "error": {
+        "unknown": "Nagkaproblema. "
+    },
+    "dashboard": {
+        "welcome": "Maligayang pagdating {{username}}",
+        "description": "Maligayang pagdating sa Feminism and Folklore Writing Contest, isang taunang pagdiriwang ng pagkakaiba-iba ng kultura at pagiging kasama ng kasarian sa Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "Serial",
+        "loading": "Nilo-load ang campaign...",
+        "action": {
+            "*": "Mga aksyon",
+            "cancel_name": "Kanselahin ang Kampanya",
+            "cancel_prompt": "Sigurado ka bang gusto mong kanselahin ang kampanyang ito?",
+            "cancel_title": "Kanselahin ang Kampanya",
+            "cancel_zero": "Kanselahin",
+            "cancel_one": "Kanselahin ({{count}})",
+            "cancel": "Kanselahin {{count}}",
+            "approve_name": "Aprubahan ang Kampanya",
+            "approve_prompt": "Sigurado ka bang gusto mong aprubahan ang kampanyang ito?",
+            "approve_title": "Aprubahan ang Kampanya",
+            "approve_zero": "Aprubahan",
+            "approve_one": "Aprubahan ({{count}})",
+            "approve": "Aprubahan",
+            "reject": "Tanggihan",
+            "settings": "Mga setting",
+            "back": "Bumalik",
+            "save": "I-save",
+            "next": "Susunod",
+            "edit": "I-edit ang Kampanya",
+            "create": "Lumikha ng Kampanya",
+            "search": "Salain"
+        },
+        "activeCampaigns": "Mga Aktibong Kampanya",
+        "name": "Pangalan",
+        "language": "Wika",
+        "startDate": "Petsa ng Pagsisimula",
+        "endDate": "Petsa ng Pagtatapos",
+        "duration": "Tagal",
+        "status": "Katayuan",
+        "all": "Lahat ng Kampanya",
+        "description": "Paglalarawan",
+        "jury": "hurado",
+        "banner": "Banner",
+        "allowExpansions": "Pahintulutan ang mga user na magsumite ng mga artikulo na hindi ginawa sa halip na pinalawak",
+        "minimumAddedBytes_help": "Ang bilang ng mga byte na dapat idagdag ng kalahok sa isinumiteng artikulo mula noong simula ng kampanya",
+        "minimumAddedBytes": "Pinakamababang Nadagdag na Byte",
+        "minimumAddedWords_help": "Ang bilang ng mga salita na dapat idagdag ng kalahok sa isinumiteng artikulo mula noong simula ng kampanya",
+        "minimumAddedWords": "Pinakamababang Nadagdag na mga Salita",
+        "minimumTotalBytes_help": "Ang bilang ng mga byte na dapat mayroon ang kalahok sa isinumiteng artikulo mula noong simula ng kampanya",
+        "minimumTotalBytes": "Pinakamababang Kabuuang Byte",
+        "minimumTotalWords_help": "Ang bilang ng mga salita na dapat mayroon ang kalahok sa isinumiteng artikulo mula pa noong simula ng kampanya",
+        "minimumTotalWords": "Pinakamababang Kabuuang Salita",
+        "allowJuryToParticipate": "Pahintulutan ang mga miyembro ng hurado na lumahok sa kampanya",
+        "secretBallot": "Pigilan ang mga miyembro ng hurado na makita ang mga boto ng bawat isa",
+        "allowMultipleJudgements": "Payagan ang maraming miyembro ng hurado na suriin ang parehong pagsusumite",
+        "image": {
+            "url": "Commons File Name na may Extension",
+            "fetch": "Kunin ang Larawan"
+        },
+        "error": {
+            "youAreNotJudge": "Hindi ka miyembro ng hurado ng kampanyang ito"
+        },
+        "submission": {
+            "title": "Mga pagsusumite",
+            "new": "Magsumite ng Bagong Artikulo",
+            "list": "Mga pagsusumite",
+            "note": "Tandaan",
+            "judge": "Hukom",
+            "submitter": "Nagsusumite",
+            "points": "Mga puntos",
+            "submittedSuccessfully": "Matagumpay na naisumite",
+            "totalBytes_one": "Kabuuan {{count}} byte",
+            "totalBytes_other": "Kabuuan {{count}} byte",
+            "totalWords_one": "Kabuuan {{count}} salita",
+            "totalWords_other": "Kabuuan {{count}} mga salita",
+            "createdAt": "Nilikha Sa {{createdAt}}",
+            "createdBy": "Ginawa ni {{createdBy}}",
+            "addedBytes_one": "Idinagdag {{count}} byte",
+            "addedBytes_other": "Idinagdag {{count}} byte",
+            "addedWords_one": "Idinagdag {{count}} salita",
+            "addedWords_other": "Idinagdag {{count}} mga salita",
+            "tags": {
+                "*": "Mga tag",
+                "expanded": "Pinalawak",
+                "newlyCreated": "Bagong Nilikha",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Katayuan",
+                "all": "Lahat",
+                "notEvaluated": "Hindi Nasusuri",
+                "evaluated": "Nasusuri"
+            },
+            "loading": "Nilo-load ang mga isinumite...",
+            "preview": "Silipin",
+            "preview_loading": "Nilo-load ang preview...",
+            "judgement": {
+                "*": "Pagsusuri",
+                "evaluationSubmittedSuccessfully": "Matagumpay na naisumite ang pagsusuri",
+                "backToSubmissions": "Suriin ang isa pang pagsusumite",
+                "judgeSubmission": "Idagdag ang iyong Ebalwasyon",
+                "note": "Tandaan (Opsyonal)",
+                "note_placeholder": "Magdagdag ng tala sa nagsumite (opsyonal)"
+            },
+            "action": {
+                "reject": "Tanggihan",
+                "accept": "Tanggapin",
+                "evaluate": "Suriin",
+                "evaluate_add": "Magdagdag ng Pagsusuri",
+                "evaluate_title": "Suriin ang Pagsusumite",
+                "backToCampaign": "Bumalik sa Kampanya",
+                "submitAnother": "Magsumite ng Isa pa",
+                "check": "Suriin",
+                "submitOnBehalf": "Isumite sa ngalan ng",
+                "submit": "Ipasa",
+                "delete_zero": "Tanggalin",
+                "delete_other": "Tanggalin ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Mga resulta",
+            "totalSubmission_grand": "Kabuuang Pagsusumite",
+            "totalSubmission": "Mga pagsusumite",
+            "totalNewlyCreated_grand": "Kabuuang Bagong Nalikha",
+            "totalNewlyCreated": "Bagong Nilikha",
+            "totalExpanded_grand": "Kabuuang Pinalawak",
+            "totalExpanded": "Pinalawak",
+            "totalPoints_grand": "Ang kabuuang puntos",
+            "totalPoints": "Mga puntos",
+            "username": "Username"
+        },
+        "step": {
+            "details": "Mga Detalye",
+            "jury": "hurado",
+            "restrictions": "Mga paghihigpit",
+            "overview": "Pangkalahatang-ideya"
+        },
+        "statistics": {
+            "color": "Kulay",
+            "title": "Mga istatistika",
+            "title_year": "Mga istatistika para sa taon",
+            "title_campaign": "Mga istatistika para sa kampanya",
+            "overview": "Pangkalahatang-ideya",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Isara",
+        "cancel": "Kanselahin"
+    },
+    "user": {
+        "*": "Username",
+        "noUsers": "Walang nahanap na mga gumagamit",
+        "name": "Pangalan",
+        "username": "Username",
+        "loading": "Nilo-load ang mga user..."
+    }
+}

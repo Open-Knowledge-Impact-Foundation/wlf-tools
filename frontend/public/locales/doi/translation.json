@@ -1,0 +1,179 @@
+{
+    "name": "कैंपविज़ ने दी",
+    "article": {
+        "title": "शीर्शक"
+    },
+    "menu": {
+        "name": "कैंपविज़ ने दी",
+        "home": "घर",
+        "campaign": "म्हीम",
+        "statistics": "आंकड़े",
+        "users": "उपयोगकर्ताओं ने दी",
+        "changeLanguage": "भाषा बदलो",
+        "reportBug": "बग दी रिपोर्ट करो",
+        "giveFeedback": "फीडबैक दे",
+        "settings": "सेटिंग्स",
+        "logout": "लॉगआउट करो",
+        "addNewLanguage": "नई भाषा जोड़ें"
+    },
+    "error": {
+        "unknown": "कुछ गड़बड़ हो गया। "
+    },
+    "dashboard": {
+        "welcome": "सुआगत {{username}}",
+        "description": "विकिपीडिया पर सांस्कृतिक विविधता ते लैंगिक समावेशीता दा सालाना उत्सव, नारीवाद ते लोककथा लेखन प्रतियोगिता च तुंदा सुआगत ऐ।\n"
+    },
+    "campaign": {
+        "serial": "सीरियल",
+        "loading": "अभियान लोड होआ करदा ऐ...",
+        "action": {
+            "*": "कर्म करदे",
+            "cancel_name": "अभियान रद्द करो",
+            "cancel_prompt": "क्या तुसें गी पक्का ऐ जे तुस इस मुहिम गी रद्द करना चांह् दे ओ ?",
+            "cancel_title": "अभियान रद्द करो",
+            "cancel_zero": "रद्द",
+            "cancel_one": "रद्द ({{count}})",
+            "cancel": "रद्द {{count}}",
+            "approve_name": "मुहिम मंजूर कर दे",
+            "approve_prompt": "क्या तुसें गी पक्का पता ऐ जे तुस इस मुहिम गी मंजूरी देना चांह्दे ओ?",
+            "approve_title": "मुहिम मंजूर कर दे",
+            "approve_zero": "मंजूर करना",
+            "approve_one": "मंजूर करना ({{count}})",
+            "approve": "मंजूर करना",
+            "reject": "रद्द करना",
+            "settings": "सेटिंग्स",
+            "back": "पिच्छै",
+            "save": "बचाओ",
+            "next": "अगला",
+            "edit": "संपादन अभियान",
+            "create": "अभियान बनाओ",
+            "search": "छानने दा"
+        },
+        "activeCampaigns": "सक्रिय अभियान चलाना",
+        "name": "नां",
+        "language": "भाशा",
+        "startDate": "शुरू होने दी तारीख",
+        "endDate": "समाप्ति दी तारीख",
+        "duration": "म्याद",
+        "status": "रुतबा",
+        "all": "सारे मुहिम",
+        "description": "ब्यौरा",
+        "jury": "जूरी ने दी",
+        "banner": "बैनर",
+        "allowExpansions": "बरतूनी गी ऐसे लेख जमा करने दी इजाजत देओ जेह् ड़े नेईं बनाए गेदे हे बल्के विस्तारित कीते गेदे हे",
+        "minimumAddedBytes_help": "अभियान दे शुरू थमां गै जमा कीते गेदे लेख पर प्रतिभागी गी बाइटें दी गिनतरी जोड़ना होग",
+        "minimumAddedBytes": "न्यूनतम जोड़े गेदे बाइट",
+        "minimumAddedWords_help": "मुहिम दे शुरू थमां गै पेश कीते गेदे लेख उप्पर प्रतिभागी गी जोड़ेआ जाना लोड़चदा ऐ",
+        "minimumAddedWords": "न्यूनतम जोड़े गेदे शब्द",
+        "minimumTotalBytes_help": "अभियान दे शुरू थमां गै जमा कीते गेदे लेख पर प्रतिभागी दे बाइटें दी गिनतरी होनी चाहिदी",
+        "minimumTotalBytes": "न्यूनतम कुल बाइट्स",
+        "minimumTotalWords_help": "अभियान दे शुरू थमां गै पेश कीते गेदे लेख पर प्रतिभागी दे शब्दें दी गिनतरी होनी चाहिदी",
+        "minimumTotalWords": "न्यूनतम कुल शब्द",
+        "allowJuryToParticipate": "जूरी दे सदस्यें गी इस अभियान च हिस्सा लैने दी अनुमति देओ",
+        "secretBallot": "जूरी दे सदस्यें गी इक दुए दे वोट दिक्खने थमां रोकना",
+        "allowMultipleJudgements": "कई जूरी सदस्यें गी इक गै प्रस्तुति दा मूल्यांकन करने दी अनुमति देओ",
+        "image": {
+            "url": "एक्सटेंशन कन्नै कॉमन्स फ़ाइल दा नांऽ",
+            "fetch": "छवि लाओ"
+        },
+        "error": {
+            "youAreNotJudge": "तुस इस मुहिम दे जूरी सदस्य नेईं ओ"
+        },
+        "submission": {
+            "title": "सबमिशन करना",
+            "new": "नया लेख जमा करो",
+            "list": "सबमिशन करना",
+            "note": "नोट",
+            "judge": "जज",
+            "submitter": "सबमिटर",
+            "points": "अंक",
+            "submittedSuccessfully": "सफलतापूर्वक जमा कीता गेआ",
+            "totalBytes_one": "कुल {{count}} बाइट",
+            "totalBytes_other": "कुल {{count}} बाइट्स दा",
+            "totalWords_one": "कुल {{count}} शब्द",
+            "totalWords_other": "कुल {{count}} शब्द",
+            "createdAt": "एट बनाया गया {{createdAt}}",
+            "createdBy": "द्वारा बनाया गया {{createdBy}}",
+            "addedBytes_one": "जोड़ा गया {{count}} बाइट",
+            "addedBytes_other": "जोड़ा गया {{count}} बाइट्स दा",
+            "addedWords_one": "जोड़ा गया {{count}} शब्द",
+            "addedWords_other": "जोड़ा गया {{count}} शब्द",
+            "tags": {
+                "*": "टैग्स",
+                "expanded": "विस्तारित कीता",
+                "newlyCreated": "नवें बनाया गया",
+                "expanded_abbr": "ई। ई",
+                "newlyCreated_abbr": "एन"
+            },
+            "status": {
+                "*": "रुतबा",
+                "all": "सब्भै",
+                "notEvaluated": "मूल्यांकन नेईं कीता गेआ",
+                "evaluated": "मूल्यांकन कीता गेआ"
+            },
+            "loading": "सबमिशन लोड होआ करदे न...",
+            "preview": "पूर्वावलोकन करना",
+            "preview_loading": "पूर्वावलोकन लोड होआ करदा ऐ...",
+            "judgement": {
+                "*": "मूल्यांकन",
+                "evaluationSubmittedSuccessfully": "मूल्यांकन सफलतापूर्वक प्रस्तुत कीता गेआ",
+                "backToSubmissions": "इक होर सबमिशन दा मूल्यांकन करो",
+                "judgeSubmission": "अपना मूल्यांकन जोड़ो",
+                "note": "नोट (वैकल्पिक) ऐ",
+                "note_placeholder": "सबमिटर च इक नोट जोड़ो (वैकल्पिक)"
+            },
+            "action": {
+                "reject": "रद्द करना",
+                "accept": "मंजूर करो",
+                "evaluate": "मूल्यांकन करना",
+                "evaluate_add": "मूल्यांकन जोड़ो",
+                "evaluate_title": "सबमिशन दा मूल्यांकन करो",
+                "backToCampaign": "वापस मुहिम पर",
+                "submitAnother": "इक होर जमा करो",
+                "check": "चेक",
+                "submitOnBehalf": "की ओर से जमा करो",
+                "submit": "दर्ज करो",
+                "delete_zero": "म्हेसना",
+                "delete_other": "म्हेसना ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "नतीजे",
+            "totalSubmission_grand": "कुल सबमिशन",
+            "totalSubmission": "सबमिशन करना",
+            "totalNewlyCreated_grand": "कुल नवें बनाया गया",
+            "totalNewlyCreated": "नवें बनाया गया",
+            "totalExpanded_grand": "कुल विस्तारित कीता गेआ",
+            "totalExpanded": "विस्तारित कीता",
+            "totalPoints_grand": "कुल अंक",
+            "totalPoints": "अंक",
+            "username": "यूजरनेम"
+        },
+        "step": {
+            "details": "तफसील",
+            "jury": "जूरी ने दी",
+            "restrictions": "पाबंदियां",
+            "overview": "अवलोकन"
+        },
+        "statistics": {
+            "color": "रंग",
+            "title": "आंकड़े",
+            "title_year": "साल दे आंकड़े",
+            "title_campaign": "मुहिम लेई आंकड़े",
+            "overview": "अवलोकन",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "बंद",
+        "cancel": "रद्द"
+    },
+    "user": {
+        "*": "यूजरनेम",
+        "noUsers": "कोई प्रयोक्ता नेईं लब्भा",
+        "name": "नां",
+        "username": "यूजरनेम",
+        "loading": "उपयोगकर्ताएं गी लोड होआ करदा ऐ..."
+    }
+}

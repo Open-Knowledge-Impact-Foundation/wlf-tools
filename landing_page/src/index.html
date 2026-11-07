@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Loves Folklore | Dedicated to Folklore</title>
+    <meta name="description" content="Wiki Loves Folklore is an international 
+    photographic contest organized by Wikimedia community to document folk 
+    cultures in different regions of the world." />
+    <meta name="keywords" content="Wiki Loves Folklore, Wikimedia Commons, Wikimedia Foundation" />
+    <link rel="stylesheet" href="static/index.css">
+    <style>
+        div#header {
+            background-image: url("static/banner.svg");
+            background-size: auto 100%;
+            animation: simulate 65s alternate infinite linear;
+        }
+    </style>
+    <script>
+        function animateValue(obj, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+    </script>
+</head>
+
+<body class="bg-slate-100 p-3 flex flex-col justify-center font-secondary">
+
+
+    <div class="flex flex-col justify-center bg-repeat-x bg-center h-96" id="header">
+        <div
+            class="mb-5 flex flex-col self-center border-solid bg-white bg-opacity-90 text-black font-lg p-4  h-3/4 w-3/4 sm:w-96">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Wiki_Loves_Folklore_Logo.svg" alt="" srcset=""
+                class="mb-5 h-32 ">
+            <p class="text-center font-medium font-cursive">
+                Tech, Tradition, and Transformation: Wiki's Folklore & Feminism Tools
+            </p>
+        </div>
+    </div>
+    {% if not user %}
+    <p class="font-primary">
+        Welcome to the Wiki Loves Folklore Tools! Explore our collection of tools designed for and by our community.
+        To access these tools, simply log in using your Wikimedia account.
+        By logging in, you are accepting our
+        <a href="/terms" alt="" class="text-primary hover:underline">Terms of Service</a> and
+        <a href="/privacy" class="text-primary hover:underline">Privacy Policy</a>.
+        Ready to get started? Click the button below to log in.
+    </p>
+    <div class="flex justify-center mb-3 mt-3">
+        <a href="{{login_url}}" class="p-2 w-max rounded bg-primary  text-white hover:bg-secondary  border-slate-400">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Wikipedia-w-white.svg" alt="" srcset=""
+                class="w-6 inline-block">
+            Login with Wikipedia</a>
+    </div>
+    {% else %}
+    <h1 class="text-3xl font-primary text-center">Welcome <b class="font-bold">{{user['username']}}</b>!</h1>
+    <div class="flex justify-center mb-3 mt-3">
+        <a href="/user/logout"
+            class="p-2 w-36 rounded text-center bg-red-600 text-white hover:bg-opacity-80  border-slate-400">
+            Logout
+        </a>
+    </div>
+    {% endif %}
+    <hr>
+    <ul class="flex flex-col justify-center items-center text-2xl">
+        <li
+            class="bg-white flex md:flex-row flex-col self-center hover:shadow-md hover:shadow-slate-400 text-black justify-center  font-secondary p-6 md:w-3/4 w-full min-h-96">
+
+            <img src="https://wikilovesfolklore.org/wp-content/uploads/2024/12/Campwiz-1.webp" alt=""
+                class="max-w-72 self-center p-0 mb-1" />
+            <div class="flex flex-col self-center ">
+                <p class="text-justify pr-5">
+                    Introducing a powerful tool that identifies articles in the English Wikipedia that are absent from
+                    your native language Wikipedia.
+                    You can customize your selection criteria, and our tool will provide you with a table displaying the
+                    missing articles along with suggested titles.
+                    You also have the option to download the list in both CSV and wikitables formats.
+                    Explore the gap and enhance your language’s Wikipedia with ease.
+                </p>
+                <a href="/fnf" title="Launch List Generator"
+                    class="w-1/2 rounded-3xl mt-6 p-2 self-center font-bold text-xl text-white bg-primary text-center"
+                    id="listgen">Launch</a>
+            </div>
+        </li>
+        <li
+            class="bg-white flex md:flex-row flex-col self-center hover:shadow-md hover:shadow-slate-400 text-black justify-center  font-secondary p-6 md:w-3/4 w-full min-h-96">
+
+            <img src="https://wikilovesfolklore.org/wp-content/uploads/2024/11/Campwiz_20241125_110143_0000.svg"
+                alt="CampWiz Logo" class="max-w-80 self-center p-0 mb-1 mr-1" />
+            <div class="flex flex-col self-center ">
+                <p class="pr-5">
+                    Introducing a groundbreaking multilingual tool, CampWiz, designed to empower organizers in hosting
+                    diverse edit-athons across Wikipedia.
+                    This tool offers a user-friendly interface, facilitating seamless coordination of events in multiple
+                    languages
+                </p>
+                <a href="/campwiz" title="Launch List Generator"
+                    class="w-1/2 rounded-3xl mt-6 p-2 self-center font-bold text-xl text-white bg-primary text-center"
+                    id="campwiz">Launch</a>
+            </div>
+
+        </li>
+        <li
+            class="bg-white flex md:flex-row flex-col self-center hover:shadow-md hover:shadow-slate-400 text-black justify-center font-secondary p-6 md:w-3/4 w-full min-h-96">
+            <img src="https://wikilovesfolklore.org/wp-content/uploads/2024/11/Campwiz_20241125_110143_0000.svg"
+                alt="CampWiz NXT Logo" class="max-w-80 self-center p-0 mb-1 mr-1" />
+            <div class="flex flex-col self-center">
+                <h1 class="text-2xl font-bold mb-2">CampWiz NXT</h1>
+                <p class="pr-5">
+                    <b>CampWiz NXT</b> is a streamlined tool designed to simplify the management of Wikimedia campaigns
+                    and media contests. With features like campaign setup, submission tracking, judge coordination, and
+                    result publication, it ensures a smooth and efficient process for organizers and participants alike.
+                </p>
+                <a href="https://campwiz.toolforge.org" title="Launch CampWiz NXT"
+                    class="w-1/2 rounded-3xl mt-6 p-2 self-center font-bold text-xl text-white bg-primary text-center"
+                    id="campwiz-nxt">Launch</a>
+            </div>
+        </li>
+        
+
+        <!-- Aprova -->
+        <li
+            class="bg-white flex md:flex-row flex-col self-center hover:shadow-md hover:shadow-slate-400 text-black justify-center font-secondary p-6 md:w-3/4 w-full min-h-96">
+            <img src="https://uat.wikilovesfolklore.org/assets/logo-dark-DLOeuktx.svg" alt="Aprova Logo"
+                class="max-w-80 self-center p-0 mb-1 mr-1" />
+            <div class="flex flex-col self-center">
+                <h1 class="text-2xl font-bold mb-2">Aprova</h1>
+                <p class="pr-5">
+                    <b>Aprova</b> is a comprehensive grant management tool designed to streamline the entire process for
+                    grantors and fiscal sponsors. From accurate calculation and accounting to seamless invoice
+                    generation
+                    and secure e-signature integration, Aprova ensures every step is efficient, transparent, and
+                    well-organized.
+                </p>
+            </div>
+        </li>
+    </ul>
+    {% if stats %}
+    <div class="p-5 h-fit self-center text-3xl w-3/4 text-center font-bold font-primary hidden md:block  mt-6">
+        MILESTONES
+    </div>
+    <div class="flex  flex-col flex-nowrap justify-center md:flex-row">
+        <div class="p-5 self-center text-3xl w-3/4 text-center font-bold font-primary md:hidden">
+            MILESTONES
+        </div>
+        <div class="flex flex-col p-5 border bg-white w-3/4 self-center font-primary">
+            <span id="registered_user_count"
+                class="text-3xl text-center font-bold">{{stats['registered_user_count']}}</span>
+            <!-- <span class="text-3xl text-center font-bold">1,234</span> -->
+            <span class="text-center font-semibold">USERS</span>
+        </div>
+        <div class="flex flex-col p-5 border bg-white w-3/4 self-center font-primary">
+            <span id="total_tasks" class="text-3xl  text-center font-bold">{{stats['total_tasks']}}</span>
+            <!-- <span class="text-3xl  text-center font-bold">456,899</span> -->
+            <span class="text-center font-semibold">TASKS</span>
+        </div>
+        <div class="flex flex-col p-5 border bg-white w-3/4 self-center font-primary">
+            <span id="total_categories" class="text-3xl text-center font-bold">{{stats['total_categories']}}</span>
+            <!-- <span class="text-3xl text-center font-bold">23,7898</span> -->
+            <span class="text-center font-semibold">CATEGORIES</span>
+        </div>
+        <div class="flex flex-col p-5 border bg-white w-3/4 self-center font-primary">
+            <span id="total_articles_served"
+                class="text-3xl text-center font-bold">{{stats['total_articles_served']}}</span>
+            <!-- <span class="text-3xl text-center font-bold">45,890</span> -->
+            <span class="text-center font-semibold">ARTICLES</span>
+        </div>
+
+
+    </div>
+    {% endif %}
+    <div class="p-5 h-fit self-center text-3xl w-3/4 text-center font-bold font-primary block mt-6">
+        TESTIMONIALS
+    </div>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+        {% for i in range(comment_count) %}
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade w-fit max-w-96 min-h-64 h-fit text-center bg-white p-5 m-3 flex flex-row">
+            <article class="block flex-1 self-center justify-center">
+                <b class="block m-0 -ml-2 mt-1 text-left font-light text-7xl" style="line-height: 5px;">
+                    &ldquo;
+                </b>
+                {{comments[i]['comment']}}
+                <br />
+                <b class="block m-0 -mr-3 mt-1 text-right font-light text-7xl" style="line-height: 5px;">
+                    &rdquo;
+                </b>
+                <a href="https://meta.wikimedia.org/wiki/User:{{comments[i]['user']}}"
+                    class="text-primary hover:underline self-end block m-auto mr-1 text-right font-bold">
+                    &#9998; {{comments[i]['user']}}
+                </a>
+            </article>
+        </div>
+        {% endfor %}
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+
+
+
+
+    <footer class="text-center  mt-3">
+        <a href="/credits" class="text-primary hover:underline">Meet the Team</a> |
+        <a href="/privacy" class="text-primary hover:underline">Privacy Policy</a> |
+        <a href="/terms" alt="" class="text-primary hover:underline">Terms of Service</a> |
+        <a href="https://github.com/nokibsarkar/bot-wikifolklore-issues/issues" alt=""
+            class="text-primary hover:underline">Report a Bug</a>
+    </footer>
+</body>
+<script>
+    animateValue(document.getElementById('registered_user_count'), 0, parseInt("{{ stats['registered_user_count']}}"), 2000);
+    animateValue(document.getElementById('total_tasks'), 0, parseInt("{{ stats['total_tasks']}}"), 2000);
+    animateValue(document.getElementById('total_categories'), 0, parseInt("{{ stats['total_categories']}}"), 2000);
+    animateValue(document.getElementById('total_articles_served'), 0, parseInt("{{ stats['total_articles_served']}}"), 2000);
+</script>
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+
+        slides[slideIndex - 1].style.display = "flex";
+    }
+    setInterval(() => plusSlides(1), 5000);
+</script>
+
+</html>

@@ -1,0 +1,179 @@
+{
+    "name": "कॅम्पविझ हांणी केला",
+    "article": {
+        "title": "शीर्षक"
+    },
+    "menu": {
+        "name": "कॅम्पविझ हांणी केला",
+        "home": "घर",
+        "campaign": "मोहिम",
+        "statistics": "आंकडेवारी",
+        "users": "वापरप्यांक",
+        "changeLanguage": "भास बदलप",
+        "reportBug": "बग अहवाल दिवचो",
+        "giveFeedback": "प्रतिसाद दिवप",
+        "settings": "सेटिंग्ज",
+        "logout": "लॉगआउट करप",
+        "addNewLanguage": "नवी भास जोडची"
+    },
+    "error": {
+        "unknown": "कितें तरी चुकलें. "
+    },
+    "dashboard": {
+        "welcome": "येवकार {{username}}",
+        "description": "विकिपीडियाचेर संस्कृतीक विविधताय आनी लिंग समावेशकतायेचो वर्सुकी उत्सव आशिल्ल्या नारीवाद आनी लोककथा लेखन सर्तीक तुमकां येवकार.\n"
+    },
+    "campaign": {
+        "serial": "सिरियल",
+        "loading": "मोहीम लोड करप...",
+        "action": {
+            "*": "कृती करप",
+            "cancel_name": "मोहीम रद्द करची",
+            "cancel_prompt": "तुमकां ही मोहीम रद्द करपाची खात्री आसा?",
+            "cancel_title": "मोहीम रद्द करची",
+            "cancel_zero": "रद्द",
+            "cancel_one": "रद्द ({{count}}) हें .",
+            "cancel": "रद्द {{count}}",
+            "approve_name": "मोहिमेची मान्यताय दिवप",
+            "approve_prompt": "तुमकां खात्री आसा की तुमकां ही मोहीम मान्य करपाची आसा?",
+            "approve_title": "मोहिमेची मान्यताय दिवप",
+            "approve_zero": "मान्यताय",
+            "approve_one": "मान्यताय ({{count}}) हें .",
+            "approve": "मान्यताय",
+            "reject": "न्हयकार",
+            "settings": "सेटिंग्ज",
+            "back": "फाटीं",
+            "save": "सांबाळचें",
+            "next": "फुडें",
+            "edit": "संपादन मोहीम",
+            "create": "मोहीम तयार करप",
+            "search": "फिल्टर करप"
+        },
+        "activeCampaigns": "सक्रिय मोहीम",
+        "name": "नांव",
+        "language": "भास",
+        "startDate": "सुरवातीची तारीख",
+        "endDate": "समाप्तीची तारीख",
+        "duration": "कालावधी",
+        "status": "स्थिती",
+        "all": "सगळ्यो मोहीम",
+        "description": "वर्णन",
+        "jury": "जूरी हांणी केला",
+        "banner": "बॅनर",
+        "allowExpansions": "वापरप्यांक तयार नाशिल्ले लेख सादर करपाक परवानगी दिवची, ताचे परस विस्तारीत केल्ले",
+        "minimumAddedBytes_help": "मोहिमेक सुरवाती सावन सादर केल्ल्या लेखाचेर भाग घेवप्यान जोडपाक जाय आशिल्ल्या बाइटांची संख्या",
+        "minimumAddedBytes": "किमान जोडिल्ले बाइट",
+        "minimumAddedWords_help": "मोहीम सुरू जाले उपरांत सादर केल्ल्या लेखाचेर भाग घेवप्यान कितले उतर जोडचे पडटले",
+        "minimumAddedWords": "किमान जोडलेले शब्द",
+        "minimumTotalBytes_help": "मोहीम सुरू जाले उपरांत सादर केल्ल्या लेखाचेर सहभागी कडेन कितले बाइट आसपाक जाय",
+        "minimumTotalBytes": "किमान एकूण बाइट",
+        "minimumTotalWords_help": "मोहीम सुरू जाले उपरांत सादर केल्ल्या लेखाचेर सहभागी कडेन कितले उतर आसूंक जाय",
+        "minimumTotalWords": "किमान एकूण शब्द",
+        "allowJuryToParticipate": "जूरी वांगड्यांक मोहिमेत वांटो घेवंक मेळचो",
+        "secretBallot": "जूरी वांगड्यांक एकामेकांचीं मतां पळोवंक आडावप",
+        "allowMultipleJudgements": "एकाच सादरीकरणाचें मुल्यांकन करपाक जायत्या जूरी वांगड्यांक परवानगी दिवची",
+        "image": {
+            "url": "विस्तारा वांगडा कॉमन्स फायल नांव",
+            "fetch": "प्रतिमा हाडची"
+        },
+        "error": {
+            "youAreNotJudge": "तुमी ह्या मोहिमेक जूरी वांगडी न्हय"
+        },
+        "submission": {
+            "title": "सादरीकरणां",
+            "new": "नवो लेख सादर करचो",
+            "list": "सादरीकरणां",
+            "note": "नोंद घेवची",
+            "judge": "न्यायमुर्ती",
+            "submitter": "सादर करपी",
+            "points": "मुद्दे",
+            "submittedSuccessfully": "यशस्वीपणान सादर केला",
+            "totalBytes_one": "एकूण {{count}} बाइट",
+            "totalBytes_other": "एकूण {{count}} बाइट्स",
+            "totalWords_one": "एकूण {{count}} शब्द",
+            "totalWords_other": "एकूण {{count}} शब्द",
+            "createdAt": "तयार केल्लें एट {{createdAt}}",
+            "createdBy": "तयार केल्लें {{createdBy}}",
+            "addedBytes_one": "जोडले {{count}} बाइट",
+            "addedBytes_other": "जोडले {{count}} बाइट्स",
+            "addedWords_one": "जोडले {{count}} शब्द",
+            "addedWords_other": "जोडले {{count}} शब्द",
+            "tags": {
+                "*": "टॅग्स",
+                "expanded": "विस्तारीत केला",
+                "newlyCreated": "नव्यान तयार केल्लें",
+                "expanded_abbr": "ई",
+                "newlyCreated_abbr": "एन"
+            },
+            "status": {
+                "*": "स्थिती",
+                "all": "सगलें",
+                "notEvaluated": "मूल्यमापन केल्लें ना",
+                "evaluated": "मूल्यमापन केल्लें"
+            },
+            "loading": "सबमिशन लोड करप...",
+            "preview": "पूर्वावलोकन करचें",
+            "preview_loading": "पूर्वावलोकन लोड करप...",
+            "judgement": {
+                "*": "मोलावणी",
+                "evaluationSubmittedSuccessfully": "मूल्यमापन यशस्वीपणान सादर केलें",
+                "backToSubmissions": "दुसर् या सादरीकरणाचें मुल्यांकन करचें",
+                "judgeSubmission": "तुमचें मूल्यांकन जोडात",
+                "note": "टिप (पर्यायी) 1.1.",
+                "note_placeholder": "सादर करप्याक एक टिप जोडची (पर्यायी)"
+            },
+            "action": {
+                "reject": "न्हयकार",
+                "accept": "स्विकार",
+                "evaluate": "मूल्यांकन",
+                "evaluate_add": "मूल्यमापन जोडचें",
+                "evaluate_title": "सादरीकरणाचें मुल्यांकन करप",
+                "backToCampaign": "परत मोहिमेक",
+                "submitAnother": "दुसरो सादर करचो",
+                "check": "तपास",
+                "submitOnBehalf": "वतीन सादर करचें",
+                "submit": "सुवादीन करप",
+                "delete_zero": "वगळावचें",
+                "delete_other": "वगळावचें ({{count}}) हें .",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "निकाल",
+            "totalSubmission_grand": "एकूण सादरीकरणां",
+            "totalSubmission": "सादरीकरणां",
+            "totalNewlyCreated_grand": "एकूण नव्यान तयार केल्लें",
+            "totalNewlyCreated": "नव्यान तयार केल्लें",
+            "totalExpanded_grand": "एकूण विस्तारीत केला",
+            "totalExpanded": "विस्तारीत केला",
+            "totalPoints_grand": "एकूण गुण",
+            "totalPoints": "मुद्दे",
+            "username": "वापरप्याचें नांव"
+        },
+        "step": {
+            "details": "तपशील",
+            "jury": "जूरी हांणी केला",
+            "restrictions": "निर्बंध घालप",
+            "overview": "एक नियाळ"
+        },
+        "statistics": {
+            "color": "रंग",
+            "title": "आंकडेवारी",
+            "title_year": "वर्साची आंकडेवारी",
+            "title_campaign": "मोहिमेक आंकडेवारी",
+            "overview": "एक नियाळ",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "धांपप",
+        "cancel": "रद्द"
+    },
+    "user": {
+        "*": "वापरप्याचें नांव",
+        "noUsers": "वापरपी मेळूंक नात",
+        "name": "नांव",
+        "username": "वापरप्याचें नांव",
+        "loading": "वापरप्यांक लोड करप..."
+    }
+}

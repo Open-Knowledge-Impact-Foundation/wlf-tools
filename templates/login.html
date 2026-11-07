@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to the Tool</title>
+    <link rel="stylesheet" href="static/index.css">
+    <style>
+        div#header {
+            background-image: url("static/banner.svg");
+            background-size: auto 100%;
+            animation: simulate 65s alternate infinite linear;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-100 p-3 flex flex-col justify-center font-secondary">
+    <div class="flex flex-col justify-center bg-repeat-x bg-center h-96" id="header">
+        <div class="mb-5 flex flex-col self-center border-solid bg-white bg-opacity-90 text-black font-lg p-4  h-3/4 w-3/4 sm:w-96">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Wiki_Loves_Folklore_Logo.svg" alt="" srcset=""
+                class="mb-5 h-32 ">
+            <p class="text-center font-medium font-cursive">
+                Tech, Tradition, and Transformation: Wiki's Folklore & Feminism Tools
+            </p>
+        </div>
+    </div>
+    <div class="text-center p-5">
+        <p class="font-primary text-xl">
+            Welcome to the Wiki Loves Folklore Tookit. Please login to continue.
+        </p>
+        <div class="flex justify-center mb-3 mt-3">
+            <a href="{{login_url}}"
+                class="p-2 w-max rounded bg-primary  text-white hover:bg-secondary  border-slate-400">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Wikipedia-w-white.svg" alt="" srcset=""
+                    class="w-6 inline-block">
+                Login with Wikipedia</a>
+        </div>
+        <div class="font-secondary text-lg">
+            Remember, you would be redirected to the following page after you login.
+            <pre class="font-bold font-mono bg-gray-100 w-full whitespace-normal">{{callback}}</pre>
+
+            If you proceed to login, you are, legally, agreeing to our <a href="/terms">Terms of Service</a> and <a
+                href="/privacy">Privacy Policy</a>.
+            If you do not agree to these terms, please do not login and close this page.
+            Also, you can read our <a href="/faq">FAQ</a> for more information.
+        </div>
+    </div>
+    <footer class="text-center  mt-3">
+        <a href="/credits" class="text-primary hover:underline">Meet the Team</a> |
+        <a href="/privacy" class="text-primary hover:underline">Privacy Policy</a> |
+        <a href="/terms" alt="" class="text-primary hover:underline">Terms of Service</a> |
+        <a href="https://github.com/nokibsarkar/bot-wikifolklore-issues/issues" alt=""
+            class="text-primary hover:underline">Report a Bug</a>
+    </footer>
+</body>
+
+</html>

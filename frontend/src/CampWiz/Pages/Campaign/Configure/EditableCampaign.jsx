@@ -1,0 +1,155 @@
+import { Button, CircularProgress, Step, StepLabel, Stepper } from "@mui/material";
+import { useReducer, useState } from "react";
+import CampainEditableDetails from "./Details";
+import CampaignRestrictions from "./Restrictions";
+import JuryPage from "./Jury";
+import CampaignOverview from "./Overview";
+import SaveIcon from '@mui/icons-material/Save';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import ErrorPage from "../../../Components/ErrorPage";
+import LoadingPage from "../../../../Layout/Loader";
+import {DetailsButton} from "../../../Components/CampaignButtons";
+import CampWizServer from "../../../Server";
+import { useTranslation } from "react-i18next";
+const defaultCampaign = {
+    name: '',
+    description : '',
+    language: '',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Feminism_and_Folklore_2025_logo.svg/1200px-Feminism_and_Folklore_2025_logo.svg.png',
+    rules: [
+        // 'All Participants must be registered in Wikipedia',
+    ],
+    jury: [
+        CampWizServer.BaseServer.loginnedUser().username
+    ],
+    start_at: new Date(new Date().getTime() + 24 * 60 * 60 * 1000).toISOString().split('T')[0],
+    end_at: new Date(new Date().getTime() + 2 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
+    status: 'pending',
+    blacklist: [],
+    maximumSubmissionOfSameArticle: 1, // Maximum number of times an article can be submitted
+    allowExpansions: true, // Allow users to submit articles that were not created rather expanded
+    minimumTotalBytes: 4000, // Minimum total bytes of all articles
+    minimumTotalWords: 400, // Minimum total words of all articles
+    minimumAddedBytes: 4000, // Minimum bytes added to the article
+    minimumAddedWords: 400, // Minimum words added to the article
+    secretBallot: true, // If true, jury members will not be able to see each other's votes
+    allowJuryToParticipate: true, // If true, jury members will be able to participate in the campaign
+    allowMultipleJudgement: true, // If true, different jury members will be able to judge the same article 
+};
+const campaignReducer = (state, action) => {
+    switch (action.type) {
+        case 'rules':
+            return { ...state, rules: action.payload };
+        case 'jury':
+            return { ...state, jury: action.payload };
+        case 'name':
+            return { ...state, name: action.payload };
+        case 'start_at':
+            return { ...state, start_at: action.payload };
+        case 'end_at':
+            return { ...state, end_at: action.payload };
+        case 'language':
+            return { ...state, language: action.payload };
+        case 'maximumSubmissionOfSameArticle':
+            return { ...state, maximumSubmissionOfSameArticle: action.payload };
+        case 'blacklist':
+            return { ...state, blacklist: action.payload };
+        case 'allowExpansions':
+            return { ...state, allowExpansions: action.payload };
+        case 'minimumTotalBytes':
+            return { ...state, minimumTotalBytes: action.payload };
+        case 'minimumTotalWords':
+            return { ...state, minimumTotalWords: action.payload };
+        case 'minimumAddedBytes':
+            return { ...state, minimumAddedBytes: action.payload };
+        case 'minimumAddedWords':
+            return { ...state, minimumAddedWords: action.payload };
+        case 'secretBallot':
+            return { ...state, secretBallot: action.payload };
+        case 'allowJuryToParticipate':
+            return { ...state, allowJuryToParticipate: action.payload };
+        case 'allowMultipleJudgement':
+            return { ...state, allowMultipleJudgement: action.payload };
+        case 'status':
+            return { ...state, status: action.payload };
+        case 'image':
+            return { ...state, image: action.payload };
+        case 'description':
+            return { ...state, description: action.payload };
+        default:
+            return state;
+    }
+
+};
+const steps = ['details', 'restrictions', 'jury', 'overview'];
+
+const Steps = ({ activeStep, setActiveStep, minimumStep }) => {
+    const {t} = useTranslation();
+    return (
+        <Stepper activeStep={activeStep} sx={{ m: 1, '&.MuiStepLabel-root' : {
+            cursor: 'pointer'
+        } }} alternativeLabel>
+            {steps.map((label, index) => {
+                return (
+                    <Step key={label} disabled={index < minimumStep}>
+                        <StepLabel  onClick={() => index >= minimumStep && setActiveStep(index)} sx={{ cursor: 'pointer' }}>{t(`campaign.step.${label}`)}</StepLabel>
+                    </Step>
+                );
+            })}
+        </Stepper>
+    )
+}
+const StepSelector = ({ step, props }) => {
+    switch (step) {
+        case 0:
+            return <CampainEditableDetails {...props} />;
+        case 1:
+            return <CampaignRestrictions {...props} />;
+        case 2:
+            return <JuryPage {...props} />;
+        case 3:
+            return <CampaignOverview {...props} />;
+        default:
+            return <p>Unknown step</p>
+    }
+
+}
+const EditableCampaign = ({ error = null, defaultStep = 0, initialCampaign = defaultCampaign, minimumStep = 0, linear = true, showActions = false, onSave = null, showGotoDetailsButton = false, initialEditablity = false}) => {
+    const {t} = useTranslation();
+    const [campaign, dispatchCampaign] = useReducer(campaignReducer, initialCampaign);
+    const [step, setStep] = useState(defaultStep);
+    const [loading, setLoading] = useState(false);
+    const [nextPermittable, setNextPermittable] = useState(initialEditablity);
+    if (loading)
+        return <LoadingPage title={t('campaign.loading')} />
+    if (error)
+        return <ErrorPage errorMsg={t(error, {defaultValue : error})} />
+    const SaveButton = <Button disabled={!nextPermittable} variant="contained" color="success" onClick={e => onSave(campaign, setLoading)} sx={{ m: 1 }}>
+        <SaveIcon /> {t('campaign.action.save')}
+    </Button>
+    return (
+        <div style={{ textAlign: 'center' }}>
+
+            <Steps activeStep={step} setActiveStep={linear ? () => null : setStep} minimumStep={minimumStep} />
+            <StepSelector step={step} props={{ campaign, campaignDispatch: dispatchCampaign, showActions, setNextPermittable }} />
+            
+            {error && <ErrorPage errorMsg={error} />}
+
+            {showGotoDetailsButton && <DetailsButton campaign={campaign} />}
+            {
+                linear ? <p>
+                    <Button disabled={step - 1 < minimumStep} variant="contained" color="success" onClick={() => setStep(step - 1)} sx={{ m: 1 }}>
+                        <ArrowBackIcon /> {t('campaign.action.back')}
+                    </Button>
+                    {step + 1 < steps.length ? <Button disabled={!nextPermittable} variant="contained" color="success" onClick={() => setStep(step + 1)} sx={{ m: 1 }}>
+                    {t('campaign.action.next')} <ArrowForwardIcon />
+                    </Button> : SaveButton
+                    }
+                </p> : SaveButton
+            }
+        </div>
+    )
+
+};
+export default EditableCampaign;

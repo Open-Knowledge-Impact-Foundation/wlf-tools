@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "নাম"
+    },
+    "menu": {
+        "name": "ক্যাম্পউইজ",
+        "home": "হোম",
+        "campaign": "প্রতিযোগিতা",
+        "statistics": "পরিসংখ্যান",
+        "users": "ব্যবহারকারী",
+        "changeLanguage": "ভাষা পরিবর্তন ",
+        "reportBug": "বাগ রিপোর্ট",
+        "giveFeedback": "মতামত দিন",
+        "settings": "সেটিং",
+        "logout": "প্রস্থান",
+        "addNewLanguage": "Add New Language"
+    },
+    "error": {
+        "unknown": "কিছু ভুল হয়েছে। অনুগ্রহ করে একটু পর আবার চেষ্টা করুন."
+    },
+    "dashboard": {
+        "welcome": "স্বাগতম {{username}}",
+        "description": "উইকিপিডিয়ায় সাংস্কৃতিক বৈচিত্র্য এবং লিঙ্গ অন্তর্ভুক্তির একটি বার্ষিক উদযাপন, নারীবাদ এবং লোককাহিনী রচনা প্রতিযোগিতায় স্বাগতম। এই প্রতিযোগিতাটি উত্সাহী অবদানকারীদের স্থানীয় সাংস্কৃতিক অনুষ্ঠান, লোক-সম্পর্কিত ক্রিয়াকলাপ এবং মহিলাদের প্রায়ই উপেক্ষিত কিন্তু উল্লেখযোগ্য অবদানের নথিভুক্ত করার যাত্রা শুরু করার জন্য আমন্ত্রণ জানায়। উইকি লাভস ফোকলোর (ডব্লিউএলএফ) প্রচারণার একটি অবিচ্ছেদ্য অংশ হিসাবে, এই প্রকল্পটি ফটোগ্রাফির লেন্সের বাইরে চলে যায়, অংশগ্রহণকারীদের উইকিপিডিয়া নিবন্ধগুলি তৈরি এবং সম্প্রসারণের মাধ্যমে আকর্ষণীয় আখ্যান তৈরি করতে উত্সাহিত করে৷"
+    },
+    "campaign": {
+        "serial": "ক্রম",
+        "loading": "প্রতিযোগিতা লোড হচ্ছে...",
+        "action": {
+            "*": "কর্ম",
+            "cancel_name": "প্রতিযোগিতা বাতিল",
+            "cancel_prompt": "আপনি কি নিশ্চিত আপনি এই প্রতিযোগিতা বাতিল করতে চান?",
+            "cancel_title": "প্রতিযোগিতা বাতিল",
+            "cancel_zero": "বাতিল",
+            "cancel_one": "বাতিল {{count}}",
+            "cancel": "বাতিল {{count}}",
+            "approve_name": "প্রতিযোগিতা অনুমোদন",
+            "approve_prompt": "আপনি কি নিশ্চিত আপনি এই প্রতিযোগিতা অনুমোদন করতে চান?",
+            "approve_title": "প্রতিযোগিতা অনুমোদন",
+            "approve_zero": "অনুমোদন",
+            "approve_one": "অনুমোদন ({{count}})",
+            "approve": "অনুমোদন ",
+            "reject": "প্রত্যাখ্যান ",
+            "settings": "সেটিং",
+            "back": "পিছনে ",
+            "save": "সংরক্ষণ",
+            "next": "পরবর্তী ",
+            "edit": "প্রতিযোগিতা সম্পাদনা",
+            "create": "প্রতিযোগিতা তৈরি",
+            "search": "অনুসন্ধান"
+        },
+        "activeCampaigns": "সক্রিয় প্রতিযোগিতা",
+        "name": "নাম",
+        "language": "ভাষা",
+        "startDate": "শুরুর তারিখ",
+        "endDate": "শেষ তারিখ",
+        "duration": "সময়কাল",
+        "status": "অবস্থা ",
+        "all": "সমস্ত প্রতিযোগিতা",
+        "description": "বর্ণনা",
+        "jury": "বিচারক",
+        "banner": "ব্যানার",
+        "allowExpansions": "ব্যবহারকারীদের এমন নিবন্ধ জমা দেওয়ার অনুমতি দিন যা তৈরি করা হয়নি বরং প্রসারিত হয়েছে",
+        "minimumAddedBytes_help": "প্রতিযোগিতার শুরু থেকে  জমা দেওয়া নিবন্ধে যোগ করা বাইট সংখ্যা",
+        "minimumAddedBytes": "ন্যূনতম যুক্ত বাইট",
+        "minimumAddedWords_help": "প্রতিযোগিতার শুরু থেকে অংশগ্রহণকারীকে জমা দেওয়া নিবন্ধে যোগ করতে হবে এমন শব্দের সংখ্যা",
+        "minimumAddedWords": "ন্যূনতম সংযোজিত শব্দ",
+        "minimumTotalBytes_help": "প্রতিযোগিতার শুরু থেকে অংশগ্রহণকারীকে জমা দেওয়া নিবন্ধে যোগ করতে হবে এমন বাইট সংখ্যা",
+        "minimumTotalBytes": "ন্যূনতম মোট বাইট",
+        "minimumTotalWords_help": "প্রতিযোগিতার শুরু থেকে অংশগ্রহণকারীকে জমা দেওয়া নিবন্ধে যোগ করতে হবে এমন শব্দ সংখ্যা",
+        "minimumTotalWords": "ন্যূনতম মোট শব্দ",
+        "allowJuryToParticipate": "বিচারকরা প্রতিযোগিতায় অংশগ্রহণ করতে পারেন",
+        "secretBallot": "বিচারকরা ভোট গোপন রাখতে পারেন",
+        "allowMultipleJudgements": "বিচারকরা একটি নিবন্ধের জন্য একাধিক মূল্যায়ন করতে পারেন",
+        "image": {
+            "url": "এক্সটেনশন সহ কমন্স ফাইলের নাম",
+            "fetch": "ছবি আনুন"
+        },
+        "error": {
+            "youAreNotJudge": "আপনি এই প্রতিযোগিতার বিচারক নন"
+        },
+        "submission": {
+            "title": "জমা",
+            "new": "নতুন নিবন্ধ জমা দিন",
+            "list": "জমা",
+            "note": "মন্তব্য",
+            "judge": "বিচারক",
+            "submitter": "জমাদানকারী",
+            "points": "পয়েন্টস",
+            "submittedSuccessfully": "জমাদান সফল",
+            "totalBytes_one": "মোট {{count}} বাইট",
+            "totalBytes_other": "মোট {{count}} বাইট",
+            "totalWords_one": "Total {{count}} word",
+            "totalWords_other": "Total {{count}} words",
+            "createdAt": "{{createdAt}} এ তৈরি করা হয়েছে",
+            "createdBy": "{{createdBy}} দ্বারা তৈরি",
+            "addedBytes_one": "যোগ করা হয়েছে {{count}} বাইট",
+            "addedBytes_other": "যোগ করা হয়েছে {{count}} বাইট",
+            "addedWords_one": "Added {{count}} word",
+            "addedWords_other": "Added {{count}} words",
+            "tags": {
+                "*": "ট্যাগ",
+                "expanded": "বিস্তৃত",
+                "newlyCreated": "নতুন তৈরি",
+                "expanded_abbr": "ব",
+                "newlyCreated_abbr": "ন"
+            },
+            "status": {
+                "*": "অবস্থা",
+                "all": "সমস্ত ",
+                "notEvaluated": "অমূল্যায়িত",
+                "evaluated": "মূল্যায়ন"
+            },
+            "loading": "জমা লোড হচ্ছে...",
+            "preview": "পূর্বরূপ",
+            "preview_loading": "পূর্বরূপ লোড হচ্ছে...",
+            "judgement": {
+                "*": "মূল্যায়ন",
+                "evaluationSubmittedSuccessfully": "মূল্যায়ন সফলভাবে জমা দেওয়া হয়েছে",
+                "backToSubmissions": "অন্য জমা মূল্যায়ন",
+                "judgeSubmission": "আপনার মূল্যায়ন যোগ করুন",
+                "note": "মন্তব্য (ঐচ্ছিক)",
+                "note_placeholder": "জমাদানকারীর জন্য একটি  যোগ করুন (ঐচ্ছিক)"
+            },
+            "action": {
+                "reject": "প্রত্যাখ্যান",
+                "accept": "গ্রহণ",
+                "evaluate": "মূল্যায়ন",
+                "evaluate_add": "মূল্যায়ন যোগ করুন",
+                "evaluate_title": "মূল্যায়ন",
+                "backToCampaign": "প্রতিযোগিতায় ফিরে যান",
+                "submitAnother": "আরেকটি জমা দিন",
+                "check": "যাচাই",
+                "submitOnBehalf": "এর পক্ষে জমা দিন",
+                "submit": "জমা দিন",
+                "delete_zero": "মুছে ফেলুন",
+                "delete_other": "মুছে ফেলুন {{count}}",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "ফলাফল",
+            "totalSubmission_grand": "মোট জমা",
+            "totalSubmission": "জমা",
+            "totalNewlyCreated_grand": "মোট নতুন তৈরি",
+            "totalNewlyCreated": "নতুন তৈরি",
+            "totalExpanded_grand": "মোট সম্প্রসারিত",
+            "totalExpanded": "সম্প্রসারিত",
+            "totalPoints_grand": "মোট পয়েন্ট",
+            "totalPoints": "পয়েন্ট",
+            "username": "ব্যবহারকারীর নাম"
+        },
+        "step": {
+            "details": "বিস্তারিত",
+            "jury": "বিচারক",
+            "restrictions": "বিধিনিষেধ",
+            "overview": "সংক্ষিপ্ত বিবরণ"
+        },
+        "statistics": {
+            "color": "বর্ণ",
+            "title": "পরিসংখ্যান",
+            "title_year": "পরিসংখ্যান",
+            "title_campaign": "প্রতিযোগিতার পরিসংখ্যান",
+            "overview": "সংক্ষিপ্ত বিবরণ",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "বন্ধ",
+        "cancel": "বাতিল"
+    },
+    "user": {
+        "*": "ব্যবহারকারীর নাম",
+        "noUsers": "কোন ব্যবহারকারী নেই",
+        "name": "নাম",
+        "username": "ব্যবহারকারীর নাম",
+        "loading": "ব্যবহারকারী লোড হচ্ছে..."
+    }
+}

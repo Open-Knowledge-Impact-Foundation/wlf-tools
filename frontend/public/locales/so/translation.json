@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Ciwaanka"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Guriga",
+        "campaign": "Ololaha",
+        "statistics": "Tirakoobka",
+        "users": "Isticmaalayaasha",
+        "changeLanguage": "Beddel luqadda",
+        "reportBug": "Ka warbixi cilad",
+        "giveFeedback": "Jawaab celin ka bixi",
+        "settings": "Dejinta",
+        "logout": "Ka bax",
+        "addNewLanguage": "Kudar Luuqad Cusub"
+    },
+    "error": {
+        "unknown": "Waxbaa qaldamay. "
+    },
+    "dashboard": {
+        "welcome": "Soo dhawoow {{username}}",
+        "description": "Ku soo dhawoow Tartanka Qorista Feminism iyo Folklore, oo ah dabbaaldeg sannadle ah oo kala duwanaanshaha dhaqameed iyo ka mid noqoshada jinsiga ee Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "Taxane",
+        "loading": "Olole raraynaya...",
+        "action": {
+            "*": "Ficilada",
+            "cancel_name": "Jooji Ololaha",
+            "cancel_prompt": "Ma hubtaa inaad doonayso inaad joojiso ololahan?",
+            "cancel_title": "Jooji Ololaha",
+            "cancel_zero": "Jooji",
+            "cancel_one": "Jooji ({{count}})",
+            "cancel": "Jooji {{count}}",
+            "approve_name": "Ogolaanshaha Ololaha",
+            "approve_prompt": "Ma hubtaa inaad doonayso inaad ogolaato ololahan?",
+            "approve_title": "Ogolaanshaha Ololaha",
+            "approve_zero": "Ogow",
+            "approve_one": "Ansixi{{count}})",
+            "approve": "Ogow",
+            "reject": "Diid",
+            "settings": "Dejinta",
+            "back": "Dib u noqo",
+            "save": "Badbaadin",
+            "next": "Xiga",
+            "edit": "Ololaha wax ka beddel",
+            "create": "Abuur Olole",
+            "search": "Shaandhayso"
+        },
+        "activeCampaigns": "Ololayaasha Firfircoon",
+        "name": "Magaca",
+        "language": "Luuqad",
+        "startDate": "Taariikhda billowga",
+        "endDate": "Taariikhda dhamaadka",
+        "duration": "Muddada",
+        "status": "Xaalada",
+        "all": "Ololaha oo dhan",
+        "description": "Sharaxaada",
+        "jury": "Xeerbeegtida",
+        "banner": "Calan",
+        "allowExpansions": "U oggolow isticmaalayaasha inay soo gudbiyaan maqaallada aan la abuurin ee la ballaariyay",
+        "minimumAddedBytes_help": "Tirada bytes ka qaybqaataha waa inuu ku daraa maqaalka la gudbiyay tan iyo bilawgii ololaha",
+        "minimumAddedBytes": "Bytes ku daray ugu yar",
+        "minimumAddedWords_help": "Tirada kelmadaha waa in ka qaybqaataha uu ku daraa maqaalka la gudbiyay tan iyo bilawgii ololaha",
+        "minimumAddedWords": "Erayada Ugu Yar ee Lagu Daray",
+        "minimumTotalBytes_help": "Tirada bytes ka qaybqaataha waa inuu ku hayaa maqaalka la gudbiyay tan iyo bilawgii ololaha",
+        "minimumTotalBytes": "Wadarta Guud ee ugu Yar",
+        "minimumTotalWords_help": "Tirada ereyada uu ka qaybqaataha ku leeyahay maqaalka la gudbiyay tan iyo bilawgii ololaha",
+        "minimumTotalWords": "Wadarta Erayada Ugu Yar",
+        "allowJuryToParticipate": "U oggolow xubnaha xeerbeegtida inay ka qaybqaataan ololaha",
+        "secretBallot": "Ka ilaali xubnaha xeerbeegtida inay is arkaan codadka midba midka kale",
+        "allowMultipleJudgements": "U ogolow xubno badan oo xeerbeegti ah inay qiimeeyaan isla soo gudbinta",
+        "image": {
+            "url": "Magaca Faylka Caadiga ah ee Kordhinta",
+            "fetch": "Soo qaado Sawirka"
+        },
+        "error": {
+            "youAreNotJudge": "Ma tihid xubin xeerbeegti ah ololahan"
+        },
+        "submission": {
+            "title": "Soo gudbin",
+            "new": "Soo Gudbi Maqaal Cusub",
+            "list": "Soo gudbin",
+            "note": "Ogow",
+            "judge": "Garsoore",
+            "submitter": "Gudbiye",
+            "points": "Dhibco",
+            "submittedSuccessfully": "Loo gudbiyay si guul leh",
+            "totalBytes_one": "Wadarta {{count}} byte",
+            "totalBytes_other": "Wadarta {{count}} bytes",
+            "totalWords_one": "Wadarta {{count}} eray",
+            "totalWords_other": "Wadarta {{count}} ereyo",
+            "createdAt": "Waxa la sameeyay {{createdAt}}",
+            "createdBy": "Waxa sameeyay {{createdBy}}",
+            "addedBytes_one": "Lagu daray {{count}} byte",
+            "addedBytes_other": "Lagu daray {{count}} bytes",
+            "addedWords_one": "Lagu daray {{count}} eray",
+            "addedWords_other": "Lagu daray {{count}} ereyo",
+            "tags": {
+                "*": "Tags",
+                "expanded": "Balaaray",
+                "newlyCreated": "Dhawaan La Abuuray",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Xaalada",
+                "all": "Dhammaan",
+                "notEvaluated": "Lama Qiimayn",
+                "evaluated": "La qiimeeyay"
+            },
+            "loading": "Soo gudbinta soo rareysa...",
+            "preview": "Horudhac",
+            "preview_loading": "Soodejinaya horudhac...",
+            "judgement": {
+                "*": "Qiimaynta",
+                "evaluationSubmittedSuccessfully": "Qiimaynta ayaa loo soo gudbiyay si guul leh",
+                "backToSubmissions": "Qiimee soo gudbin kale",
+                "judgeSubmission": "Ku dar qiimayntaada",
+                "note": "Xusuusin (ikhtiyaar)",
+                "note_placeholder": "Ku dar qoraal soo gudbiyaha (ikhtiyaar)"
+            },
+            "action": {
+                "reject": "Diid",
+                "accept": "Aqbal",
+                "evaluate": "Qiimee",
+                "evaluate_add": "Ku dar Qiimaynta",
+                "evaluate_title": "Qiimee soo gudbinta",
+                "backToCampaign": "Ku laabo Ololaha",
+                "submitAnother": "Soo Gudbi Mid Kale",
+                "check": "Hubi",
+                "submitOnBehalf": "U soo gudbi magaca",
+                "submit": "Gudbi",
+                "delete_zero": "Tirtir",
+                "delete_other": "Tirtir{{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Natiijooyinka",
+            "totalSubmission_grand": "Wadarta Soo Gudbinta",
+            "totalSubmission": "Soo gudbin",
+            "totalNewlyCreated_grand": "Wadarta Dhawaan La Abuuray",
+            "totalNewlyCreated": "Dhawaan La Abuuray",
+            "totalExpanded_grand": "Wadarta Balaadhan",
+            "totalExpanded": "Balaaray",
+            "totalPoints_grand": "Wadarta Qodobbada",
+            "totalPoints": "Dhibco",
+            "username": "Magaca isticmaale"
+        },
+        "step": {
+            "details": "Faahfaahin",
+            "jury": "Xeerbeegtida",
+            "restrictions": "Xayiraadaha",
+            "overview": "Dulmar"
+        },
+        "statistics": {
+            "color": "Midabka",
+            "title": "Tirakoobka",
+            "title_year": "Tirakoobka sanadka",
+            "title_campaign": "Tirakoobka ololaha",
+            "overview": "Dulmar",
+            "date": "Taariikhda"
+        }
+    },
+    "action": {
+        "close": "Xir",
+        "cancel": "Jooji"
+    },
+    "user": {
+        "*": "Magaca isticmaale",
+        "noUsers": "Isticmaalayaal lama helin",
+        "name": "Magaca",
+        "username": "Magaca isticmaale",
+        "loading": "Soo dejinaya isticmaalayaasha..."
+    }
+}

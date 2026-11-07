@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Titolu"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Dar",
+        "campaign": "Kampanja",
+        "statistics": "Statistika",
+        "users": "Utenti",
+        "changeLanguage": "Bidla Lingwa",
+        "reportBug": "Rapport Bug",
+        "giveFeedback": "Agħti Feedback",
+        "settings": "Settings",
+        "logout": "Oħroġ",
+        "addNewLanguage": "Żid Lingwa Ġdida"
+    },
+    "error": {
+        "unknown": "Xi ħaġa marret ħażin. "
+    },
+    "dashboard": {
+        "welcome": "Merħba {{username}}",
+        "description": "Merħba għall-Konkors ta' Kitba tal-Feminiżmu u l-Folklor, ċelebrazzjoni annwali tad-diversità kulturali u l-inklussività tas-sessi fuq il-Wikipedija.\n"
+    },
+    "campaign": {
+        "serial": "Serjali",
+        "loading": "Qiegħed il-kampanja...",
+        "action": {
+            "*": "Azzjonijiet",
+            "cancel_name": "Ikkanċella Kampanja",
+            "cancel_prompt": "Żgur li trid tikkanċella din il-kampanja?",
+            "cancel_title": "Ikkanċella Kampanja",
+            "cancel_zero": "Ikkanċella",
+            "cancel_one": "Ikkanċella ({{count}})",
+            "cancel": "Ikkanċella {{count}}",
+            "approve_name": "Approva l-Kampanja",
+            "approve_prompt": "Żgur li trid tapprova din il-kampanja?",
+            "approve_title": "Approva l-Kampanja",
+            "approve_zero": "Japprova",
+            "approve_one": "Approva ({{count}})",
+            "approve": "Japprova",
+            "reject": "Tiċħad",
+            "settings": "Settings",
+            "back": "Lura",
+            "save": "Ħlief",
+            "next": "Li jmiss",
+            "edit": "Editja Kampanja",
+            "create": "Oħloq Kampanja",
+            "search": "Iffiltra"
+        },
+        "activeCampaigns": "Kampanji Attivi",
+        "name": "Isem",
+        "language": "Lingwa",
+        "startDate": "Data tal-Bidu",
+        "endDate": "Data tat-Tmiem",
+        "duration": "Tul ta' żmien",
+        "status": "Status",
+        "all": "Il-Kampanji kollha",
+        "description": "Deskrizzjoni",
+        "jury": "Ġurija",
+        "banner": "Banner",
+        "allowExpansions": "Ħalli lill-utenti jissottomettu artikli li ma kinux maħluqa pjuttost estiżi",
+        "minimumAddedBytes_help": "In-numru ta' bytes li l-parteċipant irid iżid fuq l-artiklu sottomess mill-bidu tal-kampanja",
+        "minimumAddedBytes": "Bytes Minimi Miżjuda",
+        "minimumAddedWords_help": "In-numru ta' kliem li l-parteċipant irid iżid fuq l-artiklu sottomess mill-bidu tal-kampanja",
+        "minimumAddedWords": "Kliem Minimu Miżjud",
+        "minimumTotalBytes_help": "In-numru ta' bytes li l-parteċipant irid ikollu fuq l-artiklu sottomess mill-bidu tal-kampanja",
+        "minimumTotalBytes": "Bytes Totali Minimi",
+        "minimumTotalWords_help": "In-numru ta' kliem li l-parteċipant irid ikollu fuq l-artiklu sottomess mill-bidu tal-kampanja",
+        "minimumTotalWords": "Kliem Totali Minimi",
+        "allowJuryToParticipate": "Ħalli lill-membri tal-ġurija jipparteċipaw fil-kampanja",
+        "secretBallot": "Evita lill-membri tal-ġurija milli jaraw il-voti ta’ xulxin",
+        "allowMultipleJudgements": "Ħalli membri multipli tal-ġurija jevalwaw l-istess sottomissjoni",
+        "image": {
+            "url": "Isem tal-Fajl Commons bl-Estensjoni",
+            "fetch": "Ġib Immaġni"
+        },
+        "error": {
+            "youAreNotJudge": "M'intix membru tal-ġurija ta' din il-kampanja"
+        },
+        "submission": {
+            "title": "Sottomissjonijiet",
+            "new": "Ibgħat Artikolu Ġdid",
+            "list": "Sottomissjonijiet",
+            "note": "Nota",
+            "judge": "Imħallef",
+            "submitter": "Submittent",
+            "points": "Punti",
+            "submittedSuccessfully": "Mibgħut b'suċċess",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "Total {{count}} bytes",
+            "totalWords_one": "Total {{count}} kelma",
+            "totalWords_other": "Total {{count}} kliem",
+            "createdAt": "Maħluq Fl {{createdAt}}",
+            "createdBy": "Maħluq minn {{createdBy}}",
+            "addedBytes_one": "Miżjud {{count}} byte",
+            "addedBytes_other": "Miżjud {{count}} bytes",
+            "addedWords_one": "Miżjud {{count}} kelma",
+            "addedWords_other": "Miżjud {{count}} kliem",
+            "tags": {
+                "*": "Tikketti",
+                "expanded": "Estiża",
+                "newlyCreated": "Maħluq Ġodda",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Status",
+                "all": "Kollha",
+                "notEvaluated": "Mhux Evalwat",
+                "evaluated": "Evalwat"
+            },
+            "loading": "Tagħbija s-sottomissjonijiet...",
+            "preview": "Preview",
+            "preview_loading": "Tagħbija preview...",
+            "judgement": {
+                "*": "Evalwazzjoni",
+                "evaluationSubmittedSuccessfully": "Evalwazzjoni sottomessa b'suċċess",
+                "backToSubmissions": "Evalwa sottomissjoni oħra",
+                "judgeSubmission": "Żid l-Evalwazzjoni tiegħek",
+                "note": "Nota (Mhux obbligatorju)",
+                "note_placeholder": "Żid nota lil min jibgħat (mhux obbligatorju)"
+            },
+            "action": {
+                "reject": "Tiċħad",
+                "accept": "Aċċetta",
+                "evaluate": "Evalwa",
+                "evaluate_add": "Żid Evalwazzjoni",
+                "evaluate_title": "Evalwa Sottomissjoni",
+                "backToCampaign": "Lura għall-Kampanja",
+                "submitAnother": "Issottometti Ieħor",
+                "check": "Iċċekkja",
+                "submitOnBehalf": "Issottometti f'isem",
+                "submit": "Issottometti",
+                "delete_zero": "Ħassar",
+                "delete_other": "Ħassar ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Riżultati",
+            "totalSubmission_grand": "Sottomissjonijiet totali",
+            "totalSubmission": "Sottomissjonijiet",
+            "totalNewlyCreated_grand": "Total Maħluq Ġodda",
+            "totalNewlyCreated": "Maħluq Ġodda",
+            "totalExpanded_grand": "Total Estiża",
+            "totalExpanded": "Estiża",
+            "totalPoints_grand": "Punti Totali",
+            "totalPoints": "Punti",
+            "username": "Isem tal-utent"
+        },
+        "step": {
+            "details": "Dettalji",
+            "jury": "Ġurija",
+            "restrictions": "Restrizzjonijiet",
+            "overview": "Ħarsa ġenerali"
+        },
+        "statistics": {
+            "color": "Kulur",
+            "title": "Statistika",
+            "title_year": "Statistika għas-sena",
+            "title_campaign": "Statistika għall-kampanja",
+            "overview": "Ħarsa ġenerali",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Agħlaq",
+        "cancel": "Ikkanċella"
+    },
+    "user": {
+        "*": "Isem tal-utent",
+        "noUsers": "L-ebda utent ma nstab",
+        "name": "Isem",
+        "username": "Isem tal-utent",
+        "loading": "Tagħbija l-utenti..."
+    }
+}

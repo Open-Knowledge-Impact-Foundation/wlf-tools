@@ -1,0 +1,328 @@
+from fastapi import APIRouter, Request, Query, HTTPException
+from ..models import *
+# from pprint import pprint as print
+submission_router = APIRouter(
+    prefix="/submission",
+    tags=["Submission"],
+    responses={404: {"details": "Not found"}},
+)
+@submission_router.get("/", response_model=ResponseMultiple[SubmissionScheme])
+async def list_all_submissions(req : Request, campaignID: str, judgable : bool = None, judged_by_me : bool = None ):
+    """
+    List all submissions.`
+    """
+    try:
+        my_id = req.state.user['id']
+        with Server.get_parmanent_db() as conn:
+            if judged_by_me is not None:
+                if judged_by_me == True:
+                    submissions = Submission.get_all_by_campaign_id(conn.cursor(), campaign_id=campaignID, judgable=judgable, only_judged_by=my_id)
+                elif judged_by_me == False:
+                    submissions = Submission.get_all_by_campaign_id(conn.cursor(), campaign_id=campaignID, judgable=judgable, exclude_judged_user_id=my_id)
+            else:
+                submissions = Submission.get_all_by_campaign_id(conn.cursor(), campaign_id=campaignID, judgable=judgable)
+            
+        results = []
+        for submission in submissions:
+            # if submission.get('judged_by_me') is None:
+            #     submission['judged_by_me'] = judge_by_me
+            results.append(SubmissionScheme(**submission))
+        return ResponseMultiple[SubmissionScheme](success=True, data=results)
+    except Exception as e:
+        logger.info(e)
+        raise HTTPException(404, detail=str(e))
+
+
+
+
+@submission_router.post("/draft", response_model=ResponseSingle[DraftSubmissionScheme])
+async def create_draft(req : Request, draft_request : DraftCreateScheme):
+    try:
+        
+        campaign_id = draft_request.campaign_id
+
+        with Server.get_parmanent_db() as conn:
+            campaign = Campaign.update_status(conn, campaign_id)
+            if not campaign:
+                raise HTTPException(status_code=400, detail="Campaign not found")
+            statusError = None
+            # if campaign['status'] not in CampaignStatus.running.value:
+            #     raise HTTPException(status_code=400, detail="Campaign is not running")
+            # if statusError:
+            #     raise HTTPException(status_code=400, detail=statusError)
+            language : str = campaign['language'] # Language of the campaign
+            usernames : list[str] = [draft_request.submitted_by_username]
+            # If the user is not in the database, add it, then get the user id
+            users = User.get_username_map_guaranteed(conn, usernames, lang=language)
+            print(users)
+            submitted_by = users[draft_request.submitted_by_username]
+            if not campaign['allowJuryToParticipate']: # If jury is not allowed to participate in the campaign
+                # Check if the user is a jury
+                is_submitter_jury = Judgement.verify_judge(conn, campaign_id, submitted_by['id'])
+                if is_submitter_jury:
+                    # If the user is a jury, raise an error
+                    raise HTTPException(status_code=400, detail="Jury is not allowed to participate in the campaign")
+            errors, current_stat = Submission.fetch_stats(language, draft_request.title)
+            if errors:
+                raise HTTPException(status_code=400, detail=errors)
+            new_draft = DraftSubmissionScheme(
+                title=current_stat['title'],
+                pageid=current_stat['pageid'],
+                oldid=current_stat['oldid'],
+                target_wiki=language,
+                submitted_by_username=submitted_by['username'],
+                submitted_by_id=submitted_by['id'],
+                total_bytes=current_stat['bytes'],
+                total_words=current_stat['words'],
+                created_at=current_stat['created_at'],
+                created_by_id=current_stat['created_by_id'],
+                created_by_username=current_stat['created_by_username'],
+                campaign_id=draft_request.campaign_id,
+                added_bytes=current_stat['added_bytes'],
+                added_words=current_stat['added_words'],
+                calculated=True,
+                passed=(current_stat['words'] >= campaign['minimumTotalWords'] or
+                        current_stat['bytes'] >= campaign['minimumTotalBytes']),
+            )
+            new_draft = Submission.create_draft(conn, new_draft)
+        BaseServer.log("info", req.state.user['id'], req.state.user['username'],
+            f"Created draft {new_draft.id} for campaign {campaign_id}")
+        return ResponseSingle[DraftSubmissionScheme](success=True, data=new_draft)
+    except HTTPException as e:
+        raise e
+    except Exception as e:
+        logger.exception(e)
+        raise HTTPException(status_code=400, detail=f"Internal error: {e}")
+    
+
+@submission_router.post("/draft/late", response_model=ResponseSingle[DraftSubmissionScheme])
+async def create_late_draft(req : Request, draft_request : DraftCreateScheme):
+    try:
+        
+        campaign_id = draft_request.campaign_id
+
+        with Server.get_parmanent_db() as conn:
+            campaign = Campaign.update_status(conn, campaign_id)
+            if not campaign:
+                raise HTTPException(status_code=400, detail="Campaign not found")
+            statusError = None
+            # if campaign['status'] not in CampaignStatus.running.value:
+            #     raise HTTPException(status_code=400, detail="Campaign is not running")
+            # if statusError:
+            #     raise HTTPException(status_code=400, detail=statusError)
+            language : str = campaign['language'] # Language of the campaign
+            usernames : list[str] = [draft_request.submitted_by_username]
+            # If the user is not in the database, add it, then get the user id
+            users = User.get_username_map_guaranteed(conn, usernames, lang=language)
+            submitted_by = users[draft_request.submitted_by_username]
+            if not campaign['allowJuryToParticipate']: # If jury is not allowed to participate in the campaign
+                # Check if the user is a jury
+                is_submitter_jury = Judgement.verify_judge(conn, campaign_id, submitted_by['id'])
+                if is_submitter_jury:
+                    # If the user is a jury, raise an error
+                    raise HTTPException(status_code=400, detail="Jury is not allowed to participate in the campaign")
+            errors, current_stat = Submission.fetch_stats(language, draft_request.title)
+            if errors:
+                raise HTTPException(status_code=400, detail=errors)
+            new_draft = DraftSubmissionScheme(
+                title=current_stat['title'],
+                pageid=current_stat['pageid'],
+                oldid=current_stat['oldid'],
+                target_wiki=language,
+                submitted_by_username=submitted_by['username'],
+                submitted_by_id=submitted_by['id'],
+                total_bytes=current_stat['bytes'],
+                total_words=current_stat['words'],
+                created_at=current_stat['created_at'],
+                created_by_id=current_stat['created_by_id'],
+                created_by_username=current_stat['created_by_username'],
+                campaign_id=draft_request.campaign_id,
+                added_bytes=current_stat['added_bytes'],
+                added_words=current_stat['added_words'],
+                calculated=True,
+                passed=True,
+            )
+            new_draft = Submission.create_draft(conn, new_draft)
+        BaseServer.log("info", req.state.user['id'], req.state.user['username'],
+            f"Created draft {new_draft.id} for campaign {campaign_id}")
+        return ResponseSingle[DraftSubmissionScheme](success=True, data=new_draft)
+    except HTTPException as e:
+        raise e
+    except Exception as e:
+        logger.exception(e)
+        raise HTTPException(status_code=400, detail=f"Internal error: {e}")
+    
+    
+
+
+
+
+@submission_router.get("/draft/{draft_id}", response_model=ResponseSingle[DraftSubmissionScheme])
+async def get_draft(req : Request, draft_id: int):
+    try:
+        sentry_sdk.set_extra("draft_id", draft_id)
+        with Server.get_parmanent_db() as conn:
+            draft = Submission.get_draft_by_id(conn.cursor(), draft_id)
+        if not draft:
+            raise Exception("Draft not found")
+        result = DraftSubmissionScheme(**draft)
+        return ResponseSingle[DraftSubmissionScheme](success=True, data=result)
+    except Exception as e:
+        logger.exception(e)
+        raise HTTPException(status_code=404, detail=str(e))
+    
+
+
+
+@submission_router.get("/{submission_id}", response_model=ResponseSingle[SubmissionScheme | JudgableSubmission])
+async def get_submission(req: Request, submission_id: int, add_next_id : bool = False):
+    try:
+        sentry_sdk.set_extra("submission_id", submission_id)
+        with Server.get_parmanent_db() as conn:
+            submission = Submission.get_by_id(conn.cursor(), submission_id)
+        if not submission:
+            raise Exception("Submission not found")
+        if add_next_id:
+            current_user = req.state.user['id']
+            campaign_id = submission['campaign_id']
+            next_id = Submission.get_next_judgable_id(
+                conn.cursor(),
+                campaign_id=campaign_id,
+                current_submission_id=submission_id,
+                judge_id=current_user
+            )
+            result = JudgableSubmission(**submission,next_id=next_id)
+            return ResponseSingle[JudgableSubmission](success=True, data=result)
+        else:
+            result = SubmissionScheme(**submission)
+            return ResponseSingle[SubmissionScheme](success=True, data=result)
+    except Exception as e:
+        raise HTTPException(status_code=404, detail=str(e))
+@submission_router.delete("/{submission_id}", response_model=ResponseSingle[SubmissionScheme])
+async def delete_submission(req : Request, submission_id: int):
+    try:
+        sentry_sdk.set_extra("submission_id", submission_id)
+        with Server.get_parmanent_db() as conn:
+            submission = Submission.get_by_id(conn.cursor(), submission_id)
+            if not submission:
+                raise Exception("Submission not found")
+            campaign = Campaign.update_status(conn, submission['campaign_id'])
+            if campaign['status'] != CampaignStatus.running.value:
+                raise HTTPException(status_code=400, detail="Only running campaign submission can be deleted")
+            assert Judgement.verify_judge(conn, submission['campaign_id'], req.state.user['id']), "Sorry, you are not a judge for this campaign"
+            
+            Submission.delete(conn, submission_id)
+            Campaign.update_status(conn, submission['campaign_id'])
+            BaseServer.log("info", req.state.user['id'], req.state.user['username'],
+                f"Deleted submission {submission_id}")
+            conn.commit()
+        return ResponseSingle[SubmissionScheme](success=True, data=SubmissionScheme(**submission))
+    except HTTPException as e:
+        raise e
+    except Exception as e:
+        logger.exception(e)
+        raise HTTPException(status_code=404, detail=str(e))
+@submission_router.get("/{submission_id}/judge", response_model=ResponseMultiple[JudgementScheme])
+async def get_judgement(req : Request, submission_id: int, by_me : bool = True):
+    try:
+        sentry_sdk.set_extra("submission_id", submission_id)
+        with Server.get_parmanent_db() as conn:
+            submission = Submission.get_by_id(conn.cursor(), submission_id)
+            if not submission:
+                raise Exception("Submission not found")
+            campaign = Campaign.update_status(conn, submission['campaign_id'])
+            if not campaign['secretBallot'] or submission['submitted_by_id'] == req.state.user['id']:
+                # All the judgements 
+                judgements = Judgement._get_judgements(conn, submission_id)
+            else:
+                # Only the judgements by me
+                judgements = Judgement._get_judgements(conn, submission_id, req.state.user['id'])
+            judgements = [JudgementScheme(**j) for j in judgements]
+            return ResponseMultiple[JudgementScheme](success=True, data=judgements)
+    except Exception as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+
+@submission_router.post("/", response_model=ResponseSingle[SubmissionScheme]) 
+async def create_submission(req: Request, submission: SubmissionCreateScheme):
+    try:
+        sentry_sdk.set_extra("draft_id", submission.draft_id)
+        with Server.get_parmanent_db() as conn:
+            draft = Submission.get_draft_by_id(conn,  submission.draft_id)
+            if not draft:
+                raise HTTPException(status_code=400, detail="Draft not found")
+            Submission.update_draft_flags(
+                conn, submission.draft_id, calculated=True, passed=True, submitted=True
+            )
+            newSubmission = Submission.submit(conn, draft)
+        BaseServer.log("info", req.state.user['id'], req.state.user['username'],
+            f"Submitted draft {submission.draft_id} as submission {newSubmission.id}")
+        sentry_sdk.set_extra("submission_id", newSubmission.id)
+        return ResponseSingle[SubmissionScheme](success=True, data=newSubmission)
+    except sqlite3.IntegrityError as e:
+        if "UNIQUE constraint failed" in str(e):
+            raise HTTPException(status_code=400, detail="Already submitted by another user")
+        raise HTTPException(status_code=400, detail=str(e))
+    except HTTPException as e:
+        raise e
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+@submission_router.post("/late", response_model=ResponseSingle[SubmissionScheme]) 
+async def create_late_submission(req: Request, submission: SubmissionCreateScheme):
+    try:
+        sentry_sdk.set_extra("draft_id", submission.draft_id)
+        with Server.get_parmanent_db() as conn:
+            draft = Submission.get_draft_by_id(conn,  submission.draft_id)
+            if not draft:
+                raise HTTPException(status_code=400, detail="Draft not found")
+            Submission.update_draft_flags(
+                conn, submission.draft_id, calculated=True, passed=True, submitted=True
+            )
+            newSubmission = Submission.submit(conn, draft, added_at=submission.added_at)
+        BaseServer.log("info", req.state.user['id'], req.state.user['username'],
+            f"Submitted draft {submission.draft_id} as submission {newSubmission.id}")
+        sentry_sdk.set_extra("submission_id", newSubmission.id)
+        return ResponseSingle[SubmissionScheme](success=True, data=newSubmission)
+    except sqlite3.IntegrityError as e:
+        if "UNIQUE constraint failed" in str(e):
+            raise HTTPException(status_code=400, detail="Already submitted by another user")
+        raise HTTPException(status_code=400, detail=str(e))
+    except HTTPException as e:
+        raise e
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+
+
+@submission_router.post("/{submission_id}/judge", response_model=ResponseSingle[SubmissionScheme])
+async def judge_submission(req: Request, submission_id: int, judgement : JudgementScheme):
+    try:
+        jury_id = req.state.user['id']
+        sentry_sdk.set_extra("submission_id", submission_id)
+        sentry_sdk.set_extra("jury_id", jury_id)
+        
+        with Server.get_parmanent_db() as conn:
+            submission = Submission.get_by_id(conn.cursor(), submission_id)
+            if not submission:
+                raise HTTPException(status_code=400, detail="Submission not found")
+            assert submission['judgable'] == True, "Submission is not judgable"
+            sentry_sdk.set_extra("campaign_id", submission['campaign_id'])
+            campaign = Campaign.update_status(conn, submission['campaign_id'])
+            assert campaign['status'] in [CampaignStatus.running.value, CampaignStatus.evaluating.value], "Campaign is not in judging mode"
+            jury = Judgement.verify_judge(conn,  submission['campaign_id'], jury_id,)
+            assert jury, "Sorry, you are not a judge for this campaign"
+            
+            k = Judgement.add(conn, submission_id, jury_id, judgement.vote, campaign_id=campaign['id'], note=judgement.note)
+            # Judgement.calculate_points(conn, submission_id)
+            submission = Submission.get_by_id(conn.cursor(), submission_id)
+        BaseServer.log("info", req.state.user['id'], req.state.user['username'],
+            f"Judged submission {submission_id} with vote {judgement.vote} by jury {jury_id}")
+        return ResponseSingle[SubmissionScheme](success=True, data=SubmissionScheme(**submission))
+    except HTTPException as e:
+        raise e
+    except Exception as e:
+        sentry_sdk.capture_exception(e)
+        raise HTTPException(status_code=400, detail=str(e))

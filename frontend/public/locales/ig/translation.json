@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Aha"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Ụlọ",
+        "campaign": "Mgbasa ozi",
+        "statistics": "Ọnụọgụ",
+        "users": "Ndị ọrụ",
+        "changeLanguage": "Gbanwee Asụsụ",
+        "reportBug": "Kwuo ahụhụ",
+        "giveFeedback": "Nye nzaghachi",
+        "settings": "Ntọala",
+        "logout": "Wepụ",
+        "addNewLanguage": "Tinye Asụsụ Ọhụrụ"
+    },
+    "error": {
+        "unknown": "Ọ nwere ihe adịghị mma. "
+    },
+    "dashboard": {
+        "welcome": "Nnọọ {{username}}",
+        "description": "Nnọọ na asọmpi ịde ihe gbasara nwanyị na akụkọ ifo, emume kwa afọ nke ọdịbendị dị iche iche na nsonye okike na Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "Oghere Usoro",
+        "loading": "Na-ebugo mkpọsa...",
+        "action": {
+            "*": "Omume",
+            "cancel_name": "Kagbuo mkpọsa",
+            "cancel_prompt": "Ị ji n'aka na ịchọrọ ịkagbu mkpọsa a?",
+            "cancel_title": "Kagbuo mkpọsa",
+            "cancel_zero": "Kagbuo",
+            "cancel_one": "Cancel ({{count}})",
+            "cancel": "Kagbuo {{count}}",
+            "approve_name": "Kwado mkpọsa",
+            "approve_prompt": "Ị ji n'aka na ịchọrọ ịkwado mkpọsa a?",
+            "approve_title": "Kwado mkpọsa",
+            "approve_zero": "Kwado",
+            "approve_one": "Approve ({{count}})",
+            "approve": "Kwado",
+            "reject": "Jụ",
+            "settings": "Ntọala",
+            "back": "Azu",
+            "save": "Chekwa",
+            "next": "Osote",
+            "edit": "Dezie mkpọsa",
+            "create": "Mepụta mkpọsa",
+            "search": "Iyo"
+        },
+        "activeCampaigns": "Mgbasa ozi na-arụ ọrụ",
+        "name": "Aha",
+        "language": "Asụsụ",
+        "startDate": "Ụbọchị mmalite",
+        "endDate": "Ụbọchị ngwụcha",
+        "duration": "Ogologo oge",
+        "status": "Ọnọdụ",
+        "all": "Mgbasa ozi niile",
+        "description": "Nkọwa",
+        "jury": "Ndị juri",
+        "banner": "ọkọlọtọ",
+        "allowExpansions": "Kwe ka ndị ọrụ nyefee akụkọ na-ekeghị kama gbasaa",
+        "minimumAddedBytes_help": "Ọnụ ọgụgụ nke bytes onye so na ya ga-agbakwunye na isiokwu e debere kemgbe mmalite nke mkpọsa ahụ",
+        "minimumAddedBytes": "Bytes agbakwunyere kacha nta",
+        "minimumAddedWords_help": "Ọnụ ọgụgụ nke okwu onye so na ya ga-agbakwunye na isiokwu e debere kemgbe mmalite nke mkpọsa ahụ",
+        "minimumAddedWords": "Okwu agbakwunyere kacha nta",
+        "minimumTotalBytes_help": "Ọnụ ọgụgụ nke bytes onye so na ya ga-enwe na isiokwu e debere kemgbe mmalite nke mkpọsa ahụ",
+        "minimumTotalBytes": "Ngụkọta Bytes kacha nta",
+        "minimumTotalWords_help": "Ọnụ ọgụgụ nke okwu onye so na ya ga-enwe na isiokwu e debere kemgbe mmalite nke mkpọsa ahụ",
+        "minimumTotalWords": "Opekempe Okwu",
+        "allowJuryToParticipate": "Kwe ka ndị otu juri sonye na mkpọsa ahụ",
+        "secretBallot": "Gbochie ndị otu juri ịhụ votu ibe ha",
+        "allowMultipleJudgements": "Kwe ka ọtụtụ ndị otu juri nyochaa otu nrubeisi",
+        "image": {
+            "url": "Aha faịlụ Commons na ndọtị",
+            "fetch": "Weta onyonyo"
+        },
+        "error": {
+            "youAreNotJudge": "Ị bụghị onye juri na mkpọsa a"
+        },
+        "submission": {
+            "title": "Nnyefe",
+            "new": "Nyefee edemede ọhụrụ",
+            "list": "Nnyefe",
+            "note": "Rịba ama",
+            "judge": "Onye ikpe",
+            "submitter": "Nyefere",
+            "points": "Isi ihe",
+            "submittedSuccessfully": "Enyere ya nke ọma",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "Mkpokọta {{count}} bytes",
+            "totalWords_one": "Total {{count}} word",
+            "totalWords_other": "Mkpokọta {{count}} okwu",
+            "createdAt": "Emepụtara Na {{createdAt}}",
+            "createdBy": "Emepụtara ya {{createdBy}}",
+            "addedBytes_one": "Added {{count}} byte",
+            "addedBytes_other": "agbakwunyere {{count}} bytes",
+            "addedWords_one": "Added {{count}} word",
+            "addedWords_other": "agbakwunyere {{count}} okwu",
+            "tags": {
+                "*": "Tags",
+                "expanded": "Gbasaa",
+                "newlyCreated": "Emepụtara ọhụrụ",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Ọnọdụ",
+                "all": "Ha niile",
+                "notEvaluated": "Atụleghị",
+                "evaluated": "Nyochaa"
+            },
+            "loading": "Na-ebunye ntinye...",
+            "preview": "Nhụchalụ",
+            "preview_loading": "Na-ebugo nhụchalụ...",
+            "judgement": {
+                "*": "Nlele",
+                "evaluationSubmittedSuccessfully": "Enyere nyocha nke ọma",
+                "backToSubmissions": "Nyochaa nrubeisi ọzọ",
+                "judgeSubmission": "Tinye Nyocha gị",
+                "note": "Mara (nhọrọ)",
+                "note_placeholder": "Tinye ndetu na onye ntinye akwụkwọ (nhọrọ)"
+            },
+            "action": {
+                "reject": "Jụ",
+                "accept": "Nabata",
+                "evaluate": "Nyochaa",
+                "evaluate_add": "Tinye nyocha",
+                "evaluate_title": "Nyochaa ntinye",
+                "backToCampaign": "Laghachi na mkpọsa",
+                "submitAnother": "Nyefee ọzọ",
+                "check": "Lelee",
+                "submitOnBehalf": "Nyefee na nnọchite nke",
+                "submit": "Nyefee",
+                "delete_zero": "Hichapụ",
+                "delete_other": "Hichapụ ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Nsonaazụ",
+            "totalSubmission_grand": "Mgbakọta ntinye",
+            "totalSubmission": "Nnyefe",
+            "totalNewlyCreated_grand": "Mgbakọta Emepụtara ọhụrụ",
+            "totalNewlyCreated": "Emepụtara ọhụrụ",
+            "totalExpanded_grand": "Mkpokọta gbasaa",
+            "totalExpanded": "Gbasaa",
+            "totalPoints_grand": "Mgbakọta ọnụ",
+            "totalPoints": "Isi ihe",
+            "username": "Aha njirimara"
+        },
+        "step": {
+            "details": "Nkọwa",
+            "jury": "Ndị juri",
+            "restrictions": "Mmachibido",
+            "overview": "Nchịkọta"
+        },
+        "statistics": {
+            "color": "Agba",
+            "title": "Ọnụọgụ",
+            "title_year": "Statistics maka afọ",
+            "title_campaign": "Ọnụọgụ maka mkpọsa ahụ",
+            "overview": "Nchịkọta",
+            "date": "Ụbọchị"
+        }
+    },
+    "action": {
+        "close": "Mechie",
+        "cancel": "Kagbuo"
+    },
+    "user": {
+        "*": "Aha njirimara",
+        "noUsers": "Ọnweghị ndị ọrụ ahụrụ",
+        "name": "Aha",
+        "username": "Aha njirimara",
+        "loading": "Na-ebu ndị ọrụ..."
+    }
+}

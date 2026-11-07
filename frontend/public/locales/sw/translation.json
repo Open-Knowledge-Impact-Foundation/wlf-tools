@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Kichwa"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Nyumbani",
+        "campaign": "Kampeni",
+        "statistics": "Takwimu",
+        "users": "Watumiaji",
+        "changeLanguage": "Badilisha Lugha",
+        "reportBug": "Ripoti Hitilafu",
+        "giveFeedback": "Toa Maoni",
+        "settings": "Mipangilio",
+        "logout": "Ondoka",
+        "addNewLanguage": "Ongeza Lugha Mpya"
+    },
+    "error": {
+        "unknown": "Hitilafu fulani imetokea. "
+    },
+    "dashboard": {
+        "welcome": "Karibu {{username}}",
+        "description": "Karibu kwenye Shindano la Ufeministi na Uandishi wa Folklore, maadhimisho ya kila mwaka ya tofauti za kitamaduni na ushirikishwaji wa kijinsia kwenye Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "Msururu",
+        "loading": "Inapakia kampeni...",
+        "action": {
+            "*": "Vitendo",
+            "cancel_name": "Ghairi Kampeni",
+            "cancel_prompt": "Je, una uhakika unataka kughairi kampeni hii?",
+            "cancel_title": "Ghairi Kampeni",
+            "cancel_zero": "Ghairi",
+            "cancel_one": "Ghairi ({{count}})",
+            "cancel": "Ghairi {{count}}",
+            "approve_name": "Idhinisha Kampeni",
+            "approve_prompt": "Je, una uhakika unataka kuidhinisha kampeni hii?",
+            "approve_title": "Idhinisha Kampeni",
+            "approve_zero": "Idhinisha",
+            "approve_one": "Idhinisha ({{count}})",
+            "approve": "Idhinisha",
+            "reject": "Kataa",
+            "settings": "Mipangilio",
+            "back": "Nyuma",
+            "save": "Hifadhi",
+            "next": "Inayofuata",
+            "edit": "Badilisha Kampeni",
+            "create": "Unda Kampeni",
+            "search": "Chuja"
+        },
+        "activeCampaigns": "Kampeni Imilishi",
+        "name": "Jina",
+        "language": "Lugha",
+        "startDate": "Tarehe ya Kuanza",
+        "endDate": "Tarehe ya mwisho",
+        "duration": "Muda",
+        "status": "Hali",
+        "all": "Kampeni Zote",
+        "description": "Maelezo",
+        "jury": "Jury",
+        "banner": "Bango",
+        "allowExpansions": "Ruhusu watumiaji kuwasilisha makala ambayo hayakuundwa badala ya kupanuliwa",
+        "minimumAddedBytes_help": "Idadi ya baiti ambazo mshiriki lazima aongeze kwenye makala iliyowasilishwa tangu mwanzo wa kampeni",
+        "minimumAddedBytes": "Kiwango cha chini cha Baiti Zilizoongezwa",
+        "minimumAddedWords_help": "Idadi ya maneno ambayo mshiriki lazima aongeze kwenye makala iliyowasilishwa tangu mwanzo wa kampeni",
+        "minimumAddedWords": "Maneno ya chini kabisa yaliyoongezwa",
+        "minimumTotalBytes_help": "Idadi ya baiti ambazo mshiriki lazima awe nazo kwenye makala iliyowasilishwa tangu mwanzo wa kampeni",
+        "minimumTotalBytes": "Kiwango cha chini cha Baiti",
+        "minimumTotalWords_help": "Idadi ya maneno ambayo mshiriki lazima awe nayo kwenye makala iliyowasilishwa tangu mwanzo wa kampeni",
+        "minimumTotalWords": "Jumla ya Maneno ya Chini",
+        "allowJuryToParticipate": "Ruhusu wajumbe wa jury kushiriki katika kampeni",
+        "secretBallot": "Zuia wajumbe wa jury kuona kura za kila mmoja",
+        "allowMultipleJudgements": "Ruhusu wanachama wengi wa jury kutathmini uwasilishaji sawa",
+        "image": {
+            "url": "Jina la Faili ya Commons yenye Kiendelezi",
+            "fetch": "Leta Picha"
+        },
+        "error": {
+            "youAreNotJudge": "Wewe si mwanachama wa jury wa kampeni hii"
+        },
+        "submission": {
+            "title": "Mawasilisho",
+            "new": "Wasilisha Makala Mpya",
+            "list": "Mawasilisho",
+            "note": "Kumbuka",
+            "judge": "Hakimu",
+            "submitter": "Mwasilishaji",
+            "points": "Pointi",
+            "submittedSuccessfully": "Imewasilishwa kwa mafanikio",
+            "totalBytes_one": "Jumla {{count}} kwaheri",
+            "totalBytes_other": "Jumla {{count}} baiti",
+            "totalWords_one": "Jumla {{count}} neno",
+            "totalWords_other": "Jumla {{count}} maneno",
+            "createdAt": "Imeundwa Katika {{createdAt}}",
+            "createdBy": "Imetengenezwa na {{createdBy}}",
+            "addedBytes_one": "Imeongezwa {{count}} kwaheri",
+            "addedBytes_other": "Imeongezwa {{count}} baiti",
+            "addedWords_one": "Imeongezwa {{count}} neno",
+            "addedWords_other": "Imeongezwa {{count}} maneno",
+            "tags": {
+                "*": "Lebo",
+                "expanded": "Imepanuliwa",
+                "newlyCreated": "Iliyoundwa Mpya",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Hali",
+                "all": "Wote",
+                "notEvaluated": "Haijatathminiwa",
+                "evaluated": "Imetathminiwa"
+            },
+            "loading": "Inapakia mawasilisho...",
+            "preview": "Hakiki",
+            "preview_loading": "Inapakia onyesho la kukagua...",
+            "judgement": {
+                "*": "Tathmini",
+                "evaluationSubmittedSuccessfully": "Tathmini imewasilishwa",
+                "backToSubmissions": "Tathmini uwasilishaji mwingine",
+                "judgeSubmission": "Ongeza Tathmini yako",
+                "note": "Kumbuka (Si lazima)",
+                "note_placeholder": "Ongeza dokezo kwa mwasilishaji (si lazima)"
+            },
+            "action": {
+                "reject": "Kataa",
+                "accept": "Kubali",
+                "evaluate": "Tathmini",
+                "evaluate_add": "Ongeza Tathmini",
+                "evaluate_title": "Tathmini Uwasilishaji",
+                "backToCampaign": "Rudi kwenye Kampeni",
+                "submitAnother": "Wasilisha Nyingine",
+                "check": "Angalia",
+                "submitOnBehalf": "Wasilisha kwa niaba ya",
+                "submit": "Wasilisha",
+                "delete_zero": "Futa",
+                "delete_other": "Futa ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Matokeo",
+            "totalSubmission_grand": "Jumla ya Mawasilisho",
+            "totalSubmission": "Mawasilisho",
+            "totalNewlyCreated_grand": "Jumla Mpya Iliyoundwa",
+            "totalNewlyCreated": "Iliyoundwa Mpya",
+            "totalExpanded_grand": "Jumla Imepanuliwa",
+            "totalExpanded": "Imepanuliwa",
+            "totalPoints_grand": "Jumla ya Alama",
+            "totalPoints": "Pointi",
+            "username": "Jina la mtumiaji"
+        },
+        "step": {
+            "details": "Maelezo",
+            "jury": "Jury",
+            "restrictions": "Vikwazo",
+            "overview": "Muhtasari"
+        },
+        "statistics": {
+            "color": "Rangi",
+            "title": "Takwimu",
+            "title_year": "Takwimu za mwaka",
+            "title_campaign": "Takwimu za kampeni",
+            "overview": "Muhtasari",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Funga",
+        "cancel": "Ghairi"
+    },
+    "user": {
+        "*": "Jina la mtumiaji",
+        "noUsers": "Hakuna watumiaji waliopatikana",
+        "name": "Jina",
+        "username": "Jina la mtumiaji",
+        "loading": "Inapakia watumiaji..."
+    }
+}

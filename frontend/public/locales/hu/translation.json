@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Cím"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "itthon",
+        "campaign": "Kampány",
+        "statistics": "Statisztika",
+        "users": "Felhasználók",
+        "changeLanguage": "Válts nyelvet",
+        "reportBug": "Hiba bejelentése",
+        "giveFeedback": "Adj visszajelzést",
+        "settings": "Beállítások",
+        "logout": "Kijelentkezés",
+        "addNewLanguage": "Új nyelv hozzáadása"
+    },
+    "error": {
+        "unknown": "Valami elromlott. "
+    },
+    "dashboard": {
+        "welcome": "Üdvözöljük {{username}}",
+        "description": "Üdvözöljük a Feminizmus és Folklór íróversenyen, amely a kulturális sokszínűség és a nemek közötti integráció éves ünnepe a Wikipédián.\n"
+    },
+    "campaign": {
+        "serial": "Sorozatszám",
+        "loading": "Kampány betöltése...",
+        "action": {
+            "*": "Akciók",
+            "cancel_name": "Kampány törlése",
+            "cancel_prompt": "Biztosan megszakítja ezt a kampányt?",
+            "cancel_title": "Kampány törlése",
+            "cancel_zero": "Megszünteti",
+            "cancel_one": "Megszünteti ({{count}})",
+            "cancel": "Megszünteti {{count}}",
+            "approve_name": "Kampány jóváhagyása",
+            "approve_prompt": "Biztosan jóváhagyja ezt a kampányt?",
+            "approve_title": "Kampány jóváhagyása",
+            "approve_zero": "Jóváhagy",
+            "approve_one": "Jóváhagy ({{count}})",
+            "approve": "Jóváhagy",
+            "reject": "Elutasít",
+            "settings": "Beállítások",
+            "back": "Vissza",
+            "save": "Megment",
+            "next": "Következő",
+            "edit": "Kampány szerkesztése",
+            "create": "Kampány létrehozása",
+            "search": "Szűrő"
+        },
+        "activeCampaigns": "Aktív kampányok",
+        "name": "Név",
+        "language": "Nyelv",
+        "startDate": "Kezdő dátum",
+        "endDate": "Befejezés dátuma",
+        "duration": "Időtartam",
+        "status": "Állapot",
+        "all": "Minden kampány",
+        "description": "Leírás",
+        "jury": "Zsűri",
+        "banner": "Transzparens",
+        "allowExpansions": "Lehetővé teszi a felhasználóknak, hogy olyan cikkeket küldjenek be, amelyeket nem hoztak létre, hanem kibontva",
+        "minimumAddedBytes_help": "Azon bájtok száma, amelyeket a résztvevőnek hozzá kell adnia a beküldött cikkhez a kampány kezdete óta",
+        "minimumAddedBytes": "Minimális hozzáadott bájt",
+        "minimumAddedWords_help": "Azon szavak száma, amelyeket a résztvevőnek hozzá kell adnia a beküldött cikkhez a kampány kezdete óta",
+        "minimumAddedWords": "Minimális hozzáadott szavak",
+        "minimumTotalBytes_help": "Az a bájtok száma, amellyel a résztvevőnek rendelkeznie kell a beküldött cikken a kampány kezdete óta",
+        "minimumTotalBytes": "Minimális összes bájt",
+        "minimumTotalWords_help": "A résztvevőnek a beküldött cikken szereplő szavak száma a kampány kezdete óta",
+        "minimumTotalWords": "Minimális összes szó",
+        "allowJuryToParticipate": "Engedélyezze a zsűritagoknak, hogy részt vegyenek a kampányban",
+        "secretBallot": "Akadályozza meg, hogy a zsűri tagjai lássák egymás szavazatait",
+        "allowMultipleJudgements": "Engedélyezze több zsűritagnak, hogy ugyanazt a beadványt értékelje",
+        "image": {
+            "url": "Commons fájlnév kiterjesztéssel",
+            "fetch": "Kép lekérése"
+        },
+        "error": {
+            "youAreNotJudge": "Ön nem tagja ennek a kampánynak a zsűrinek"
+        },
+        "submission": {
+            "title": "Beadványok",
+            "new": "Új cikk beküldése",
+            "list": "Beadványok",
+            "note": "jegyzet",
+            "judge": "Bíró",
+            "submitter": "Beküldő",
+            "points": "Pontok",
+            "submittedSuccessfully": "Sikeresen elküldve",
+            "totalBytes_one": "Teljes {{count}} byte",
+            "totalBytes_other": "Teljes {{count}} bájtok",
+            "totalWords_one": "Teljes {{count}} szó",
+            "totalWords_other": "Teljes {{count}} szavak",
+            "createdAt": "Létrehozva: {{createdAt}}",
+            "createdBy": "Készítette {{createdBy}}",
+            "addedBytes_one": "Hozzáadva {{count}} byte",
+            "addedBytes_other": "Hozzáadva {{count}} bájtok",
+            "addedWords_one": "Hozzáadva {{count}} szó",
+            "addedWords_other": "Hozzáadva {{count}} szavak",
+            "tags": {
+                "*": "Címkék",
+                "expanded": "Kiterjesztett",
+                "newlyCreated": "Újonnan készített",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Állapot",
+                "all": "Minden",
+                "notEvaluated": "nincs értékelve",
+                "evaluated": "Értékelve"
+            },
+            "loading": "Beküldések betöltése...",
+            "preview": "Előnézet",
+            "preview_loading": "Előnézet betöltése...",
+            "judgement": {
+                "*": "Értékelés",
+                "evaluationSubmittedSuccessfully": "Az értékelés sikeresen elküldve",
+                "backToSubmissions": "Értékeljen egy másik beadványt",
+                "judgeSubmission": "Adja hozzá az értékelést",
+                "note": "Megjegyzés (opcionális)",
+                "note_placeholder": "Megjegyzés hozzáadása a beküldőhöz (nem kötelező)"
+            },
+            "action": {
+                "reject": "Elutasít",
+                "accept": "Elfogad",
+                "evaluate": "Értékelje",
+                "evaluate_add": "Értékelés hozzáadása",
+                "evaluate_title": "A benyújtás értékelése",
+                "backToCampaign": "Vissza a kampányhoz",
+                "submitAnother": "Másik beküldése",
+                "check": "Jelölje be",
+                "submitOnBehalf": "Beküldés nevében",
+                "submit": "Beküldés",
+                "delete_zero": "Töröl",
+                "delete_other": "Törlés ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Eredmények",
+            "totalSubmission_grand": "Összes beküldött",
+            "totalSubmission": "Beadványok",
+            "totalNewlyCreated_grand": "Összesen újonnan létrehozott",
+            "totalNewlyCreated": "Újonnan készített",
+            "totalExpanded_grand": "Összesen bővítve",
+            "totalExpanded": "Kiterjesztett",
+            "totalPoints_grand": "Összes pont",
+            "totalPoints": "Pontok",
+            "username": "Felhasználónév"
+        },
+        "step": {
+            "details": "Részletek",
+            "jury": "Zsűri",
+            "restrictions": "Korlátozások",
+            "overview": "Áttekintés"
+        },
+        "statistics": {
+            "color": "Szín",
+            "title": "Statisztika",
+            "title_year": "Statisztikák az évre",
+            "title_campaign": "Statisztikák a kampányhoz",
+            "overview": "Áttekintés",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Bezárás",
+        "cancel": "Megszünteti"
+    },
+    "user": {
+        "*": "Felhasználónév",
+        "noUsers": "Nem található felhasználó",
+        "name": "Név",
+        "username": "Felhasználónév",
+        "loading": "Felhasználók betöltése..."
+    }
+}

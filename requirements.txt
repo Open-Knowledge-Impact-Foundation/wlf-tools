@@ -1,0 +1,11 @@
+requests
+gunicorn[uvicorn]
+pyjwt
+python-dotenv
+fastapi
+uvicorn
+sentry-sdk[fastapi]
+jinja2
+dateparser
+i18next
+wikitextparser

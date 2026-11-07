@@ -1,0 +1,2 @@
+@daily /usr/bin/jsub -N backup -once  bash /data/project/backup-bot/backup.sh >> /data/project/backup-bot/logs/backup.log 2>&1
+0 */4 * * * /usr/bin/jsub -N sendStatistics -once  bash /data/project/backup-bot/notify_stats.sh 2>&1

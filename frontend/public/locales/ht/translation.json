@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Tit"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Lakay",
+        "campaign": "Kanpay",
+        "statistics": "Estatistik",
+        "users": "Itilizatè yo",
+        "changeLanguage": "Chanje Lang",
+        "reportBug": "Rapòte ensèk",
+        "giveFeedback": "Bay Feedback",
+        "settings": "Anviwònman",
+        "logout": "Dekonekte",
+        "addNewLanguage": "Ajoute nouvo lang"
+    },
+    "error": {
+        "unknown": "Yon bagay ale mal. "
+    },
+    "dashboard": {
+        "welcome": "Byenvini {{username}}",
+        "description": "Byenvini nan Konkou Redaksyon Feminis ak Fòlklò, yon selebrasyon chak ane nan divèsite kiltirèl ak enklizivite sèks sou Wikipedya.\n"
+    },
+    "campaign": {
+        "serial": "Serial",
+        "loading": "Chaje kanpay...",
+        "action": {
+            "*": "Aksyon",
+            "cancel_name": "Anile Kanpay",
+            "cancel_prompt": "Èske w sèten ou vle anile kanpay sa a?",
+            "cancel_title": "Anile Kanpay",
+            "cancel_zero": "Anile",
+            "cancel_one": "Anile ({{count}})",
+            "cancel": "Anile {{count}}",
+            "approve_name": "Apwouve Kanpay",
+            "approve_prompt": "Èske w sèten ou vle apwouve kanpay sa a?",
+            "approve_title": "Apwouve Kanpay",
+            "approve_zero": "Apwouve",
+            "approve_one": "Apwouve ({{count}})",
+            "approve": "Apwouve",
+            "reject": "Rejte",
+            "settings": "Anviwònman",
+            "back": "Retounen",
+            "save": "Sove",
+            "next": "Next",
+            "edit": "Edit Kanpay",
+            "create": "Kreye Kanpay",
+            "search": "Filtre"
+        },
+        "activeCampaigns": "Kanpay aktif",
+        "name": "Non",
+        "language": "Lang",
+        "startDate": "Dat Kòmanse",
+        "endDate": "Dat fen",
+        "duration": "Dire",
+        "status": "Estati",
+        "all": "Tout Kanpay",
+        "description": "Deskripsyon",
+        "jury": "Jiri",
+        "banner": "Banner",
+        "allowExpansions": "Pèmèt itilizatè yo soumèt atik ki pa te kreye olye elaji",
+        "minimumAddedBytes_help": "Kantite bytes patisipan an dwe ajoute sou atik la soumèt depi kòmansman kanpay la",
+        "minimumAddedBytes": "Minimòm Bytes te ajoute",
+        "minimumAddedWords_help": "Kantite mo patisipan an dwe ajoute sou atik la soumèt depi kòmansman kanpay la",
+        "minimumAddedWords": "Minimòm Mo ajoute",
+        "minimumTotalBytes_help": "Kantite bytes patisipan an dwe genyen sou atik la soumèt depi kòmansman kanpay la",
+        "minimumTotalBytes": "Minimòm total bytes",
+        "minimumTotalWords_help": "Kantite mo patisipan an dwe genyen sou atik yo soumèt la depi kòmansman kanpay la",
+        "minimumTotalWords": "Minimòm Total Mo",
+        "allowJuryToParticipate": "Pèmèt manm jiri yo patisipe nan kanpay la",
+        "secretBallot": "Anpeche manm jiri yo wè vòt youn lòt",
+        "allowMultipleJudgements": "Pèmèt plizyè manm jiri evalye menm soumisyon an",
+        "image": {
+            "url": "Non dosye Commons ak ekstansyon",
+            "fetch": "Chèche Imaj"
+        },
+        "error": {
+            "youAreNotJudge": "Ou pa yon manm jiri nan kanpay sa a"
+        },
+        "submission": {
+            "title": "Soumèt",
+            "new": "Soumèt nouvo atik",
+            "list": "Soumèt",
+            "note": "Remak",
+            "judge": "Jij",
+            "submitter": "Moun ki soumèt",
+            "points": "Pwen",
+            "submittedSuccessfully": "Soumèt avèk siksè",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "Total {{count}} byte",
+            "totalWords_one": "Total {{count}} mo",
+            "totalWords_other": "Total {{count}} mo",
+            "createdAt": "Kreye nan {{createdAt}}",
+            "createdBy": "Kreye pa {{createdBy}}",
+            "addedBytes_one": "Te ajoute {{count}} byte",
+            "addedBytes_other": "Te ajoute {{count}} byte",
+            "addedWords_one": "Te ajoute {{count}} mo",
+            "addedWords_other": "Te ajoute {{count}} mo",
+            "tags": {
+                "*": "Tags",
+                "expanded": "Elaji",
+                "newlyCreated": "Ki fèk kreye",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Estati",
+                "all": "Tout",
+                "notEvaluated": "Pa evalye",
+                "evaluated": "Evalye"
+            },
+            "loading": "Chaje soumèt...",
+            "preview": "Preview",
+            "preview_loading": "Chaje aperçu...",
+            "judgement": {
+                "*": "Evalyasyon",
+                "evaluationSubmittedSuccessfully": "Evalyasyon soumèt avèk siksè",
+                "backToSubmissions": "Evalye yon lòt soumèt",
+                "judgeSubmission": "Ajoute Evalyasyon ou a",
+                "note": "Remak (Si ou vle)",
+                "note_placeholder": "Ajoute yon nòt pou moun ki soumèt la (si ou vle)"
+            },
+            "action": {
+                "reject": "Rejte",
+                "accept": "Aksepte",
+                "evaluate": "Evalye",
+                "evaluate_add": "Ajoute Evalyasyon",
+                "evaluate_title": "Evalye soumèt",
+                "backToCampaign": "Retounen nan Kanpay",
+                "submitAnother": "Soumèt yon lòt",
+                "check": "Tcheke",
+                "submitOnBehalf": "Soumèt sou non",
+                "submit": "Soumèt",
+                "delete_zero": "Efase",
+                "delete_other": "Efase ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Rezilta yo",
+            "totalSubmission_grand": "Total soumèt",
+            "totalSubmission": "Soumèt",
+            "totalNewlyCreated_grand": "Total ki fèk kreye",
+            "totalNewlyCreated": "Ki fèk kreye",
+            "totalExpanded_grand": "Total elaji",
+            "totalExpanded": "Elaji",
+            "totalPoints_grand": "Total Pwen",
+            "totalPoints": "Pwen",
+            "username": "Non itilizatè"
+        },
+        "step": {
+            "details": "Detay yo",
+            "jury": "Jiri",
+            "restrictions": "Restriksyon yo",
+            "overview": "Apèsi sou lekòl la"
+        },
+        "statistics": {
+            "color": "Koulè",
+            "title": "Estatistik",
+            "title_year": "Estatistik pou ane a",
+            "title_campaign": "Estatistik pou kanpay la",
+            "overview": "Apèsi sou lekòl la",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Fèmen",
+        "cancel": "Anile"
+    },
+    "user": {
+        "*": "Non itilizatè",
+        "noUsers": "Pa gen itilizatè yo jwenn",
+        "name": "Non",
+        "username": "Non itilizatè",
+        "loading": "Chaje itilizatè yo..."
+    }
+}

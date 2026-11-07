@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "題名"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Home",
+        "campaign": "キャンペーン",
+        "statistics": "Statistics",
+        "users": "Users",
+        "changeLanguage": "言語を切り替える",
+        "reportBug": "Report Bug",
+        "giveFeedback": "フィードバックを投稿",
+        "settings": "Settings",
+        "logout": "Logout",
+        "addNewLanguage": "新規の言語を追加"
+    },
+    "error": {
+        "unknown": "問題が発生したようです。しばらくしてからもう一度、お手続きください。"
+    },
+    "dashboard": {
+        "welcome": "こんにちは、{{username}} さん、",
+        "description": "毎年恒例のフェミニズムとフォークロアの投稿大会へようこそ、こちらはウィキペディアにおける文化多様性とジェンダーの包括性を祝うキャンペーンです。\nこの投稿大会では熱意あふれる投稿者の皆さんに呼びかけ、ローカルの文化イベント、民俗関連の活動、見過ごされがちでも重要な女性の貢献を記録する旅にご招待しています。\nウィキラブ・フォークロア・キャンペーン（略称WLF）の重点として、参加者の皆さんはレンズ越しに見た物語をそこにとどめることなく、写真が語りかける説得力のある物語をウィキペディア記事の作成・拡充に盛り込むという重要な一翼を担ってくださるよう、お奨めしています。"
+    },
+    "campaign": {
+        "serial": "連続開催",
+        "loading": "Loading campaign...",
+        "action": {
+            "*": "操作",
+            "cancel_name": "キャンペーンを中止",
+            "cancel_prompt": "このキャンペーンをほんとうに中止しますか？",
+            "cancel_title": "キャンペーンを中止",
+            "cancel_zero": "中止",
+            "cancel_one": "{{count}} を取り消し",
+            "cancel": "{{count}} を取り消し",
+            "approve_name": "キャンペーンを承認",
+            "approve_prompt": "このキャンペーンをほんとうに承認しますか？",
+            "approve_title": "キャンペーンを承認",
+            "approve_zero": "承認",
+            "approve_one": "({{count}})を承認",
+            "approve": "承認",
+            "reject": "却下",
+            "settings": "設定",
+            "back": "戻る",
+            "save": "Save",
+            "next": "次へ",
+            "edit": "キャンペーンを編集",
+            "create": "キャンペーンを作成",
+            "search": "しぼりこみ"
+        },
+        "activeCampaigns": "進行中のキャンペーン",
+        "name": "名称",
+        "language": "Language",
+        "startDate": "開始日",
+        "endDate": "End Date",
+        "duration": "Duration",
+        "status": "状態",
+        "all": "すべてのキャンペーン",
+        "description": "Description",
+        "jury": "Jury",
+        "banner": "Banner",
+        "allowExpansions": "ユーザー自身が作成していない記事でも拡張した場合は応募できるようにする",
+        "minimumAddedBytes_help": "The number of bytes the participant must add on the submitted article since the beginning of the campaign",
+        "minimumAddedBytes": "Minimum Added Bytes",
+        "minimumAddedWords_help": "The number of words the participant must add on the submitted article since the beginning of the campaign",
+        "minimumAddedWords": "加筆文字数の下限",
+        "minimumTotalBytes_help": "The number of bytes the participant must have on the submitted article since the beginning of the campaign",
+        "minimumTotalBytes": "Minimum Total Bytes",
+        "minimumTotalWords_help": "The number of words the participant must have on the submitted article since the beginning of the campaign",
+        "minimumTotalWords": "Minimum Total Words",
+        "allowJuryToParticipate": "審査員のキャンペーン参加を受け入れる",
+        "secretBallot": "審査員同士、他人の票が見えないようにする",
+        "allowMultipleJudgements": "Allow multiple jury members to evaluate the same submission",
+        "image": {
+            "url": "Commons File Name with Extension",
+            "fetch": "Fetch Image"
+        },
+        "error": {
+            "youAreNotJudge": "あなたはこのキャンペーンの審査員ではありません"
+        },
+        "submission": {
+            "title": "応募",
+            "new": "別の記事を応募する",
+            "list": "応募数",
+            "note": "注記",
+            "judge": "審査員",
+            "submitter": "応募者",
+            "points": "ポイント数",
+            "submittedSuccessfully": "応募手順が完了しました",
+            "totalBytes_one": "合計 {{count}} バイト",
+            "totalBytes_other": "合計 {{count}} バイト",
+            "totalWords_one": "合計 {{count}} ワード",
+            "totalWords_other": "合計 {{count}} ワード",
+            "createdAt": "作成日時 {{createdAt}}",
+            "createdBy": "作成者 {{createdBy}}",
+            "addedBytes_one": "追加バイト数 {{count}} ",
+            "addedBytes_other": "追加バイト数 {{count}} バイト",
+            "addedWords_one": "追加文字数 {{count}} ワード",
+            "addedWords_other": "追加文字数 {{count}} ワード",
+            "tags": {
+                "*": "タグ",
+                "expanded": "拡充",
+                "newlyCreated": "新規立項",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "状態",
+                "all": "全件",
+                "notEvaluated": "未評価",
+                "evaluated": "評価済み"
+            },
+            "loading": "応募を読み込み中…… submissions...",
+            "preview": "プレビュー",
+            "preview_loading": "プレビューを読み込み中……",
+            "judgement": {
+                "*": "評価",
+                "evaluationSubmittedSuccessfully": "評価の提出が完了しました",
+                "backToSubmissions": "別の応募を評価する",
+                "judgeSubmission": "評価する",
+                "note": "注記（任意）",
+                "note_placeholder": "応募者にあててメモを書く（任意）"
+            },
+            "action": {
+                "reject": "却下",
+                "accept": "承認",
+                "evaluate": "評価する",
+                "evaluate_add": "評価を追加",
+                "evaluate_title": "応募を評価",
+                "backToCampaign": "キャンペーンページに戻る",
+                "submitAnother": "別件も応募",
+                "check": "Check",
+                "submitOnBehalf": "次の人の代理で応募",
+                "submit": "応募",
+                "delete_zero": "除去",
+                "delete_other": "除去（{{count}}）",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "成果",
+            "totalSubmission_grand": "応募総数",
+            "totalSubmission": "応募の合計",
+            "totalNewlyCreated_grand": "新規立項記事の合計",
+            "totalNewlyCreated": "新規立項",
+            "totalExpanded_grand": "文字数の増分",
+            "totalExpanded": "記事を拡充",
+            "totalPoints_grand": "ポイント合計",
+            "totalPoints": "ポイント数",
+            "username": "利用者名"
+        },
+        "step": {
+            "details": "詳細",
+            "jury": "審査委員",
+            "restrictions": "制限",
+            "overview": "概要"
+        },
+        "statistics": {
+            "color": "配色",
+            "title": "統計",
+            "title_year": "当年の統計まとめ",
+            "title_campaign": "キャンペーンの統計まとめ",
+            "overview": "概要",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "閉じる",
+        "cancel": "中止"
+    },
+    "user": {
+        "*": "Username",
+        "noUsers": "No users found",
+        "name": "Name",
+        "username": "Username",
+        "loading": "Loading users..."
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Akọle"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Ile",
+        "campaign": "Ipolongo",
+        "statistics": "Awọn iṣiro",
+        "users": "Awọn olumulo",
+        "changeLanguage": "Yi ede pada",
+        "reportBug": "Iroyin Kokoro",
+        "giveFeedback": "Fun esi",
+        "settings": "Ètò",
+        "logout": "Jade jade",
+        "addNewLanguage": "Fi Ede Tuntun kun"
+    },
+    "error": {
+        "unknown": "Nnkan o lo daadaa. "
+    },
+    "dashboard": {
+        "welcome": "Kaabo {{username}}",
+        "description": "Kaabọ si Idije Kikọ Obirin ati Folklore, ayẹyẹ ọdọọdun ti oniruuru aṣa ati isunmọ abo lori Wikipedia.\n"
+    },
+    "campaign": {
+        "serial": "Tẹlentẹle",
+        "loading": "ipolongo ikojọpọ...",
+        "action": {
+            "*": "Awọn iṣe",
+            "cancel_name": "Fagilee ipolongo",
+            "cancel_prompt": "Ṣe o da ọ loju pe o fẹ fagile ipolongo yii bi?",
+            "cancel_title": "Fagilee ipolongo",
+            "cancel_zero": "Fagilee",
+            "cancel_one": "Cancel ({{count}})",
+            "cancel": "Fagilee {{count}}",
+            "approve_name": "Gba Ipolongo",
+            "approve_prompt": "Ṣe o da ọ loju pe o fẹ fọwọsi ipolongo yii?",
+            "approve_title": "Gba Ipolongo",
+            "approve_zero": "Fi ọwọ si",
+            "approve_one": "Approve ({{count}})",
+            "approve": "Fi ọwọ si",
+            "reject": "Kọ",
+            "settings": "Ètò",
+            "back": "Pada",
+            "save": "Fipamọ",
+            "next": "Itele",
+            "edit": "Ipolongo Ṣatunkọ",
+            "create": "Ṣẹda Ipolongo",
+            "search": "Àlẹmọ"
+        },
+        "activeCampaigns": "Awọn ipolongo ti nṣiṣe lọwọ",
+        "name": "Oruko",
+        "language": "Ede",
+        "startDate": "Ọjọ Ibẹrẹ",
+        "endDate": "Ọjọ ipari",
+        "duration": "Iye akoko",
+        "status": "Ipo",
+        "all": "Gbogbo Ipolongo",
+        "description": "Apejuwe",
+        "jury": "imomopaniyan",
+        "banner": "Ọpagun",
+        "allowExpansions": "Gba awọn olumulo laaye lati fi awọn nkan silẹ ti a ko ṣẹda kuku faagun",
+        "minimumAddedBytes_help": "Nọmba awọn baiti ti alabaṣe gbọdọ ṣafikun lori nkan ti a fi silẹ lati ibẹrẹ ipolongo naa",
+        "minimumAddedBytes": "Kere Fikun Bytes",
+        "minimumAddedWords_help": "Nọmba awọn ọrọ ti alabaṣe gbọdọ ṣafikun lori nkan ti a fi silẹ lati ibẹrẹ ipolongo naa",
+        "minimumAddedWords": "Awọn Ọrọ Fikun Kere",
+        "minimumTotalBytes_help": "Nọmba awọn baiti ti alabaṣe gbọdọ ni lori nkan ti a fi silẹ lati ibẹrẹ ipolongo naa",
+        "minimumTotalBytes": "Kere Lapapọ Bytes",
+        "minimumTotalWords_help": "Nọmba awọn ọrọ ti alabaṣe gbọdọ ni lori nkan ti a fi silẹ lati ibẹrẹ ipolongo naa",
+        "minimumTotalWords": "Awọn Ọrọ Apapọ ti o kere julọ",
+        "allowJuryToParticipate": "Gba awọn ọmọ ẹgbẹ igbimọ laaye lati kopa ninu ipolongo naa",
+        "secretBallot": "Dena imomopaniyan omo egbe lati ri kọọkan miiran ká ibo",
+        "allowMultipleJudgements": "Gba ọpọlọpọ awọn ọmọ ẹgbẹ igbimọ laaye lati ṣe iṣiro ifakalẹ kanna",
+        "image": {
+            "url": "Orukọ Faili Commons pẹlu Ifaagun",
+            "fetch": "Mu Aworan"
+        },
+        "error": {
+            "youAreNotJudge": "Iwọ kii ṣe ọmọ ẹgbẹ igbimọ ti ipolongo yii"
+        },
+        "submission": {
+            "title": "Awọn ifisilẹ",
+            "new": "Fi New Article",
+            "list": "Awọn ifisilẹ",
+            "note": "Akiyesi",
+            "judge": "Onidajo",
+            "submitter": "Olufisilẹ",
+            "points": "Awọn ojuami",
+            "submittedSuccessfully": "Ti fi silẹ ni aṣeyọri",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "Lapapọ {{count}} awọn baiti",
+            "totalWords_one": "Total {{count}} word",
+            "totalWords_other": "Lapapọ {{count}} awọn ọrọ",
+            "createdAt": "Ti a ṣẹda Ni {{createdAt}}",
+            "createdBy": "Ti a ṣẹda nipasẹ {{createdBy}}",
+            "addedBytes_one": "Added {{count}} byte",
+            "addedBytes_other": "Fi kun {{count}} awọn baiti",
+            "addedWords_one": "Added {{count}} word",
+            "addedWords_other": "Fi kun {{count}} awọn ọrọ",
+            "tags": {
+                "*": "Awọn afi",
+                "expanded": "Ti fẹ",
+                "newlyCreated": "Titun Da",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Ipo",
+                "all": "Gbogbo",
+                "notEvaluated": "Ko Iṣiro",
+                "evaluated": "Ti ṣe ayẹwo"
+            },
+            "loading": "Nkojọpọ awọn ifisilẹ...",
+            "preview": "Awotẹlẹ",
+            "preview_loading": "Nkojọpọ awotẹlẹ...",
+            "judgement": {
+                "*": "Igbelewọn",
+                "evaluationSubmittedSuccessfully": "Igbelewọn silẹ ni aṣeyọri",
+                "backToSubmissions": "Ṣe ayẹwo ifisilẹ miiran",
+                "judgeSubmission": "Ṣafikun Igbelewọn rẹ",
+                "note": "Akiyesi (Aṣayan)",
+                "note_placeholder": "Ṣafikun akọsilẹ kan si olufisilẹ (aṣayan)"
+            },
+            "action": {
+                "reject": "Kọ",
+                "accept": "Gba",
+                "evaluate": "Ṣe ayẹwo",
+                "evaluate_add": "Fi Igbelewọn kun",
+                "evaluate_title": "Ṣe iṣiro Ifisilẹ",
+                "backToCampaign": "Pada si Ipolongo",
+                "submitAnother": "Fi Omiiran silẹ",
+                "check": "Ṣayẹwo",
+                "submitOnBehalf": "Fi silẹ lori dípò ti",
+                "submit": "Fi silẹ",
+                "delete_zero": "Paarẹ",
+                "delete_other": "Paarẹ ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Esi",
+            "totalSubmission_grand": "Lapapọ awọn ifisilẹ",
+            "totalSubmission": "Awọn ifisilẹ",
+            "totalNewlyCreated_grand": "Lapapọ Tuntun Da",
+            "totalNewlyCreated": "Titun Da",
+            "totalExpanded_grand": "Lapapọ Ti fẹ",
+            "totalExpanded": "Ti fẹ",
+            "totalPoints_grand": "Lapapọ Points",
+            "totalPoints": "Awọn ojuami",
+            "username": "Orukọ olumulo"
+        },
+        "step": {
+            "details": "Awọn alaye",
+            "jury": "imomopaniyan",
+            "restrictions": "Awọn ihamọ",
+            "overview": "Akopọ"
+        },
+        "statistics": {
+            "color": "Àwọ̀",
+            "title": "Awọn iṣiro",
+            "title_year": "Statistics fun odun",
+            "title_campaign": "Awọn iṣiro fun ipolongo",
+            "overview": "Akopọ",
+            "date": "Ọjọ"
+        }
+    },
+    "action": {
+        "close": "Sunmọ",
+        "cancel": "Fagilee"
+    },
+    "user": {
+        "*": "Orukọ olumulo",
+        "noUsers": "Ko si awọn olumulo ti a rii",
+        "name": "Oruko",
+        "username": "Orukọ olumulo",
+        "loading": "Nkojọpọ awọn olumulo..."
+    }
+}

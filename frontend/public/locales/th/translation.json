@@ -1,0 +1,179 @@
+{
+    "name": "แคมป์วิซ",
+    "article": {
+        "title": "ชื่อ"
+    },
+    "menu": {
+        "name": "แคมป์วิซ",
+        "home": "บ้าน",
+        "campaign": "แคมเปญ",
+        "statistics": "สถิติ",
+        "users": "ผู้ใช้",
+        "changeLanguage": "เปลี่ยนภาษา",
+        "reportBug": "รายงานปัญหา",
+        "giveFeedback": "ให้ข้อเสนอแนะ",
+        "settings": "การตั้งค่า",
+        "logout": "ออกจากระบบ",
+        "addNewLanguage": "เพิ่มภาษาใหม่"
+    },
+    "error": {
+        "unknown": "บางอย่างผิดพลาด. "
+    },
+    "dashboard": {
+        "welcome": "ยินดีต้อนรับ {{username}}",
+        "description": "ยินดีต้อนรับสู่การประกวดการเขียนสตรีนิยมและคติชนวิทยา ซึ่งเป็นการเฉลิมฉลองประจำปีของความหลากหลายทางวัฒนธรรมและการไม่แบ่งแยกทางเพศบนวิกิพีเดีย\n"
+    },
+    "campaign": {
+        "serial": "อนุกรม",
+        "loading": "กำลังโหลดแคมเปญ...",
+        "action": {
+            "*": "การดำเนินการ",
+            "cancel_name": "ยกเลิกแคมเปญ",
+            "cancel_prompt": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกแคมเปญนี้",
+            "cancel_title": "ยกเลิกแคมเปญ",
+            "cancel_zero": "ยกเลิก",
+            "cancel_one": "Cancel ({{count}})",
+            "cancel": "ยกเลิก {{count}}",
+            "approve_name": "อนุมัติแคมเปญ",
+            "approve_prompt": "คุณแน่ใจหรือไม่ว่าต้องการอนุมัติแคมเปญนี้",
+            "approve_title": "อนุมัติแคมเปญ",
+            "approve_zero": "อนุมัติ",
+            "approve_one": "Approve ({{count}})",
+            "approve": "อนุมัติ",
+            "reject": "ปฏิเสธ",
+            "settings": "การตั้งค่า",
+            "back": "กลับ",
+            "save": "บันทึก",
+            "next": "ต่อไป",
+            "edit": "แก้ไขแคมเปญ",
+            "create": "สร้างแคมเปญ",
+            "search": "กรอง"
+        },
+        "activeCampaigns": "แคมเปญที่ใช้งานอยู่",
+        "name": "ชื่อ",
+        "language": "ภาษา",
+        "startDate": "วันที่เริ่มต้น",
+        "endDate": "วันที่สิ้นสุด",
+        "duration": "ระยะเวลา",
+        "status": "สถานะ",
+        "all": "แคมเปญทั้งหมด",
+        "description": "คำอธิบาย",
+        "jury": "คณะลูกขุน",
+        "banner": "แบนเนอร์",
+        "allowExpansions": "อนุญาตให้ผู้ใช้ส่งบทความที่ไม่ได้สร้างขึ้นค่อนข้างขยาย",
+        "minimumAddedBytes_help": "จำนวนไบต์ที่ผู้เข้าร่วมต้องเพิ่มในบทความที่ส่งตั้งแต่เริ่มต้นแคมเปญ",
+        "minimumAddedBytes": "จำนวนไบต์ที่เพิ่มขั้นต่ำ",
+        "minimumAddedWords_help": "จำนวนคำที่ผู้เข้าร่วมต้องเพิ่มในบทความที่ส่งตั้งแต่เริ่มต้นแคมเปญ",
+        "minimumAddedWords": "คำเพิ่มขั้นต่ำ",
+        "minimumTotalBytes_help": "จำนวนไบต์ที่ผู้เข้าร่วมต้องมีในบทความที่ส่งตั้งแต่เริ่มต้นแคมเปญ",
+        "minimumTotalBytes": "จำนวนไบต์รวมขั้นต่ำ",
+        "minimumTotalWords_help": "จำนวนคำที่ผู้เข้าร่วมต้องมีในบทความที่ส่งตั้งแต่เริ่มต้นแคมเปญ",
+        "minimumTotalWords": "คำรวมขั้นต่ำ",
+        "allowJuryToParticipate": "อนุญาตให้สมาชิกคณะลูกขุนมีส่วนร่วมในการรณรงค์",
+        "secretBallot": "ป้องกันไม่ให้สมาชิกคณะลูกขุนเห็นคะแนนเสียงของกันและกัน",
+        "allowMultipleJudgements": "อนุญาตให้สมาชิกคณะลูกขุนหลายคนประเมินผลงานชิ้นเดียวกัน",
+        "image": {
+            "url": "ชื่อไฟล์คอมมอนส์ที่มีนามสกุล",
+            "fetch": "ดึงรูปภาพ"
+        },
+        "error": {
+            "youAreNotJudge": "คุณไม่ใช่สมาชิกคณะลูกขุนของแคมเปญนี้"
+        },
+        "submission": {
+            "title": "การส่งผลงาน",
+            "new": "ส่งบทความใหม่",
+            "list": "การส่งผลงาน",
+            "note": "บันทึก",
+            "judge": "ผู้พิพากษา",
+            "submitter": "ผู้ส่ง",
+            "points": "คะแนน",
+            "submittedSuccessfully": "ส่งเรียบร้อยแล้ว",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "ทั้งหมด {{count}} ไบต์",
+            "totalWords_one": "Total {{count}} word",
+            "totalWords_other": "ทั้งหมด {{count}} คำ",
+            "createdAt": "สร้างเมื่อ {{createdAt}}",
+            "createdBy": "สร้างโดย {{createdBy}}",
+            "addedBytes_one": "Added {{count}} byte",
+            "addedBytes_other": "เพิ่มแล้ว {{count}} ไบต์",
+            "addedWords_one": "Added {{count}} word",
+            "addedWords_other": "เพิ่มแล้ว {{count}} คำ",
+            "tags": {
+                "*": "แท็ก",
+                "expanded": "ขยายแล้ว",
+                "newlyCreated": "สร้างใหม่",
+                "expanded_abbr": "อี",
+                "newlyCreated_abbr": "เอ็น"
+            },
+            "status": {
+                "*": "สถานะ",
+                "all": "ทั้งหมด",
+                "notEvaluated": "ไม่ได้รับการประเมิน",
+                "evaluated": "ประเมินแล้ว"
+            },
+            "loading": "กำลังโหลดการส่ง...",
+            "preview": "ดูตัวอย่าง",
+            "preview_loading": "กำลังโหลดตัวอย่าง...",
+            "judgement": {
+                "*": "การประเมิน",
+                "evaluationSubmittedSuccessfully": "ส่งการประเมินเรียบร้อยแล้ว",
+                "backToSubmissions": "ประเมินการส่งอีกครั้ง",
+                "judgeSubmission": "เพิ่มการประเมินผลของคุณ",
+                "note": "หมายเหตุ (ไม่บังคับ)",
+                "note_placeholder": "เพิ่มหมายเหตุถึงผู้ส่ง (ไม่บังคับ)"
+            },
+            "action": {
+                "reject": "ปฏิเสธ",
+                "accept": "ยอมรับ",
+                "evaluate": "ประเมิน",
+                "evaluate_add": "เพิ่มการประเมินผล",
+                "evaluate_title": "ประเมินการส่ง",
+                "backToCampaign": "กลับไปที่แคมเปญ",
+                "submitAnother": "ส่งอีก",
+                "check": "ตรวจสอบ",
+                "submitOnBehalf": "ยื่นในนาม.",
+                "submit": "ส่ง",
+                "delete_zero": "ลบ",
+                "delete_other": "ลบ ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "ผลลัพธ์",
+            "totalSubmission_grand": "การส่งทั้งหมด",
+            "totalSubmission": "การส่งผลงาน",
+            "totalNewlyCreated_grand": "รวมที่สร้างขึ้นใหม่",
+            "totalNewlyCreated": "สร้างใหม่",
+            "totalExpanded_grand": "ขยายรวมแล้ว",
+            "totalExpanded": "ขยายแล้ว",
+            "totalPoints_grand": "คะแนนรวม",
+            "totalPoints": "คะแนน",
+            "username": "ชื่อผู้ใช้"
+        },
+        "step": {
+            "details": "รายละเอียด",
+            "jury": "คณะลูกขุน",
+            "restrictions": "ข้อ จำกัด",
+            "overview": "ภาพรวม"
+        },
+        "statistics": {
+            "color": "สี",
+            "title": "สถิติ",
+            "title_year": "สถิติประจำปี",
+            "title_campaign": "สถิติสำหรับแคมเปญ",
+            "overview": "ภาพรวม",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "ปิด",
+        "cancel": "ยกเลิก"
+    },
+    "user": {
+        "*": "ชื่อผู้ใช้",
+        "noUsers": "ไม่พบผู้ใช้",
+        "name": "ชื่อ",
+        "username": "ชื่อผู้ใช้",
+        "loading": "กำลังโหลดผู้ใช้..."
+    }
+}

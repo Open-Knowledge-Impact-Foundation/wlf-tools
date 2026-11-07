@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "శీర్షిక"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "హోమ్",
+        "campaign": "ప్రచారం",
+        "statistics": "గణాంకాలు",
+        "users": "వినియోగదారులు",
+        "changeLanguage": "భాష మార్చు",
+        "reportBug": "బగ్‌ని నివేదించండి",
+        "giveFeedback": "అభిప్రాయం తెలియజేయండి",
+        "settings": "సెట్టింగ్‌లు",
+        "logout": "లాగ్అవుట్",
+        "addNewLanguage": "కొత్త భాషను జోడించండి"
+    },
+    "error": {
+        "unknown": "ఎక్కడో తేడ జరిగింది. "
+    },
+    "dashboard": {
+        "welcome": "స్వాగతం {{username}}",
+        "description": "వికీపీడియాలో సాంస్కృతిక వైవిధ్యం మరియు లింగ సమ్మేళనం యొక్క వార్షిక వేడుక అయిన స్త్రీవాదం మరియు జానపద రచనల పోటీకి స్వాగతం.\n"
+    },
+    "campaign": {
+        "serial": "క్రమ",
+        "loading": "ప్రచారం లోడ్ అవుతోంది...",
+        "action": {
+            "*": "చర్యలు",
+            "cancel_name": "ప్రచారాన్ని రద్దు చేయండి",
+            "cancel_prompt": "మీరు ఖచ్చితంగా ఈ ప్రచారాన్ని రద్దు చేయాలనుకుంటున్నారా?",
+            "cancel_title": "ప్రచారాన్ని రద్దు చేయండి",
+            "cancel_zero": "రద్దు చేయండి",
+            "cancel_one": "రద్దు చేయండి ({{count}})",
+            "cancel": "రద్దు చేయండి {{count}}",
+            "approve_name": "ప్రచారాన్ని ఆమోదించండి",
+            "approve_prompt": "మీరు ఈ ప్రచారాన్ని ఖచ్చితంగా ఆమోదించాలనుకుంటున్నారా?",
+            "approve_title": "ప్రచారాన్ని ఆమోదించండి",
+            "approve_zero": "ఆమోదించడానికి",
+            "approve_one": "ఆమోదించడానికి ({{count}})",
+            "approve": "ఆమోదించడానికి",
+            "reject": "తిరస్కరించు",
+            "settings": "సెట్టింగ్‌లు",
+            "back": "వెనుకకు",
+            "save": "సేవ్ చేయండి",
+            "next": "తరువాత",
+            "edit": "ప్రచారాన్ని సవరించండి",
+            "create": "ప్రచారాన్ని సృష్టించండి",
+            "search": "ఫిల్టర్ చేయండి"
+        },
+        "activeCampaigns": "క్రియాశీల ప్రచారాలు",
+        "name": "పేరు",
+        "language": "భాష",
+        "startDate": "ప్రారంబపు తేది",
+        "endDate": "ఆఖరి తేది",
+        "duration": "వ్యవధి",
+        "status": "స్థితి",
+        "all": "అన్ని ప్రచారాలు",
+        "description": "వివరణ",
+        "jury": "జ్యూరీ",
+        "banner": "బ్యానర్",
+        "allowExpansions": "విస్తరింపబడని కథనాలను సమర్పించడానికి వినియోగదారులను అనుమతించండి",
+        "minimumAddedBytes_help": "ప్రచారం ప్రారంభం నుండి సమర్పించిన కథనంలో పాల్గొనేవారు తప్పనిసరిగా జోడించాల్సిన బైట్‌ల సంఖ్య",
+        "minimumAddedBytes": "కనిష్ట జోడించిన బైట్‌లు",
+        "minimumAddedWords_help": "ప్రచారం ప్రారంభం నుండి సమర్పించిన కథనంలో పాల్గొనేవారు తప్పనిసరిగా జోడించాల్సిన పదాల సంఖ్య",
+        "minimumAddedWords": "కనీస జోడించిన పదాలు",
+        "minimumTotalBytes_help": "ప్రచారం ప్రారంభం నుండి సమర్పించిన కథనంలో పాల్గొనేవారు తప్పనిసరిగా కలిగి ఉన్న బైట్‌ల సంఖ్య",
+        "minimumTotalBytes": "కనిష్ట మొత్తం బైట్‌లు",
+        "minimumTotalWords_help": "ప్రచారం ప్రారంభం నుండి సమర్పించిన కథనంలో పాల్గొనేవారు తప్పనిసరిగా కలిగి ఉండవలసిన పదాల సంఖ్య",
+        "minimumTotalWords": "కనీస మొత్తం పదాలు",
+        "allowJuryToParticipate": "ప్రచారంలో పాల్గొనేందుకు జ్యూరీ సభ్యులను అనుమతించండి",
+        "secretBallot": "జ్యూరీ సభ్యులు ఒకరి ఓట్లను మరొకరు చూడకుండా నిరోధించండి",
+        "allowMultipleJudgements": "ఒకే సమర్పణను మూల్యాంకనం చేయడానికి బహుళ జ్యూరీ సభ్యులను అనుమతించండి",
+        "image": {
+            "url": "పొడిగింపుతో కూడిన కామన్స్ ఫైల్ పేరు",
+            "fetch": "చిత్రాన్ని పొందండి"
+        },
+        "error": {
+            "youAreNotJudge": "మీరు ఈ ప్రచారంలో జ్యూరీ సభ్యుడు కాదు"
+        },
+        "submission": {
+            "title": "సమర్పణలు",
+            "new": "కొత్త కథనాన్ని సమర్పించండి",
+            "list": "సమర్పణలు",
+            "note": "గమనిక",
+            "judge": "న్యాయమూర్తి",
+            "submitter": "సమర్పించేవాడు",
+            "points": "పాయింట్లు",
+            "submittedSuccessfully": "విజయవంతంగా సమర్పించబడింది",
+            "totalBytes_one": "మొత్తం {{count}} బైట్",
+            "totalBytes_other": "మొత్తం {{count}} బైట్లు",
+            "totalWords_one": "మొత్తం {{count}} పదం",
+            "totalWords_other": "మొత్తం {{count}} మాటలు",
+            "createdAt": "వద్ద సృష్టించబడింది {{createdAt}}",
+            "createdBy": "సృష్టికర్త {{createdBy}}",
+            "addedBytes_one": "చేర్చబడింది {{count}} బైట్",
+            "addedBytes_other": "చేర్చబడింది {{count}} బైట్లు",
+            "addedWords_one": "చేర్చబడింది {{count}} పదం",
+            "addedWords_other": "చేర్చబడింది {{count}} పదాలు",
+            "tags": {
+                "*": "టాగ్లు",
+                "expanded": "విస్తరించింది",
+                "newlyCreated": "కొత్తగా సృష్టించబడింది",
+                "expanded_abbr": "ఇ",
+                "newlyCreated_abbr": "ఎన్"
+            },
+            "status": {
+                "*": "స్థితి",
+                "all": "అన్నీ",
+                "notEvaluated": "మూల్యాంకనం చేయలేదు",
+                "evaluated": "మూల్యాంకనం చేయబడింది"
+            },
+            "loading": "సమర్పణలను లోడ్ చేస్తోంది...",
+            "preview": "ప్రివ్యూ",
+            "preview_loading": "ప్రివ్యూ లోడ్ అవుతోంది...",
+            "judgement": {
+                "*": "మూల్యాంకనం",
+                "evaluationSubmittedSuccessfully": "మూల్యాంకనం విజయవంతంగా సమర్పించబడింది",
+                "backToSubmissions": "మరొక సమర్పణను మూల్యాంకనం చేయండి",
+                "judgeSubmission": "మీ మూల్యాంకనాన్ని జోడించండి",
+                "note": "గమనిక (ఐచ్ఛికం)",
+                "note_placeholder": "సమర్పించినవారికి గమనికను జోడించండి (ఐచ్ఛికం)"
+            },
+            "action": {
+                "reject": "తిరస్కరించు",
+                "accept": "అంగీకరించు",
+                "evaluate": "మూల్యాంకనం చేయండి",
+                "evaluate_add": "మూల్యాంకనం జోడించండి",
+                "evaluate_title": "సమర్పణను మూల్యాంకనం చేయండి",
+                "backToCampaign": "తిరిగి ప్రచారానికి",
+                "submitAnother": "మరొకటి సమర్పించండి",
+                "check": "తనిఖీ",
+                "submitOnBehalf": "తరపున సమర్పించండి",
+                "submit": "సమర్పించండి",
+                "delete_zero": "తొలగించు",
+                "delete_other": "తొలగించు ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "ఫలితాలు",
+            "totalSubmission_grand": "మొత్తం సమర్పణలు",
+            "totalSubmission": "సమర్పణలు",
+            "totalNewlyCreated_grand": "మొత్తం కొత్తగా సృష్టించబడింది",
+            "totalNewlyCreated": "కొత్తగా సృష్టించబడింది",
+            "totalExpanded_grand": "మొత్తం విస్తరించబడింది",
+            "totalExpanded": "విస్తరించింది",
+            "totalPoints_grand": "మొత్తం పాయింట్లు",
+            "totalPoints": "పాయింట్లు",
+            "username": "వినియోగదారు పేరు"
+        },
+        "step": {
+            "details": "వివరాలు",
+            "jury": "జ్యూరీ",
+            "restrictions": "పరిమితులు",
+            "overview": "అవలోకనం"
+        },
+        "statistics": {
+            "color": "రంగు",
+            "title": "గణాంకాలు",
+            "title_year": "సంవత్సరానికి సంబంధించిన గణాంకాలు",
+            "title_campaign": "ప్రచారం కోసం గణాంకాలు",
+            "overview": "అవలోకనం",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "దగ్గరగా",
+        "cancel": "రద్దు చేయండి"
+    },
+    "user": {
+        "*": "వినియోగదారు పేరు",
+        "noUsers": "వినియోగదారులు కనుగొనబడలేదు",
+        "name": "పేరు",
+        "username": "వినియోగదారు పేరు",
+        "loading": "వినియోగదారులను లోడ్ చేస్తోంది..."
+    }
+}

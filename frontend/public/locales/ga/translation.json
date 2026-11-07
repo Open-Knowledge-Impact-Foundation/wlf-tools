@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Teideal"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Baile",
+        "campaign": "Feachtas",
+        "statistics": "Staitisticí",
+        "users": "Úsáideoirí",
+        "changeLanguage": "Athrú Teanga",
+        "reportBug": "Tuairiscigh Fabht",
+        "giveFeedback": "Tabhair Aiseolas",
+        "settings": "Socruithe",
+        "logout": "Logáil Amach",
+        "addNewLanguage": "Cuir Teanga Nua leis"
+    },
+    "error": {
+        "unknown": "Chuaigh rud eigin mícheart. "
+    },
+    "dashboard": {
+        "welcome": "Fáilte {{username}}",
+        "description": "Fáilte chuig an Comórtas Scríbhneoireachta Feimineachas agus Béaloideas, ceiliúradh bliantúil ar éagsúlacht chultúrtha agus cuimsitheacht inscne ar Vicipéid.\n"
+    },
+    "campaign": {
+        "serial": "sraitheach",
+        "loading": "Feachtas á lódáil...",
+        "action": {
+            "*": "Gníomhartha",
+            "cancel_name": "Cealaigh Feachtas",
+            "cancel_prompt": "An bhfuil tú cinnte gur mhaith leat an feachtas seo a chur ar ceal?",
+            "cancel_title": "Cealaigh Feachtas",
+            "cancel_zero": "Cealaigh",
+            "cancel_one": "Cealaigh ({{count}})",
+            "cancel": "Cealaigh {{count}}",
+            "approve_name": "Feachtas a cheadú",
+            "approve_prompt": "An bhfuil tú cinnte gur mhaith leat an feachtas seo a cheadú?",
+            "approve_title": "Feachtas a cheadú",
+            "approve_zero": "Cheadaigh",
+            "approve_one": "Ceadaigh ({{count}})",
+            "approve": "Cheadaigh",
+            "reject": "Diúltaigh",
+            "settings": "Socruithe",
+            "back": "Ar ais",
+            "save": "Sábháil",
+            "next": "Ar aghaidh",
+            "edit": "Cuir Feachtas in Eagar",
+            "create": "Cruthaigh Feachtas",
+            "search": "Scagaire"
+        },
+        "activeCampaigns": "Feachtais Ghníomhach",
+        "name": "Ainm",
+        "language": "Teanga",
+        "startDate": "Dáta tosaigh",
+        "endDate": "Dáta deiridh",
+        "duration": "Fad",
+        "status": "Stádas",
+        "all": "Gach Feachtas",
+        "description": "Cur síos",
+        "jury": "Giúiré",
+        "banner": "Meirge",
+        "allowExpansions": "Lig d'úsáideoirí ailt a chur isteach nár cruthaíodh in áit leathnaithe",
+        "minimumAddedBytes_help": "Líon na mbeart a chaithfidh an rannpháirtí a chur leis an alt a cuireadh isteach ó thús an fheachtais",
+        "minimumAddedBytes": "Íosta Beart Curtha leis",
+        "minimumAddedWords_help": "An líon focal a chaithfidh an rannpháirtí a chur leis an alt a cuireadh isteach ó thús an fheachtais",
+        "minimumAddedWords": "Focail Curtha Íosta",
+        "minimumTotalBytes_help": "Líon na mbeart a chaithfidh a bheith ag an rannpháirtí ar an alt a cuireadh isteach ó thús an fheachtais",
+        "minimumTotalBytes": "Íosta Beart Iomlán",
+        "minimumTotalWords_help": "An líon focal a chaithfidh a bheith ag an rannpháirtí ar an alt a cuireadh isteach ó thús an fheachtais",
+        "minimumTotalWords": "Focail Iomlána Íosta",
+        "allowJuryToParticipate": "Lig do bhaill ghiúiré páirt a ghlacadh san fheachtas",
+        "secretBallot": "Cosc a chur ar bhaill an ghiúiré vótaí a chéile a fheiceáil",
+        "allowMultipleJudgements": "Lig do chomhaltaí iolracha giúiré an aighneacht chéanna a mheas",
+        "image": {
+            "url": "Ainm Comhaid Commons le Síneadh",
+            "fetch": "Faigh Íomhá"
+        },
+        "error": {
+            "youAreNotJudge": "Ní ball giúiré thú den fheachtas seo"
+        },
+        "submission": {
+            "title": "Aighneachtaí",
+            "new": "Cuir Airteagal Nua isteach",
+            "list": "Aighneachtaí",
+            "note": "Nóta",
+            "judge": "Breitheamh",
+            "submitter": "Seoltóir",
+            "points": "Pointí",
+            "submittedSuccessfully": "Curtha isteach go rathúil",
+            "totalBytes_one": "Iomlán {{count}} beart",
+            "totalBytes_other": "Iomlán {{count}} bearta",
+            "totalWords_one": "Iomlán {{count}} focal",
+            "totalWords_other": "Iomlán {{count}} focail",
+            "createdAt": "Cruthaithe Ag {{createdAt}}",
+            "createdBy": "Cruthaithe ag {{createdBy}}",
+            "addedBytes_one": "Curtha leis {{count}} beart",
+            "addedBytes_other": "Curtha leis {{count}} bearta",
+            "addedWords_one": "Curtha leis {{count}} focal",
+            "addedWords_other": "Curtha leis {{count}} focail",
+            "tags": {
+                "*": "Clibeanna",
+                "expanded": "Leathnaithe",
+                "newlyCreated": "Nuachruthaithe",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Stádas",
+                "all": "Gach",
+                "notEvaluated": "Gan luacháil",
+                "evaluated": "Mheasúnaithe"
+            },
+            "loading": "aighneachtaí á lódáil...",
+            "preview": "Réamhamharc",
+            "preview_loading": "Réamhamharc á lódáil...",
+            "judgement": {
+                "*": "Meastóireacht",
+                "evaluationSubmittedSuccessfully": "D'éirigh leis an meastóireacht a cuireadh isteach",
+                "backToSubmissions": "Déan measúnú ar aighneacht eile",
+                "judgeSubmission": "Cuir do Mheastóireacht leis",
+                "note": "Nóta (Roghnach)",
+                "note_placeholder": "Cuir nóta leis an aighnitheoir (roghnach)"
+            },
+            "action": {
+                "reject": "Diúltaigh",
+                "accept": "Glac",
+                "evaluate": "Déan measúnú",
+                "evaluate_add": "Cuir Meastóireacht leis",
+                "evaluate_title": "Déan Aighneacht a Mheas",
+                "backToCampaign": "Ar ais go Feachtas",
+                "submitAnother": "Cuir Eile isteach",
+                "check": "Seiceáil",
+                "submitOnBehalf": "Cuir isteach ar son",
+                "submit": "Cuir isteach",
+                "delete_zero": "Scrios",
+                "delete_other": "Scrios ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Torthaí",
+            "totalSubmission_grand": "Aighneachtaí Iomlána",
+            "totalSubmission": "Aighneachtaí",
+            "totalNewlyCreated_grand": "Iomlán Nuachruthaithe",
+            "totalNewlyCreated": "Nuachruthaithe",
+            "totalExpanded_grand": "Iomlán Leathnaithe",
+            "totalExpanded": "Leathnaithe",
+            "totalPoints_grand": "Iomlán na bpointí",
+            "totalPoints": "Pointí",
+            "username": "Ainm úsáideora"
+        },
+        "step": {
+            "details": "Sonraí",
+            "jury": "Giúiré",
+            "restrictions": "Srianta",
+            "overview": "Forbhreathnú"
+        },
+        "statistics": {
+            "color": "Dath",
+            "title": "Staitisticí",
+            "title_year": "Staitisticí don bhliain",
+            "title_campaign": "Staitisticí don fheachtas",
+            "overview": "Forbhreathnú",
+            "date": "Dáta"
+        }
+    },
+    "action": {
+        "close": "Dún",
+        "cancel": "Cealaigh"
+    },
+    "user": {
+        "*": "Ainm úsáideora",
+        "noUsers": "Níor aimsíodh aon úsáideoir",
+        "name": "Ainm",
+        "username": "Ainm úsáideora",
+        "loading": "Úsáideoirí á lódáil..."
+    }
+}

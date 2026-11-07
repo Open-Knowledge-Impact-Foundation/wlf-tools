@@ -1,0 +1,179 @@
+{
+    "name": "ಕ್ಯಾಂಪ್ವಿಜ್",
+    "article": {
+        "title": "ಶೀರ್ಷಿಕೆ"
+    },
+    "menu": {
+        "name": "ಕ್ಯಾಂಪ್ವಿಜ್",
+        "home": "ಮನೆ",
+        "campaign": "ಪ್ರಚಾರ",
+        "statistics": "ಅಂಕಿಅಂಶಗಳು",
+        "users": "ಬಳಕೆದಾರರು",
+        "changeLanguage": "ಭಾಷೆ ಬದಲಾಯಿಸಿ",
+        "reportBug": "ದೋಷವನ್ನು ವರದಿ ಮಾಡಿ",
+        "giveFeedback": "ಪ್ರತಿಕ್ರಿಯೆ ನೀಡಿ",
+        "settings": "ಸಂಯೋಜನೆಗಳು",
+        "logout": "ಲಾಗ್ ಔಟ್",
+        "addNewLanguage": "ಹೊಸ ಭಾಷೆಯನ್ನು ಸೇರಿಸಿ"
+    },
+    "error": {
+        "unknown": "ಏನೋ ತಪ್ಪಾಗಿದೆ. "
+    },
+    "dashboard": {
+        "welcome": "ಸ್ವಾಗತ {{username}}",
+        "description": "ವಿಕಿಪೀಡಿಯಾದಲ್ಲಿ ಸಾಂಸ್ಕೃತಿಕ ವೈವಿಧ್ಯತೆ ಮತ್ತು ಲಿಂಗ ಒಳಗೊಳ್ಳುವಿಕೆಯ ವಾರ್ಷಿಕ ಆಚರಣೆಯಾದ ಸ್ತ್ರೀವಾದ ಮತ್ತು ಜಾನಪದ ಬರವಣಿಗೆ ಸ್ಪರ್ಧೆಗೆ ಸುಸ್ವಾಗತ.\n"
+    },
+    "campaign": {
+        "serial": "ಧಾರಾವಾಹಿ",
+        "loading": "ಪ್ರಚಾರವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+        "action": {
+            "*": "ಕ್ರಿಯೆಗಳು",
+            "cancel_name": "ಅಭಿಯಾನವನ್ನು ರದ್ದುಗೊಳಿಸಿ",
+            "cancel_prompt": "ಈ ಅಭಿಯಾನವನ್ನು ರದ್ದುಗೊಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?",
+            "cancel_title": "ಅಭಿಯಾನವನ್ನು ರದ್ದುಗೊಳಿಸಿ",
+            "cancel_zero": "ರದ್ದುಮಾಡಿ",
+            "cancel_one": "ರದ್ದುಮಾಡು ({{count}})",
+            "cancel": "ರದ್ದುಮಾಡಿ {{count}}",
+            "approve_name": "ಅಭಿಯಾನವನ್ನು ಅನುಮೋದಿಸಿ",
+            "approve_prompt": "ಈ ಅಭಿಯಾನವನ್ನು ಅನುಮೋದಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?",
+            "approve_title": "ಅಭಿಯಾನವನ್ನು ಅನುಮೋದಿಸಿ",
+            "approve_zero": "ಅನುಮೋದಿಸಿ",
+            "approve_one": "ಅನುಮೋದಿಸಿ ({{count}})",
+            "approve": "ಅನುಮೋದಿಸಿ",
+            "reject": "ತಿರಸ್ಕರಿಸಿ",
+            "settings": "ಸಂಯೋಜನೆಗಳು",
+            "back": "ಹಿಂದೆ",
+            "save": "ಉಳಿಸಿ",
+            "next": "ಮುಂದೆ",
+            "edit": "ಪ್ರಚಾರವನ್ನು ಸಂಪಾದಿಸಿ",
+            "create": "ಪ್ರಚಾರವನ್ನು ರಚಿಸಿ",
+            "search": "ಫಿಲ್ಟರ್"
+        },
+        "activeCampaigns": "ಸಕ್ರಿಯ ಪ್ರಚಾರಗಳು",
+        "name": "ಹೆಸರು",
+        "language": "ಭಾಷೆ",
+        "startDate": "ಪ್ರಾರಂಭ ದಿನಾಂಕ",
+        "endDate": "ಅಂತಿಮ ದಿನಾಂಕ",
+        "duration": "ಅವಧಿ",
+        "status": "ಸ್ಥಿತಿ",
+        "all": "ಎಲ್ಲಾ ಪ್ರಚಾರಗಳು",
+        "description": "ವಿವರಣೆ",
+        "jury": "ತೀರ್ಪುಗಾರರು",
+        "banner": "ಬ್ಯಾನರ್",
+        "allowExpansions": "ರಚಿಸದ ಬದಲಿಗೆ ವಿಸ್ತರಿಸಿದ ಲೇಖನಗಳನ್ನು ಸಲ್ಲಿಸಲು ಬಳಕೆದಾರರನ್ನು ಅನುಮತಿಸಿ",
+        "minimumAddedBytes_help": "ಅಭಿಯಾನದ ಆರಂಭದಿಂದಲೂ ಸಲ್ಲಿಸಿದ ಲೇಖನದಲ್ಲಿ ಭಾಗವಹಿಸುವವರು ಸೇರಿಸಬೇಕಾದ ಬೈಟ್‌ಗಳ ಸಂಖ್ಯೆ",
+        "minimumAddedBytes": "ಕನಿಷ್ಠ ಸೇರಿಸಲಾದ ಬೈಟ್‌ಗಳು",
+        "minimumAddedWords_help": "ಅಭಿಯಾನದ ಆರಂಭದಿಂದಲೂ ಭಾಗವಹಿಸುವವರು ಸಲ್ಲಿಸಿದ ಲೇಖನದಲ್ಲಿ ಸೇರಿಸಬೇಕಾದ ಪದಗಳ ಸಂಖ್ಯೆ",
+        "minimumAddedWords": "ಕನಿಷ್ಠ ಸೇರಿಸಿದ ಪದಗಳು",
+        "minimumTotalBytes_help": "ಅಭಿಯಾನದ ಆರಂಭದಿಂದಲೂ ಸಲ್ಲಿಸಿದ ಲೇಖನದಲ್ಲಿ ಭಾಗವಹಿಸುವವರು ಹೊಂದಿರಬೇಕಾದ ಬೈಟ್‌ಗಳ ಸಂಖ್ಯೆ",
+        "minimumTotalBytes": "ಕನಿಷ್ಠ ಒಟ್ಟು ಬೈಟ್‌ಗಳು",
+        "minimumTotalWords_help": "ಅಭಿಯಾನದ ಆರಂಭದಿಂದಲೂ ಸಲ್ಲಿಸಿದ ಲೇಖನದಲ್ಲಿ ಭಾಗವಹಿಸುವವರು ಹೊಂದಿರಬೇಕಾದ ಪದಗಳ ಸಂಖ್ಯೆ",
+        "minimumTotalWords": "ಕನಿಷ್ಠ ಒಟ್ಟು ಪದಗಳು",
+        "allowJuryToParticipate": "ಪ್ರಚಾರದಲ್ಲಿ ಭಾಗವಹಿಸಲು ತೀರ್ಪುಗಾರರ ಸದಸ್ಯರನ್ನು ಅನುಮತಿಸಿ",
+        "secretBallot": "ತೀರ್ಪುಗಾರರ ಸದಸ್ಯರು ಪರಸ್ಪರರ ಮತಗಳನ್ನು ನೋಡದಂತೆ ತಡೆಯಿರಿ",
+        "allowMultipleJudgements": "ಒಂದೇ ಸಲ್ಲಿಕೆಯನ್ನು ಮೌಲ್ಯಮಾಪನ ಮಾಡಲು ಬಹು ತೀರ್ಪುಗಾರರ ಸದಸ್ಯರನ್ನು ಅನುಮತಿಸಿ",
+        "image": {
+            "url": "ವಿಸ್ತರಣೆಯೊಂದಿಗೆ ಕಾಮನ್ಸ್ ಫೈಲ್ ಹೆಸರು",
+            "fetch": "ಚಿತ್ರವನ್ನು ಪಡೆದುಕೊಳ್ಳಿ"
+        },
+        "error": {
+            "youAreNotJudge": "ನೀವು ಈ ಅಭಿಯಾನದ ತೀರ್ಪುಗಾರರ ಸದಸ್ಯರಲ್ಲ"
+        },
+        "submission": {
+            "title": "ಸಲ್ಲಿಕೆಗಳು",
+            "new": "ಹೊಸ ಲೇಖನವನ್ನು ಸಲ್ಲಿಸಿ",
+            "list": "ಸಲ್ಲಿಕೆಗಳು",
+            "note": "ಸೂಚನೆ",
+            "judge": "ನ್ಯಾಯಾಧೀಶರು",
+            "submitter": "ಸಲ್ಲಿಸುವವರು",
+            "points": "ಅಂಕಗಳು",
+            "submittedSuccessfully": "ಯಶಸ್ವಿಯಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ",
+            "totalBytes_one": "ಒಟ್ಟು {{count}} ಬೈಟ್",
+            "totalBytes_other": "ಒಟ್ಟು {{count}} ಬೈಟ್‌ಗಳು",
+            "totalWords_one": "ಒಟ್ಟು {{count}} ಪದ",
+            "totalWords_other": "ಒಟ್ಟು {{count}} ಪದಗಳು",
+            "createdAt": "ನಲ್ಲಿ ರಚಿಸಲಾಗಿದೆ {{createdAt}}",
+            "createdBy": "ರಚಿಸಿದವರು {{createdBy}}",
+            "addedBytes_one": "ಸೇರಿಸಲಾಗಿದೆ {{count}} ಬೈಟ್",
+            "addedBytes_other": "ಸೇರಿಸಲಾಗಿದೆ {{count}} ಬೈಟ್‌ಗಳು",
+            "addedWords_one": "ಸೇರಿಸಲಾಗಿದೆ {{count}} ಪದ",
+            "addedWords_other": "ಸೇರಿಸಲಾಗಿದೆ {{count}} ಪದಗಳು",
+            "tags": {
+                "*": "ಟ್ಯಾಗ್‌ಗಳು",
+                "expanded": "ವಿಸ್ತರಿಸಲಾಗಿದೆ",
+                "newlyCreated": "ಹೊಸದಾಗಿ ರಚಿಸಲಾಗಿದೆ",
+                "expanded_abbr": "ಇ",
+                "newlyCreated_abbr": "ಎನ್"
+            },
+            "status": {
+                "*": "ಸ್ಥಿತಿ",
+                "all": "ಎಲ್ಲಾ",
+                "notEvaluated": "ಮೌಲ್ಯಮಾಪನ ಮಾಡಲಾಗಿಲ್ಲ",
+                "evaluated": "ಮೌಲ್ಯಮಾಪನ"
+            },
+            "loading": "ಸಲ್ಲಿಕೆಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+            "preview": "ಮುನ್ನೋಟ",
+            "preview_loading": "ಪೂರ್ವವೀಕ್ಷಣೆ ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+            "judgement": {
+                "*": "ಮೌಲ್ಯಮಾಪನ",
+                "evaluationSubmittedSuccessfully": "ಮೌಲ್ಯಮಾಪನವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಲ್ಲಿಸಲಾಗಿದೆ",
+                "backToSubmissions": "ಮತ್ತೊಂದು ಸಲ್ಲಿಕೆಯನ್ನು ಮೌಲ್ಯಮಾಪನ ಮಾಡಿ",
+                "judgeSubmission": "ನಿಮ್ಮ ಮೌಲ್ಯಮಾಪನವನ್ನು ಸೇರಿಸಿ",
+                "note": "ಗಮನಿಸಿ (ಐಚ್ಛಿಕ)",
+                "note_placeholder": "ಸಲ್ಲಿಸುವವರಿಗೆ ಟಿಪ್ಪಣಿ ಸೇರಿಸಿ (ಐಚ್ಛಿಕ)"
+            },
+            "action": {
+                "reject": "ತಿರಸ್ಕರಿಸಿ",
+                "accept": "ಒಪ್ಪಿಕೊಳ್ಳಿ",
+                "evaluate": "ಮೌಲ್ಯಮಾಪನ ಮಾಡಿ",
+                "evaluate_add": "ಮೌಲ್ಯಮಾಪನವನ್ನು ಸೇರಿಸಿ",
+                "evaluate_title": "ಸಲ್ಲಿಕೆಯನ್ನು ಮೌಲ್ಯಮಾಪನ ಮಾಡಿ",
+                "backToCampaign": "ಪ್ರಚಾರಕ್ಕೆ ಹಿಂತಿರುಗಿ",
+                "submitAnother": "ಇನ್ನೊಂದನ್ನು ಸಲ್ಲಿಸಿ",
+                "check": "ಪರಿಶೀಲಿಸಿ",
+                "submitOnBehalf": "ಪರವಾಗಿ ಸಲ್ಲಿಸಿ",
+                "submit": "ಸಲ್ಲಿಸು",
+                "delete_zero": "ಅಳಿಸಿ",
+                "delete_other": "ಅಳಿಸಿ ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "ಫಲಿತಾಂಶಗಳು",
+            "totalSubmission_grand": "ಒಟ್ಟು ಸಲ್ಲಿಕೆಗಳು",
+            "totalSubmission": "ಸಲ್ಲಿಕೆಗಳು",
+            "totalNewlyCreated_grand": "ಒಟ್ಟು ಹೊಸದಾಗಿ ರಚಿಸಲಾಗಿದೆ",
+            "totalNewlyCreated": "ಹೊಸದಾಗಿ ರಚಿಸಲಾಗಿದೆ",
+            "totalExpanded_grand": "ಒಟ್ಟು ವಿಸ್ತರಿಸಲಾಗಿದೆ",
+            "totalExpanded": "ವಿಸ್ತರಿಸಲಾಗಿದೆ",
+            "totalPoints_grand": "ಒಟ್ಟು ಅಂಕಗಳು",
+            "totalPoints": "ಅಂಕಗಳು",
+            "username": "ಬಳಕೆದಾರ ಹೆಸರು"
+        },
+        "step": {
+            "details": "ವಿವರಗಳು",
+            "jury": "ತೀರ್ಪುಗಾರರು",
+            "restrictions": "ನಿರ್ಬಂಧಗಳು",
+            "overview": "ಅವಲೋಕನ"
+        },
+        "statistics": {
+            "color": "ಬಣ್ಣ",
+            "title": "ಅಂಕಿಅಂಶಗಳು",
+            "title_year": "ವರ್ಷದ ಅಂಕಿಅಂಶಗಳು",
+            "title_campaign": "ಪ್ರಚಾರಕ್ಕಾಗಿ ಅಂಕಿಅಂಶಗಳು",
+            "overview": "ಅವಲೋಕನ",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "ಮುಚ್ಚಿ",
+        "cancel": "ರದ್ದುಮಾಡಿ"
+    },
+    "user": {
+        "*": "ಬಳಕೆದಾರ ಹೆಸರು",
+        "noUsers": "ಯಾವುದೇ ಬಳಕೆದಾರರು ಕಂಡುಬಂದಿಲ್ಲ",
+        "name": "ಹೆಸರು",
+        "username": "ಬಳಕೆದಾರ ಹೆಸರು",
+        "loading": "ಬಳಕೆದಾರರನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ..."
+    }
+}

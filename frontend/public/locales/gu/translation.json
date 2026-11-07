@@ -1,0 +1,179 @@
+{
+    "name": "કેમ્પવિઝ",
+    "article": {
+        "title": "શીર્ષક"
+    },
+    "menu": {
+        "name": "કેમ્પવિઝ",
+        "home": "ઘર",
+        "campaign": "ઝુંબેશ",
+        "statistics": "આંકડા",
+        "users": "વપરાશકર્તાઓ",
+        "changeLanguage": "ભાષા બદલો",
+        "reportBug": "બગની જાણ કરો",
+        "giveFeedback": "અભિપ્રાય આપો",
+        "settings": "સેટિંગ્સ",
+        "logout": "લૉગ આઉટ",
+        "addNewLanguage": "નવી ભાષા ઉમેરો"
+    },
+    "error": {
+        "unknown": "કંઈક ખોટું થયું. "
+    },
+    "dashboard": {
+        "welcome": "{{username}} આપનું સ્વાગત છે",
+        "description": "નારીવાદ અને લોકસાહિત્ય લેખન સ્પર્ધામાં આપનું સ્વાગત છે, જે વિકિપીડિયા પર સાંસ્કૃતિક વિવિધતા અને લિંગ સમાવિષ્ટતાની વાર્ષિક ઉજવણી છે.\n"
+    },
+    "campaign": {
+        "serial": "સિરીયલ",
+        "loading": "ઝુંબેશ લોડ કરી રહ્યું છે...",
+        "action": {
+            "*": "ક્રિયાઓ",
+            "cancel_name": "ઝુંબેશ રદ કરો",
+            "cancel_prompt": "શું તમે ખરેખર આ ઝુંબેશને રદ કરવા માંગો છો?",
+            "cancel_title": "ઝુંબેશ રદ કરો",
+            "cancel_zero": "રદ કરો",
+            "cancel_one": "રદ કરો ({{count}})",
+            "cancel": "રદ કરો {{count}}",
+            "approve_name": "ઝુંબેશને મંજૂરી આપો",
+            "approve_prompt": "શું તમે ખરેખર આ ઝુંબેશને મંજૂર કરવા માંગો છો?",
+            "approve_title": "ઝુંબેશને મંજૂરી આપો",
+            "approve_zero": "મંજૂર",
+            "approve_one": "મંજૂર ({{count}})",
+            "approve": "મંજૂર",
+            "reject": "અસ્વીકાર કરો",
+            "settings": "સેટિંગ્સ",
+            "back": "પાછળ",
+            "save": "સાચવો",
+            "next": "આગળ",
+            "edit": "ઝુંબેશ સંપાદિત કરો",
+            "create": "ઝુંબેશ બનાવો",
+            "search": "ફિલ્ટર કરો"
+        },
+        "activeCampaigns": "સક્રિય ઝુંબેશ",
+        "name": "નામ",
+        "language": "ભાષા",
+        "startDate": "પ્રારંભ તારીખ",
+        "endDate": "અંતિમ તારીખ",
+        "duration": "અવધિ",
+        "status": "સ્થિતિ",
+        "all": "તમામ ઝુંબેશ",
+        "description": "વર્ણન",
+        "jury": "નિર્ણાયકો",
+        "banner": "બેનર",
+        "allowExpansions": "વપરાશકર્તાઓને એવા લેખો સબમિટ કરવાની મંજૂરી આપો જે બનાવવામાં આવ્યા ન હતા તેના બદલે વિસ્તૃત થયા હતા",
+        "minimumAddedBytes_help": "ઝુંબેશની શરૂઆતથી સબમિટ કરેલા લેખ પર સહભાગીએ ઉમેરવી આવશ્યક છે તે બાઇટ્સની સંખ્યા",
+        "minimumAddedBytes": "ન્યૂનતમ ઉમેરાયેલ બાઇટ્સ",
+        "minimumAddedWords_help": "ઝુંબેશની શરૂઆતથી સબમિટ કરેલા લેખમાં સહભાગીએ ઉમેરેલા શબ્દોની સંખ્યા",
+        "minimumAddedWords": "ન્યૂનતમ ઉમેરાયેલા શબ્દો",
+        "minimumTotalBytes_help": "ઝુંબેશની શરૂઆતથી સબમિટ કરેલા લેખ પર સહભાગી પાસે જેટલી બાઈટ હોવી આવશ્યક છે",
+        "minimumTotalBytes": "ન્યૂનતમ કુલ બાઇટ્સ",
+        "minimumTotalWords_help": "ઝુંબેશની શરૂઆતથી સબમિટ કરેલા લેખ પર સહભાગીએ જેટલા શબ્દો હોવા જોઈએ",
+        "minimumTotalWords": "ન્યૂનતમ કુલ શબ્દો",
+        "allowJuryToParticipate": "નિર્ણાયક સભ્યોને ઝુંબેશમાં ભાગ લેવાની મંજૂરી આપો",
+        "secretBallot": "નિર્ણાયક સભ્યોને એકબીજાના મત જોવાથી અટકાવો",
+        "allowMultipleJudgements": "એકથી વધુ નિર્ણાયક સભ્યોને સમાન સબમિશનનું મૂલ્યાંકન કરવાની મંજૂરી આપો",
+        "image": {
+            "url": "એક્સ્ટેંશન સાથે કોમન્સ ફાઇલનું નામ",
+            "fetch": "છબી મેળવો"
+        },
+        "error": {
+            "youAreNotJudge": "તમે આ ઝુંબેશના નિર્ણાયક સભ્ય નથી"
+        },
+        "submission": {
+            "title": "સબમિશન",
+            "new": "નવો લેખ સબમિટ કરો",
+            "list": "સબમિશન",
+            "note": "નોંધ",
+            "judge": "નિર્ણાયક",
+            "submitter": "સબમિટર",
+            "points": "ગુણ",
+            "submittedSuccessfully": "સફળતાપૂર્વક સબમિટ કર્યું",
+            "totalBytes_one": "કુલ {{count}} બાઈટ",
+            "totalBytes_other": "કુલ {{count}} બાઇટ્સ",
+            "totalWords_one": "કુલ {{count}} શબ્દ",
+            "totalWords_other": "કુલ {{count}} શબ્દો",
+            "createdAt": "{{createdAt}} ખાતે બનાવેલ",
+            "createdBy": "{{createdBy}} દ્વારા બનાવવામાં આવેલ",
+            "addedBytes_one": "{{count}} બાઈટ ઉમેર્યાં",
+            "addedBytes_other": "{{count}} બાઇટ્સ ઉમેર્યાં",
+            "addedWords_one": "{{count}} શબ્દ ઉમેર્યાં",
+            "addedWords_other": "{{count}} શબ્દો ઉમેર્યાં",
+            "tags": {
+                "*": "ટૅગ્સ",
+                "expanded": "વિસ્તૃત",
+                "newlyCreated": "નવા બનાવેલ",
+                "expanded_abbr": "વિ.",
+                "newlyCreated_abbr": "ન."
+            },
+            "status": {
+                "*": "સ્થિતિ",
+                "all": "બધા",
+                "notEvaluated": "મૂલ્યાંકન કર્યું નથી",
+                "evaluated": "મૂલ્યાંકન કર્યું"
+            },
+            "loading": "સબમિશન લોડ કરી રહ્યું છે...",
+            "preview": "પૂર્વાવલોકન",
+            "preview_loading": "પૂર્વાવલોકન લોડ કરી રહ્યું છે...",
+            "judgement": {
+                "*": "મૂલ્યાંકન",
+                "evaluationSubmittedSuccessfully": "મૂલ્યાંકન સફળતાપૂર્વક સબમિટ કર્યું",
+                "backToSubmissions": "અન્ય સબમિશનનું મૂલ્યાંકન કરો",
+                "judgeSubmission": "તમારું મૂલ્યાંકન ઉમેરો",
+                "note": "નોંધ (વૈકલ્પિક)",
+                "note_placeholder": "સબમિટ કરનારને એક નોંધ ઉમેરો (વૈકલ્પિક)"
+            },
+            "action": {
+                "reject": "અસ્વીકાર કરો",
+                "accept": "સ્વીકારો",
+                "evaluate": "મૂલ્યાંકન કરો",
+                "evaluate_add": "મૂલ્યાંકન ઉમેરો",
+                "evaluate_title": "સબમિશનનું મૂલ્યાંકન કરો",
+                "backToCampaign": "ઝુંબેશ પર પાછા જાઓ",
+                "submitAnother": "બીજું સબમિટ કરો",
+                "check": "તપાસો",
+                "submitOnBehalf": "વતી સબમિટ કરો",
+                "submit": "સબમિટ કરો",
+                "delete_zero": "કાઢી નાખો",
+                "delete_other": "({{count}}) કાઢી નાખો",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "પરિણામો",
+            "totalSubmission_grand": "કુલ સબમિશન",
+            "totalSubmission": "સબમિશન",
+            "totalNewlyCreated_grand": "કુલ નવા બનાવેલ",
+            "totalNewlyCreated": "નવા બનાવેલ",
+            "totalExpanded_grand": "કુલ વિસ્તૃત",
+            "totalExpanded": "વિસ્તૃત",
+            "totalPoints_grand": "કુલ ગુણ",
+            "totalPoints": "ગુણ",
+            "username": "વપરાશકર્તા નામ"
+        },
+        "step": {
+            "details": "વિગતો",
+            "jury": "નિર્ણાયકો",
+            "restrictions": "પ્રતિબંધો",
+            "overview": "ઝાંખી"
+        },
+        "statistics": {
+            "color": "રંગ",
+            "title": "આંકડા",
+            "title_year": "વર્ષ માટે આંકડા",
+            "title_campaign": "ઝુંબેશ માટે આંકડા",
+            "overview": "ઝાંખી",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "બંધ",
+        "cancel": "રદ કરો"
+    },
+    "user": {
+        "*": "વપરાશકર્તા નામ",
+        "noUsers": "કોઈ વપરાશકર્તાઓ મળ્યા નથી",
+        "name": "નામ",
+        "username": "વપરાશકર્તા નામ",
+        "loading": "વપરાશકર્તાઓ લોડ કરી રહ્યાં છે..."
+    }
+}

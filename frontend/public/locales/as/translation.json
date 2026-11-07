@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "অলপ"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "গৃহ",
+        "campaign": "অভিযান",
+        "statistics": "পৰিসংখ্যা",
+        "users": "ব্যৱহাৰকাৰীসকল",
+        "changeLanguage": "ভাষা সলনি কৰক",
+        "reportBug": "বাগ প্ৰতিবেদন কৰক",
+        "giveFeedback": "মতামত দিয়ক",
+        "settings": "ছেটিংছ",
+        "logout": "লগআউট কৰক",
+        "addNewLanguage": "নতুন ভাষা যোগ কৰক"
+    },
+    "error": {
+        "unknown": "কিবা এটা ভুল হ’ল। "
+    },
+    "dashboard": {
+        "welcome": "স্বাগতম {{username}}",
+        "description": "ৱিকিপিডিয়াত সাংস্কৃতিক বৈচিত্ৰ্য আৰু লিংগ অন্তৰ্ভুক্তিৰ বাৰ্ষিক উদযাপন নাৰীবাদ আৰু লোককথা লেখা প্ৰতিযোগিতালৈ আপোনাক স্বাগতম।\n"
+    },
+    "campaign": {
+        "serial": "ছিৰিয়েল",
+        "loading": "লোডিং অভিযান...",
+        "action": {
+            "*": "কাম",
+            "cancel_name": "অভিযান বাতিল কৰক",
+            "cancel_prompt": "আপুনি নিশ্চিত নেকি যে আপুনি এই অভিযান বাতিল কৰিব বিচাৰে?",
+            "cancel_title": "অভিযান বাতিল কৰক",
+            "cancel_zero": "বাতিল কৰক",
+            "cancel_one": "বাতিল কৰক ({{count}})",
+            "cancel": "বাতিল কৰক {{count}}",
+            "approve_name": "অনুমোদন অভিযান",
+            "approve_prompt": "আপুনি নিশ্চিত নেকি যে আপুনি এই অভিযানত অনুমোদন দিব বিচাৰে?",
+            "approve_title": "অনুমোদন অভিযান",
+            "approve_zero": "অনুমোদন",
+            "approve_one": "অনুমোদন ({{count}})",
+            "approve": "অনুমোদন",
+            "reject": "প্ৰত্যাখ্যান",
+            "settings": "ছেটিংছ",
+            "back": "পিছলৈ",
+            "save": "সঞ্চয় কৰা",
+            "next": "পৰৱৰ্তী",
+            "edit": "সম্পাদনা অভিযান",
+            "create": "অভিযান সৃষ্টি কৰক",
+            "search": "ফিল্টাৰ কৰক"
+        },
+        "activeCampaigns": "সক্ৰিয় অভিযান",
+        "name": "নাম",
+        "language": "ভাষা",
+        "startDate": "আৰম্ভণিৰ তাৰিখ",
+        "endDate": "শেষৰ তাৰিখ",
+        "duration": "সময়কাল",
+        "status": "স্থিতি",
+        "all": "সকলো অভিযান",
+        "description": "বিৱৰণ",
+        "jury": "জুৰী",
+        "banner": "বেনাৰ",
+        "allowExpansions": "ব্যৱহাৰকাৰীসকলক এনে প্ৰবন্ধ জমা দিবলৈ অনুমতি দিয়ক যিবোৰ সৃষ্টি কৰা হোৱা নাছিল বৰঞ্চ সম্প্ৰসাৰিত কৰা হৈছিল",
+        "minimumAddedBytes_help": "অভিযানৰ আৰম্ভণিৰ পৰাই অংশগ্ৰহণকাৰীয়ে দাখিল কৰা প্ৰবন্ধটোত যোগ কৰিবলগীয়া বাইটৰ সংখ্যা",
+        "minimumAddedBytes": "নূন্যতম যোগ কৰা বাইটসমূহ",
+        "minimumAddedWords_help": "অভিযান আৰম্ভ হোৱাৰ পৰাই অংশগ্ৰহণকাৰীয়ে দাখিল কৰা লেখাটোত যিমান শব্দ যোগ কৰিব লাগিব",
+        "minimumAddedWords": "নূন্যতম যোগ কৰা শব্দ",
+        "minimumTotalBytes_help": "অভিযান আৰম্ভ হোৱাৰ পৰাই দাখিল কৰা প্ৰবন্ধটোত অংশগ্ৰহণকাৰীৰ হাতত থাকিব লাগিব বাইটৰ সংখ্যা",
+        "minimumTotalBytes": "নূন্যতম মুঠ বাইট",
+        "minimumTotalWords_help": "অভিযান আৰম্ভ হোৱাৰ পৰাই দাখিল কৰা লেখাটোত অংশগ্ৰহণকাৰীৰ কিমান শব্দ থাকিব লাগিব",
+        "minimumTotalWords": "নূন্যতম মুঠ শব্দ",
+        "allowJuryToParticipate": "জুৰীৰ সদস্যসকলক অভিযানত অংশগ্ৰহণ কৰিবলৈ অনুমতি দিয়ক",
+        "secretBallot": "জুৰীৰ সদস্যসকলক ইজনে সিজনৰ ভোট দেখাত বাধা দিয়া",
+        "allowMultipleJudgements": "একাধিক জুৰী সদস্যক একেটা দাখিলৰ মূল্যায়ন কৰিবলৈ অনুমতি দিয়ক",
+        "image": {
+            "url": "সম্প্ৰসাৰণৰ সৈতে কমনছ ফাইলৰ নাম",
+            "fetch": "ছবি আনিব"
+        },
+        "error": {
+            "youAreNotJudge": "আপুনি এই অভিযানৰ জুৰীৰ সদস্য নহয়"
+        },
+        "submission": {
+            "title": "জমা দিয়া",
+            "new": "নতুন লেখা জমা দিয়ক",
+            "list": "জমা দিয়া",
+            "note": "টোকা",
+            "judge": "বিচাৰক",
+            "submitter": "জমা দিয়া",
+            "points": "পইণ্ট",
+            "submittedSuccessfully": "সফলতাৰে জমা দিয়া হৈছে",
+            "totalBytes_one": "মুঠ {{count}} বাইট",
+            "totalBytes_other": "মুঠ {{count}} বাইট",
+            "totalWords_one": "মুঠ {{count}} শব্দ",
+            "totalWords_other": "মুঠ {{count}} শব্দ",
+            "createdAt": "সৃষ্টি কৰা হৈছে At {{createdAt}}",
+            "createdBy": "Created By {{createdBy}}",
+            "addedBytes_one": "যোগ কৰা হৈছে {{count}} বাইট",
+            "addedBytes_other": "যোগ কৰা হৈছে {{count}} বাইট",
+            "addedWords_one": "যোগ কৰা হৈছে {{count}} শব্দ",
+            "addedWords_other": "যোগ কৰা হৈছে {{count}} শব্দ",
+            "tags": {
+                "*": "ট্যাগ",
+                "expanded": "সম্প্ৰসাৰিত",
+                "newlyCreated": "নতুনকৈ সৃষ্টি কৰা হৈছে",
+                "expanded_abbr": "ই",
+                "newlyCreated_abbr": "এন"
+            },
+            "status": {
+                "*": "স্থিতি",
+                "all": "আটাইবোৰ",
+                "notEvaluated": "মূল্যায়ন কৰা হোৱা নাই",
+                "evaluated": "মূল্যায়ন কৰা হৈছে"
+            },
+            "loading": "জমা দিয়া লোড কৰা হৈছে...",
+            "preview": "পূৰ্বদৰ্শন",
+            "preview_loading": "পূৰ্বদৰ্শন লোড কৰা হৈছে...",
+            "judgement": {
+                "*": "মূল্যায়ন",
+                "evaluationSubmittedSuccessfully": "মূল্যায়ন সফলতাৰে দাখিল কৰা হৈছে",
+                "backToSubmissions": "আন এটা জমা দিয়াৰ মূল্যায়ন কৰক",
+                "judgeSubmission": "আপোনাৰ মূল্যায়ন যোগ কৰক",
+                "note": "টোকা (ঐচ্ছিক)",
+                "note_placeholder": "জমা দিয়াজনৰ লগত এটা টোকা যোগ কৰক (ঐচ্ছিক)"
+            },
+            "action": {
+                "reject": "প্ৰত্যাখ্যান",
+                "accept": "গ্ৰহণ কৰা",
+                "evaluate": "মূল্যায়ন কৰা",
+                "evaluate_add": "মূল্যায়ন যোগ কৰক",
+                "evaluate_title": "জমা দিয়াৰ মূল্যায়ন কৰা",
+                "backToCampaign": "অভিযানলৈ উভতি যাওক",
+                "submitAnother": "আন এটা জমা দিয়ক",
+                "check": "পৰীক্ষা কৰক",
+                "submitOnBehalf": "ৰ হৈ জমা দিব",
+                "submit": "দাখিল কৰক",
+                "delete_zero": "বিলোপ",
+                "delete_other": "বিলোপ ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "ফলাফল",
+            "totalSubmission_grand": "মুঠ জমা দিয়া",
+            "totalSubmission": "জমা দিয়া",
+            "totalNewlyCreated_grand": "মুঠ নতুনকৈ সৃষ্টি কৰা হৈছে",
+            "totalNewlyCreated": "নতুনকৈ সৃষ্টি কৰা হৈছে",
+            "totalExpanded_grand": "মুঠ সম্প্ৰসাৰিত",
+            "totalExpanded": "সম্প্ৰসাৰিত",
+            "totalPoints_grand": "মুঠ পইণ্ট",
+            "totalPoints": "পইণ্ট",
+            "username": "ব্যৱহাৰকাৰীৰ নাম"
+        },
+        "step": {
+            "details": "সবিশেষ",
+            "jury": "জুৰী",
+            "restrictions": "নিষেধাজ্ঞা",
+            "overview": "অভাৰভিউ"
+        },
+        "statistics": {
+            "color": "ৰং",
+            "title": "পৰিসংখ্যা",
+            "title_year": "বছৰৰ পৰিসংখ্যা",
+            "title_campaign": "অভিযানৰ বাবে পৰিসংখ্যা",
+            "overview": "অভাৰভিউ",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "বন্ধ",
+        "cancel": "বাতিল কৰক"
+    },
+    "user": {
+        "*": "ব্যৱহাৰকাৰীৰ নাম",
+        "noUsers": "কোনো ব্যৱহাৰকাৰী পোৱা নগ'ল",
+        "name": "নাম",
+        "username": "ব্যৱহাৰকাৰীৰ নাম",
+        "loading": "ব্যৱহাৰকাৰী লোড কৰি আছে..."
+    }
+}

@@ -1,0 +1,179 @@
+{
+    "name": "CampWiz",
+    "article": {
+        "title": "Title"
+    },
+    "menu": {
+        "name": "CampWiz",
+        "home": "Kumba",
+        "campaign": "Campaign",
+        "statistics": "Statistics",
+        "users": "Vashandisi",
+        "changeLanguage": "Chinja Mutauro",
+        "reportBug": "Report Bug",
+        "giveFeedback": "Ipa Feedback",
+        "settings": "Settings",
+        "logout": "Kubuda",
+        "addNewLanguage": "Wedzera Mutauro Mutsva"
+    },
+    "error": {
+        "unknown": "Pane chakaipa. "
+    },
+    "dashboard": {
+        "welcome": "Mauya {{username}}",
+        "description": "Tikugashirei kuFeminism uye Folklore Writing Contest, mhemberero yegore negore yekusiyana kwetsika nekubatanidzwa kwevakadzi paWikipedia.\n"
+    },
+    "campaign": {
+        "serial": "Serial",
+        "loading": "Tirikurodha mushandirapamwe...",
+        "action": {
+            "*": "Zviito",
+            "cancel_name": "Cancel Campaign",
+            "cancel_prompt": "Une chokwadi chekuti unoda kukanzura mushandirapamwe uyu?",
+            "cancel_title": "Cancel Campaign",
+            "cancel_zero": "Kanzura",
+            "cancel_one": "Kanzura ({{count}})",
+            "cancel": "Kanzura {{count}}",
+            "approve_name": "Bvumira Mushandirapamwe",
+            "approve_prompt": "Une chokwadi chekuti unoda kutendera mushandirapamwe uyu?",
+            "approve_title": "Bvumira Mushandirapamwe",
+            "approve_zero": "Bvumira",
+            "approve_one": "Bvuma ({{count}})",
+            "approve": "Bvumira",
+            "reject": "Ramba",
+            "settings": "Settings",
+            "back": "Back",
+            "save": "Sevha",
+            "next": "Next",
+            "edit": "Edit Campaign",
+            "create": "Gadzira Campaign",
+            "search": "Sefa"
+        },
+        "activeCampaigns": "Active Campaign",
+        "name": "Zita",
+        "language": "Mutauro",
+        "startDate": "Zuva Rokutanga",
+        "endDate": "End Date",
+        "duration": "Duration",
+        "status": "Status",
+        "all": "Mishandirapamwe Yese",
+        "description": "Tsanangudzo",
+        "jury": "Jury",
+        "banner": "Banner",
+        "allowExpansions": "Bvumira vashandisi kutumira zvinyorwa zvisina kugadzirwa kuti zviwedzere",
+        "minimumAddedBytes_help": "Huwandu hwemabhaiti uyo mutori wechikamu anofanira kuwedzera pachinyorwa chakatumirwa kubva pakutanga kwemushandirapamwe",
+        "minimumAddedBytes": "Minimum Added Bytes",
+        "minimumAddedWords_help": "Huwandu hwemashoko uyo mutori wechikamu anofanira kuwedzera pachinyorwa chakatumirwa kubva pakutanga kwemushandirapamwe",
+        "minimumAddedWords": "Maminimum Added Words",
+        "minimumTotalBytes_help": "Huwandu hwemabheti uyo mutori wechikamu anofanira kunge aine pachinyorwa chakatumirwa kubva pakutanga kwemushandirapamwe",
+        "minimumTotalBytes": "Minimum Total Bytes",
+        "minimumTotalWords_help": "Huwandu hwemashoko uyo mutori wechikamu anofanira kunge aine pachinyorwa chakatumirwa kubva pakutanga kwemushandirapamwe",
+        "minimumTotalWords": "Maminimum Total Words",
+        "allowJuryToParticipate": "Bvumira nhengo dzedare redzimhosva kuti dzitore chikamu mumushandirapamwe",
+        "secretBallot": "Dzivirira nhengo dzejury kuona mavhoti emumwe nemumwe",
+        "allowMultipleJudgements": "Bvumira nhengo dzakawanda dzejury kuti dziongorore kutumirwa kumwe chete",
+        "image": {
+            "url": "Commons File Name ine Extension",
+            "fetch": "Fetch Image"
+        },
+        "error": {
+            "youAreNotJudge": "Iwe hausi nhengo yejury yemushandirapamwe uyu"
+        },
+        "submission": {
+            "title": "Submissions",
+            "new": "Tumira Chinyorwa Chitsva",
+            "list": "Submissions",
+            "note": "Cherechedza",
+            "judge": "Tongai",
+            "submitter": "Submitter",
+            "points": "Points",
+            "submittedSuccessfully": "Yakatumirwa zvinobudirira",
+            "totalBytes_one": "Total {{count}} byte",
+            "totalBytes_other": "Total {{count}} bytes",
+            "totalWords_one": "Total {{count}} word",
+            "totalWords_other": "Total {{count}} mashoko",
+            "createdAt": "Created At {{createdAt}}",
+            "createdBy": "Gadzirwa na {{createdBy}}",
+            "addedBytes_one": "Added {{count}} byte",
+            "addedBytes_other": "Added {{count}} bytes",
+            "addedWords_one": "Added {{count}} word",
+            "addedWords_other": "Added {{count}} mashoko",
+            "tags": {
+                "*": "Tags",
+                "expanded": "Yakawedzerwa",
+                "newlyCreated": "Zvichangogadzirwa",
+                "expanded_abbr": "E",
+                "newlyCreated_abbr": "N"
+            },
+            "status": {
+                "*": "Status",
+                "all": "Zvose",
+                "notEvaluated": "Not Evaluated",
+                "evaluated": "Evaluated"
+            },
+            "loading": "Kurodha kutumira...",
+            "preview": "Preview",
+            "preview_loading": "Kurodha preview...",
+            "judgement": {
+                "*": "Evaluation",
+                "evaluationSubmittedSuccessfully": "Ongororo yakatumirwa zvinobudirira",
+                "backToSubmissions": "Ongorora imwe kutumira",
+                "judgeSubmission": "Wedzera yako Evaluation",
+                "note": "Note (Sarudzo)",
+                "note_placeholder": "Wedzera chinyorwa kune anotumira (sarudzo)"
+            },
+            "action": {
+                "reject": "Ramba",
+                "accept": "Gamuchira",
+                "evaluate": "Ongorora",
+                "evaluate_add": "Add Evaluation",
+                "evaluate_title": "Ongorora Kuzviisa",
+                "backToCampaign": "Back to Campaign",
+                "submitAnother": "Tumira Imwe",
+                "check": "Check",
+                "submitOnBehalf": "Tumira wakamiririra",
+                "submit": "Submit",
+                "delete_zero": "Delete",
+                "delete_other": "Delete ({{count}})",
+                "see": "Please Click on the row below to see the evaluation of the submission."
+            }
+        },
+        "results": {
+            "title": "Results",
+            "totalSubmission_grand": "Total Submissions",
+            "totalSubmission": "Submissions",
+            "totalNewlyCreated_grand": "Zvose Zvichangobva Kugadzirwa",
+            "totalNewlyCreated": "Zvichangogadzirwa",
+            "totalExpanded_grand": "Total Yakawedzerwa",
+            "totalExpanded": "Yakawedzerwa",
+            "totalPoints_grand": "Total Points",
+            "totalPoints": "Points",
+            "username": "Username"
+        },
+        "step": {
+            "details": "Details",
+            "jury": "Jury",
+            "restrictions": "Kurambidzwa",
+            "overview": "Overview"
+        },
+        "statistics": {
+            "color": "Color",
+            "title": "Statistics",
+            "title_year": "Nhamba dzegore",
+            "title_campaign": "Nhamba dzemushandirapamwe",
+            "overview": "Overview",
+            "date": "Date"
+        }
+    },
+    "action": {
+        "close": "Close",
+        "cancel": "Kanzura"
+    },
+    "user": {
+        "*": "Username",
+        "noUsers": "Hapana vashandisi vawanikwa",
+        "name": "Zita",
+        "username": "Username",
+        "loading": "Kurodha vashandisi..."
+    }
+}
